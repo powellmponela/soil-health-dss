@@ -74,7 +74,9 @@ def main():
                 if target_p:
                     if target_p not in master_ontology: master_ontology[target_p] = set()
                     for t in terms:
-                        master_ontology[target_p].add(clean_term(t).capitalize())
+                        term_str = t.get("label") if isinstance(t, dict) else t
+                        if term_str:
+                            master_ontology[target_p].add(clean_term(term_str).capitalize())
 
     # 3. Load TAPE Crosswalk
     if os.path.exists(TAPE_CROSSWALK):

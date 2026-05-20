@@ -1,0 +1,5 @@
+=== FAOSTAT Managed Indicators (RESTORED) ===
+
+[2. INPUT REDUCTION]
+  - fertilizer consumption
+  - pesticides per hectare

@@ -1,0 +1,840 @@
+=== COMPREHENSIVE SOURCE-SPECIFIC PRINCIPLE TAGGING ===
+
+SOURCE: AGROVOC
+  [Animal health] (93 terms)
+    - animal health
+    - animal health emergencies
+    - animal welfare
+    - balance of nature
+    - carrying capacity
+    - child welfare
+    - common grazing
+    - continuous grazing
+    - controlled grazing
+    - deferred grazing
+    - energy balance
+    - forest grazing
+    - full grazing
+    - genetic diversity
+    - grazing
+    ... and 77 more
+  [Biodiversity] (104 terms)
+    - Collaborative Partnership on Sustainable Wildlife Management
+    - ISSCAAP groups of species
+    - amphibiotic species
+    - amphihaline species
+    - animal genetic resources
+    - aquatic genetic resources
+    - associated species
+    - biodiversity
+    - biodiversity conservation
+    - cavernicolous species
+    - centre of diversity
+    - commercial species
+    - community-based wildlife management
+    - cosmopolitan species
+    - critically endangered species
+    ... and 88 more
+  [Co-creation of knowledge] (116 terms)
+    - Early Warning and Food Information System
+    - Goal 9 Industry, innovation and infrastructure
+    - Indigenous Peoples' knowledge
+    - Material Transfer Agreements
+    - Multilateral System of Access and Benefit-Sharing
+    - Standard Material Transfer Agreements
+    - access and benefit-sharing
+    - access to information
+    - agricultural extension
+    - agricultural extension systems
+    - agricultural innovation
+    - agricultural innovation systems
+    - agricultural training
+    - animal learning
+    - animal training
+    ... and 101 more
+  [Connectivity] (25 terms)
+    - capital markets
+    - carbon markets
+    - commodity markets
+    - common markets
+    - consumer protection
+    - domestic markets
+    - gene regulatory networks
+    - informal markets
+    - integrated markets
+    - land markets
+    - live bird markets
+    - markets
+    - networks
+    - neural networks
+    - parliamentary networks
+    ... and 10 more
+  [Economic diversification] (111 terms)
+    - European Economic Area
+    - Goal 8 Decent work and economic growth
+    - United Nations Economic and Social Commission for Asia and the Pacific
+    - access to finance
+    - agricultural value chains
+    - aquatic value chains
+    - blended finance
+    - business associations
+    - business enterprises
+    - business games
+    - business management
+    - business models
+    - climate finance
+    - cooperative activities
+    - cooperative banks
+    ... and 96 more
+  [Fairness] (81 terms)
+    - Indigenous Peoples' land rights
+    - Indigenous Peoples' tenure rights
+    - animal protection
+    - animal rights
+    - biological plant protection
+    - breeders rights
+    - civil rights
+    - co-ownership rights
+    - common rights
+    - community land rights
+    - consumer protection
+    - continuum of land rights
+    - control rights
+    - cultural rights
+    - customary land rights
+    ... and 66 more
+  [Input reduction] (164 terms)
+    - Collaborative Partnership on Sustainable Wildlife Management
+    - Goal 11 Sustainable Cities and Communities
+    - Sustainable Development Goals
+    - allowable biological catch
+    - bag storage
+    - bags
+    - biodiversity conservation
+    - biological activity in soil
+    - biological agents
+    - biological analysis
+    - biological attachment
+    - biological collections
+    - biological competition
+    - biological contamination
+    - biological control
+    ... and 149 more
+  [Land and natural resource governance] (190 terms)
+    - Global Land Indicator Initiative
+    - Goal 15 Life on land
+    - Indigenous Peoples' land rights
+    - Indigenous Peoples' tenure
+    - Indigenous Peoples' tenure rights
+    - Indigenous Peoples' tenure systems
+    - Land Administration Domain Model
+    - Voluntary Guidelines on the Responsible Governance of Tenure
+    - abandoned land
+    - agricultural cooperatives
+    - agricultural land management
+    - air flow over land
+    - alienation
+    - arable land
+    - assignment
+    ... and 175 more
+  [Participation] (29 terms)
+    - Voluntary Guidelines on the Responsible Governance of Tenure
+    - collective ownership
+    - community-based breeding programmes
+    - community-based forest enterprise development
+    - community-based wildlife management
+    - consumer participation
+    - decision-making
+    - empowerment
+    - farmer participation
+    - fisheries governance
+    - forest governance
+    - governance
+    - governance systems
+    - inclusive growth
+    - inland fisheries governance
+    ... and 14 more
+  [Recycling] (281 terms)
+    - Anatolian Water Buffalo
+    - Goal 14 Life below water
+    - Goal 6 Clean water and sanitation
+    - above ground biomass
+    - above ground tree biomass
+    - agricultural waste management
+    - agricultural wastewater
+    - agricultural water management
+    - agricultural water use
+    - air flow over water
+    - air-water exchanges
+    - air-water interface
+    - air-water temperature difference
+    - aquifer-fed water bodies
+    - aroma recovery
+    ... and 264 more
+  [Social values and diets] (102 terms)
+    - United Nations Economic and Social Commission for Asia and the Pacific
+    - animal nutrition
+    - balanced diets
+    - basic diets
+    - child nutrition
+    - corporate social responsibility
+    - cultural heritage
+    - cultural heritage farms
+    - diabetic diets
+    - dietary nutrition assessment
+    - elderly nutrition
+    - elemental diets
+    - energy restricted diets
+    - fat restricted diets
+    - foliar nutrition
+    ... and 87 more
+  [Soil health] (272 terms)
+    - Goal 3 Good health and well-being
+    - Modified Universal Soil Loss Equation
+    - One Health approach
+    - Revised Universal Soil Loss Equation
+    - Universal Soil Loss Equation
+    - World Reference Base soil types
+    - age of soil
+    - animal health
+    - animal health emergencies
+    - beach erosion
+    - biochar
+    - biological activity in soil
+    - bottom erosion
+    - carbon sequestration
+    - chemical soil types
+    ... and 257 more
+  [Synergy] (51 terms)
+    - agroecological transition
+    - agroecological zones
+    - agroecology
+    - agroforestry
+    - agroforestry systems
+    - bottom mixed layer
+    - ecological control
+    - ecological factors
+    - ecological footprint
+    - ecological guilds
+    - ecological indicators
+    - ecological niche modelling
+    - ecological protection
+    - ecological soil types
+    - ecological succession
+    ... and 36 more
+
+SOURCE: BIOPHYSICAL
+  [Biodiversity] (2 terms)
+    - Agrobiodiversity
+    - Biodiversity
+  [Input Reduction] (13 terms)
+    - Ammonium fertilizers
+    - Biofertilizers
+    - Biological control agents
+    - Biological nitrogen fixation
+    - Biopesticides
+    - Botanical pesticides
+    - Controlled release fertilizers
+    - Nitrate fertilizers
+    - Pesticide synergists
+    - Phosphate fertilizers
+    - Potash fertilizers
+    - Slow release fertilizers
+    - Synthetic fertilizers
+  [Recycling] (2 terms)
+    - Biochar
+    - Vermicomposts
+  [Soil Health] (6 terms)
+    - Cover crops
+    - Mulches
+    - Soil analysis
+    - Soil moisture
+    - Soil temperature
+    - Stubble mulching
+  [Synergy] (2 terms)
+    - Integrated nutrient management
+    - Intercropping
+
+SOURCE: FAOSTAT
+  [Input Reduction] (2 terms)
+    - fertilizer consumption
+    - pesticides per hectare
+
+SOURCE: HASSET
+  [Animal Health] (1 terms)
+    - NUTRITIONAL AND METABOLIC DISEASES
+  [Biodiversity] (2 terms)
+    - CONSERVATION OF NATURE
+    - ENVIRONMENTAL CONSERVATION
+  [Co-creation of Knowledge] (5 terms)
+    - DISTANCE LEARNING
+    - KNOWLEDGE TRANSFER
+    - LEARNING
+    - LEARNING DISABILITIES
+    - LEARNING METHODS
+  [Fairness] (1 terms)
+    - POVERTY
+  [Land Governance] (11 terms)
+    - COMMON LAND
+    - EUROPEAN COURT OF HUMAN RIGHTS
+    - HUMAN RIGHTS
+    - HUMAN RIGHTS STUDIES
+    - HUMAN RIGHTS VIOLATIONS
+    - INTELLECTUAL PROPERTY
+    - LAND REFORM
+    - LAND TENURE
+    - POLICY MAKING
+    - RIGHT TO PROPERTY
+    - WOMEN'S RIGHTS
+  [Participation] (2 terms)
+    - COMMUNITY PARTICIPATION
+    - PARTICIPATION
+  [Social Values and Diets] (2 terms)
+    - CULTURAL HERITAGE
+    - DIET AND NUTRITION
+  [Soil Health] (2 terms)
+    - CONSERVATION OF NATURE
+    - ENVIRONMENTAL CONSERVATION
+
+SOURCE: HLPE
+  [Input Reduction] (3 terms)
+    - biofertilizers
+    - input substitution
+    - pesticide adjuvants
+  [Synergy] (1 terms)
+    - intercropping
+
+SOURCE: ILOSTAT
+  [Economic Diversification] (1 terms)
+    - non-farm employment
+  [Fairness] (1 terms)
+    - Social protection coverage
+
+SOURCE: MANUAL
+  [Animal Health] (2 terms)
+    - Animal Health
+    - Soil Health
+  [Biodiversity] (1 terms)
+    - Biodiversity
+  [Co-creation of Knowledge] (1 terms)
+    - Co-creation of Knowledge
+  [Input Reduction] (1 terms)
+    - Input Reduction
+  [Land Governance] (1 terms)
+    - Land Governance
+  [Participation] (1 terms)
+    - Participation
+  [Recycling] (1 terms)
+    - Recycling
+  [Social Values and Diets] (1 terms)
+    - Social Values and Diets
+  [Soil Health] (2 terms)
+    - Animal Health
+    - Soil Health
+  [Synergy] (1 terms)
+    - Synergy
+
+SOURCE: UNBIS
+  [Animal Health] (38 terms)
+    - ANIMAL HEALTH
+    - CHILD HEALTH
+    - DENTAL HEALTH
+    - ENVIRONMENTAL HEALTH
+    - FAMILY HEALTH
+    - HEALTH
+    - HEALTH AID
+    - HEALTH CENTRES
+    - HEALTH CONDITIONS
+    - HEALTH ECONOMICS
+    - HEALTH HAZARDS
+    - HEALTH INDICATORS
+    - HEALTH INFORMATION
+    - HEALTH INSURANCE
+    - HEALTH LEGISLATION
+    ... and 22 more
+  [Biodiversity] (2 terms)
+    - SOIL CONSERVATION
+    - WILDLIFE RESEARCH
+  [Co-creation of Knowledge] (70 terms)
+    - AERONAUTICAL RESEARCH
+    - AGRICULTURAL RESEARCH
+    - BIOLOGICAL RESEARCH
+    - BUILDING RESEARCH
+    - CULTURAL RESEARCH
+    - DEMOGRAPHIC RESEARCH
+    - DEVELOPMENT RESEARCH
+    - DISARMAMENT RESEARCH
+    - EARTH SCIENCE RESEARCH
+    - ECOLOGICAL RESEARCH
+    - ECONOMIC RESEARCH
+    - ENGINEERING RESEARCH
+    - EVALUATION RESEARCH
+    - FINANCIAL RESEARCH
+    - FISHERY RESEARCH
+    ... and 55 more
+  [Connectivity] (1 terms)
+    - TRADE
+  [Economic Diversification] (3 terms)
+    - EMPLOYMENT
+    - INCOME
+    - RURAL EMPLOYMENT
+  [Fairness] (6 terms)
+    - ECONOMIC, SOCIAL AND CULTURAL RIGHTS
+    - EMPLOYMENT
+    - EQUITY
+    - GENDER
+    - LABOUR
+    - POVERTY
+  [Input Reduction] (16 terms)
+    - BIOLOGICAL RESEARCH
+    - CANAUX D'IRRIGATION
+    - FERTILIZER INDUSTRY
+    - FERTILIZER PLANTS
+    - FERTILIZER USE
+    - FERTILIZERS
+    - IRRIGATION
+    - IRRIGATION CANALS
+    - IRRIGATION FARMING
+    - IRRIGATION GOUTTE A GOUTTE
+    - IRRIGATION RESEARCH
+    - ORGANIC FARMING
+    - RECHERCHE SUR L'IRRIGATION
+    - SUSTAINABLE AGRICULTURE
+    - TRADE EFFICIENCY
+    ... and 1 more
+  [Land Governance] (249 terms)
+    - ABORTION POLICY
+    - ACQUIRED RIGHTS
+    - AGRICULTURAL ECONOMICS AND POLICY; RURAL SOCIOLOGY
+    - AGRICULTURAL LAND
+    - AGRICULTURAL POLICY
+    - AIR TRANSPORT POLICY
+    - ANIMAL RIGHTS
+    - ANTILLAS NEERLANDESAS
+    - ANTILLES NEERLANDAISES
+    - ANTINATALIST POLICY
+    - BARRIER ISLANDS
+    - BRITISH VIRGIN ISLANDS
+    - BRITISH VIRGIN ISLANDS QUESTION
+    - BUDGETARY POLICY
+    - CAYMAN ISLANDS
+    ... and 233 more
+  [Participation] (1 terms)
+    - GOVERNANCE
+  [Soil Health] (61 terms)
+    - ALKALINE SOIL
+    - ANIMAL HEALTH
+    - CHILD HEALTH
+    - DENTAL HEALTH
+    - ECONOMIC STRUCTURE
+    - ENVIRONMENTAL HEALTH
+    - FAMILY HEALTH
+    - HEALTH
+    - HEALTH AID
+    - HEALTH CENTRES
+    - HEALTH CONDITIONS
+    - HEALTH ECONOMICS
+    - HEALTH HAZARDS
+    - HEALTH INDICATORS
+    - HEALTH INFORMATION
+    ... and 45 more
+  [Synergy] (4 terms)
+    - ECOLOGICAL RESEARCH
+    - ECONOMIC INTEGRATION
+    - INTEGRATION SOCIALE
+    - SOCIAL INTEGRATION
+
+SOURCE: UNESCO
+  [Biodiversity] (17 terms)
+    - Conservation de l'environnement
+    - Conservation de la vie sauvage
+    - Conservation des documents
+    - Conservation des dossiers d'archives
+    - Conservation des monuments
+    - Conservation des oeuvres d'art
+    - Endangered species
+    - Energy conservation
+    - Forest conservation
+    - Human species
+    - Invasive species
+    - Nature conservation
+    - Resources conservation
+    - Soil conservation
+    - Species
+    ... and 2 more
+  [Co-creation of Knowledge] (56 terms)
+    - Agricultural research
+    - Applied research
+    - Audience research
+    - Biological research
+    - Brain research
+    - Chemical research
+    - Conflict research
+    - Curriculum research
+    - Development research
+    - Dissemination of knowledge
+    - Ecological research
+    - Economic research
+    - Empirical research
+    - Fundamental research
+    - Historical research
+    ... and 41 more
+  [Connectivity] (2 terms)
+    - International trade
+    - Trade policy
+  [Economic Diversification] (8 terms)
+    - Income
+    - Income and wealth
+    - Income distribution
+    - Income tax
+    - Incomes policy
+    - National income
+    - Rural development
+    - Rural economy
+  [Fairness] (33 terms)
+    - Animal rights
+    - Civil and political rights
+    - Collective human rights
+    - Cultural rights
+    - Culture of poverty
+    - Fishing rights
+    - Gender discrimination
+    - Gender division of labour
+    - Gender equality
+    - Gender minorities
+    - Gender roles
+    - Gender stereotypes
+    - Gender-based violence
+    - Human rights
+    - Human rights violations
+    ... and 17 more
+  [Land Governance] (4 terms)
+    - Human settlements and land use
+    - Land reform
+    - Land tenure
+    - Land use
+  [Social Values and Diets] (91 terms)
+    - Acuerdo cultural
+    - Agricultural biology
+    - Agricultural chemistry
+    - Agricultural cooperatives
+    - Agricultural credit
+    - Agricultural development
+    - Agricultural economics
+    - Agricultural engineering
+    - Agricultural enterprises
+    - Agricultural genetics
+    - Agricultural information systems
+    - Agricultural land
+    - Agricultural libraries
+    - Agricultural machinery
+    - Agricultural markets
+    ... and 76 more
+  [Soil Health] (19 terms)
+    - Desert soils
+    - Environmental health
+    - Nature conservation
+    - Saline soils
+    - Soil conservation
+    - Soil degradation
+    - Soil erosion
+    - Soil fertility
+    - Soil maps
+    - Soil mechanics
+    - Soil moisture
+    - Soil pollution
+    - Soil resources
+    - Soil sciences
+    - Soil surveys
+    ... and 4 more
+
+SOURCE: WOCAT
+  [Animal Health] (1 terms)
+    - City compost a solution for waste management and soil health
+  [Biodiversity] (9 terms)
+    - Conservation Approach for Kour Giraffes - Niger
+    - Dissemination of soil conservation technologies in dryland areas, Chile DESIRE WOCAT
+    - Gestion locale collective des ressources naturelles https://qcat.wocat.net/en/wocat/approaches/view/approaches 1980/
+    - Land reclamation by forestry with native species, Mexico DESIRE WOCAT
+    - Multilayer farming systems for ensuring food diversity
+    - Multilayer farming systems for ensuring food diversity and
+    - Rangeland Restoration by cutting invasive species and grass reseeding and managing grazing https://qcat.wocat.net/en/wocat/
+    - Small-Scale Conservation Tillage - Kenya
+    - consists of one or more conservation measures belonging to the following
+  [Co-creation of Knowledge] (8 terms)
+    - Dissemination of soil test results to farmers through a
+    - Farmer Field Schools - Kenya
+    - Farmer Managed Natural Regeneration - Niger
+    - Indigenous Management of Tapia Woodlands - Madagascar
+    - Participatory Negotiated Territorial Development - Burkina Faso and Ghana
+    - Participatory mapping, database building and monitoring of vegetation types and other community resources in the
+    - Promoting Farmer Innovation - Kenya, Tanzania, Uganda
+    - Promoting farmers and pastoralists consultations in managing rangelands. https://qcat.wocat.net/en/wocat/approaches/view/
+  [Connectivity] (2 terms)
+    - African Market Gardens - Senegal
+    - Primary strip network system for fuel management, Portugal
+  [Economic Diversification] (2 terms)
+    - On-farm pasture establishment demonstrations https://qcat.wocat.net/en/wocat/approaches/
+    - Regional rural development programme, Spain DESIRE WOCAT
+  [Input Reduction] (15 terms)
+    - Drip irrigation, Russian Federation DESIRE WOCAT
+    - Drip irrigation, Turkey DESIRE WOCAT
+    - Improved Well Distribution for Sustainable Pastoralism - Niger
+    - Low-Pressure Irrigation System Californian - Senegal
+    - Minimum Tillage and Direct Planting - Ghana
+    - No tillage with subsoiling, Chile DESIRE WOCAT
+    - Olive groves under no-tillage operations, Greece DESIRE WOCAT
+    - Organic Cotton - Burkina Faso
+    - Preparation of bio-inputs such as vermicompost,
+    - Preparation of bio-inputs such as vermicompost, biofertilizers,
+    - Reduced contour tillage of cereals in semi-arid environments, Spain DESIRE WOCAT
+    - Reduced tillage of almonds and olives, Spain DESIRE WOCAT
+    - Small-Scale Conservation Tillage - Kenya
+    - Spate Irrigation - Eritrea
+    - Water harvesting from concentrated runoff for irrigation purposes, Spain DESIRE WOCAT
+  [Land Governance] (21 terms)
+    - Assisted Natural Regeneration of Degraded Land, Burkina-Faso
+    - Combating erosion, recovery and enhancement of degraded land and climate change adaptation  https://qcat.wocat.
+    - Community-based soil rehabilitation for grassland on
+    - Community-based soil rehabilitation for grassland on common
+    - Concerted thinking on common problems of water scarcity, Russian Federation DESIRE WOCAT
+    - Controlled grazing in deciduous woods as an alternative to grazing on rangeland, Italy DESIRE WOCAT
+    - Dedha grazing system as a natural resource management technology https://qcat.wocat.net/en/wocat/technologies/view/
+    - Dissemination of soil conservation technologies in dryland areas, Chile DESIRE WOCAT
+    - Dryland watershed management approach, Tunisia DESIRE WOCAT
+    - Ecosystem-wide seasonal grazing management in community land https://qcat.wocat.net/en/wocat/technologies/view/tech
+    - Empowering Dedha Institutions of governing natural resources in Isiolo Rangelands https://qcat.wocat.net/en/wocat/approaches/
+    - Grass Land Improvement
+    - Grazing Land Improvement - Ethiopia
+    - Holistic Rangeland Management combined with high end tourism https://qcat.wocat.net/en/wocat/approaches/view/approaches 3399/
+    - Indigenous Management of Tapia Woodlands - Madagascar
+    ... and 6 more
+  [Participation] (13 terms)
+    - Community Forests - Cameroon
+    - Community grazing management https://qcat.wocat.net/en/wocat/approaches/view/approaches 3050/
+    - Community-based soil rehabilitation for grassland on
+    - Community-based soil rehabilitation for grassland on common
+    - Dissemination of soil test results to farmers through a
+    - Ecosystem-wide seasonal grazing management in community land https://qcat.wocat.net/en/wocat/technologies/view/tech
+    - Farmer Field Schools - Kenya
+    - Farmer Managed Natural Regeneration - Niger
+    - Gestion locale collective des ressources naturelles https://qcat.wocat.net/en/wocat/approaches/view/approaches 1980/
+    - Inclusive strategic planning for water, energy and climate
+    - Participatory mapping, database building and monitoring of vegetation types and other community resources in the
+    - Promoting Farmer Innovation - Kenya, Tanzania, Uganda
+    - Promoting farmers and pastoralists consultations in managing rangelands. https://qcat.wocat.net/en/wocat/approaches/view/
+  [Recycling] (17 terms)
+    - Bush Control and Biomass Utilisation https://qcat.wocat.net/en/wocat/approaches/view/approaches 2809/
+    - City compost a solution for waste management and
+    - City compost a solution for waste management and soil health
+    - Combating erosion, recovery and enhancement of degraded land and climate change adaptation  https://qcat.wocat.
+    - Concerted thinking on common problems of water scarcity, Russian Federation DESIRE WOCAT
+    - Crop residue and stone mulch
+    - Dryland watershed management approach, Tunisia DESIRE WOCAT
+    - Inclusive strategic planning for water, energy and climate
+    - Paved and grassed waterways
+    - Preparation of bio-inputs such as vermicompost,
+    - Preparation of bio-inputs such as vermicompost, biofertilizers,
+    - Roof rainwater harvesting system, Botwana DESIRE WOCAT
+    - Runoff and Floodwater Farming - Ethiopia
+    - Runoff/floodwater farming
+    - Transport of freshwater from local streams, Greece DESIRE WOCAT
+    ... and 2 more
+  [Social Values and Diets] (1 terms)
+    - Development of rainfed agriculture, Morocco DESIRE WOCAT
+  [Soil Health] (37 terms)
+    - Chat Ridge bund
+    - City compost a solution for waste management and soil health
+    - Combating erosion, recovery and enhancement of degraded land and climate change adaptation  https://qcat.wocat.
+    - Community-based soil rehabilitation for grassland on
+    - Community-based soil rehabilitation for grassland on common
+    - Conservation Approach for Kour Giraffes - Niger
+    - Crop residue and stone mulch
+    - Desho -Bund
+    - Dissemination of soil conservation technologies in dryland areas, Chile DESIRE WOCAT
+    - Dissemination of soil test results to farmers through a
+    - Earth structures for Gully reclamation
+    - Graded Soil bund
+    - Grassed Fanya Juu Terraces - Kenya
+    - Hillside terraces
+    - Konso Bench Terrace - Ethiopia
+    ... and 22 more
+  [Synergy] (4 terms)
+    - Grevillea Agroforestry System - Kenya
+    - Olive tree plantations with intercropping, Morocco DESIRE WOCAT
+    - Parkland Agroforestry System - Burkina Faso
+    - Push-Pull integrated pest and soil fertility management Kenya
+
+SOURCE: WORLD_BANK
+  [Animal Health] (26 terms)
+    - Cost of animal-sourced foods relative to the starchy staples in a least-cost healthy diet
+    - Cost share for animal-sourced foods in a least-cost healthy diet
+    - Number of people pushed below the $2.15  poverty line by out-of-pocket health care expenditure
+    - Number of people pushed below the $3.65  poverty line by out-of-pocket health care expenditure
+    - Number of people pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure
+    - Number of people pushed further below the $2.15  poverty line by out-of-pocket health care expenditure
+    - Number of people pushed further below the $3.65  poverty line by out-of-pocket health care expenditure
+    - Number of people pushed further below the 60% median consumption poverty line by out-of-pocket health care expenditure
+    - Number of people pushed or further pushed below the $2.15  poverty line by out-of-pocket health care expenditure
+    - Number of people pushed or further pushed below the $3.65  poverty line by out-of-pocket health care expenditure
+    - Number of people pushed or further pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure
+    - Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure
+    - Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure
+    - Proportion of population facing financial hardship due to out-of-pocket health expenditure
+    - Proportion of population facing impoverishing out-of-pocket health expenditure, based on the societal poverty line
+    ... and 9 more
+  [Biodiversity] (7 terms)
+    - Animal species, threatened
+    - Bird species, threatened
+    - Fish species, threatened
+    - Mammal species, threatened
+    - Plant species , threatened
+    - Proportion of freshwater key biodiversity areas  covered by protected areas
+    - Proportion of terrestrial key biodiversity areas  covered by protected areas
+  [Co-creation of Knowledge] (171 terms)
+    - 326_Is market research by studying consumer behavior one of the main activities of the financial consumer protection  unit?_#VGVA_06
+    - Administration of a nationally representative learning assessment in Grade 2 or 3 in mathematics
+    - Administration of a nationally representative learning assessment in Grade 2 or 3 in reading
+    - Administration of a nationally-representative learning assessment at the end of primary in mathematics
+    - Administration of a nationally-representative learning assessment at the end of primary in reading
+    - Comprehensive correct knowledge of HIV/AIDS, ages 15-24, female
+    - Comprehensive correct knowledge of HIV/AIDS, ages 15-24, male
+    - Comprehensive correct knowledge of HIV/AIDS, ages 15-49, female
+    - Comprehensive correct knowledge of HIV/AIDS, ages 15-49, male
+    - Financial knowledge score
+    - Knowledge of any method of contraception
+    - Knowledge of any modern method of contraception
+    - Knowledge of contraception  : Q1
+    - Knowledge of contraception  : Q2
+    - Knowledge of contraception  : Q3
+    ... and 133 more
+  [Connectivity] (12 terms)
+    - Cost to get electricity connection
+    - Fixed broadband Internet connection charge
+    - Getting electricity: Reliability of supply and transparency of tariff index
+    - Getting electricity: Reliability of supply and transparency of tariff index   - Score
+    - Logistics performance index: Quality of trade and transport-related infrastructure
+    - Quality- of trade and transport-related infrastructure, rank
+    - Roads, total network
+    - Share of transport network exposed to cyclones
+    - Share of transport network exposed to earthquakes
+    - Share of transport network exposed to floods
+    - Share of transport network exposed to natural disasters
+  [Economic Diversification] (867 terms)
+    - About one month can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income
+    - About one month can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, in laborforce
+    - About one month can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, men
+    - About one month can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, older
+    - About one month can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, out of laborforce
+    - About one month can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, poorest 40%
+    - About one month can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, richest 60%
+    - About one month can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, rural
+    - About one month can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, urban
+    - About one month can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, women
+    - About one month can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, young
+    - About two months can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income
+    - About two months can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, in laborforce
+    - About two months can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, men
+    - About two months can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, older
+    ... and 763 more
+  [Fairness] (1527 terms)
+    - - Equity
+    - 589_Do laws and regulations prohibit or restrict discriminating consumers based on gender, ethnicity, faith, political affiliation, or appearance?  _#VHGA_03
+    - Account used to receive wages
+    - Adequacy of benefits  - All Social Assistance -rural
+    - Adequacy of benefits  - All Social Assistance -urban
+    - Adequacy of benefits  - All Social Insurance -rural
+    - Adequacy of benefits  - All Social Insurance -urban
+    - Adequacy of benefits  - Other Social Insurance
+    - Adequacy of benefits  - Other Social Insurance -rural
+    - Adequacy of benefits  - Other Social Insurance -urban
+    - Adequacy of benefits  - Social Pensions
+    - Adequacy of benefits  - Social Pensions -rural
+    - Adequacy of benefits  - Social Pensions -urban
+    - Adequacy of benefits  -All Social Protection and Labor -rural
+    - Adequacy of benefits  -All Social Protection and Labor -urban
+    ... and 1278 more
+  [Input Reduction] (229 terms)
+    - 6th pillar: Goods market efficiency
+    - 7th pillar: Labor market efficiency
+    - B-READY: Business Entry Pillar 3: Operational Efficiency of Business Entry
+    - B-READY: Business Insolvency Pillar 3: Operational Efficiency of Resolving Judicial Insolvency Proceedings
+    - B-READY: International Trade Pillar 3: Efficiency of Importing Goods, Exporting Goods, and Engaging in Digital Trade
+    - B-READY: Pillar 3: Operational Efficiency
+    - CPIA efficiency of revenue mobilization rating
+    - Debt forgiveness or reduction
+    - Debt stock reduction
+    - Disaster risk reduction progress score
+    - Efficiency - Expressed by the relationship between financing and outcomes; where 0 is the lowest possible efficiency and 1 is the highest
+    - Efficiency - Expressed by the score from the Public Expenditure and Financial Accountability  assessment; where 0 is the lowest possible efficiency and 1 is the highest
+    - Efficiency enhancers
+    - Efficiency of the clearance process, rank
+    - Fertilizer consumption
+    ... and 214 more
+  [Land Governance] (556 terms)
+    - 408_Do disclosure requirements for commercial banks include information on recourse rights and processes?_#VGYA_03
+    - Access to Land
+    - Agricultural irrigated land
+    - Agricultural land
+    - Arable and permanent cropland
+    - Arable land
+    - Built-up land
+    - CO2 emissions by sector  - Land-Use Change and Forestry
+    - CPIA building human resources rating
+    - CPIA debt policy rating
+    - CPIA fiscal policy rating
+    - CPIA policy and institutions for environmental sustainability rating
+    - CPIA property rights and rule-based governance rating
+    - Carbon dioxide  net fluxes from LULUCF - Forest Land
+    - Carbon dioxide  net fluxes from LULUCF - Other Land
+    ... and 481 more
+  [Participation] (38 terms)
+    - 624_Is the alternative dispute resolution  entity funded by a financial industry association?_#VHMD_02
+    - Are any of the following publicly-supported delivery channels used to reach families in order to promote early childhood stimulation? Home visits, Group sessions, Community health programs, Health center waiting rooms, School-based groups, Mass media/Information campaigns
+    - Average score for community engagement
+    - COLLECTIVE CONSUMPTION EXPENDITURE BY GOVERNMENT
+    - Community health workers
+    - Dimension 1.5: Data use by international organizations
+    - Does not own a smartphone due to disapproval from family/community
+    - Investment in transport with private participation
+    - Main reason for no phone: Family/community disapproval
+    - Main reason for not owning a smartphone: family/community disapproval
+    - No mobile phone due to family or community disapproval
+    - No mobile phone due to family or community disapproval, in laborforce
+    - No mobile phone due to family or community disapproval, men
+    - No mobile phone due to family or community disapproval, older
+    - No mobile phone due to family or community disapproval, out of laborforce
+    ... and 21 more
+  [Recycling] (12 terms)
+    - Carbon dioxide  emissions from Waste
+    - Climate-responsive budget circular
+    - Combustible renewables and waste
+    - Gender responsive budget circular
+    - Methane  emissions from Waste
+    - Nitrous oxide  emissions from Waste
+    - Non-CO2 GHG emissions by sector  - Waste
+    - Organic water pollutant  emissions
+    - Sectoral drivers of GHG emissions growth in the period 2012-2018 - Waste
+    - Total GHG emissions by sector  - Waste
+  [Social Values and Diets] (111 terms)
+    - Affordability of a healthy diet: ratio of cost to food expenditures
+    - Affordability of a healthy diet: ratio of cost to the food poverty line
+    - Affordability of a nutrient adequate diet: ratio of cost to food expenditures
+    - Affordability of a nutrient adequate diet: ratio of cost to the food poverty line
+    - Affordability of an energy sufficient diet: ratio of cost to food expenditures
+    - Affordability of an energy sufficient diet: ratio of cost to the food poverty line
+    - Agricultural area irrigated
+    - Agricultural irrigated land
+    - Agriculture survey
+    - Annual freshwater withdrawals, agriculture
+    - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions
+    - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 0-4
+    - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 0-4, female
+    - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 0-4, male
+    - Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions, ages 15-59
+    ... and 71 more
+  [Soil Health] (1 terms)
+    - Carbon dioxide  net fluxes from LULUCF - Organic Soil
+  [Synergy] (1 terms)
+    - Integration of payroll and personnel records
+

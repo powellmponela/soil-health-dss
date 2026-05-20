@@ -1,0 +1,33 @@
+=== BIOPHYSICAL_EXPANSION Managed Indicators per Principle ===
+
+[1. Recycling] (2 terms)
+  - biochar
+  - vermicomposts
+
+[2. Input Reduction] (12 terms)
+  - ammonium fertilizers
+  - biological control agents
+  - biological nitrogen fixation
+  - biopesticides
+  - botanical pesticides
+  - controlled release fertilizers
+  - nitrate fertilizers
+  - pesticide synergists
+  - phosphate fertilizers
+  - potash fertilizers
+  - slow release fertilizers
+  - synthetic fertilizers
+
+[3. Soil Health] (5 terms)
+  - cover crops
+  - mulches
+  - soil analysis
+  - soil temperature
+  - stubble mulching
+
+[5. Biodiversity] (1 terms)
+  - agrobiodiversity
+
+[6. Synergy] (1 terms)
+  - integrated nutrient management
+

@@ -1,0 +1,37 @@
+{
+    "1. Recycling": [],
+    "2. Input Reduction": [
+        {
+            "label": "biofertilizers",
+            "uri": "manual_injection/input_reduction/biofertilizers",
+            "source": "HLPE"
+        },
+        {
+            "label": "input substitution",
+            "uri": "manual_injection/input_reduction/input_substitution",
+            "source": "HLPE"
+        },
+        {
+            "label": "pesticide adjuvants",
+            "uri": "manual_injection/inhibitors/pesticide_adjuvants",
+            "source": "HLPE"
+        }
+    ],
+    "3. Soil Health": [],
+    "4. Animal Health": [],
+    "5. Biodiversity": [],
+    "6. Synergy": [
+        {
+            "label": "intercropping",
+            "uri": "manual_injection/input_reduction/intercropping",
+            "source": "HLPE"
+        }
+    ],
+    "7. Economic Diversification": [],
+    "8. Co-creation of Knowledge": [],
+    "9. Social Values and Diets": [],
+    "10. Fairness": [],
+    "11. Connectivity": [],
+    "12. Land and Natural Resource Governance": [],
+    "13. Participation": []
+}

@@ -1,0 +1,7 @@
+=== HLPE_ENRICHED Managed Indicators per Principle ===
+
+[2. Input Reduction] (3 terms)
+  - biofertilizers
+  - input substitution
+  - pesticide adjuvants
+

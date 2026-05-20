@@ -1,0 +1,4703 @@
+{
+    "1. Recycling": [
+        {
+            "label": "water analysis",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "coconut water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste paper",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water tolerance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water holding capacity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "environmental water temperature",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water temperature",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water binding capacity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water activity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water retention",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water-use efficiency",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water quality",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water hardness",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water potential",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water regimes",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water balance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water constants",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water content",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water characteristics",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water buffaloes",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water lilies",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water availability",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water balance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "plant water relations",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water depletion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "low water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water potential",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "xylem water potential",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "root water potential",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "leaf water potential",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water yield",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water levels",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "high water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water power",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "heat recovery",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "air-water interface",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "sediment-water interface",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water metabolism",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water uptake",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water circulation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "nutrient cycles",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water pollution",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water currents",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "above ground biomass",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "above ground tree biomass",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "organic wastes",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "farmyard manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "wastewater",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "agricultural wastewater",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "industrial wastewater",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "infiltration water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "irrigation water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "drainage water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "saline water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rainwater",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "chlorinated water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "magnetic water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "distilled water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "virtual water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water storage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water law",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water bombing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "wastewater irrigation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste utilization",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "hot water treatment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "aroma recovery",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water chlorination",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "inland water transport",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water use",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water conservation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "in situ water conservation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste disposal",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste incineration",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "recycling",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "drainage water recycling",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "organic recycling",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "agricultural waste management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste reduction",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste treatment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water supply",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water harvesting",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water drilling",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water exploration",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water desalting",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "drinking water treatment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water management in upland",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water management in lowland",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rainwater management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water mills",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "body water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "manure spreaders",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water authorities",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste landfills",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water springs",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water resources",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste land",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "fish manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water user groups",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water user associations",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water policies",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "manure contract",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste heat",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water vapour",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water deprivation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "biomass",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "runoff water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "drinking water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "maximum residue limits",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water movement",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water requirements",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "brackish water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "metabolic water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "inland water environment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "wastewater treatment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste gases",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water reuse",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "surface water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water reservoirs",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water tanks",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water distribution systems",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "drinking water systems",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "bound water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rainwater harvesting",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water statistics",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "Anatolian Water Buffalo",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water-soluble vitamins",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "municipal wastewater",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water traps",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "below ground biomass",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste collection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "hot water-extractable nitrogen",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "industrial water use",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water scarcity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "right to water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water quality standards",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water extraction",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "recreational water use",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "public water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water conservation zones",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water charges",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "transboundary movement of waste",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water properties",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water treatment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "surface water waves",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "air-water exchanges",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "air-water temperature difference",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water waves",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water surface slope",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ephemeral water bodies",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "temporary water bodies",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water transparency",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water colour",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "shallow water tides",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "shallow water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water depth",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water density",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "bottom water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "cooling water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "discoloured water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "river water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "intermittent water bodies",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "shallow water waves",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water temperature data",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mooring recovery",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "wastewater aquaculture",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "deep water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "dead water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water pollution treatment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water quality control",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "air flow over water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "stagnant water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "spawning stock biomass",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "heavy water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water column",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water samples",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water sampling",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water level measurement",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "bilge water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "standard sea water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "oil-water interface",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "radioactive waste disposal",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "oil in water content",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "warm-water aquaculture",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water use regulations",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "oil water separation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "deep-water waves",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "gas water separation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "dense water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water ripples",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water security",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "Goal 6 Clean water and sanitation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "Goal 14 Life below water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "agricultural water use",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock water use",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "crop water use",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "circular migration",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water filtration",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water filtration",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water filtration",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "organic mulches",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "compost mulches",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "not plant available water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "plant available water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water-soluble gels",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water-soluble tablets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water-dispersible tablets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water-dispersible granules",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water-dispersible powders for slurry seed treatment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water-soluble granules",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water-in-oil emulsions",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "oil-in-water emulsions",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water footprint",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "marginal quality water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "manure management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "manure surplus",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water shortages",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "deep litter manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "fresh solid manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "stored solid manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "composted manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "wash water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "horse manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "turkey manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "laying hen manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "poultry manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water accounting",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "organic residues",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water auditing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "chicken manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "circular economy",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rose water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ballast water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "manure removal methods",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated water resources management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water governance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water tenure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "relative water content",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "food waste",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water demand",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "domestic water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "cost recovery",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water sharing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water users",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "crop residue management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "agricultural water management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water quotas",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "dung water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water flow",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "grey water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water transport",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water consumption",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water conductivity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "aquifer-fed water bodies",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water drawdown",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "well water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "borehole water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "tap water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "green water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "natural water retention measures",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water insecurity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "wastewater management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water protection areas",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "waste dumping",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water repellent soils",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water repellency",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water pumps",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "volumetric water content",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "gravimetric water content",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "circular bioeconomy",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water stress",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water surplus",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "pore water",
+            "uri": "",
+            "source": "AGROVOC"
+        }
+    ],
+    "2. Input Reduction": [],
+    "3. Soil Health": [
+        {
+            "label": "soil inoculation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil sampling",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health foods",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil surveys",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "carbon sequestration",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "fertility",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "microbial properties",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "saline and sodic soil resistance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil density",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil hydraulic properties",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil pH",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil salinity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil thermal regimes",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil temperature",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water retention",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil toxicity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil fertility",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil properties",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil chemicophysical properties",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil structure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil pore system",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil permeability",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil macropores",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil micropores",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil structural units",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil clods",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil texture",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil separates",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water potential",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "hydraulic potential",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "matric potential",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water regimes",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water balance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil sorption",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil strength",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water constants",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water content",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil moisture deficit",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water characteristics",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil surface properties",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil porosity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "age of soil",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "organic matter content",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "microbial flora",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil microorganisms",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "erosion control plants",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil reclamation plants",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil-borne fungi",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil-borne viruses",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil organisms",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil fauna",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil flora",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil fungi",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil movement",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health hazards",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "wind erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil respiration",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "biological activity in soil",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil cracking",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil deficiencies",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil exhaustion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil pollution",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil parent materials",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "slipping of soil",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ion transport in soil",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "gully erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rill erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "coastal erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil compaction",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil salinization",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil amendments",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil organic matter",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "microbial insecticides",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "microbial pesticides",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil mulches",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil conditioners",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "farmyard manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "crop residues",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "microbial proteins",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil sciences",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil mechanics",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil biology",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil morphology",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health policies",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil dynamics",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "microbial ecology",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "composting",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil sterilization",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mulching",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "tillage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil breaking",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "zero tillage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ridge tillage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "minimum tillage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "conventional tillage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ripping",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "deep tillage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "secondary tillage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "primary tillage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health insurance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil heating",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil conservation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "in situ soil conservation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "vermicomposting",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil improvement",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil treatment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "radioactive decontamination",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil injection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil fumigation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil disinfection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "forest health management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health care",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "public health legislation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil erosion models",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil sequences",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "cultural soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "chemical soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "climatic soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecological soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "lithological soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mineralogical soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "palaeosolic soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "physiographic soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "polygenetic soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "stratigraphic soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health organizations",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "udder health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "manure spreaders",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "permanent labour",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mental health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "occupational health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil solution",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "permanent grasslands",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil profiles",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil crusts",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil micromorphological features",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil horizons",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "permanent pastures",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "fish manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil scientists",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "manure contract",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "Universal Soil Loss Equation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil air",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil seed banks",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil-borne organisms",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil management equipment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil zonation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "plant health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil morphological features",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "animal health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "erosion control",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil stabilization",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "forest health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil sickness",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "conservation tillage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "plant soil relations",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "nutrient availability",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil chemistry",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil physics",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil analysis",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil transport processes",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "structural soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water movement",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "textural soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil degradation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "losses from soil",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil genesis",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "organic matter",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil solarization",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "public health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "tillage equipment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health maintenance organizations",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil injectors",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil resources",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil-borne wheat mosaic virus",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "splash erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "stream erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "interrill erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "sheet erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "streambank erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "streambed erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "strip tillage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "stubble tillage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health claims",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil bacteria",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "Modified Universal Soil Loss Equation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "Revised Universal Soil Loss Equation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil organic carbon",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "tillage erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil suitability",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil functions",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil conservation legislation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil pollutants",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil maps",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil quality",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil trafficability",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil mechanical properties",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil penetration resistance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "beach erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "glacial erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "dissolved organic matter",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "bottom erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "permanent thermocline",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil algae",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "particulate organic matter",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "Goal 3 Good health and well-being",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil survey guidelines",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil investigations",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil exposure types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil accumulation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil loss",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil consistence",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil anthropogenic changes",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health statistics",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "maternal and child health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "child health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "World Reference Base soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil sealing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health surveys",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water filtration",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "permaculture",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "stubble mulching",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "seed health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health economics",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "manure management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "manure surplus",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "deep litter manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "fresh solid manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "stored solid manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "composted manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "horse manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "turkey manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "laying hen manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "poultry manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "chicken manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "One Health approach",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "manure removal methods",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil hydrology",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated soil fertility management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "fine soil",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil skeleton",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "microbial physiology",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "human health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "microbial contamination",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil security",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil landscapes",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "environmental health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil\u2013plant\u2013atmosphere continuum",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil depth",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "microbial diversity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil information",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rangeland health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "biochar",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "microbial culture",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecosystem health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water repellency",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health taxes",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "permanent crops",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health sciences",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "animal health emergencies",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "thermal erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        }
+    ],
+    "4. Animal Health": [
+        {
+            "label": "livestock overwintering",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock censuses",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock feed",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "carrying capacity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "soil water balance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "energy balance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "radiation balance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock numbers",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water balance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock injuries",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "thermal balance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "resource depletion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "veterinary medicine",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "welfare economics",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "veterinary sciences",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "veterinary dentistry",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "veterinary forensics",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "resource evaluation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "pasture establishment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "pasture improvement",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "resource substitution",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "resource management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "resource conservation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock-raising",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock insurance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "resource exploration",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock farms",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "social welfare organizations",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock boxes",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock housing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "veterinary equipment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "forest grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mixed grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "controlled grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rotational grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "strip grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "tethered grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "common grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "selective grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "pasture feeding",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "continuous grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "zero-grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "supply balance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "welfare",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "grazing lands",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic diversity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "pedigree livestock",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "natural resource user groups",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "grazing land rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "grazing contracts",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "grazing systems",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "animal welfare",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "social welfare",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "animal health",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock breeds",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "grazing intensity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "nutrient balance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "nutrient balance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "balance of nature",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "veterinary hygiene",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "veterinary laboratories",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "veterinary pharmacies",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock flood refuge mounds",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock feeding",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "child welfare",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rural welfare",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "resource availability",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "veterinary drug residues",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock water use",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock wild relatives",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock systems",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock mortality",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock revolution",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock unit",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated crop-livestock systems",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "deferred grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "livestock manure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "nitrogen balance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "heavy grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "veterinary drugs",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "sequence alignment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "part-time grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "full grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "propensity score matching",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "seasonal grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "veterinary legislation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "regenerative grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "resource use efficiency",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "pasture degradation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "animal health emergencies",
+            "uri": "",
+            "source": "AGROVOC"
+        }
+    ],
+    "5. Biodiversity": [
+        {
+            "label": "genetic engineering",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic improvement",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic distance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic control",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic resistance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic techniques",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic transformation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic vectors",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic processes",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic variation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic polymorphism",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic transduction",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic divergence",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic drift",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "protected species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "invasive species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "endangered species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ISSCAAP groups of species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "new species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "Collaborative Partnership on Sustainable Wildlife Management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic disorders",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic phenomena",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic parameters",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic stability",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic correlation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic covariance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic erosion",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "species extinction",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic structures",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "determination of species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "biodiversity conservation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic resources conservation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "forest conservation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "wildlife management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "community-based wildlife management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "forest genetic resources management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic diversity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "animal genetic resources",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic markers",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "reactive oxygen species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic equilibrium",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "biodiversity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic code",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic inheritance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic gain",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "dominant species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic resources",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic maps",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "plant genetic resources",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "wildlife",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "forest genetic resources",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "human-wildlife relations",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "forest biodiversity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic linkage",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic variance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "invasive alien species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "migratory species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "species diversity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "associated species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "cavernicolous species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "endemic species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "relict species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "amphihaline species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "vulnerable species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rare species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "threatened species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "sedentary species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "commercial species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "forage species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "sibling species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "cosmopolitan species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "cryptic species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic isolation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "underutilized species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "amphibiotic species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "trade in species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic databases",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "species richness",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "dietary diversity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "palatable species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "aquatic genetic resources",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "critically endangered species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "extinct species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "protected plant species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "protected animal species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "species delimitation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic load",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "centre of diversity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "marine genetic resources",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "species checklists",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic trends",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "functional diversity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "microbial diversity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "genetic dissection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "target species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "non-target species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rheophilic species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "cryptogenic species",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "minimum dietary diversity",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "plant genetic resources for food and agriculture",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "landscape diversity",
+            "uri": "",
+            "source": "AGROVOC"
+        }
+    ],
+    "6. Synergy": [
+        {
+            "label": "integrated control",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated pest management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated disease control",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated disease management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecological control",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecological succession",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated rural development",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated development",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "agroecology",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated land management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecological soil types",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mixed enterprises",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mixed-ownership companies",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "intercropping",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mixed cropping",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mixed farming",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated plant nutrient management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mixed grazing",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "agroforestry systems",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mixed forests",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecotone mixed forests",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "evergreen mixed forests",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mixed pastures",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mixed forest stands",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mixed economies",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "agroforestry",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecological indicators",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecological factors",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mixed layer",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "mixed layer depth",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "surface mixed layer",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "bottom mixed layer",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "partially-mixed estuaries",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated coastal zone management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecological footprint",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated crop-livestock systems",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecological niche modelling",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated water resources management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated soil fertility management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated watershed management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "total mixed rations",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "social-ecological resilience",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated multitrophic aquaculture",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecological guilds",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "agroecological transition",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecological protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecological zones",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "agroecological zones",
+            "uri": "",
+            "source": "AGROVOC"
+        }
+    ],
+    "7. Economic Diversification": [],
+    "8. Co-creation of Knowledge": [],
+    "9. Social Values and Diets": [],
+    "10. Fairness": [
+        {
+            "label": "frost protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "protection technology",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "forest protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "wind protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "plant protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "riverbank protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "dust protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "biological plant protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "stand protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "animal protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "labour market",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "tenant's rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "animal rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "human rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "land rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "intellectual property rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "roll over protection structures",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "plant protection equipment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "off-farm employment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rights-based approaches",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "management rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "pastoral land rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "use rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "grazing land rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "co-ownership rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "pre-emption rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "transfer rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "riparian rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "control rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rights in divorce",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "marital property rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "orphans land rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "land inheritance rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rights of clearance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "common rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "customary land rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "employment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "labour relations",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "health protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "fishing rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "consumer protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "environmental protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "breeders rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "property rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "legal rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "fair trade",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "community land rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "continuum of land rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "Indigenous Peoples' land rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "housing rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "land rights activists",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "civil rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "cultural rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "economic rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "social rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "social protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rural employment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "hunting rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "vested rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "shore protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "fishery protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "protection vessels",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "radiation protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "scour protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "seabed protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rights to the city",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "protection of minorities",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "equal rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "youth employment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "farmers' rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "Indigenous Peoples' tenure rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "social network analysis",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "employment elasticities",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "gender relations",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "customary rights",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water protection areas",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ecological protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "data protection",
+            "uri": "",
+            "source": "AGROVOC"
+        }
+    ],
+    "11. Connectivity": [
+        {
+            "label": "domestic markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "land markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "commodity markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "neural networks",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "world markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "capital markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "street markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "networks",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "research networks",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "terrestrial observation networks",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "common markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "consumer protection",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "gene regulatory networks",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "social networks",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "utility networks",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "retail markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "wholesale markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "integrated markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "wet markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "live bird markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "carbon markets",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "parliamentary networks",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "informal markets",
+            "uri": "",
+            "source": "AGROVOC"
+        }
+    ],
+    "12. Land and Natural Resource Governance": [],
+    "13. Participation": [
+        {
+            "label": "decision-making",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "empowerment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "governance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "community-based forest enterprise development",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "participation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "community-based wildlife management",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "public participation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "farmer participation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "consumer participation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "women's participation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "collective ownership",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "legal empowerment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "social participation",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "land governance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "women's empowerment",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "Voluntary Guidelines on the Responsible Governance of Tenure",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "value chain governance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "fisheries governance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "inland fisheries governance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "forest governance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "community-based breeding programmes",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "water governance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "inclusive growth",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "stakeholder engagement",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "governance systems",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "ocean governance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "participatory governance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "rangeland governance",
+            "uri": "",
+            "source": "AGROVOC"
+        },
+        {
+            "label": "multi-criteria decision-making",
+            "uri": "",
+            "source": "AGROVOC"
+        }
+    ]
+}

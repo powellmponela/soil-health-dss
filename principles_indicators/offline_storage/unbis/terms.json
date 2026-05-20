@@ -1,0 +1,1594 @@
+[
+    {
+        "label": "ABORTION POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1000005"
+    },
+    {
+        "label": "ACQUIRED RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1000042"
+    },
+    {
+        "label": "AERONAUTICAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1000088"
+    },
+    {
+        "label": "AGRICULTURAL ECONOMICS AND POLICY; RURAL SOCIOLOGY",
+        "uri": "http://metadata.un.org/thesaurus/040101"
+    },
+    {
+        "label": "AGRICULTURAL LAND",
+        "uri": "http://metadata.un.org/thesaurus/1000144"
+    },
+    {
+        "label": "AGRICULTURAL POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1000150"
+    },
+    {
+        "label": "AGRICULTURAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1000158"
+    },
+    {
+        "label": "AIR TRANSPORT POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1000204"
+    },
+    {
+        "label": "ALKALINE SOIL",
+        "uri": "http://metadata.un.org/thesaurus/1000242"
+    },
+    {
+        "label": "ANIMAL HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1000297"
+    },
+    {
+        "label": "ANIMAL RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1000302"
+    },
+    {
+        "label": "ANTILLAS NEERLANDESAS",
+        "uri": "http://metadata.un.org/thesaurus/1004381"
+    },
+    {
+        "label": "ANTILLES NEERLANDAISES",
+        "uri": "http://metadata.un.org/thesaurus/1004381"
+    },
+    {
+        "label": "ANTINATALIST POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1000329"
+    },
+    {
+        "label": "BARRIER ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1000539"
+    },
+    {
+        "label": "BIOLOGICAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1000616"
+    },
+    {
+        "label": "BRITISH VIRGIN ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1000699"
+    },
+    {
+        "label": "BRITISH VIRGIN ISLANDS QUESTION",
+        "uri": "http://metadata.un.org/thesaurus/1000700"
+    },
+    {
+        "label": "BUDGETARY POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1000713"
+    },
+    {
+        "label": "BUILDING RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1000721"
+    },
+    {
+        "label": "CANAUX D'IRRIGATION",
+        "uri": "http://metadata.un.org/thesaurus/1003418"
+    },
+    {
+        "label": "CAYMAN ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1000865"
+    },
+    {
+        "label": "CAYMAN ISLANDS QUESTION",
+        "uri": "http://metadata.un.org/thesaurus/1000866"
+    },
+    {
+        "label": "CHILD HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1000934"
+    },
+    {
+        "label": "CHRISTMAS ISLAND",
+        "uri": "http://metadata.un.org/thesaurus/1000978"
+    },
+    {
+        "label": "CIVIL AND POLITICAL RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1000998"
+    },
+    {
+        "label": "CLANDESTINE EMPLOYMENT",
+        "uri": "http://metadata.un.org/thesaurus/1001017"
+    },
+    {
+        "label": "COCOS  ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1001067"
+    },
+    {
+        "label": "COCOS  ISLANDS QUESTION",
+        "uri": "http://metadata.un.org/thesaurus/1001068"
+    },
+    {
+        "label": "COMMON LAW",
+        "uri": "http://metadata.un.org/thesaurus/1001118"
+    },
+    {
+        "label": "COMMON MARKETS",
+        "uri": "http://metadata.un.org/thesaurus/1001119"
+    },
+    {
+        "label": "COMORIAN ISLAND OF MAYOTTE",
+        "uri": "http://metadata.un.org/thesaurus/1001153"
+    },
+    {
+        "label": "COMPETITION POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1001169"
+    },
+    {
+        "label": "COOK ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1001292"
+    },
+    {
+        "label": "CORPORATE GOVERNANCE",
+        "uri": "http://metadata.un.org/thesaurus/1001314"
+    },
+    {
+        "label": "CREDIT POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1001369"
+    },
+    {
+        "label": "CULTURAL POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1001437"
+    },
+    {
+        "label": "CULTURAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1001443"
+    },
+    {
+        "label": "DEMOGRAPHIC RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1001567"
+    },
+    {
+        "label": "DENTAL HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1001574"
+    },
+    {
+        "label": "DERECHO ROMANO-HOLANDES",
+        "uri": "http://metadata.un.org/thesaurus/1005604"
+    },
+    {
+        "label": "DERELICT LAND",
+        "uri": "http://metadata.un.org/thesaurus/1001586"
+    },
+    {
+        "label": "DEVELOPMENT POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1001630"
+    },
+    {
+        "label": "DEVELOPMENT RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1001633"
+    },
+    {
+        "label": "DISARMAMENT RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1001690"
+    },
+    {
+        "label": "DROIT ROMAIN-NEERLANDAIS",
+        "uri": "http://metadata.un.org/thesaurus/1005604"
+    },
+    {
+        "label": "DRUG POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1001779"
+    },
+    {
+        "label": "EARTH SCIENCE RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1001809"
+    },
+    {
+        "label": "ECOLOGICAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1001831"
+    },
+    {
+        "label": "ECONOMIC INTEGRATION",
+        "uri": "http://metadata.un.org/thesaurus/1001857"
+    },
+    {
+        "label": "ECONOMIC POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1001863"
+    },
+    {
+        "label": "ECONOMIC REFORM",
+        "uri": "http://metadata.un.org/thesaurus/1001866"
+    },
+    {
+        "label": "ECONOMIC RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1001869"
+    },
+    {
+        "label": "ECONOMIC RIGHTS AND DUTIES OF STATES",
+        "uri": "http://metadata.un.org/thesaurus/1001870"
+    },
+    {
+        "label": "ECONOMIC STRUCTURE",
+        "uri": "http://metadata.un.org/thesaurus/1001874"
+    },
+    {
+        "label": "ECONOMIC, SOCIAL AND CULTURAL RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1001882"
+    },
+    {
+        "label": "EMIGRANTS CLANDESTINS",
+        "uri": "http://metadata.un.org/thesaurus/1003416"
+    },
+    {
+        "label": "EMPLOYMENT",
+        "uri": "http://metadata.un.org/thesaurus/1002007"
+    },
+    {
+        "label": "EMPLOYMENT POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002011"
+    },
+    {
+        "label": "ENERGY POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002032"
+    },
+    {
+        "label": "ENFERMEDAD HOLANDESA",
+        "uri": "http://metadata.un.org/thesaurus/1001796"
+    },
+    {
+        "label": "ENGINEERING RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002047"
+    },
+    {
+        "label": "ENVIRONMENTAL HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/100400"
+    },
+    {
+        "label": "ENVIRONMENTAL POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002083"
+    },
+    {
+        "label": "EQUITY",
+        "uri": "http://metadata.un.org/thesaurus/1002107"
+    },
+    {
+        "label": "EVALUATION RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002158"
+    },
+    {
+        "label": "EXPORT POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002200"
+    },
+    {
+        "label": "FALKLAND ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1002230"
+    },
+    {
+        "label": "FALKLAND ISLANDS  QUESTION",
+        "uri": "http://metadata.un.org/thesaurus/1002231"
+    },
+    {
+        "label": "FAMILY HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1002238"
+    },
+    {
+        "label": "FAMILY PLANNING POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002248"
+    },
+    {
+        "label": "FAMILY RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1002253"
+    },
+    {
+        "label": "FERTILIZER INDUSTRY",
+        "uri": "http://metadata.un.org/thesaurus/1002300"
+    },
+    {
+        "label": "FERTILIZER PLANTS",
+        "uri": "http://metadata.un.org/thesaurus/1002301"
+    },
+    {
+        "label": "FERTILIZER USE",
+        "uri": "http://metadata.un.org/thesaurus/1002302"
+    },
+    {
+        "label": "FERTILIZERS",
+        "uri": "http://metadata.un.org/thesaurus/1002303"
+    },
+    {
+        "label": "FINANCIAL POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002336"
+    },
+    {
+        "label": "FINANCIAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002338"
+    },
+    {
+        "label": "FINLAND",
+        "uri": "http://metadata.un.org/thesaurus/1002347"
+    },
+    {
+        "label": "FINLANDAIS",
+        "uri": "http://metadata.un.org/thesaurus/1002349"
+    },
+    {
+        "label": "FINLANDE",
+        "uri": "http://metadata.un.org/thesaurus/1002347"
+    },
+    {
+        "label": "FINLANDESES",
+        "uri": "http://metadata.un.org/thesaurus/1002349"
+    },
+    {
+        "label": "FINLANDIA",
+        "uri": "http://metadata.un.org/thesaurus/1002347"
+    },
+    {
+        "label": "FISCAL POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002357"
+    },
+    {
+        "label": "FISHERY POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002371"
+    },
+    {
+        "label": "FISHERY RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002373"
+    },
+    {
+        "label": "FOOD POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002428"
+    },
+    {
+        "label": "FOOD RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002436"
+    },
+    {
+        "label": "FOREIGN POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002469"
+    },
+    {
+        "label": "FOREIGN TRADE POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002476"
+    },
+    {
+        "label": "FOREST POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002486"
+    },
+    {
+        "label": "FORESTRY RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002494"
+    },
+    {
+        "label": "FUEL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002559"
+    },
+    {
+        "label": "GAS RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002597"
+    },
+    {
+        "label": "GENDER",
+        "uri": "http://metadata.un.org/thesaurus/1002608"
+    },
+    {
+        "label": "GENDER RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002614"
+    },
+    {
+        "label": "GENERAL INTERNATIONAL TRADE AND TRADE POLICY",
+        "uri": "http://metadata.un.org/thesaurus/070100"
+    },
+    {
+        "label": "GEOPHYSICAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002654"
+    },
+    {
+        "label": "GITANOS IRLANDESES",
+        "uri": "http://metadata.un.org/thesaurus/1003410"
+    },
+    {
+        "label": "GOVERNANCE",
+        "uri": "http://metadata.un.org/thesaurus/1002715"
+    },
+    {
+        "label": "GOVERNMENT POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002729"
+    },
+    {
+        "label": "GOVERNMENT SPENDING POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002732"
+    },
+    {
+        "label": "GRASSLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1002745"
+    },
+    {
+        "label": "GRAZING RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1002749"
+    },
+    {
+        "label": "HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1002824"
+    },
+    {
+        "label": "HEALTH AID",
+        "uri": "http://metadata.un.org/thesaurus/1002826"
+    },
+    {
+        "label": "HEALTH CENTRES",
+        "uri": "http://metadata.un.org/thesaurus/1002827"
+    },
+    {
+        "label": "HEALTH CONDITIONS",
+        "uri": "http://metadata.un.org/thesaurus/1002828"
+    },
+    {
+        "label": "HEALTH ECONOMICS",
+        "uri": "http://metadata.un.org/thesaurus/1002829"
+    },
+    {
+        "label": "HEALTH HAZARDS",
+        "uri": "http://metadata.un.org/thesaurus/1002831"
+    },
+    {
+        "label": "HEALTH INDICATORS",
+        "uri": "http://metadata.un.org/thesaurus/1002832"
+    },
+    {
+        "label": "HEALTH INFORMATION",
+        "uri": "http://metadata.un.org/thesaurus/1002833"
+    },
+    {
+        "label": "HEALTH INSURANCE",
+        "uri": "http://metadata.un.org/thesaurus/1002834"
+    },
+    {
+        "label": "HEALTH LEGISLATION",
+        "uri": "http://metadata.un.org/thesaurus/1002835"
+    },
+    {
+        "label": "HEALTH PERSONNEL",
+        "uri": "http://metadata.un.org/thesaurus/1002836"
+    },
+    {
+        "label": "HEALTH PLANNING",
+        "uri": "http://metadata.un.org/thesaurus/1002837"
+    },
+    {
+        "label": "HEALTH POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002838"
+    },
+    {
+        "label": "HEALTH PROGRAMMES",
+        "uri": "http://metadata.un.org/thesaurus/1002839"
+    },
+    {
+        "label": "HEALTH RESORTS",
+        "uri": "http://metadata.un.org/thesaurus/1002840"
+    },
+    {
+        "label": "HEALTH STANDARDS",
+        "uri": "http://metadata.un.org/thesaurus/1002843"
+    },
+    {
+        "label": "HEALTH STATISTICS",
+        "uri": "http://metadata.un.org/thesaurus/1002844"
+    },
+    {
+        "label": "HEALTHCARE DELIVERY",
+        "uri": "http://metadata.un.org/thesaurus/1002825"
+    },
+    {
+        "label": "HISTORICAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002896"
+    },
+    {
+        "label": "HOUSING POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002954"
+    },
+    {
+        "label": "HOUSING RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002959"
+    },
+    {
+        "label": "HUMAN RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/140202"
+    },
+    {
+        "label": "HUMAN RIGHTS ACTIVISTS",
+        "uri": "http://metadata.un.org/thesaurus/1002976"
+    },
+    {
+        "label": "HUMAN RIGHTS ADVANCEMENT",
+        "uri": "http://metadata.un.org/thesaurus/1002977"
+    },
+    {
+        "label": "HUMAN RIGHTS IN ARMED CONFLICTS",
+        "uri": "http://metadata.un.org/thesaurus/1002979"
+    },
+    {
+        "label": "HUMAN RIGHTS INDICATORS",
+        "uri": "http://metadata.un.org/thesaurus/1002980"
+    },
+    {
+        "label": "HUMAN RIGHTS INSTITUTIONS",
+        "uri": "http://metadata.un.org/thesaurus/1002981"
+    },
+    {
+        "label": "HUMAN RIGHTS MONITORING",
+        "uri": "http://metadata.un.org/thesaurus/1002982"
+    },
+    {
+        "label": "HUMAN RIGHTS POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1002983"
+    },
+    {
+        "label": "HUMAN RIGHTS VIOLATIONS",
+        "uri": "http://metadata.un.org/thesaurus/1002984"
+    },
+    {
+        "label": "HUMAN SETTLEMENTS RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1002990"
+    },
+    {
+        "label": "HYDROLOGICAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1003026"
+    },
+    {
+        "label": "ILES FALKLAND",
+        "uri": "http://metadata.un.org/thesaurus/1002230"
+    },
+    {
+        "label": "IMMIGRATION POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1003060"
+    },
+    {
+        "label": "IMPORT POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1003069"
+    },
+    {
+        "label": "INCOME",
+        "uri": "http://metadata.un.org/thesaurus/1003083"
+    },
+    {
+        "label": "INCOME POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1003087"
+    },
+    {
+        "label": "INDUSTRIAL POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1003152"
+    },
+    {
+        "label": "INDUSTRIAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1003164"
+    },
+    {
+        "label": "INDUSTRIAL RESEARCH INSTITUTES",
+        "uri": "http://metadata.un.org/thesaurus/1003165"
+    },
+    {
+        "label": "INFORMATION POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1003197"
+    },
+    {
+        "label": "INLAND BOATMEN",
+        "uri": "http://metadata.un.org/thesaurus/1003216"
+    },
+    {
+        "label": "INLAND NAVIGATION REGULATIONS",
+        "uri": "http://metadata.un.org/thesaurus/1003217"
+    },
+    {
+        "label": "INLAND TRANSPORT",
+        "uri": "http://metadata.un.org/thesaurus/1003218"
+    },
+    {
+        "label": "INLAND WATER TRANSPORT",
+        "uri": "http://metadata.un.org/thesaurus/1003219"
+    },
+    {
+        "label": "INLAND WATERS",
+        "uri": "http://metadata.un.org/thesaurus/1003220"
+    },
+    {
+        "label": "INLAND WATERWAY TRAFFIC",
+        "uri": "http://metadata.un.org/thesaurus/1003221"
+    },
+    {
+        "label": "INTEGRATION SOCIALE",
+        "uri": "http://metadata.un.org/thesaurus/1005967"
+    },
+    {
+        "label": "INTERDISCIPLINARY RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1003259"
+    },
+    {
+        "label": "INTERNATIONAL ECONOMIC AND SOCIAL POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1003302"
+    },
+    {
+        "label": "INTERNATIONAL HEALTH REGULATIONS",
+        "uri": "http://metadata.un.org/thesaurus/1003308"
+    },
+    {
+        "label": "INVESTMENT POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1003382"
+    },
+    {
+        "label": "IRELAND",
+        "uri": "http://metadata.un.org/thesaurus/1003407"
+    },
+    {
+        "label": "IRLANDA",
+        "uri": "http://metadata.un.org/thesaurus/1003407"
+    },
+    {
+        "label": "IRLANDAIS",
+        "uri": "http://metadata.un.org/thesaurus/1003408"
+    },
+    {
+        "label": "IRLANDE",
+        "uri": "http://metadata.un.org/thesaurus/1003407"
+    },
+    {
+        "label": "IRLANDESES",
+        "uri": "http://metadata.un.org/thesaurus/1003408"
+    },
+    {
+        "label": "IRRIGATION",
+        "uri": "http://metadata.un.org/thesaurus/1003417"
+    },
+    {
+        "label": "IRRIGATION CANALS",
+        "uri": "http://metadata.un.org/thesaurus/1003418"
+    },
+    {
+        "label": "IRRIGATION FARMING",
+        "uri": "http://metadata.un.org/thesaurus/1003419"
+    },
+    {
+        "label": "IRRIGATION GOUTTE A GOUTTE",
+        "uri": "http://metadata.un.org/thesaurus/1006699"
+    },
+    {
+        "label": "IRRIGATION RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1003420"
+    },
+    {
+        "label": "ISLANDAIS",
+        "uri": "http://metadata.un.org/thesaurus/1003038"
+    },
+    {
+        "label": "ISLANDE",
+        "uri": "http://metadata.un.org/thesaurus/1003037"
+    },
+    {
+        "label": "ISLANDESES",
+        "uri": "http://metadata.un.org/thesaurus/1003038"
+    },
+    {
+        "label": "ISLANDIA",
+        "uri": "http://metadata.un.org/thesaurus/1003037"
+    },
+    {
+        "label": "ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1003433"
+    },
+    {
+        "label": "LABOUR",
+        "uri": "http://metadata.un.org/thesaurus/1003548"
+    },
+    {
+        "label": "LABOUR POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1003565"
+    },
+    {
+        "label": "LAND",
+        "uri": "http://metadata.un.org/thesaurus/1003580"
+    },
+    {
+        "label": "LAND ACQUISITION",
+        "uri": "http://metadata.un.org/thesaurus/1003583"
+    },
+    {
+        "label": "LAND ADMINISTRATION",
+        "uri": "http://metadata.un.org/thesaurus/1003584"
+    },
+    {
+        "label": "LAND ALLOTMENT",
+        "uri": "http://metadata.un.org/thesaurus/1003585"
+    },
+    {
+        "label": "LAND DEGRADATION",
+        "uri": "http://metadata.un.org/thesaurus/1003586"
+    },
+    {
+        "label": "LAND ECONOMICS",
+        "uri": "http://metadata.un.org/thesaurus/1003587"
+    },
+    {
+        "label": "LAND FORMS AND ECOSYSTEMS",
+        "uri": "http://metadata.un.org/thesaurus/030103"
+    },
+    {
+        "label": "LAND LEGISLATION",
+        "uri": "http://metadata.un.org/thesaurus/1003588"
+    },
+    {
+        "label": "LAND MARKET",
+        "uri": "http://metadata.un.org/thesaurus/1003589"
+    },
+    {
+        "label": "LAND POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1003590"
+    },
+    {
+        "label": "LAND RECLAMATION",
+        "uri": "http://metadata.un.org/thesaurus/1003591"
+    },
+    {
+        "label": "LAND REFORM",
+        "uri": "http://metadata.un.org/thesaurus/1003592"
+    },
+    {
+        "label": "LAND REGISTRATION",
+        "uri": "http://metadata.un.org/thesaurus/1003593"
+    },
+    {
+        "label": "LAND RENT",
+        "uri": "http://metadata.un.org/thesaurus/1003594"
+    },
+    {
+        "label": "LAND RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1003595"
+    },
+    {
+        "label": "LAND SETTLEMENT",
+        "uri": "http://metadata.un.org/thesaurus/1003596"
+    },
+    {
+        "label": "LAND SPECULATION",
+        "uri": "http://metadata.un.org/thesaurus/1003597"
+    },
+    {
+        "label": "LAND SUBDIVISION",
+        "uri": "http://metadata.un.org/thesaurus/1003598"
+    },
+    {
+        "label": "LAND SUBSIDENCE",
+        "uri": "http://metadata.un.org/thesaurus/1003599"
+    },
+    {
+        "label": "LAND TAX",
+        "uri": "http://metadata.un.org/thesaurus/1003600"
+    },
+    {
+        "label": "LAND TENURE",
+        "uri": "http://metadata.un.org/thesaurus/1003601"
+    },
+    {
+        "label": "LAND TITLES",
+        "uri": "http://metadata.un.org/thesaurus/1003602"
+    },
+    {
+        "label": "LAND TRANSPORT",
+        "uri": "http://metadata.un.org/thesaurus/060300"
+    },
+    {
+        "label": "LAND USE",
+        "uri": "http://metadata.un.org/thesaurus/1003603"
+    },
+    {
+        "label": "LAND USE STATISTICS",
+        "uri": "http://metadata.un.org/thesaurus/1003604"
+    },
+    {
+        "label": "LAND, PLANT AND SOIL RESOURCES",
+        "uri": "http://metadata.un.org/thesaurus/030600"
+    },
+    {
+        "label": "LAND-BASED RESOURCES",
+        "uri": "http://metadata.un.org/thesaurus/1003581"
+    },
+    {
+        "label": "LAND-USE CHANGE",
+        "uri": "http://metadata.un.org/thesaurus/1003582"
+    },
+    {
+        "label": "LANDFORMS",
+        "uri": "http://metadata.un.org/thesaurus/1003605"
+    },
+    {
+        "label": "LANDLOCKED DEVELOPING COUNTRIES",
+        "uri": "http://metadata.un.org/thesaurus/1003606"
+    },
+    {
+        "label": "LANDLOCKED STATES",
+        "uri": "http://metadata.un.org/thesaurus/1003607"
+    },
+    {
+        "label": "LANDMINES",
+        "uri": "http://metadata.un.org/thesaurus/1003608"
+    },
+    {
+        "label": "LANDSCAPE ARCHITECTURE",
+        "uri": "http://metadata.un.org/thesaurus/1003609"
+    },
+    {
+        "label": "LANDSCAPE PROTECTION",
+        "uri": "http://metadata.un.org/thesaurus/1003610"
+    },
+    {
+        "label": "LANDSLIDES",
+        "uri": "http://metadata.un.org/thesaurus/1003611"
+    },
+    {
+        "label": "LANGUE IRLANDAISE",
+        "uri": "http://metadata.un.org/thesaurus/1003409"
+    },
+    {
+        "label": "LANGUE ISLANDAISE",
+        "uri": "http://metadata.un.org/thesaurus/1003039"
+    },
+    {
+        "label": "LANGUE NEERLANDAISE",
+        "uri": "http://metadata.un.org/thesaurus/1001797"
+    },
+    {
+        "label": "LAW REFORM",
+        "uri": "http://metadata.un.org/thesaurus/1003649"
+    },
+    {
+        "label": "LEGAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1003679"
+    },
+    {
+        "label": "LENGUA FINLANDESA",
+        "uri": "http://metadata.un.org/thesaurus/1002348"
+    },
+    {
+        "label": "LENGUA HOLANDESA",
+        "uri": "http://metadata.un.org/thesaurus/1001797"
+    },
+    {
+        "label": "LENGUA IRLANDESA",
+        "uri": "http://metadata.un.org/thesaurus/1003409"
+    },
+    {
+        "label": "LENGUA ISLANDESA",
+        "uri": "http://metadata.un.org/thesaurus/1003039"
+    },
+    {
+        "label": "LIBEL AND SLANDER",
+        "uri": "http://metadata.un.org/thesaurus/1003704"
+    },
+    {
+        "label": "LIBRARY POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1003731"
+    },
+    {
+        "label": "LINGUISTIC RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1003759"
+    },
+    {
+        "label": "MALAGASY ISLANDS QUESTION",
+        "uri": "http://metadata.un.org/thesaurus/1003843"
+    },
+    {
+        "label": "MANAGEMENT RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1003871"
+    },
+    {
+        "label": "MARINE RESOURCES POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1003924"
+    },
+    {
+        "label": "MARINE SCIENTIFIC RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1003926"
+    },
+    {
+        "label": "MARKET RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1003950"
+    },
+    {
+        "label": "MARSHALL ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1003963"
+    },
+    {
+        "label": "MATERIALS RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1003978"
+    },
+    {
+        "label": "MATERNAL AND CHILD HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1003981"
+    },
+    {
+        "label": "MENTAL HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1004041"
+    },
+    {
+        "label": "METEOROLOGICAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004063"
+    },
+    {
+        "label": "MIDWAY ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1004106"
+    },
+    {
+        "label": "MIGRATION POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1004113"
+    },
+    {
+        "label": "MILITARY POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1004141"
+    },
+    {
+        "label": "MILITARY RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004146"
+    },
+    {
+        "label": "MINERAL RESOURCES POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1004163"
+    },
+    {
+        "label": "MINING RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004178"
+    },
+    {
+        "label": "MOBILE HEALTH TEAMS",
+        "uri": "http://metadata.un.org/thesaurus/1004188"
+    },
+    {
+        "label": "MONETARY POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1004210"
+    },
+    {
+        "label": "MOON LANDING",
+        "uri": "http://metadata.un.org/thesaurus/1004230"
+    },
+    {
+        "label": "MOUVEMENTS CLANDESTINS",
+        "uri": "http://metadata.un.org/thesaurus/1006771"
+    },
+    {
+        "label": "MOVIMIENTOS CLANDESTINOS",
+        "uri": "http://metadata.un.org/thesaurus/1006771"
+    },
+    {
+        "label": "NATIONAL HEALTH INSURANCE",
+        "uri": "http://metadata.un.org/thesaurus/1004321"
+    },
+    {
+        "label": "NATURAL RESOURCES POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1004345"
+    },
+    {
+        "label": "NEERLANDAIS",
+        "uri": "http://metadata.un.org/thesaurus/1004379"
+    },
+    {
+        "label": "NEERLANDESES",
+        "uri": "http://metadata.un.org/thesaurus/1004379"
+    },
+    {
+        "label": "NEIGHBOURING RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1004368"
+    },
+    {
+        "label": "NEO-ZELANDAIS",
+        "uri": "http://metadata.un.org/thesaurus/1004396"
+    },
+    {
+        "label": "NEOZELANDESES",
+        "uri": "http://metadata.un.org/thesaurus/1004396"
+    },
+    {
+        "label": "NETHERLANDERS",
+        "uri": "http://metadata.un.org/thesaurus/1004379"
+    },
+    {
+        "label": "NETHERLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1004380"
+    },
+    {
+        "label": "NETHERLANDS ANTILLES",
+        "uri": "http://metadata.un.org/thesaurus/1004381"
+    },
+    {
+        "label": "NEW ZEALAND",
+        "uri": "http://metadata.un.org/thesaurus/1004395"
+    },
+    {
+        "label": "NEW ZEALANDERS",
+        "uri": "http://metadata.un.org/thesaurus/1004396"
+    },
+    {
+        "label": "NOMADES IRLANDAIS",
+        "uri": "http://metadata.un.org/thesaurus/1003410"
+    },
+    {
+        "label": "NON-FIRST-USE POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1004442"
+    },
+    {
+        "label": "NORFOLK ISLAND",
+        "uri": "http://metadata.un.org/thesaurus/1004463"
+    },
+    {
+        "label": "NORTHERN IRELAND SITUATION",
+        "uri": "http://metadata.un.org/thesaurus/1004473"
+    },
+    {
+        "label": "NORTHERN MARIANA ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1004474"
+    },
+    {
+        "label": "NOUVELLE-Z\u00c9LANDE",
+        "uri": "http://metadata.un.org/thesaurus/1004395"
+    },
+    {
+        "label": "NUCLEAR RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004508"
+    },
+    {
+        "label": "NUEVA ZELANDIA",
+        "uri": "http://metadata.un.org/thesaurus/1004395"
+    },
+    {
+        "label": "NUTRITION POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1004535"
+    },
+    {
+        "label": "NUTRITION RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004537"
+    },
+    {
+        "label": "OCCUPATIONAL HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1004555"
+    },
+    {
+        "label": "OCEANOGRAPHIC RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004574"
+    },
+    {
+        "label": "OPERATIONS RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004634"
+    },
+    {
+        "label": "ORGANIC FARMING",
+        "uri": "http://metadata.un.org/thesaurus/1004657"
+    },
+    {
+        "label": "ORGANIZATIONAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004661"
+    },
+    {
+        "label": "PACIFIC ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1004687"
+    },
+    {
+        "label": "PACIFIC ISLANDS  QUESTION",
+        "uri": "http://metadata.un.org/thesaurus/1004688"
+    },
+    {
+        "label": "PASAJEROS CLANDESTINOS",
+        "uri": "http://metadata.un.org/thesaurus/1006218"
+    },
+    {
+        "label": "PASSAGERS CLANDESTINS",
+        "uri": "http://metadata.un.org/thesaurus/1006218"
+    },
+    {
+        "label": "PEACE RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004774"
+    },
+    {
+        "label": "PENSION RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1004793"
+    },
+    {
+        "label": "PERSONNEL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004829"
+    },
+    {
+        "label": "PETROLEUM POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1004857"
+    },
+    {
+        "label": "PETROLEUM RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004861"
+    },
+    {
+        "label": "PHARMACEUTICAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004869"
+    },
+    {
+        "label": "POLAND",
+        "uri": "http://metadata.un.org/thesaurus/1004959"
+    },
+    {
+        "label": "POLAND SITUATION",
+        "uri": "http://metadata.un.org/thesaurus/1004960"
+    },
+    {
+        "label": "POLICY MAKING",
+        "uri": "http://metadata.un.org/thesaurus/1004966"
+    },
+    {
+        "label": "POLICY SCIENCES",
+        "uri": "http://metadata.un.org/thesaurus/1004967"
+    },
+    {
+        "label": "POLITICAL SCIENCE RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1004991"
+    },
+    {
+        "label": "POPULATION POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1005028"
+    },
+    {
+        "label": "PORTS POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1005043"
+    },
+    {
+        "label": "POVERTY",
+        "uri": "http://metadata.un.org/thesaurus/1005064"
+    },
+    {
+        "label": "PRIMARY HEALTHCARE",
+        "uri": "http://metadata.un.org/thesaurus/1005105"
+    },
+    {
+        "label": "PRONATALIST POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1005194"
+    },
+    {
+        "label": "PROPERTY RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1005201"
+    },
+    {
+        "label": "PROTEIN RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1005215"
+    },
+    {
+        "label": "PSYCHOLOGICAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1005233"
+    },
+    {
+        "label": "PUBLIC HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1005250"
+    },
+    {
+        "label": "PUBLIC HEALTH ADMINISTRATION",
+        "uri": "http://metadata.un.org/thesaurus/1005251"
+    },
+    {
+        "label": "PUBLIC LANDS",
+        "uri": "http://metadata.un.org/thesaurus/1005256"
+    },
+    {
+        "label": "QUESTION DES ILES FALKLAND",
+        "uri": "http://metadata.un.org/thesaurus/1002231"
+    },
+    {
+        "label": "RECHERCHE SUR L'IRRIGATION",
+        "uri": "http://metadata.un.org/thesaurus/1003420"
+    },
+    {
+        "label": "REFORMA ECONOMICA",
+        "uri": "http://metadata.un.org/thesaurus/1001866"
+    },
+    {
+        "label": "RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1005498"
+    },
+    {
+        "label": "RESEARCH AND DEVELOPMENT",
+        "uri": "http://metadata.un.org/thesaurus/1005499"
+    },
+    {
+        "label": "RESEARCH AND DEVELOPMENT CONTRACTS",
+        "uri": "http://metadata.un.org/thesaurus/1005500"
+    },
+    {
+        "label": "RESEARCH CENTRES",
+        "uri": "http://metadata.un.org/thesaurus/1005501"
+    },
+    {
+        "label": "RESEARCH GRANTS",
+        "uri": "http://metadata.un.org/thesaurus/1005502"
+    },
+    {
+        "label": "RESEARCH LIBRARIES",
+        "uri": "http://metadata.un.org/thesaurus/1005503"
+    },
+    {
+        "label": "RESETTLEMENT POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1005509"
+    },
+    {
+        "label": "RIGHT TO HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1005560"
+    },
+    {
+        "label": "RIGHTS OF THE ACCUSED",
+        "uri": "http://metadata.un.org/thesaurus/1005572"
+    },
+    {
+        "label": "RIGHTS OF THE CHILD",
+        "uri": "http://metadata.un.org/thesaurus/1005573"
+    },
+    {
+        "label": "RIPARIAN RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1005575"
+    },
+    {
+        "label": "RURAL EMPLOYMENT",
+        "uri": "http://metadata.un.org/thesaurus/1005634"
+    },
+    {
+        "label": "RURAL HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1005635"
+    },
+    {
+        "label": "SALINE SOIL",
+        "uri": "http://metadata.un.org/thesaurus/1005681"
+    },
+    {
+        "label": "SANDY SOIL",
+        "uri": "http://metadata.un.org/thesaurus/1005698"
+    },
+    {
+        "label": "SANITARY LANDFILLS",
+        "uri": "http://metadata.un.org/thesaurus/1005700"
+    },
+    {
+        "label": "SCIENCE AND TECHNOLOGY POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1005738"
+    },
+    {
+        "label": "SCIENTIFIC RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1005752"
+    },
+    {
+        "label": "SEISMOLOGICAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1005799"
+    },
+    {
+        "label": "SETTLEMENT POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1005836"
+    },
+    {
+        "label": "SEX RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1005847"
+    },
+    {
+        "label": "SHIPPING POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1005879"
+    },
+    {
+        "label": "SITUACION EN IRLANDA DEL NORTE",
+        "uri": "http://metadata.un.org/thesaurus/1004473"
+    },
+    {
+        "label": "SITUATION EN IRLANDE DU NORD",
+        "uri": "http://metadata.un.org/thesaurus/1004473"
+    },
+    {
+        "label": "SMALL ISLAND DEVELOPING STATES",
+        "uri": "http://metadata.un.org/thesaurus/1001614"
+    },
+    {
+        "label": "SOCIAL INTEGRATION",
+        "uri": "http://metadata.un.org/thesaurus/1005967"
+    },
+    {
+        "label": "SOCIAL POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1005976"
+    },
+    {
+        "label": "SOCIAL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1005980"
+    },
+    {
+        "label": "SOCIAL SCIENCE POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1005982"
+    },
+    {
+        "label": "SOCIAL STRUCTURE",
+        "uri": "http://metadata.un.org/thesaurus/1005991"
+    },
+    {
+        "label": "SOCIALIST PROPERTY",
+        "uri": "http://metadata.un.org/thesaurus/1006002"
+    },
+    {
+        "label": "SOIL CHEMISTRY",
+        "uri": "http://metadata.un.org/thesaurus/1006017"
+    },
+    {
+        "label": "SOIL CONSERVATION",
+        "uri": "http://metadata.un.org/thesaurus/1006018"
+    },
+    {
+        "label": "SOIL EROSION",
+        "uri": "http://metadata.un.org/thesaurus/1006019"
+    },
+    {
+        "label": "SOIL FERTILITY",
+        "uri": "http://metadata.un.org/thesaurus/1006020"
+    },
+    {
+        "label": "SOIL IMPROVEMENT",
+        "uri": "http://metadata.un.org/thesaurus/1006021"
+    },
+    {
+        "label": "SOIL MANAGEMENT",
+        "uri": "http://metadata.un.org/thesaurus/1006022"
+    },
+    {
+        "label": "SOIL MECHANICS",
+        "uri": "http://metadata.un.org/thesaurus/1006023"
+    },
+    {
+        "label": "SOIL MOISTURE",
+        "uri": "http://metadata.un.org/thesaurus/1006024"
+    },
+    {
+        "label": "SOIL PHYSICS",
+        "uri": "http://metadata.un.org/thesaurus/1006025"
+    },
+    {
+        "label": "SOIL RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1006026"
+    },
+    {
+        "label": "SOIL RESOURCES",
+        "uri": "http://metadata.un.org/thesaurus/1006027"
+    },
+    {
+        "label": "SOIL SCIENCES",
+        "uri": "http://metadata.un.org/thesaurus/1006028"
+    },
+    {
+        "label": "SOIL SURVEYS",
+        "uri": "http://metadata.un.org/thesaurus/1006029"
+    },
+    {
+        "label": "SOILS",
+        "uri": "http://metadata.un.org/thesaurus/1006030"
+    },
+    {
+        "label": "SOLOMON ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1006044"
+    },
+    {
+        "label": "SOMALILAND UNDER ITALIAN ADMINISTRATION",
+        "uri": "http://metadata.un.org/thesaurus/1006050"
+    },
+    {
+        "label": "SPACE RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1006098"
+    },
+    {
+        "label": "SPACE SCIENCE POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1006099"
+    },
+    {
+        "label": "SPECIAL DRAWING RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1006118"
+    },
+    {
+        "label": "STRUCTURE SOCIALE",
+        "uri": "http://metadata.un.org/thesaurus/1005991"
+    },
+    {
+        "label": "SUBMERGED LANDS",
+        "uri": "http://metadata.un.org/thesaurus/1006258"
+    },
+    {
+        "label": "SUGAR RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1006281"
+    },
+    {
+        "label": "SUSTAINABLE AGRICULTURE",
+        "uri": "http://metadata.un.org/thesaurus/1006317"
+    },
+    {
+        "label": "SWITZERLAND",
+        "uri": "http://metadata.un.org/thesaurus/1006335"
+    },
+    {
+        "label": "SYNDROME HOLLANDAIS",
+        "uri": "http://metadata.un.org/thesaurus/1001796"
+    },
+    {
+        "label": "TAILANDESES",
+        "uri": "http://metadata.un.org/thesaurus/1006487"
+    },
+    {
+        "label": "TAILANDIA",
+        "uri": "http://metadata.un.org/thesaurus/1006486"
+    },
+    {
+        "label": "TAX RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1006395"
+    },
+    {
+        "label": "THAILAND",
+        "uri": "http://metadata.un.org/thesaurus/1006486"
+    },
+    {
+        "label": "THAILANDAIS",
+        "uri": "http://metadata.un.org/thesaurus/1006487"
+    },
+    {
+        "label": "THAILANDE",
+        "uri": "http://metadata.un.org/thesaurus/1006486"
+    },
+    {
+        "label": "TOGOLAND BAJO ADMINISTRACION FRANCESA",
+        "uri": "http://metadata.un.org/thesaurus/1006538"
+    },
+    {
+        "label": "TOGOLAND SOUS ADMINISTRATION FRANCAISE",
+        "uri": "http://metadata.un.org/thesaurus/1006538"
+    },
+    {
+        "label": "TOGOLAND UNDER BRITISH ADMINISTRATION",
+        "uri": "http://metadata.un.org/thesaurus/1006537"
+    },
+    {
+        "label": "TOGOLAND UNDER FRENCH ADMINISTRATION",
+        "uri": "http://metadata.un.org/thesaurus/1006538"
+    },
+    {
+        "label": "TOURISM POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1006566"
+    },
+    {
+        "label": "TRABAJO CLANDESTINO",
+        "uri": "http://metadata.un.org/thesaurus/1001017"
+    },
+    {
+        "label": "TRADE",
+        "uri": "http://metadata.un.org/thesaurus/070000"
+    },
+    {
+        "label": "TRADE EFFICIENCY",
+        "uri": "http://metadata.un.org/thesaurus/1006583"
+    },
+    {
+        "label": "TRADE POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1006596"
+    },
+    {
+        "label": "TRADE STRUCTURE",
+        "uri": "http://metadata.un.org/thesaurus/1006605"
+    },
+    {
+        "label": "TRADE UNION RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1006607"
+    },
+    {
+        "label": "TRAINING AND RESEARCH INSTITUTIONS",
+        "uri": "http://metadata.un.org/thesaurus/1006624"
+    },
+    {
+        "label": "TRANSPORT POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1006660"
+    },
+    {
+        "label": "TRANSPORT POLICY AND PLANNING",
+        "uri": "http://metadata.un.org/thesaurus/060101"
+    },
+    {
+        "label": "TRANSPORT RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1006663"
+    },
+    {
+        "label": "TRAVAIL CLANDESTIN",
+        "uri": "http://metadata.un.org/thesaurus/1001017"
+    },
+    {
+        "label": "TRICKLE IRRIGATION",
+        "uri": "http://metadata.un.org/thesaurus/1006699"
+    },
+    {
+        "label": "TURKS AND CAICOS ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1006749"
+    },
+    {
+        "label": "TURKS AND CAICOS ISLANDS QUESTION",
+        "uri": "http://metadata.un.org/thesaurus/1006750"
+    },
+    {
+        "label": "UNITED STATES VIRGIN ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1006790"
+    },
+    {
+        "label": "UNITED STATES VIRGIN ISLANDS QUESTION",
+        "uri": "http://metadata.un.org/thesaurus/1006791"
+    },
+    {
+        "label": "UNIVERSAL HEALTH COVERAGE",
+        "uri": "http://metadata.un.org/thesaurus/c_baa2f897"
+    },
+    {
+        "label": "URBAN LAND",
+        "uri": "http://metadata.un.org/thesaurus/1006815"
+    },
+    {
+        "label": "URBAN LAND POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1006816"
+    },
+    {
+        "label": "URBAN RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1006823"
+    },
+    {
+        "label": "VIOLENCE RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1006883"
+    },
+    {
+        "label": "VIRUS RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1006886"
+    },
+    {
+        "label": "WAGE POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1006913"
+    },
+    {
+        "label": "WAKE ISLAND",
+        "uri": "http://metadata.un.org/thesaurus/1006917"
+    },
+    {
+        "label": "WALLIS AND FUTUNA ISLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1006918"
+    },
+    {
+        "label": "WATER POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1006949"
+    },
+    {
+        "label": "WATER RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1006959"
+    },
+    {
+        "label": "WETLANDS",
+        "uri": "http://metadata.un.org/thesaurus/1007000"
+    },
+    {
+        "label": "WILDLIFE RESEARCH",
+        "uri": "http://metadata.un.org/thesaurus/1007012"
+    },
+    {
+        "label": "WOMEN'S HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1007033"
+    },
+    {
+        "label": "WOMEN'S RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1007035"
+    },
+    {
+        "label": "WORKERS' RIGHTS",
+        "uri": "http://metadata.un.org/thesaurus/1007075"
+    },
+    {
+        "label": "YOUTH HEALTH",
+        "uri": "http://metadata.un.org/thesaurus/1007110"
+    },
+    {
+        "label": "YOUTH POLICY",
+        "uri": "http://metadata.un.org/thesaurus/1007114"
+    }
+]

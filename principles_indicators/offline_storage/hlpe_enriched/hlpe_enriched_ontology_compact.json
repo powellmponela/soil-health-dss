@@ -1,0 +1,70 @@
+{
+    "13. Participation": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "10. Fairness": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "8. Co-creation of Knowledge": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "9. Social Values and Diets": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "11. Connectivity": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "12. Land & Natural Resource Governance": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "7. Economic Diversification": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "1. Recycling": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "6. Synergy": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "5. Biodiversity": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "3. Soil Health": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "4. Animal Health": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "2. Input Reduction": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "biofertilizers",
+                "source": "HLPE",
+                "uri": "manual_injection/input_reduction/biofertilizers"
+            },
+            {
+                "label": "input substitution",
+                "source": "HLPE",
+                "uri": "manual_injection/input_reduction/input_substitution"
+            },
+            {
+                "label": "pesticide adjuvants",
+                "source": "HLPE",
+                "uri": "manual_injection/inhibitors/pesticide_adjuvants"
+            }
+        ]
+    }
+}

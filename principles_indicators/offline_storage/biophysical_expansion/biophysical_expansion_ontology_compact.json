@@ -1,0 +1,168 @@
+{
+    "13. Participation": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "10. Fairness": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "8. Co-creation of Knowledge": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "9. Social Values and Diets": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "11. Connectivity": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "12. Land & Natural Resource Governance": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "7. Economic Diversification": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "1. Recycling": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "vermicomposts",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_34676"
+            },
+            {
+                "label": "biochar",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_3fdb1e1e"
+            }
+        ]
+    },
+    "6. Synergy": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "integrated nutrient management",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_330752",
+                "level_2": "nutrient",
+                "level_3": "management"
+            }
+        ]
+    },
+    "5. Biodiversity": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "agrobiodiversity",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_24921"
+            }
+        ]
+    },
+    "3. Soil Health": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "cover crops",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_24843"
+            },
+            {
+                "label": "mulches",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_4970"
+            },
+            {
+                "label": "stubble mulching",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_7456"
+            },
+            {
+                "label": "soil analysis",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_7185",
+                "level_2": "analysis"
+            },
+            {
+                "label": "soil temperature",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_7214",
+                "level_2": "temperature"
+            }
+        ]
+    },
+    "4. Animal Health": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "2. Input Reduction": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "biological control agents",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_330638"
+            },
+            {
+                "label": "biopesticides",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_24864"
+            },
+            {
+                "label": "botanical pesticides",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_24865"
+            },
+            {
+                "label": "biological nitrogen fixation",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_33968"
+            },
+            {
+                "label": "slow release fertilizers",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_7035"
+            },
+            {
+                "label": "controlled release fertilizers",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_1374066928815"
+            },
+            {
+                "label": "pesticide synergists",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_5731"
+            },
+            {
+                "label": "synthetic fertilizers",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_1374066932451"
+            },
+            {
+                "label": "ammonium fertilizers",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_385"
+            },
+            {
+                "label": "nitrate fertilizers",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_5179"
+            },
+            {
+                "label": "phosphate fertilizers",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_5786"
+            },
+            {
+                "label": "potash fertilizers",
+                "source": "BIOPHYSICAL",
+                "uri": "http://aims.fao.org/aos/agrovoc/c_6065"
+            }
+        ]
+    }
+}

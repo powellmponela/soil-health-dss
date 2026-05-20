@@ -1,0 +1,26 @@
+{
+    "1. Recycling": [],
+    "2. Input Reduction": [
+        {
+            "label": "pesticides per hectare",
+            "uri": "http://fao.org/faostat/indicators/pesticides",
+            "source": "FAOSTAT"
+        },
+        {
+            "label": "fertilizer consumption",
+            "uri": "http://fao.org/faostat/indicators/fertilizers",
+            "source": "FAOSTAT"
+        }
+    ],
+    "3. Soil Health": [],
+    "4. Animal Health": [],
+    "5. Biodiversity": [],
+    "6. Synergy": [],
+    "7. Economic Diversification": [],
+    "8. Co-creation of Knowledge": [],
+    "9. Social Values and Diets": [],
+    "10. Fairness": [],
+    "11. Connectivity": [],
+    "12. Land and Natural Resource Governance": [],
+    "13. Participation": []
+}

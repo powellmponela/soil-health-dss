@@ -1,0 +1,853 @@
+{
+  "head": {
+    "vars": [
+      "p",
+      "o"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/modified"
+        },
+        "o": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "value": "2025-10-22T12:30:09"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#broader"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/c_16202"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "ar",
+          "value": "\u062a\u062f\u0648\u064a\u0631"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "cs",
+          "value": "recyklace"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "de",
+          "value": "Recycling"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "recycling"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Reciclaje"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "fa",
+          "value": "\u0628\u0627\u0632\u0686\u0631\u062e\u0634"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "fr",
+          "value": "recyclage des d\u00e9chets"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "hi",
+          "value": "\u092a\u0941\u0928: \u091a\u0915\u094d\u0930\u0923"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "hu",
+          "value": "\u00fajrahasznos\u00edt\u00e1s"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "it",
+          "value": "Riciclaggio"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "ja",
+          "value": "\u518d\u5229\u7528"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "ko",
+          "value": "\uc7ac\uc21c\ud658"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "lo",
+          "value": "\u0e81\u0eb2\u0e99\u0e9c\u0eb0\u0ea5\u0eb4\u0e94\u0ea1\u0eb2\u0ec3\u0e8a\u0ec9\u0e84\u0eb7\u0e99\u0ec3\u0edd\u0ec8"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "pl",
+          "value": "Recykling"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "pt",
+          "value": "reciclagem"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "ru",
+          "value": "\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "sk",
+          "value": "recyklovanie"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "th",
+          "value": "\u0e01\u0e32\u0e23\u0e19\u0e33\u0e01\u0e25\u0e31\u0e1a\u0e21\u0e32\u0e43\u0e0a\u0e49"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "tr",
+          "value": "geri d\u00f6n\u00fc\u015f\u00fcm"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "uk",
+          "value": "\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u0435 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "ro",
+          "value": "reciclare"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "zh",
+          "value": "\u56de\u6536\u5229\u7528"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "pt-BR",
+          "value": "reciclagem"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "nb",
+          "value": "resirkulering"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "sr",
+          "value": "\u0440\u0435\u0446\u0438\u043a\u043b\u0430\u0436\u0430"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "sw",
+          "value": "kuchakata tena"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#definition"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xDef_fc07fd3e"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#definition"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xDef_cbd9ac0d"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#definition"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xDef_69bbfafe"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#definition"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xDef_e9cb6907"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#definition"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xDef_f322fd9f"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#definition"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xDef_13350395"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_ar_1299518565014"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_cs_1299518565031"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_de_1299518565049"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_en_1299518565069"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_es_1299518565090"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_fa_1299518565164"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_fr_1299518565187"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_hi_1299518565212"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_hu_1299518565239"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_it_1299518565378"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_ja_1299518565409"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_ko_1299518565441"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_lo_1299518565475"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_pl_1299518565878"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_pt_1299518565913"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_ru_1299518565949"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_sk_1299518565986"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_th_1299518566027"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_tr_6478_1321791739734"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_uk_6a8bf344"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_ro_9349d8e2"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_zh_c2e4a400"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_pt-BR_62b17d72"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_nb_388462fc"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_sr_769bca7d"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_sw_ca9f2ddb"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#altLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_zh_1299518566072"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#altLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_uk_5855bec3"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2008/05/skos-xl#altLabel"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/xl_sr_a1c0d7c3"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#inScheme"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#related"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/c_3f30a34b"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#related"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/c_99f4c001"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#exactMatch"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://www.eionet.europa.eu/gemet/concept/7015"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#exactMatch"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://zbw.eu/stw/descriptor/13324-2"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#exactMatch"
+        },
+        "o": {
+          "type": "uri",
+          "value": "https://vocabularyserver.com/cnr/ml/earth/en/xml.php?skosTema=56550"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#exactMatch"
+        },
+        "o": {
+          "type": "uri",
+          "value": "https://lod.nal.usda.gov/nalt/61008"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#exactMatch"
+        },
+        "o": {
+          "type": "uri",
+          "value": "https://d-nb.info/gnd/4076573-8"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#exactMatch"
+        },
+        "o": {
+          "type": "uri",
+          "value": "https://data.gesis.org/thesoz/concept_10056225"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#closeMatch"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Recycling"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://purl.org/dc/terms/created"
+        },
+        "o": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "value": "2011-11-20T20:22:19Z"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://rdfs.org/ns/void#inDataset"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/void.ttl#Agrovoc"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#altLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "zh",
+          "value": "\u5faa\u73af\u518d\u5229\u7528"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#altLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "uk",
+          "value": "\u0440\u0456\u0441\u0430\u0439\u043a\u043b\u0456\u043d\u0433"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#altLabel"
+        },
+        "o": {
+          "type": "literal",
+          "xml:lang": "sr",
+          "value": "\u0440\u0435\u0446\u0438\u043a\u043b\u0438\u0440\u0430\u045a\u0435"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrontology#isProcessFor"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/c_6078"
+        }
+      },
+      {
+        "p": {
+          "type": "uri",
+          "value": "http://www.w3.org/2004/02/skos/core#narrower"
+        },
+        "o": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/c_331390"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,949 @@
+=== AGROVOC Managed Indicators (RESTORED) ===
+
+[1. RECYCLING]
+  - Anatolian Water Buffalo
+  - Goal 14 Life below water
+  - Goal 6 Clean water and sanitation
+  - above ground biomass
+  - above ground tree biomass
+  - agricultural waste management
+  - agricultural wastewater
+  - agricultural water management
+  - agricultural water use
+  - air flow over water
+  - air-water exchanges
+  - air-water interface
+  - air-water temperature difference
+  - aquifer-fed water bodies
+  - aroma recovery
+  - ballast water
+  - below ground biomass
+  - bilge water
+  - biomass
+  - body water
+  - borehole water
+  - bottom water
+  - bound water
+  - brackish water
+  - chicken manure
+  - chlorinated water
+  - circular bioeconomy
+  - circular economy
+  - circular migration
+  - coconut water
+  - compost mulches
+  - composted manure
+  - cooling water
+  - cost recovery
+  - crop residue management
+  - crop water use
+  - dead water
+  - deep litter manure
+  - deep water
+  - deep-water waves
+  - dense water
+  - discoloured water
+  - distilled water
+  - domestic water
+  - drainage water
+  - drainage water recycling
+  - drinking water
+  - drinking water systems
+  - drinking water treatment
+  - dung water
+  - environmental water temperature
+  - ephemeral water bodies
+  - farmyard manure
+  - fish manure
+  - food waste
+  - fresh solid manure
+  - gas water separation
+  - gravimetric water content
+  - green water
+  - grey water
+  - heat recovery
+  - heavy water
+  - high water
+  - horse manure
+  - hot water treatment
+  - hot water-extractable nitrogen
+  - in situ water conservation
+  - industrial wastewater
+  - industrial water use
+  - infiltration water
+  - inland water environment
+  - inland water transport
+  - integrated water resources management
+  - intermittent water bodies
+  - irrigation water
+  - laying hen manure
+  - leaf water potential
+  - livestock manure
+  - livestock water use
+  - low water
+  - magnetic water
+  - manure contract
+  - manure management
+  - manure removal methods
+  - manure spreaders
+  - manure surplus
+  - marginal quality water
+  - maximum residue limits
+  - metabolic water
+  - mooring recovery
+  - municipal wastewater
+  - natural water retention measures
+  - not plant available water
+  - nutrient cycles
+  - oil in water content
+  - oil water separation
+  - oil-in-water emulsions
+  - oil-water interface
+  - organic mulches
+  - organic recycling
+  - organic residues
+  - organic wastes
+  - plant available water
+  - plant water relations
+  - pore water
+  - poultry manure
+  - public water
+  - radioactive waste disposal
+  - rainwater
+  - rainwater harvesting
+  - rainwater management
+  - recreational water use
+  - recycling
+  - relative water content
+  - right to water
+  - river water
+  - root water potential
+  - rose water
+  - runoff water
+  - saline water
+  - sediment-water interface
+  - shallow water
+  - shallow water tides
+  - shallow water waves
+  - soil water
+  - soil water balance
+  - soil water characteristics
+  - soil water constants
+  - soil water content
+  - soil water movement
+  - soil water potential
+  - soil water regimes
+  - soil water repellency
+  - soil water retention
+  - spawning stock biomass
+  - stagnant water
+  - standard sea water
+  - stored solid manure
+  - surface water
+  - surface water waves
+  - tap water
+  - temporary water bodies
+  - transboundary movement of waste
+  - turkey manure
+  - virtual water
+  - volumetric water content
+  - warm-water aquaculture
+  - wash water
+  - waste
+  - waste collection
+  - waste disposal
+  - waste dumping
+  - waste gases
+  - waste heat
+  - waste incineration
+  - waste land
+  - waste landfills
+  - waste management
+  - waste paper
+  - waste reduction
+  - waste treatment
+  - waste utilization
+  - wastewater
+  - wastewater aquaculture
+  - wastewater irrigation
+  - wastewater management
+  - wastewater treatment
+  - water
+  - water accounting
+  - water activity
+  - water analysis
+  - water auditing
+  - water authorities
+  - water availability
+  - water balance
+  - water binding capacity
+  - water bombing
+  - water buffaloes
+  - water charges
+  - water chlorination
+  - water circulation
+  - water colour
+  - water column
+  - water conductivity
+  - water conservation
+  - water conservation zones
+  - water consumption
+  - water currents
+  - water demand
+  - water density
+  - water depletion
+  - water deprivation
+  - water depth
+  - water desalting
+  - water distribution systems
+  - water drawdown
+  - water drilling
+  - water erosion
+  - water exploration
+  - water extraction
+  - water filtration
+  - water flow
+  - water footprint
+  - water governance
+  - water hardness
+  - water harvesting
+  - water holding capacity
+  - water insecurity
+  - water law
+  - water level measurement
+  - water levels
+  - water lilies
+  - water management
+  - water management in lowland
+  - water management in upland
+  - water markets
+  - water metabolism
+  - water mills
+  - water policies
+  - water pollution
+  - water pollution treatment
+  - water potential
+  - water power
+  - water properties
+  - water protection areas
+  - water pumps
+  - water quality
+  - water quality control
+  - water quality standards
+  - water quotas
+  - water repellent soils
+  - water requirements
+  - water reservoirs
+  - water resources
+  - water reuse
+  - water rights
+  - water ripples
+  - water samples
+  - water sampling
+  - water scarcity
+  - water security
+  - water sharing
+  - water shortages
+  - water springs
+  - water statistics
+  - water storage
+  - water stress
+  - water supply
+  - water surface slope
+  - water surplus
+  - water tanks
+  - water temperature
+  - water temperature data
+  - water tenure
+  - water tolerance
+  - water transparency
+  - water transport
+  - water traps
+  - water treatment
+  - water uptake
+  - water use
+  - water use regulations
+  - water user associations
+  - water user groups
+  - water users
+  - water vapour
+  - water waves
+  - water yield
+  - water-dispersible granules
+  - water-dispersible powders for slurry seed treatment
+  - water-dispersible tablets
+  - water-in-oil emulsions
+  - water-soluble gels
+  - water-soluble granules
+  - water-soluble tablets
+  - water-soluble vitamins
+  - water-use efficiency
+  - well water
+  - xylem water potential
+
+[3. SOIL HEALTH]
+  - Goal 3 Good health and well-being
+  - Modified Universal Soil Loss Equation
+  - One Health approach
+  - Revised Universal Soil Loss Equation
+  - Universal Soil Loss Equation
+  - World Reference Base soil types
+  - age of soil
+  - animal health
+  - animal health emergencies
+  - beach erosion
+  - biochar
+  - biological activity in soil
+  - bottom erosion
+  - carbon sequestration
+  - chemical soil types
+  - chicken manure
+  - child health
+  - climatic soil types
+  - coastal erosion
+  - composted manure
+  - composting
+  - conservation tillage
+  - conventional tillage
+  - crop residues
+  - cultural soil types
+  - deep litter manure
+  - deep tillage
+  - dissolved organic matter
+  - ecological soil types
+  - ecosystem health
+  - environmental health
+  - erosion
+  - erosion control
+  - erosion control plants
+  - farmyard manure
+  - fertility
+  - fine soil
+  - fish manure
+  - forest health
+  - forest health management
+  - fresh solid manure
+  - genetic erosion
+  - genetic soil types
+  - glacial erosion
+  - gully erosion
+  - health
+  - health care
+  - health claims
+  - health economics
+  - health foods
+  - health hazards
+  - health insurance
+  - health maintenance organizations
+  - health organizations
+  - health policies
+  - health protection
+  - health sciences
+  - health statistics
+  - health surveys
+  - health taxes
+  - horse manure
+  - human health
+  - hydraulic potential
+  - in situ soil conservation
+  - integrated soil fertility management
+  - interrill erosion
+  - ion transport in soil
+  - laying hen manure
+  - lithological soil types
+  - livestock manure
+  - losses from soil
+  - manure contract
+  - manure management
+  - manure removal methods
+  - manure spreaders
+  - manure surplus
+  - maternal and child health
+  - matric potential
+  - mental health
+  - microbial contamination
+  - microbial culture
+  - microbial diversity
+  - microbial ecology
+  - microbial flora
+  - microbial insecticides
+  - microbial pesticides
+  - microbial physiology
+  - microbial properties
+  - microbial proteins
+  - mineralogical soil types
+  - minimum tillage
+  - mulching
+  - nutrient availability
+  - occupational health
+  - organic matter
+  - organic matter content
+  - palaeosolic soil types
+  - particulate organic matter
+  - permaculture
+  - permanent crops
+  - permanent grasslands
+  - permanent labour
+  - permanent pastures
+  - permanent thermocline
+  - physiographic soil types
+  - plant health
+  - plant soil relations
+  - polygenetic soil types
+  - poultry manure
+  - primary tillage
+  - public health
+  - public health legislation
+  - radioactive decontamination
+  - rangeland health
+  - ridge tillage
+  - rill erosion
+  - ripping
+  - saline and sodic soil resistance
+  - secondary tillage
+  - seed health
+  - sheet erosion
+  - slipping of soil
+  - soil
+  - soil accumulation
+  - soil air
+  - soil algae
+  - soil amendments
+  - soil analysis
+  - soil anthropogenic changes
+  - soil bacteria
+  - soil biology
+  - soil breaking
+  - soil chemicophysical properties
+  - soil chemistry
+  - soil clods
+  - soil compaction
+  - soil conditioners
+  - soil conservation
+  - soil conservation legislation
+  - soil consistence
+  - soil cracking
+  - soil crusts
+  - soil deficiencies
+  - soil degradation
+  - soil density
+  - soil depth
+  - soil disinfection
+  - soil dynamics
+  - soil erosion models
+  - soil exhaustion
+  - soil exposure types
+  - soil fauna
+  - soil fertility
+  - soil flora
+  - soil fumigation
+  - soil functions
+  - soil fungi
+  - soil genesis
+  - soil heating
+  - soil horizons
+  - soil hydraulic properties
+  - soil hydrology
+  - soil improvement
+  - soil information
+  - soil injection
+  - soil injectors
+  - soil inoculation
+  - soil investigations
+  - soil landscapes
+  - soil loss
+  - soil macropores
+  - soil management
+  - soil management equipment
+  - soil maps
+  - soil mechanical properties
+  - soil mechanics
+  - soil micromorphological features
+  - soil microorganisms
+  - soil micropores
+  - soil moisture deficit
+  - soil morphological features
+  - soil morphology
+  - soil movement
+  - soil mulches
+  - soil organic carbon
+  - soil organic matter
+  - soil organisms
+  - soil pH
+  - soil parent materials
+  - soil penetration resistance
+  - soil permeability
+  - soil physics
+  - soil pollutants
+  - soil pollution
+  - soil pore system
+  - soil porosity
+  - soil profiles
+  - soil properties
+  - soil quality
+  - soil reclamation plants
+  - soil resources
+  - soil respiration
+  - soil salinity
+  - soil salinization
+  - soil sampling
+  - soil sciences
+  - soil scientists
+  - soil sealing
+  - soil security
+  - soil seed banks
+  - soil separates
+  - soil sequences
+  - soil sickness
+  - soil skeleton
+  - soil solarization
+  - soil solution
+  - soil sorption
+  - soil stabilization
+  - soil sterilization
+  - soil strength
+  - soil structural units
+  - soil structure
+  - soil suitability
+  - soil surface properties
+  - soil survey guidelines
+  - soil surveys
+  - soil temperature
+  - soil texture
+  - soil thermal regimes
+  - soil toxicity
+  - soil trafficability
+  - soil transport processes
+  - soil treatment
+  - soil types
+  - soil water
+  - soil water balance
+  - soil water characteristics
+  - soil water constants
+  - soil water content
+  - soil water movement
+  - soil water potential
+  - soil water regimes
+  - soil water repellency
+  - soil water retention
+  - soil zonation
+  - soil-borne fungi
+  - soil-borne organisms
+  - soil-borne viruses
+  - soil-borne wheat mosaic virus
+  - soil–plant–atmosphere continuum
+  - splash erosion
+  - stored solid manure
+  - stratigraphic soil types
+  - stream erosion
+  - streambank erosion
+  - streambed erosion
+  - strip tillage
+  - structural soil types
+  - stubble mulching
+  - stubble tillage
+  - textural soil types
+  - thermal erosion
+  - tillage
+  - tillage equipment
+  - tillage erosion
+  - turkey manure
+  - udder health
+  - vermicomposting
+  - water erosion
+  - water filtration
+  - wind erosion
+  - zero tillage
+
+[4. ANIMAL HEALTH]
+  - animal health
+  - animal health emergencies
+  - animal welfare
+  - balance of nature
+  - carrying capacity
+  - child welfare
+  - common grazing
+  - continuous grazing
+  - controlled grazing
+  - deferred grazing
+  - energy balance
+  - forest grazing
+  - full grazing
+  - genetic diversity
+  - grazing
+  - grazing contracts
+  - grazing intensity
+  - grazing land rights
+  - grazing lands
+  - grazing systems
+  - heavy grazing
+  - integrated crop-livestock systems
+  - livestock
+  - livestock boxes
+  - livestock breeds
+  - livestock censuses
+  - livestock farms
+  - livestock feed
+  - livestock feeding
+  - livestock flood refuge mounds
+  - livestock housing
+  - livestock injuries
+  - livestock insurance
+  - livestock management
+  - livestock manure
+  - livestock mortality
+  - livestock numbers
+  - livestock overwintering
+  - livestock revolution
+  - livestock systems
+  - livestock unit
+  - livestock water use
+  - livestock wild relatives
+  - livestock-raising
+  - mixed grazing
+  - natural resource user groups
+  - nitrogen balance
+  - nutrient balance
+  - part-time grazing
+  - pasture degradation
+  - pasture establishment
+  - pasture feeding
+  - pasture improvement
+  - pedigree livestock
+  - propensity score matching
+  - radiation balance
+  - regenerative grazing
+  - resource availability
+  - resource conservation
+  - resource depletion
+  - resource evaluation
+  - resource exploration
+  - resource management
+  - resource substitution
+  - resource use efficiency
+  - rotational grazing
+  - rural welfare
+  - seasonal grazing
+  - selective grazing
+  - sequence alignment
+  - social welfare
+  - social welfare organizations
+  - soil water balance
+  - strip grazing
+  - supply balance
+  - tethered grazing
+  - thermal balance
+  - veterinary dentistry
+  - veterinary drug residues
+  - veterinary drugs
+  - veterinary equipment
+  - veterinary forensics
+  - veterinary hygiene
+  - veterinary laboratories
+  - veterinary legislation
+  - veterinary medicine
+  - veterinary pharmacies
+  - veterinary sciences
+  - water balance
+  - welfare
+  - welfare economics
+  - zero-grazing
+
+[5. BIODIVERSITY]
+  - Collaborative Partnership on Sustainable Wildlife Management
+  - ISSCAAP groups of species
+  - amphibiotic species
+  - amphihaline species
+  - animal genetic resources
+  - aquatic genetic resources
+  - associated species
+  - biodiversity
+  - biodiversity conservation
+  - cavernicolous species
+  - centre of diversity
+  - commercial species
+  - community-based wildlife management
+  - cosmopolitan species
+  - critically endangered species
+  - cryptic species
+  - cryptogenic species
+  - determination of species
+  - dietary diversity
+  - dominant species
+  - endangered species
+  - endemic species
+  - extinct species
+  - forage species
+  - forest biodiversity
+  - forest conservation
+  - forest genetic resources
+  - forest genetic resources management
+  - functional diversity
+  - genetic code
+  - genetic control
+  - genetic correlation
+  - genetic covariance
+  - genetic databases
+  - genetic disorders
+  - genetic dissection
+  - genetic distance
+  - genetic divergence
+  - genetic diversity
+  - genetic drift
+  - genetic engineering
+  - genetic equilibrium
+  - genetic erosion
+  - genetic gain
+  - genetic improvement
+  - genetic inheritance
+  - genetic isolation
+  - genetic linkage
+  - genetic load
+  - genetic maps
+  - genetic markers
+  - genetic parameters
+  - genetic phenomena
+  - genetic polymorphism
+  - genetic processes
+  - genetic resistance
+  - genetic resources
+  - genetic resources conservation
+  - genetic soil types
+  - genetic stability
+  - genetic structures
+  - genetic techniques
+  - genetic transduction
+  - genetic transformation
+  - genetic trends
+  - genetic variance
+  - genetic variation
+  - genetic vectors
+  - human-wildlife relations
+  - invasive alien species
+  - invasive species
+  - landscape diversity
+  - marine genetic resources
+  - microbial diversity
+  - migratory species
+  - minimum dietary diversity
+  - new species
+  - non-target species
+  - palatable species
+  - plant genetic resources
+  - plant genetic resources for food and agriculture
+  - protected animal species
+  - protected plant species
+  - protected species
+  - rare species
+  - reactive oxygen species
+  - relict species
+  - rheophilic species
+  - sedentary species
+  - sibling species
+  - species
+  - species checklists
+  - species delimitation
+  - species diversity
+  - species extinction
+  - species richness
+  - target species
+  - threatened species
+  - trade in species
+  - underutilized species
+  - vulnerable species
+  - wildlife
+  - wildlife management
+
+[6. SYNERGY]
+  - agroecological transition
+  - agroecological zones
+  - agroecology
+  - agroforestry
+  - agroforestry systems
+  - bottom mixed layer
+  - ecological control
+  - ecological factors
+  - ecological footprint
+  - ecological guilds
+  - ecological indicators
+  - ecological niche modelling
+  - ecological protection
+  - ecological soil types
+  - ecological succession
+  - ecological zones
+  - ecotone mixed forests
+  - evergreen mixed forests
+  - integrated coastal zone management
+  - integrated control
+  - integrated crop-livestock systems
+  - integrated development
+  - integrated disease control
+  - integrated disease management
+  - integrated land management
+  - integrated management
+  - integrated markets
+  - integrated multitrophic aquaculture
+  - integrated pest management
+  - integrated plant nutrient management
+  - integrated protection
+  - integrated rural development
+  - integrated soil fertility management
+  - integrated water resources management
+  - integrated watershed management
+  - intercropping
+  - mixed cropping
+  - mixed economies
+  - mixed enterprises
+  - mixed farming
+  - mixed forest stands
+  - mixed forests
+  - mixed grazing
+  - mixed layer
+  - mixed layer depth
+  - mixed pastures
+  - mixed-ownership companies
+  - partially-mixed estuaries
+  - social-ecological resilience
+  - surface mixed layer
+  - total mixed rations
+
+[10. FAIRNESS]
+  - Indigenous Peoples' land rights
+  - Indigenous Peoples' tenure rights
+  - animal protection
+  - animal rights
+  - biological plant protection
+  - breeders rights
+  - civil rights
+  - co-ownership rights
+  - common rights
+  - community land rights
+  - consumer protection
+  - continuum of land rights
+  - control rights
+  - cultural rights
+  - customary land rights
+  - customary rights
+  - data protection
+  - dust protection
+  - ecological protection
+  - economic rights
+  - employment
+  - employment elasticities
+  - environmental protection
+  - equal rights
+  - fair trade
+  - farmers' rights
+  - fishery protection
+  - fishing rights
+  - forest protection
+  - frost protection
+  - gender relations
+  - grazing land rights
+  - health protection
+  - housing rights
+  - human rights
+  - hunting rights
+  - integrated protection
+  - intellectual property rights
+  - labour market
+  - labour relations
+  - land inheritance rights
+  - land rights
+  - land rights activists
+  - legal rights
+  - management rights
+  - marital property rights
+  - off-farm employment
+  - orphans land rights
+  - pastoral land rights
+  - plant protection
+  - plant protection equipment
+  - pre-emption rights
+  - property rights
+  - protection
+  - protection of minorities
+  - protection technology
+  - protection vessels
+  - radiation protection
+  - rights in divorce
+  - rights of clearance
+  - rights to the city
+  - rights-based approaches
+  - riparian rights
+  - riverbank protection
+  - roll over protection structures
+  - rural employment
+  - scour protection
+  - seabed protection
+  - shore protection
+  - social network analysis
+  - social protection
+  - social rights
+  - stand protection
+  - tenant's rights
+  - transfer rights
+  - use rights
+  - vested rights
+  - water protection areas
+  - water rights
+  - wind protection
+  - youth employment
+
+[11. CONNECTIVITY]
+  - capital markets
+  - carbon markets
+  - commodity markets
+  - common markets
+  - consumer protection
+  - domestic markets
+  - gene regulatory networks
+  - informal markets
+  - integrated markets
+  - land markets
+  - live bird markets
+  - markets
+  - networks
+  - neural networks
+  - parliamentary networks
+  - research networks
+  - retail markets
+  - social networks
+  - street markets
+  - terrestrial observation networks
+  - utility networks
+  - water markets
+  - wet markets
+  - wholesale markets
+  - world markets
+
+[13. PARTICIPATION]
+  - Voluntary Guidelines on the Responsible Governance of Tenure
+  - collective ownership
+  - community-based breeding programmes
+  - community-based forest enterprise development
+  - community-based wildlife management
+  - consumer participation
+  - decision-making
+  - empowerment
+  - farmer participation
+  - fisheries governance
+  - forest governance
+  - governance
+  - governance systems
+  - inclusive growth
+  - inland fisheries governance
+  - land governance
+  - legal empowerment
+  - multi-criteria decision-making
+  - ocean governance
+  - participation
+  - participatory governance
+  - public participation
+  - rangeland governance
+  - social participation
+  - stakeholder engagement
+  - value chain governance
+  - water governance
+  - women's empowerment
+  - women's participation

@@ -1,0 +1,145 @@
+{
+    "1. Recycling": [
+        {
+            "label": "Vermicomposts",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_34676",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Biochar",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_3fdb1e1e",
+            "source": "BIOPHYSICAL"
+        }
+    ],
+    "2. Input Reduction": [
+        {
+            "label": "Biological control agents",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_330638",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Biofertilizers",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_32560",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Biopesticides",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_24864",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Botanical pesticides",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_24865",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Biological nitrogen fixation",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_33968",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Slow release fertilizers",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_7035",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Controlled release fertilizers",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_1374066928815",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Pesticide synergists",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_5731",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Synthetic fertilizers",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_1374066932451",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Ammonium fertilizers",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_385",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Nitrate fertilizers",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_5179",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Phosphate fertilizers",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_5786",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Potash fertilizers",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_6065",
+            "source": "BIOPHYSICAL"
+        }
+    ],
+    "3. Soil Health": [
+        {
+            "label": "Cover crops",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_24843",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Mulches",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_4970",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Stubble mulching",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_7456",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Soil analysis",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_7185",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Soil moisture",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_7194",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Soil temperature",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_7214",
+            "source": "BIOPHYSICAL"
+        }
+    ],
+    "4. Animal Health": [],
+    "5. Biodiversity": [
+        {
+            "label": "Biodiversity",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_33949",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Agrobiodiversity",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_24921",
+            "source": "BIOPHYSICAL"
+        }
+    ],
+    "6. Synergy": [
+        {
+            "label": "Intercropping",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_3852",
+            "source": "BIOPHYSICAL"
+        },
+        {
+            "label": "Integrated nutrient management",
+            "uri": "http://aims.fao.org/aos/agrovoc/c_330752",
+            "source": "BIOPHYSICAL"
+        }
+    ],
+    "7. Economic Diversification": [],
+    "8. Co-creation of Knowledge": [],
+    "9. Social Values and Diets": [],
+    "10. Fairness": [],
+    "11. Connectivity": [],
+    "12. Land and Natural Resource Governance": [],
+    "13. Participation": []
+}

@@ -1,0 +1,30 @@
+=== Soil Health Research Framework: Thematic Gap Analysis ===
+Analyzed 64 frameworks across 12 principles.
+
+A. Principles with LOWEST Alignment (Gaps):
+  - Economic Diversification      :     0.05 avg matches
+  - Soil Health                   :     0.19 avg matches
+  - Input Reduction               :     0.30 avg matches
+  - Social Values and Diets       :     0.33 avg matches
+  - Land Governance               :     5.78 avg matches
+
+B. Principles with HIGHEST Alignment (Strengths):
+  - Recycling                     :    70.33 avg matches
+  - Biodiversity                  :    51.19 avg matches
+  - Animal Health                 :    40.80 avg matches
+  - Synergy                       :    27.61 avg matches
+  - Fairness                      :    14.91 avg matches
+
+C. Coverage Distribution (% of frameworks addressing principle):
+  - Recycling                     :   95.3%
+  - Biodiversity                  :   92.2%
+  - Fairness                      :   82.8%
+  - Synergy                       :   68.8%
+  - Co-creation of Knowledge      :   68.8%
+  - Land Governance               :   65.6%
+  - Participation                 :   65.6%
+  - Animal Health                 :   60.9%
+  - Social Values and Diets       :   21.9%
+  - Soil Health                   :   15.6%
+  - Economic Diversification      :    4.7%
+  - Input Reduction               :    4.7%

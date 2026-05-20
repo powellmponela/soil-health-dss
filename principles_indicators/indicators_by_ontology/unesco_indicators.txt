@@ -1,0 +1,246 @@
+=== UNESCO Managed Indicators (RESTORED) ===
+
+[3. SOIL HEALTH]
+  - Desert soils
+  - Environmental health
+  - Nature conservation
+  - Saline soils
+  - Soil conservation
+  - Soil degradation
+  - Soil erosion
+  - Soil fertility
+  - Soil maps
+  - Soil mechanics
+  - Soil moisture
+  - Soil pollution
+  - Soil resources
+  - Soil sciences
+  - Soil surveys
+  - Soil water
+  - Soils
+  - Unsaturated soils
+  - Volcanic soils
+
+[5. BIODIVERSITY]
+  - Conservation de l'environnement
+  - Conservation de la vie sauvage
+  - Conservation des documents
+  - Conservation des dossiers d'archives
+  - Conservation des monuments
+  - Conservation des oeuvres d'art
+  - Endangered species
+  - Energy conservation
+  - Forest conservation
+  - Human species
+  - Invasive species
+  - Nature conservation
+  - Resources conservation
+  - Soil conservation
+  - Species
+  - Technique de conservation
+  - Water conservation
+
+[7. ECONOMIC DIVERSIFICATION]
+  - Income
+  - Income and wealth
+  - Income distribution
+  - Income tax
+  - Incomes policy
+  - National income
+  - Rural development
+  - Rural economy
+
+[8. CO-CREATION OF KNOWLEDGE]
+  - Agricultural research
+  - Applied research
+  - Audience research
+  - Biological research
+  - Brain research
+  - Chemical research
+  - Conflict research
+  - Curriculum research
+  - Development research
+  - Dissemination of knowledge
+  - Ecological research
+  - Economic research
+  - Empirical research
+  - Fundamental research
+  - Historical research
+  - Hydrological research
+  - Information/library research
+  - Interdisciplinary research
+  - Knowledge
+  - Knowledge management
+  - Linguistic research
+  - Market research
+  - Mission oriented research
+  - Oceanographic research
+  - Operations research
+  - Organization of research
+  - Participatory research
+  - Peace research
+  - Population research
+  - Psychological research
+  - Reading research
+  - Research
+  - Research and development
+  - Research centres
+  - Research councils
+  - Research foundations
+  - Research grants
+  - Research laboratories
+  - Research libraries
+  - Research priorities
+  - Research programmes
+  - Research projects
+  - Research registers
+  - Research results
+  - Research ships
+  - Research strategies
+  - Research training
+  - Research trends
+  - Research work
+  - Science and research management
+  - Scientific researchers
+  - Social research
+  - Sociology of knowledge
+  - Structure of knowledge
+  - Traditional knowledge
+  - Traditional technology
+
+[9. SOCIAL VALUES AND DIETS]
+  - Acuerdo cultural
+  - Agricultural biology
+  - Agricultural chemistry
+  - Agricultural cooperatives
+  - Agricultural credit
+  - Agricultural development
+  - Agricultural economics
+  - Agricultural engineering
+  - Agricultural enterprises
+  - Agricultural genetics
+  - Agricultural information systems
+  - Agricultural land
+  - Agricultural libraries
+  - Agricultural machinery
+  - Agricultural markets
+  - Agricultural museums
+  - Agricultural planning
+  - Agricultural policy
+  - Agricultural research
+  - Agricultural schools
+  - Agricultural statistics
+  - Agricultural training
+  - Agricultural wastes
+  - Agricultural workers
+  - Animal nutrition
+  - Biculturalism
+  - Bien cultural
+  - Cambio cultural
+  - Comportamiento cultural
+  - Conflicto cultural
+  - Crisis cultural
+  - Cross cultural analysis
+  - Cultural activities
+  - Cultural administration
+  - Cultural animation
+  - Cultural anthropology
+  - Cultural budgets
+  - Cultural conditions
+  - Cultural cooperation
+  - Cultural costs
+  - Cultural creation
+  - Cultural differentiation
+  - Cultural diversity
+  - Cultural elite
+  - Cultural equipment
+  - Cultural events
+  - Cultural facilities
+  - Cultural finance
+  - Cultural history
+  - Cultural information
+  - Cultural interaction
+  - Cultural isolation
+  - Cultural legislation
+  - Cultural life
+  - Cultural management
+  - Cultural minorities
+  - Cultural nationalism
+  - Cultural organizations
+  - Cultural participation
+  - Cultural personnel training
+  - Cultural planning
+  - Cultural policy
+  - Cultural property presentation
+  - Cultural property restitution
+  - Cultural relations
+  - Cultural revolution
+  - Cultural rights
+  - Cultural sociology
+  - Cultural tourism
+  - Desarrollo cultural
+  - Desigualdad cultural
+  - Dietetics
+  - Estudios culturales
+  - Food consumption
+  - Identidad cultural
+  - Industria cultural
+  - Intangible cultural heritage
+  - Intercambio cultural
+  - Malnutrition
+  - Medio cultural
+  - Modelo cultural
+  - Multiculturalism
+  - Nutrition
+  - Nutritional diseases
+  - Objetivo cultural
+  - Patrimonio cultural
+  - Personal cultural
+  - Plant nutrition
+  - Recursos culturales
+  - Sistema cultural
+  - Valor cultural
+
+[10. FAIRNESS]
+  - Animal rights
+  - Civil and political rights
+  - Collective human rights
+  - Cultural rights
+  - Culture of poverty
+  - Fishing rights
+  - Gender discrimination
+  - Gender division of labour
+  - Gender equality
+  - Gender minorities
+  - Gender roles
+  - Gender stereotypes
+  - Gender-based violence
+  - Human rights
+  - Human rights violations
+  - Linguistic rights
+  - Neighbouring rights
+  - Playwrights
+  - Poverty
+  - Poverty alleviation
+  - Rights and privileges
+  - Rights of prisoners
+  - Rights of soldiers
+  - Rights of special groups
+  - Rights of states
+  - Rights of the child
+  - Rights of the disabled
+  - Social and economic rights
+  - Territorial rights
+  - Womens employment
+  - Womens rights
+  - Womens unemployment
+
+[11. CONNECTIVITY]
+  - International trade
+  - Trade policy
+
+[12. LAND AND NATURAL RESOURCE GOVERNANCE]
+  - Human settlements and land use
+  - Land reform
+  - Land tenure
+  - Land use

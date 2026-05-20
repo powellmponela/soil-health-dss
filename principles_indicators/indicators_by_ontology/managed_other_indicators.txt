@@ -1,0 +1,781 @@
+=== MANAGED_OTHER Managed Shortened Indicators ===
+
+[1. Recycling] (42 terms)
+  - Bioenergy crops
+  - Biogas
+  - Biogas slurry
+  - Biomass energy
+  - Biomass reuse
+  - Carbon dioxide emissions from waste
+  - Compost pits
+  - Emissions from burning crop residues
+  - Emissions from crop residues
+  - Emissions from manure applied to soils
+  - Emissions from manure left on pasture
+  - Emissions from manure management
+  - Food loss
+  - Food loss index and food waste index
+  - Food loss percentage
+  - Food losses
+  - Food preservation
+  - Green manure
+  - Greenhouse gas emissions
+  - Manure applied to soils
+  - Manure left on pasture
+  - Manure recycling
+  - Methane emissions from agriculture
+  - Methane emissions from waste
+  - Nitrous oxide emissions from agriculture
+  - Nutrient cycling
+  - Organic soils
+  - Organic water pollutant emissions
+  - Renewable biomass
+  - Renewable biomass energy supply
+  - Renewable energy consumption
+  - Renewable energy electricity output
+  - Renewable energy sources
+  - Residue burning
+  - Residue status
+  - Solidarity economy
+  - Total greenhouse gas emissions per year
+  - Urine recycling
+  - Waste handling
+  - Waste recycling
+  - Waste reuse
+  - Waste water
+
+[10. Fairness] (65 terms)
+  - Age discrimination
+  - Agrarian reform
+  - Agricultural legislation
+  - Anti-discrimination measures
+  - Average income of small-scale food producers
+  - Benefit sharing
+  - Countries where the legal framework guarantees womens equal rights to land ownership
+  - Distributional equity
+  - Employment discrimination
+  - Employment in agriculture, female (% of female employment)
+  - Employment in agriculture, male (% of male employment)
+  - Equal opportunity
+  - Equality before the law
+  - Exposure to pesticides
+  - Fairness
+  - Family net income
+  - Female agricultural employment
+  - Female employment in agriculture
+  - Female share of graduates in agriculture, forestry, fisheries and veterinary programmes, tertiary
+  - Food access
+  - Food insecurity
+  - Freedom of association
+  - Gender parity in agricultural employment
+  - Gender-disaggregated agricultural employment
+  - Income stability
+  - Male employment in agriculture
+  - Marginalized groups
+  - Moderate food insecurity
+  - Number of undernourished people
+  - Poverty gap ($1.90 a day)-rural
+  - Poverty severity ($1.90 a day)-rural
+  - Prevalence of moderate or severe food insecurity
+  - Prevalence of severe food insecurity
+  - Prevalence of undernourishment
+  - Proportion of population below international poverty line
+  - Proportion of population covered by social protection floors
+  - Proportion of total agricultural population with ownership or secure rights over agricultural land by sex
+  - Resource access
+  - Right of association
+  - Right to food
+  - Rural poverty
+  - Rural women
+  - Secure land tenure
+  - Secure mobility for pastoralists
+  - Secure pastoral mobility
+  - Severe food insecurity
+  - Small-scale food producers
+  - Social inequality
+  - Social justice
+  - Undernourished population
+  - Vulnerable ($4-10 a day) headcount-rural
+  - Vulnerable groups
+  - Women empowerment
+  - Women in agriculture
+  - Women in development
+  - Women land ownership indicator
+  - Women workers
+  - Womens empowerment in agriculture
+  - Womens participation
+  - Workload
+  - Youth education or training
+  - Youth emigration for lack of opportunities
+  - Youth employment opportunities
+  - Youth inclusion
+  - Youth opportunities
+
+[11. Connectivity] (71 terms)
+  - Access to electricity (% of rural population)
+  - Access to electricity (% of total population)
+  - Agricultural product marketing
+  - Agricultural trade
+  - Cereal import dependency ratio
+  - Collective action
+  - Collective economy
+  - Commodity balances
+  - Commodity supply quantity
+  - Communication
+  - Communication technology
+  - Community development
+  - Community learning centres
+  - Connectivity
+  - Coverage: internet
+  - Coverage: mobile phone
+  - Digital connectivity
+  - Direct marketing
+  - Domestic supply quantity
+  - Economic cooperation
+  - Export dependency
+  - Export quantity
+  - Export value
+  - Extension networks
+  - Farmer organizations
+  - Farmers associations
+  - Food balance sheets
+  - Food export value
+  - Food import dependency
+  - Food import value
+  - Food trade
+  - Forestry exports
+  - Forestry imports
+  - Forestry trade
+  - Free trade
+  - Hoi: internet
+  - Hoi: mobile phone
+  - Import dependency
+  - Import quantity
+  - Import value
+  - Information access
+  - Information networks
+  - Input-output markets
+  - Institutional linkages
+  - International agricultural cooperation
+  - International cooperation
+  - Local food networks
+  - Logistics performance index: overall score
+  - Market linkages
+  - Producer networks
+  - Producer price
+  - Producer price index
+  - Producer prices
+  - Producer-consumer linkages
+  - Public-private partnerships
+  - Regional cooperation
+  - Research cooperation
+  - Rural cooperatives
+  - Rural transport
+  - Scientific cooperation
+  - Solidarity economy
+  - Supply chains
+  - Supply utilization accounts
+  - Technical cooperation
+  - Telecommunications networks
+  - Territorial markets
+  - Trade flows
+  - Trade routes
+  - Transport access
+  - Transport services
+  - Value-chain linkages
+
+[12. Land & Natural Resource Governance] (45 terms)
+  - Agrarian reform
+  - Agrarian structure
+  - Agricultural land (% of land area)
+  - Agricultural land (sq. km)
+  - Agricultural land area
+  - Agricultural legislation
+  - Agricultural productivity
+  - Agricultural resource base
+  - Arable land (% of land area)
+  - Arable land area
+  - By-laws
+  - Collective resource management
+  - Commons governance
+  - Conflict resolution
+  - Countries where the legal framework guarantees womens equal rights to land ownership
+  - Cropland area
+  - Environmental law
+  - Environmental management
+  - Forest area (% of land area)
+  - Forest conversion emissions
+  - Forest land area
+  - Irrigated land area
+  - Land area (sq. km)
+  - Land cover area
+  - Land-use change emissions
+  - Marine protected areas (% of territorial waters)
+  - Natural resource governance
+  - Organic soils
+  - Permanent crop area
+  - Permanent meadow and pasture area
+  - Permanent meadows and pastures
+  - Proportion of agricultural area under productive and sustainable agriculture
+  - Proportion of total agricultural population with ownership or secure rights over agricultural land by sex
+  - Protected area governance
+  - Rules and regulations
+  - Rural land area (sq. km)
+  - Rural land area where elevation is below 5 meters (% of total land area)
+  - Secure land tenure
+  - Secure mobility for pastoralists
+  - Secure tenure rights
+  - Terrestrial protected areas (% of total land area)
+  - Territorial governance
+  - Territorial planning
+  - Water withdrawal for agriculture
+  - Watershed governance
+
+[13. Participation] (51 terms)
+  - Active involvement
+  - Agricultural labour force
+  - Agricultural workforce
+  - Co-management
+  - Collective action
+  - Community action
+  - Community development
+  - Community involvement
+  - Community monitoring
+  - Community organization
+  - Community validation
+  - Community work
+  - Economically active population in agriculture
+  - Farm labour
+  - Farmers associations
+  - Female economically active population in agriculture
+  - Female employment in agriculture
+  - Focus group discussion
+  - Freedom of association
+  - Indigenous organizations
+  - Labor force participation rate, female (% of female population ages 15+)
+  - Labor force participation rate, male (% of male population ages 15+)
+  - Land-user involvement
+  - Local decision-making
+  - Local development
+  - Male economically active population in agriculture
+  - Male employment in agriculture
+  - Participatory approach
+  - Participatory assessment
+  - Participatory development
+  - Participatory interpretation
+  - Participatory planning
+  - Political participation
+  - Popular participation
+  - Population in agriculture
+  - Producer self-assessment
+  - Public consultation
+  - Right of association
+  - Rural cooperatives
+  - Self-mobilization
+  - Share of employment in agriculture
+  - Social mobilization
+  - Stakeholder dialogue
+  - Stakeholder involvement
+  - Women agricultural workers
+  - Womens empowerment in agriculture
+  - Womens participation
+  - Workers' participation
+  - Youth agricultural employment
+  - Youth employment opportunities
+  - Youth in agriculture
+
+[2. Input Reduction] (50 terms)
+  - Agricultural chemicals
+  - Agricultural inputs
+  - Agricultural irrigated land (% of total agricultural land)
+  - Agricultural use of nitrogen fertilizers
+  - Agricultural use of phosphate fertilizers
+  - Agricultural use of potash fertilizers
+  - Agricultural water withdrawal
+  - Change in water-use efficiency over time
+  - Chemical fertilizers
+  - Dry farming
+  - Energy use in agriculture
+  - Energy-use efficiency
+  - Exposure to pesticides
+  - External input reduction
+  - Fertilizer consumption (% of fertilizer production)
+  - Fertilizer consumption (kilograms per hectare of arable land)
+  - Fertilizer nutrients
+  - Fertilizer use intensity
+  - Fertilizer use per capita
+  - Fertilizer use per cropland area
+  - Fertilizer use per value of agricultural production
+  - Fungicides
+  - Gdp per unit of energy use
+  - Greenhouse gas emissions
+  - Herbicides
+  - Inorganic fertilizer use
+  - Irrigation systems
+  - Irrigation water withdrawals
+  - Level of water stress
+  - Low-input farming
+  - Material footprint
+  - Mineral fertilizers
+  - Nitrogen fertilizers
+  - Nutrient-use efficiency
+  - On-farm energy use emissions
+  - Pesticide exposure reduction
+  - Pesticide residues
+  - Pesticide use
+  - Pesticide use intensity
+  - Pesticides use
+  - Pesticides use per cropland area
+  - Pesticides use per value of agricultural production
+  - Pests
+  - Precision nutrient management
+  - Reduced external inputs
+  - Renewable energy sources
+  - Resource-use efficiency
+  - Total final energy consumption (tfec)
+  - Waste water
+  - Water productivity
+
+[3. Soil Health] (64 terms)
+  - Agricultural area organic soils
+  - Agricultural irrigated land area
+  - Agricultural land (% of land area)
+  - Agricultural land (sq. km)
+  - Agricultural land area
+  - Agricultural soils
+  - Arable land (% of land area)
+  - Arable land (hectares)
+  - Arable land area
+  - Average precipitation in depth (mm per year)
+  - Cereal yield (kg per hectare)
+  - Climate resilience
+  - Cropland area
+  - Cropping systems
+  - Deforestation
+  - Drained organic soils
+  - Dry farming
+  - Emissions from agricultural soils
+  - Emissions from drained organic soils
+  - Environmental degradation
+  - Environmental education
+  - Environmental management
+  - Fertilizer consumption (kilograms per hectare of arable land)
+  - Gully rehabilitation
+  - Irrigation systems
+  - Land under cereal production (hectares)
+  - Natural or diverse vegetation cover
+  - Nitrogen budget
+  - Nitrogen inputs to cropland
+  - Nitrogen surplus
+  - Nitrous oxide emissions from agriculture
+  - Nutrient deficit
+  - Nutrient surplus
+  - Permanent crop area
+  - Permanent meadow and pasture area
+  - Permanent meadows and pastures
+  - Phosphorus budget
+  - Phosphorus inputs to cropland
+  - Phosphorus surplus
+  - Potassium budget
+  - Potassium inputs to cropland
+  - Potassium surplus
+  - Proportion of land that is degraded over total land area
+  - Rainfed cropland
+  - Residue status
+  - Runoff control
+  - Rural environment
+  - Signs of soil erosion
+  - Socla soil health indicators
+  - Soil acidity
+  - Soil biodiversity
+  - Soil biological activity
+  - Soil color, odor and organic matter
+  - Soil cover
+  - Soil crusting
+  - Soil emissions
+  - Soil health score
+  - Soil invertebrates
+  - Soil microbiological activity
+  - Soil nutrient balance
+  - Soil nutrient budget
+  - Soil physical quality
+  - Topsoil loss
+  - Water infiltration
+
+[4. Animal Health] (52 terms)
+  - Animal behaviour
+  - Animal breeds
+  - Animal diseases
+  - Animal ecology
+  - Animal feed
+  - Animal husbandry
+  - Animal production
+  - Animal protein supply
+  - Animal resources
+  - Animal stocks
+  - Animal-source food availability
+  - Average supply of protein of animal origin
+  - Beekeeping
+  - Cattle
+  - Dairy farming
+  - Egg production
+  - Egg production quantity
+  - Emissions from enteric fermentation
+  - Emissions from manure management
+  - Farm animals
+  - Feed supply quantity
+  - Fish farming
+  - Fodder availability
+  - Fodder crops
+  - Fodder quality
+  - Forage crops
+  - Goats
+  - Integrated crop-livestock management
+  - Livestock breed diversity
+  - Livestock production
+  - Livestock production index
+  - Livestock production index (2014-2016 = 100)
+  - Livestock species diversity
+  - Livestock units
+  - Meat production
+  - Meat production quantity
+  - Milk production
+  - Milk production quantity
+  - Number of producing animals
+  - Number of slaughtered animals
+  - Pastoral mobility
+  - Pastoral systems
+  - Pasture management
+  - Pigs
+  - Secure mobility for pastoralists
+  - Share of animal products in food supply
+  - Sheep
+  - Stall feeding
+  - Stock farming
+  - Veterinary education
+  - Veterinary services
+  - Water for livestock
+
+[5. Biodiversity] (73 terms)
+  - Agricultural biodiversity
+  - Agricultural biodiversity score
+  - Animal ecology
+  - Animal resources
+  - Annual deforestation
+  - Aquatic ecosystems
+  - Beekeeping
+  - Beneficial animals
+  - Beneficial species
+  - Biodiversity-relevant land cover
+  - Biological diversity
+  - Climate resilience
+  - Crop diversity
+  - Crop species diversity
+  - Crop variety diversity
+  - Deforestation
+  - Ecosystem services
+  - Environmental degradation
+  - Fishery resources
+  - Forest area
+  - Forest area (% of land area)
+  - Forest area (sq. km)
+  - Forest area as a proportion of total land area
+  - Forest cover
+  - Forest ecosystems
+  - Forest farming
+  - Forest products production
+  - Forest regeneration
+  - Forest resources
+  - Freshwater ecosystems
+  - Habitat diversity
+  - Household dietary diversity score
+  - Invasive species control
+  - Land cover class area
+  - Land cover diversity
+  - Livestock breed diversity
+  - Livestock diversity
+  - Livestock species diversity
+  - Marine ecosystems
+  - Marine protected areas (% of territorial waters)
+  - Natural forest
+  - Natural or diverse vegetation cover
+  - Natural vegetation
+  - Naturally regenerated forest
+  - Naturally regenerated forest area
+  - Number of plant and animal genetic resources for food and agriculture
+  - Nutritional value of agricultural production
+  - Other wooded land
+  - Other wooded land area
+  - Permanent meadow and pasture area
+  - Plant ecology
+  - Plant species, threatened
+  - Plant varieties
+  - Planted forest
+  - Planted forest area
+  - Pollinators
+  - Pollinators and beneficial animals
+  - Primary forest
+  - Primary forest area
+  - Progress towards sustainable forest management
+  - Proportion of freshwater key biodiversity areas covered by protected areas
+  - Proportion of terrestrial key biodiversity areas covered by protected areas
+  - Riparian vegetation
+  - Roundwood production
+  - Shelterbelts
+  - Soil cover
+  - Soil invertebrates
+  - Soil microbiological activity
+  - Terrestrial ecosystems
+  - Terrestrial protected areas (% of total land area)
+  - Tree belts
+  - Tree cover
+  - Wood fuel production
+
+[6. Synergy] (45 terms)
+  - Agricultural biodiversity score
+  - Agricultural ecology
+  - Agricultural production
+  - Agricultural residues as feed
+  - Agriculture, forestry, and fishing, value added (% of gdp)
+  - Agriculture, forestry, and fishing, value added per worker
+  - Agroecological synergy
+  - Agroforestry interactions
+  - Animal husbandry
+  - Crop diversification
+  - Crop production and livestock production index
+  - Crop production index (2014-2016 = 100)
+  - Crop residues used as feed
+  - Crop rotation
+  - Crop-livestock integration
+  - Crop-livestock-tree-fish integration
+  - Cropping systems
+  - Ecosystem services
+  - Feed supply from crops
+  - Fish farming
+  - Fodder-crop integration
+  - Food production index (2014-2016 = 100)
+  - Food-feed-fuel linkage
+  - Forest farming
+  - Integrated farming systems
+  - Integrated production systems
+  - Landscape integration
+  - Livestock manure nitrogen
+  - Livestock manure phosphorus
+  - Livestock manure recycling
+  - Livestock production index (2014-2016 = 100)
+  - Manure applied to soils
+  - Manure left on pasture
+  - Manure-to-soil nutrient flow
+  - Multiple-use biomass
+  - Pasture-crop linkage
+  - Polyculture
+  - Productivity per area
+  - Share of animal products in food supply
+  - Share of vegetal products in food supply
+  - Soil-plant-animal interactions
+  - Soil-water-plant interactions
+  - Stock farming
+  - Synergies
+  - System complementarity
+
+[7. Economic Diversification] (92 terms)
+  - Agribusiness
+  - Agricultural exports value
+  - Agricultural imports value
+  - Agricultural income
+  - Agricultural prices
+  - Agricultural producer prices
+  - Agricultural product marketing
+  - Agricultural production
+  - Agricultural productivity
+  - Agricultural products
+  - Agricultural trade
+  - Agricultural value added
+  - Agriculture, forestry, and fishing, value added (% of gdp)
+  - Agriculture, forestry, and fishing, value added per worker
+  - Agriproduct processing
+  - Agro-processing
+  - Agroindustry
+  - Average income of small-scale food producers
+  - Beekeeping
+  - Blue economy
+  - Circular and solidarity economy
+  - Climate resilience
+  - Collective economy
+  - Cost-benefit
+  - Credit to agriculture
+  - Crop production index
+  - Crop production index (2014-2016 = 100)
+  - Crop production value
+  - Dairy farming
+  - Direct marketing
+  - Diversified production
+  - Economic cooperation
+  - Economic diversification
+  - Ecosystem services
+  - Ecosystem-service income
+  - Ecotourism
+  - Employment creation
+  - Employment in agriculture (% of total employment)
+  - Family net income
+  - Farm profitability
+  - Fish farming
+  - Fishery resources
+  - Food exports
+  - Food exports value
+  - Food imports
+  - Food imports value
+  - Food processing
+  - Food production
+  - Food production index (2014-2016 = 100)
+  - Food self-sufficiency
+  - Food trade
+  - Forest rents (% of gdp)
+  - Forest resources
+  - Forestry exports value
+  - Forestry imports value
+  - Forestry products trade
+  - Free trade
+  - Government expenditure on agriculture
+  - Green economy
+  - Gross added value
+  - Gross added value per family worker
+  - Gross production value
+  - Gross production value constant prices
+  - Income diversification
+  - Income stability
+  - Investment in agriculture
+  - Livelihood diversification
+  - Livestock production index
+  - Livestock production index (2014-2016 = 100)
+  - Livestock production value
+  - Market economy
+  - Net trade in food
+  - Non-food agriculture
+  - Off-farm income
+  - Poverty headcount ($1.90 a day)-rural
+  - Produce markets
+  - Producer price index
+  - Productivity
+  - Productivity per area
+  - Productivity per person
+  - Profitability
+  - Rural enterprise
+  - Rural poverty headcount ratio at national poverty lines (% of rural population)
+  - Skills development
+  - Small farms
+  - Trade routes
+  - Value added by agriculture forestry and fishing
+  - Value of agricultural production
+  - Volume of production per labour unit
+  - Youth agricultural employment
+  - Youth emigration for lack of opportunities
+  - Youth employment opportunities
+
+[8. Co-creation of Knowledge] (47 terms)
+  - Adult education
+  - Adult literacy rate, population 15+ years, both sexes (%)
+  - Advisory services
+  - Agricultural census
+  - Agricultural census coverage
+  - Agricultural data system
+  - Agricultural education
+  - Agricultural innovations
+  - Agricultural statistics availability
+  - Capacity building
+  - Citizen science
+  - Co-creation and sharing of knowledge
+  - Communication technology
+  - Community information
+  - Community learning centres
+  - Community of practice
+  - Data quality flag
+  - Data quality flags
+  - Education for sustainable development
+  - Environmental education
+  - Farm survey
+  - Farmer knowledge
+  - Farmer-researcher learning
+  - Female share of graduates in agriculture, forestry, fisheries and veterinary programmes, tertiary
+  - Food and agriculture data
+  - Indigenous knowledge
+  - Knowledge co-production
+  - Knowledge exchange
+  - Learning networks
+  - Literacy rate, youth total (% of people ages 15-24)
+  - Local knowledge exchange
+  - Machine-readable data
+  - Metadata completeness
+  - Nonformal education
+  - Nutrition education
+  - Open science
+  - Participatory interpretation
+  - Percentage of graduates from tertiary education graduating from agriculture, forestry, fisheries and veterinary programmes
+  - Research cooperation
+  - Rural education
+  - School enrollment, primary (% gross)
+  - Scientific cooperation
+  - Skills development
+  - Statistical metadata
+  - Technical cooperation
+  - Veterinary education
+  - Youth education or training
+
+[9. Social Values & Diets] (56 terms)
+  - Access to basic drinking water
+  - Access to basic sanitation services
+  - Agricultural products
+  - Animal protein supply
+  - Animal-source food supply
+  - Animal-source foods
+  - Average dietary energy supply adequacy
+  - Average supply of protein of animal origin
+  - Cereal import dependency ratio
+  - Cultural identity
+  - Culture and food traditions
+  - Customs and traditions
+  - Diet diversity
+  - Diet quality
+  - Dietary energy supply
+  - Dietary energy supply from cereals roots and tubers
+  - Exposure to pesticides
+  - Fat supply
+  - Fat supply quantity
+  - Food access
+  - Food affordability
+  - Food and nutrition
+  - Food availability
+  - Food balance sheets
+  - Food culture
+  - Food habits
+  - Food preservation
+  - Food production
+  - Food requirements
+  - Food resources
+  - Food self-sufficiency
+  - Food self-sufficiency ratio
+  - Food supply
+  - Food supply quantity
+  - Household dietary diversity score
+  - Human and social values
+  - Indigenous knowledge
+  - Nutrition education
+  - Nutritional value of agricultural production
+  - Nutritional value of production
+  - Plant-based foods
+  - Prevalence of moderate or severe food insecurity
+  - Prevalence of moderate or severe food insecurity in the population (%)
+  - Prevalence of severe food insecurity
+  - Prevalence of undernourishment
+  - Prevalence of undernourishment (% of population)
+  - Protein supply
+  - Protein supply quantity
+  - Right to food
+  - Safe water
+  - Share of animal products in food supply
+  - Share of vegetal products in food supply
+  - Traditional cultures
+  - Undernourishment
+  - Vegetal food supply
+  - Vegetal protein supply
+

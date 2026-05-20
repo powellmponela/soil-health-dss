@@ -1,0 +1,384 @@
+{
+    "13. Participation": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "10. Fairness": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "social and economic rights",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept562",
+                "level_2": "rights"
+            },
+            {
+                "label": "gender division of labour",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept8270",
+                "level_2": "division of labour"
+            }
+        ]
+    },
+    "8. Co-creation of Knowledge": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "structure of knowledge",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept10306"
+            },
+            {
+                "label": "science and research management",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/mt2.10",
+                "level_2": "management"
+            },
+            {
+                "label": "dissemination of knowledge",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept4191"
+            },
+            {
+                "label": "research laboratories",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept13097",
+                "level_2": "laboratories"
+            },
+            {
+                "label": "research trends",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept8871"
+            },
+            {
+                "label": "population research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept7616"
+            },
+            {
+                "label": "curriculum research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept7280"
+            },
+            {
+                "label": "audience research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept1538"
+            },
+            {
+                "label": "empirical research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept9612"
+            },
+            {
+                "label": "research results",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept8018"
+            },
+            {
+                "label": "scientific researchers",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept5046"
+            },
+            {
+                "label": "traditional technology",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept2601"
+            },
+            {
+                "label": "research foundations",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept10993"
+            },
+            {
+                "label": "research projects",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept15607"
+            },
+            {
+                "label": "research strategies",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept10299"
+            },
+            {
+                "label": "reading research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept9386"
+            },
+            {
+                "label": "knowledge",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept6288"
+            },
+            {
+                "label": "knowledge management",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept10614",
+                "level_2": "management"
+            },
+            {
+                "label": "traditional knowledge",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept6291"
+            },
+            {
+                "label": "research ships",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept4447"
+            },
+            {
+                "label": "conflict research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept6236"
+            },
+            {
+                "label": "participatory research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept12906"
+            },
+            {
+                "label": "information/library research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept456"
+            },
+            {
+                "label": "chemical research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept142"
+            },
+            {
+                "label": "sociology of knowledge",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept13084"
+            },
+            {
+                "label": "fundamental research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept11269"
+            },
+            {
+                "label": "research councils",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept6306"
+            },
+            {
+                "label": "organization of research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept110"
+            },
+            {
+                "label": "research priorities",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept15495"
+            },
+            {
+                "label": "applied research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept2563"
+            },
+            {
+                "label": "mission oriented research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept2564"
+            },
+            {
+                "label": "research training",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept4614"
+            },
+            {
+                "label": "research work",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept103"
+            },
+            {
+                "label": "brain research",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept4294"
+            },
+            {
+                "label": "research registers",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept15913"
+            },
+            {
+                "label": "research programmes",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept14843"
+            }
+        ]
+    },
+    "9. Social Values and Diets": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "nutrition",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept7996"
+            },
+            {
+                "label": "intangible cultural heritage",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept278"
+            }
+        ]
+    },
+    "11. Connectivity": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "12. Land & Natural Resource Governance": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "human settlements and land use",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/mt4.45"
+            }
+        ]
+    },
+    "7. Economic Diversification": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "1. Recycling": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "6. Synergy": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "5. Biodiversity": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "energy conservation",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept6319"
+            },
+            {
+                "label": "nature conservation",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept4016"
+            },
+            {
+                "label": "conservation des oeuvres d'art",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept6327"
+            },
+            {
+                "label": "conservation de l'environnement",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept6317"
+            },
+            {
+                "label": "conservation des dossiers d'archives",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept2780"
+            },
+            {
+                "label": "technique de conservation",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept6361"
+            },
+            {
+                "label": "human species",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept4084"
+            },
+            {
+                "label": "conservation de la vie sauvage",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept2412"
+            },
+            {
+                "label": "conservation des documents",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept2782"
+            },
+            {
+                "label": "conservation des monuments",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept2695"
+            },
+            {
+                "label": "resources conservation",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept6329"
+            },
+            {
+                "label": "water conservation",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept6331",
+                "level_2": "conservation"
+            }
+        ]
+    },
+    "3. Soil Health": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "soil water",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept1876",
+                "level_2": "water"
+            },
+            {
+                "label": "nature conservation",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept4016"
+            },
+            {
+                "label": "soil pollution",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept6448",
+                "level_2": "pollution"
+            },
+            {
+                "label": "volcanic soils",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept16559",
+                "level_2": "soils"
+            },
+            {
+                "label": "desert soils",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept2846",
+                "level_2": "soils"
+            },
+            {
+                "label": "saline soils",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept16183",
+                "level_2": "soils"
+            },
+            {
+                "label": "soil degradation",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept7560",
+                "level_2": "degradation"
+            },
+            {
+                "label": "unsaturated soils",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept16558",
+                "level_2": "soils"
+            },
+            {
+                "label": "soil maps",
+                "source": "UNESCO",
+                "uri": "http://vocabularies.unesco.org/thesaurus/concept4706",
+                "level_2": "maps"
+            }
+        ]
+    },
+    "4. Animal Health": {
+        "key_terms": [],
+        "indicators": []
+    },
+    "2. Input Reduction": {
+        "key_terms": [],
+        "indicators": []
+    }
+}

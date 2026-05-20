@@ -1,0 +1,102 @@
+[
+    {
+        "label": "Agrobiodiversity",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_24921"
+    },
+    {
+        "label": "Ammonium fertilizers",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_385"
+    },
+    {
+        "label": "Biochar",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_3fdb1e1e"
+    },
+    {
+        "label": "Biodiversity",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_33949"
+    },
+    {
+        "label": "Biofertilizers",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_32560"
+    },
+    {
+        "label": "Biological control agents",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_330638"
+    },
+    {
+        "label": "Biological nitrogen fixation",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_33968"
+    },
+    {
+        "label": "Biopesticides",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_24864"
+    },
+    {
+        "label": "Botanical pesticides",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_24865"
+    },
+    {
+        "label": "Controlled release fertilizers",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_1374066928815"
+    },
+    {
+        "label": "Cover crops",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_24843"
+    },
+    {
+        "label": "Integrated nutrient management",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_330752"
+    },
+    {
+        "label": "Intercropping",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_3852"
+    },
+    {
+        "label": "Mulches",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_4970"
+    },
+    {
+        "label": "Nitrate fertilizers",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_5179"
+    },
+    {
+        "label": "Pesticide synergists",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_5731"
+    },
+    {
+        "label": "Phosphate fertilizers",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_5786"
+    },
+    {
+        "label": "Potash fertilizers",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_6065"
+    },
+    {
+        "label": "Slow release fertilizers",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_7035"
+    },
+    {
+        "label": "Soil analysis",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_7185"
+    },
+    {
+        "label": "Soil moisture",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_7194"
+    },
+    {
+        "label": "Soil temperature",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_7214"
+    },
+    {
+        "label": "Stubble mulching",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_7456"
+    },
+    {
+        "label": "Synthetic fertilizers",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_1374066932451"
+    },
+    {
+        "label": "Vermicomposts",
+        "uri": "http://aims.fao.org/aos/agrovoc/c_34676"
+    }
+]

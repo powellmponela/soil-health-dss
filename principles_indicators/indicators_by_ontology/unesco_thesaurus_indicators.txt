@@ -1,0 +1,76 @@
+=== UNESCO_THESAURUS Managed Indicators per Principle ===
+
+[10. Fairness] (2 terms)
+  - gender division of labour
+  - social and economic rights
+
+[12. Land & Natural Resource Governance] (1 terms)
+  - human settlements and land use
+
+[3. Soil Health] (9 terms)
+  - desert soils
+  - nature conservation
+  - saline soils
+  - soil degradation
+  - soil maps
+  - soil pollution
+  - soil water
+  - unsaturated soils
+  - volcanic soils
+
+[5. Biodiversity] (12 terms)
+  - conservation de l'environnement
+  - conservation de la vie sauvage
+  - conservation des documents
+  - conservation des dossiers d'archives
+  - conservation des monuments
+  - conservation des oeuvres d'art
+  - energy conservation
+  - human species
+  - nature conservation
+  - resources conservation
+  - technique de conservation
+  - water conservation
+
+[8. Co-creation of Knowledge] (36 terms)
+  - applied research
+  - audience research
+  - brain research
+  - chemical research
+  - conflict research
+  - curriculum research
+  - dissemination of knowledge
+  - empirical research
+  - fundamental research
+  - information/library research
+  - knowledge
+  - knowledge management
+  - mission oriented research
+  - organization of research
+  - participatory research
+  - population research
+  - reading research
+  - research councils
+  - research foundations
+  - research laboratories
+  - research priorities
+  - research programmes
+  - research projects
+  - research registers
+  - research results
+  - research ships
+  - research strategies
+  - research training
+  - research trends
+  - research work
+  - science and research management
+  - scientific researchers
+  - sociology of knowledge
+  - structure of knowledge
+  - traditional knowledge
+  - traditional technology
+
+[9. Social Values and Diets] (2 terms)
+  - intangible cultural heritage
+  - nutrition
+

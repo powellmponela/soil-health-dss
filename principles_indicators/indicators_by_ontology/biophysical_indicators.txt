@@ -1,0 +1,36 @@
+=== BIOPHYSICAL Managed Indicators (RESTORED) ===
+
+[1. RECYCLING]
+  - Biochar
+  - Vermicomposts
+
+[2. INPUT REDUCTION]
+  - Ammonium fertilizers
+  - Biofertilizers
+  - Biological control agents
+  - Biological nitrogen fixation
+  - Biopesticides
+  - Botanical pesticides
+  - Controlled release fertilizers
+  - Nitrate fertilizers
+  - Pesticide synergists
+  - Phosphate fertilizers
+  - Potash fertilizers
+  - Slow release fertilizers
+  - Synthetic fertilizers
+
+[3. SOIL HEALTH]
+  - Cover crops
+  - Mulches
+  - Soil analysis
+  - Soil moisture
+  - Soil temperature
+  - Stubble mulching
+
+[5. BIODIVERSITY]
+  - Agrobiodiversity
+  - Biodiversity
+
+[6. SYNERGY]
+  - Integrated nutrient management
+  - Intercropping

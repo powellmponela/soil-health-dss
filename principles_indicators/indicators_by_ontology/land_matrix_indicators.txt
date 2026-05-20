@@ -1,0 +1,379 @@
+=== LAND_MATRIX Managed Indicators per Principle ===
+
+[1. Recycling] (20 terms)
+  - Carbon dioxide emissions from waste
+  - Combustible renewables and waste
+  - Emissions from burning crop residues
+  - Emissions from crop residues
+  - Emissions from manure applied to soils
+  - Emissions from manure left on pasture
+  - Emissions from manure management
+  - Food loss index and food waste index
+  - Food loss percentage
+  - Food losses
+  - Greenhouse gas emissions
+  - Methane emissions from agriculture
+  - Methane emissions from waste
+  - Nitrous oxide emissions from agriculture
+  - Organic water pollutant emissions
+  - Renewable biomass energy supply
+  - Renewable energy consumption
+  - Renewable energy electricity output
+  - Residue status
+  - Total greenhouse gas emissions per year
+
+[10. Fairness] (32 terms)
+  - Average income of small-scale food producers
+  - Countries where the legal framework guarantees womens equal rights to land ownership
+  - Employment in agriculture, female (% of female employment)
+  - Employment in agriculture, male (% of male employment)
+  - Exposure to pesticides
+  - Family net income
+  - Female employment in agriculture
+  - Female share of graduates in agriculture, forestry, fisheries and veterinary programmes, tertiary
+  - Gender parity in agricultural employment
+  - Gender parity index for gross intake ratio in grade 1
+  - Gender parity index for primary completion rate
+  - Gini coefficient
+  - Income share of first quintile
+  - Income stability
+  - Male employment in agriculture
+  - Number of undernourished people
+  - Poverty gap ($1.90 a day)-rural
+  - Poverty severity ($1.90 a day)-rural
+  - Prevalence of moderate or severe food insecurity
+  - Prevalence of severe food insecurity
+  - Prevalence of undernourishment
+  - Proportion of population below international poverty line
+  - Proportion of population covered by social protection floors
+  - Proportion of total agricultural population with ownership or secure rights over agricultural land by sex
+  - Secure land tenure
+  - Secure mobility for pastoralists
+  - Vulnerable ($4-10 a day) headcount-rural
+  - Women land ownership indicator
+  - Womens empowerment in agriculture
+  - Youth education or training
+  - Youth emigration for lack of opportunities
+  - Youth employment opportunities
+
+[11. Connectivity] (23 terms)
+  - Access to electricity (% of rural population)
+  - Access to electricity (% of total population)
+  - Cereal import dependency ratio
+  - Commodity supply quantity
+  - Communication
+  - Coverage: internet
+  - Coverage: mobile phone
+  - Domestic supply quantity
+  - Export quantity
+  - Export value
+  - Food export value
+  - Food import value
+  - Forestry exports
+  - Forestry imports
+  - Hoi: internet
+  - Hoi: mobile phone
+  - Import quantity
+  - Import value
+  - Logistics performance index: overall score
+  - Producer price
+  - Producer price index
+  - Rural population density
+  - Transport services
+
+[12. Land & Natural Resource Governance] (27 terms)
+  - Agricultural land (% of land area)
+  - Agricultural land (sq. km)
+  - Agricultural land area
+  - Arable land (% of land area)
+  - Arable land area
+  - Area equipped for irrigation
+  - Countries where the legal framework guarantees womens equal rights to land ownership
+  - Cropland area
+  - Forest area (% of land area)
+  - Forest conversion emissions
+  - Forest land area
+  - Irrigated land area
+  - Land area (sq. km)
+  - Land cover area
+  - Land-use change emissions
+  - Marine protected areas (% of territorial waters)
+  - Permanent crop area
+  - Permanent meadow and pasture area
+  - Proportion of agricultural area under productive and sustainable agriculture
+  - Proportion of total agricultural population with ownership or secure rights over agricultural land by sex
+  - Rural land area (sq. km)
+  - Rural land area where elevation is below 5 meters (% of total land area)
+  - Secure land tenure
+  - Secure mobility for pastoralists
+  - Secure tenure rights
+  - Terrestrial protected areas (% of total land area)
+  - Water withdrawal for agriculture
+
+[13. Participation] (21 terms)
+  - Agricultural labour force
+  - Community monitoring
+  - Community participation
+  - Economically active population in agriculture
+  - Employment in agriculture
+  - Female economically active population in agriculture
+  - Female employment in agriculture
+  - Labor force participation rate, female (% of female population ages 15+)
+  - Labor force participation rate, male (% of male population ages 15+)
+  - Land-user involvement
+  - Local decision-making
+  - Male economically active population in agriculture
+  - Male employment in agriculture
+  - Participatory planning
+  - Rural population
+  - Self-mobilization
+  - Share of employment in agriculture
+  - Stakeholder involvement
+  - Womens empowerment in agriculture
+  - Youth agricultural employment
+  - Youth employment opportunities
+
+[2. Input Reduction] (32 terms)
+  - Agricultural irrigated land (% of total agricultural land)
+  - Agricultural use of nitrogen fertilizers
+  - Agricultural use of phosphate fertilizers
+  - Agricultural use of potash fertilizers
+  - Agricultural water withdrawal
+  - Annual freshwater withdrawals, agriculture
+  - Change in water-use efficiency over time
+  - Exposure to pesticides
+  - Fertilizer consumption (% of fertilizer production)
+  - Fertilizer consumption (kilograms per hectare of arable land)
+  - Fertilizer use
+  - Fertilizer use per capita
+  - Fertilizer use per cropland area
+  - Fertilizer use per value of agricultural production
+  - Gdp per unit of energy use
+  - Greenhouse gas emissions
+  - Hazardous pesticides exports
+  - Hazardous pesticides imports
+  - Level of water stress
+  - Material footprint
+  - On-farm energy use emissions
+  - Pesticide use
+  - Pesticides exports
+  - Pesticides imports
+  - Pesticides use
+  - Pesticides use per cropland area
+  - Pesticides use per value of agricultural production
+  - Total final energy consumption (tfec)
+  - Water productivity
+  - Water retention
+  - Water use
+  - Water-use efficiency
+
+[3. Soil Health] (42 terms)
+  - Agricultural area organic soils
+  - Agricultural irrigated land area
+  - Agricultural land (% of land area)
+  - Agricultural land (sq. km)
+  - Agricultural land area
+  - Arable land (% of land area)
+  - Arable land (hectares)
+  - Arable land area
+  - Average precipitation in depth (mm per year)
+  - Carbon sequestration
+  - Cereal yield (kg per hectare)
+  - Climate resilience
+  - Cropland area
+  - Emissions from agricultural soils
+  - Emissions from drained organic soils
+  - Fertilizer consumption (kilograms per hectare of arable land)
+  - Land under cereal production (hectares)
+  - Natural or diverse vegetation cover
+  - Nitrogen inputs to cropland
+  - Nitrogen surplus
+  - Nitrous oxide emissions from agriculture
+  - Permanent crop area
+  - Permanent meadow and pasture area
+  - Phosphorus inputs to cropland
+  - Phosphorus surplus
+  - Potassium inputs to cropland
+  - Potassium surplus
+  - Proportion of land that is degraded over total land area
+  - Residue status
+  - Signs of soil erosion
+  - Soil color, odor and organic matter
+  - Soil compaction
+  - Soil cover
+  - Soil depth
+  - Soil health
+  - Soil health score
+  - Soil invertebrates
+  - Soil microbiological activity
+  - Soil nutrient budget
+  - Soil structure
+  - Water pollution
+  - Water retention
+
+[4. Animal Health] (20 terms)
+  - Animal protein supply
+  - Animal stocks
+  - Average supply of protein of animal origin
+  - Beekeeping
+  - Cost share for animal-sourced foods in a least-cost healthy diet
+  - Egg production quantity
+  - Emissions from enteric fermentation
+  - Emissions from manure management
+  - Feed supply quantity
+  - Livestock breed diversity
+  - Livestock production index
+  - Livestock production index (2014-2016 = 100)
+  - Livestock species diversity
+  - Livestock units
+  - Meat production quantity
+  - Milk production quantity
+  - Number of producing animals
+  - Number of slaughtered animals
+  - Secure mobility for pastoralists
+  - Share of animal products in food supply
+
+[5. Biodiversity] (40 terms)
+  - Agricultural biodiversity score
+  - Annual deforestation
+  - Beekeeping
+  - Biodiversity
+  - Bird species, threatened
+  - Carbon sequestration
+  - Climate resilience
+  - Crop species diversity
+  - Crop variety diversity
+  - Fish species, threatened
+  - Forest area
+  - Forest area (% of land area)
+  - Forest area (sq. km)
+  - Forest area as a proportion of total land area
+  - Forest products production
+  - Household dietary diversity score
+  - Land cover class area
+  - Livestock breed diversity
+  - Livestock species diversity
+  - Mammal species, threatened
+  - Marine protected areas (% of territorial waters)
+  - Natural or diverse vegetation cover
+  - Naturally regenerated forest area
+  - Number of plant and animal genetic resources for food and agriculture
+  - Nutritional value of agricultural production
+  - Other wooded land area
+  - Permanent meadow and pasture area
+  - Plant species, threatened
+  - Planted forest area
+  - Pollinators and beneficial animals
+  - Primary forest area
+  - Progress towards sustainable forest management
+  - Proportion of freshwater key biodiversity areas covered by protected areas
+  - Proportion of terrestrial key biodiversity areas covered by protected areas
+  - Roundwood production
+  - Soil cover
+  - Soil invertebrates
+  - Soil microbiological activity
+  - Terrestrial protected areas (% of total land area)
+  - Wood fuel production
+
+[6. Synergy] (16 terms)
+  - Agricultural biodiversity score
+  - Agriculture, forestry, and fishing, value added (% of gdp)
+  - Agriculture, forestry, and fishing, value added per worker
+  - Crop production and livestock production index
+  - Crop production index (2014-2016 = 100)
+  - Crop residues used as feed
+  - Feed supply from crops
+  - Food production index (2014-2016 = 100)
+  - Livestock manure nitrogen
+  - Livestock manure phosphorus
+  - Livestock production index (2014-2016 = 100)
+  - Manure applied to soils
+  - Manure left on pasture
+  - Productivity per area
+  - Share of animal products in food supply
+  - Share of vegetal products in food supply
+
+[7. Economic Diversification] (41 terms)
+  - Agricultural exports value
+  - Agricultural imports value
+  - Agriculture, forestry, and fishing, value added (% of gdp)
+  - Agriculture, forestry, and fishing, value added per worker
+  - Average income of small-scale food producers
+  - Beekeeping
+  - Climate resilience
+  - Credit to agriculture
+  - Crop production index
+  - Crop production index (2014-2016 = 100)
+  - Employment in agriculture (% of total employment)
+  - Family net income
+  - Farm profitability
+  - Food exports
+  - Food exports value
+  - Food imports
+  - Food imports value
+  - Food production index (2014-2016 = 100)
+  - Food self-sufficiency
+  - Forest rents (% of gdp)
+  - Forestry exports value
+  - Forestry imports value
+  - Government expenditure on agriculture
+  - Gross added value per family worker
+  - Gross production value
+  - Gross production value constant prices
+  - Income stability
+  - Livestock production index
+  - Livestock production index (2014-2016 = 100)
+  - Net trade in food
+  - Poverty headcount ($1.90 a day)-rural
+  - Producer price index
+  - Productivity
+  - Productivity per area
+  - Productivity per person
+  - Rural poverty headcount ratio at national poverty lines (% of rural population)
+  - Value added by agriculture forestry and fishing
+  - Volume of production per labour unit
+  - Youth agricultural employment
+  - Youth emigration for lack of opportunities
+  - Youth employment opportunities
+
+[8. Co-creation of Knowledge] (10 terms)
+  - Adult literacy rate, population 15+ years, both sexes (%)
+  - Agricultural census coverage
+  - Agricultural statistics availability
+  - Data quality flags
+  - Female share of graduates in agriculture, forestry, fisheries and veterinary programmes, tertiary
+  - Literacy rate, youth total (% of people ages 15-24)
+  - Metadata completeness
+  - Percentage of graduates from tertiary education graduating from agriculture, forestry, fisheries and veterinary programmes
+  - School enrollment, primary (% gross)
+  - Youth education or training
+
+[9. Social Values & Diets] (27 terms)
+  - Access to basic drinking water
+  - Access to basic sanitation services
+  - Animal protein supply
+  - Average dietary energy supply adequacy
+  - Average supply of protein of animal origin
+  - Cereal import dependency ratio
+  - Cost of a healthy diet
+  - Dietary energy supply
+  - Dietary energy supply from cereals roots and tubers
+  - Exposure to pesticides
+  - Fat supply quantity
+  - Food security
+  - Food self-sufficiency
+  - Food self-sufficiency ratio
+  - Food supply quantity
+  - Household dietary diversity score
+  - Nutritional value of agricultural production
+  - Prevalence of moderate or severe food insecurity
+  - Prevalence of moderate or severe food insecurity in the population (%)
+  - Prevalence of severe food insecurity
+  - Prevalence of undernourishment
+  - Prevalence of undernourishment (% of population)
+  - Protein supply quantity
+  - Share of animal products in food supply
+  - Share of vegetal products in food supply
+  - Vegetal protein supply
+  - Water pollution
+

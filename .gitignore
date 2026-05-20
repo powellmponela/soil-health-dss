@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/build/
+
+# Local databases/builds (keep SQLite out if it's large and should be ignored, but wait! The user might want the SQLite db committed since we want it online. Let's not ignore db/*.sqlite unless specified. The sqlite is 15MB which is fine for GitHub).
+# Let's keep SQLite included.
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Agent Logs / System files
+.gemini/
+brain/
+restore_temp/

@@ -1,0 +1,614 @@
+{
+    "Participation": [
+        {
+            "label": "mock community culture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001059",
+            "source": "ENVO"
+        },
+        {
+            "label": "community health centre",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501341",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecological community",
+            "uri": "http://purl.obolibrary.org/obo/PCO_0000002",
+            "source": "ENVO"
+        },
+        {
+            "label": "microbial community",
+            "uri": "http://purl.obolibrary.org/obo/PCO_1000004",
+            "source": "ENVO"
+        },
+        {
+            "label": "COMMUNITY PARTICIPATION",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=1258",
+            "source": "HASSET"
+        },
+        {
+            "label": "collective plant structure",
+            "uri": "http://purl.obolibrary.org/obo/PO_0025497",
+            "source": "ENVO"
+        },
+        {
+            "label": "collective plant organ structure",
+            "uri": "http://purl.obolibrary.org/obo/PO_0025007",
+            "source": "ENVO"
+        },
+        {
+            "label": "main group element atom",
+            "uri": "http://purl.obolibrary.org/obo/CHEBI_33318",
+            "source": "ENVO"
+        }
+    ],
+    "Fairness": [],
+    "Co-creation of Knowledge": [],
+    "Social Values and Diets": [],
+    "Connectivity": [
+        {
+            "label": "market",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000987",
+            "source": "ENVO"
+        },
+        {
+            "label": "wet market",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501198",
+            "source": "ENVO"
+        },
+        {
+            "label": "dry market",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501199",
+            "source": "ENVO"
+        },
+        {
+            "label": "pipeline network",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03600014",
+            "source": "ENVO"
+        }
+    ],
+    "Land Governance": [
+        {
+            "label": "land",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001785",
+            "source": "ENVO"
+        },
+        {
+            "label": "land bridge",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000391",
+            "source": "ENVO"
+        },
+        {
+            "label": "arable land",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001177",
+            "source": "ENVO"
+        },
+        {
+            "label": "pasturable land",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001178",
+            "source": "ENVO"
+        },
+        {
+            "label": "land fire",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001292",
+            "source": "ENVO"
+        },
+        {
+            "label": "frozen land",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001524",
+            "source": "ENVO"
+        },
+        {
+            "label": "land degradation",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02500005",
+            "source": "ENVO"
+        },
+        {
+            "label": "contaminated land",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03600073",
+            "source": "ENVO"
+        },
+        {
+            "label": "land-tied island",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000269",
+            "source": "ENVO"
+        },
+        {
+            "label": "land consumption process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000743",
+            "source": "ENVO"
+        },
+        {
+            "label": "LAND TENURE",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=3949",
+            "source": "HASSET"
+        },
+        {
+            "label": "subset_property",
+            "uri": "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
+            "source": "ENVO"
+        },
+        {
+            "label": "synonym_type_property",
+            "uri": "http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty",
+            "source": "ENVO"
+        },
+        {
+            "label": "is a defining property chain axiom",
+            "uri": "http://purl.obolibrary.org/obo/RO_0002581",
+            "source": "ENVO"
+        },
+        {
+            "label": "is a defining property chain axiom where second argument is reflexive",
+            "uri": "http://purl.obolibrary.org/obo/RO_0002582",
+            "source": "ENVO"
+        },
+        {
+            "label": "RIGHT TO PROPERTY",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=6259",
+            "source": "HASSET"
+        },
+        {
+            "label": "INTELLECTUAL PROPERTY",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=3660",
+            "source": "HASSET"
+        },
+        {
+            "label": "LAND REFORM",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=3946",
+            "source": "HASSET"
+        },
+        {
+            "label": "COMMON LAND",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=1206",
+            "source": "HASSET"
+        }
+    ],
+    "Economic Diversification": [],
+    "Recycling": [
+        {
+            "label": "nutrient",
+            "uri": "http://purl.obolibrary.org/obo/CHEBI_33284",
+            "source": "ENVO"
+        },
+        {
+            "label": "nutricline within a water body",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000260",
+            "source": "ENVO"
+        },
+        {
+            "label": "mineral nutrient",
+            "uri": "http://purl.obolibrary.org/obo/CHEBI_167164",
+            "source": "ENVO"
+        },
+        {
+            "label": "eutrophic water",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002224",
+            "source": "ENVO"
+        },
+        {
+            "label": "waste water",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002001",
+            "source": "ENVO"
+        },
+        {
+            "label": "waste material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002264",
+            "source": "ENVO"
+        },
+        {
+            "label": "waste role",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000665",
+            "source": "ENVO"
+        },
+        {
+            "label": "toxic waste",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03510070",
+            "source": "ENVO"
+        },
+        {
+            "label": "food waste",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03600006",
+            "source": "ENVO"
+        },
+        {
+            "label": "recycling process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000741",
+            "source": "ENVO"
+        },
+        {
+            "label": "industrial waste material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002267",
+            "source": "ENVO"
+        },
+        {
+            "label": "waste treatment plant",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002272",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal waste material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002276",
+            "source": "ENVO"
+        },
+        {
+            "label": "organic waste material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002873",
+            "source": "ENVO"
+        },
+        {
+            "label": "industrial wastewate treatment plant",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_2000002",
+            "source": "ENVO"
+        },
+        {
+            "label": "circular",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0000411",
+            "source": "ENVO"
+        },
+        {
+            "label": "composting toilet",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000550",
+            "source": "ENVO"
+        },
+        {
+            "label": "estuarine open water upper water column",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001316",
+            "source": "ENVO"
+        },
+        {
+            "label": "estuarine open water lower water column",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001322",
+            "source": "ENVO"
+        },
+        {
+            "label": "water body",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000063",
+            "source": "ENVO"
+        },
+        {
+            "label": "liquid water",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002006",
+            "source": "ENVO"
+        },
+        {
+            "label": "saline water",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002010",
+            "source": "ENVO"
+        },
+        {
+            "label": "fresh water",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002011",
+            "source": "ENVO"
+        },
+        {
+            "label": "hypersaline water",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002012",
+            "source": "ENVO"
+        },
+        {
+            "label": "brackish water",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002019",
+            "source": "ENVO"
+        }
+    ],
+    "Synergy": [
+        {
+            "label": "ecological corridor",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000930",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecological province",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001404",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecological succession",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001824",
+            "source": "ENVO"
+        },
+        {
+            "label": "closed ecological system",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000619",
+            "source": "ENVO"
+        },
+        {
+            "label": "climactic ecological succession",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001827",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecological community",
+            "uri": "http://purl.obolibrary.org/obo/PCO_0000002",
+            "source": "ENVO"
+        }
+    ],
+    "Biodiversity": [
+        {
+            "label": "area of protected biodiversity",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000358",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecosystem decay",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001174",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecosystem fragment",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001167",
+            "source": "ENVO"
+        },
+        {
+            "label": "IUCN habitat/species management area",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001166",
+            "source": "ENVO"
+        },
+        {
+            "label": "reactive oxygen species",
+            "uri": "http://purl.obolibrary.org/obo/CHEBI_26523",
+            "source": "ENVO"
+        },
+        {
+            "label": "reactive nitrogen species",
+            "uri": "http://purl.obolibrary.org/obo/CHEBI_62764",
+            "source": "ENVO"
+        },
+        {
+            "label": "single-species collection of organisms",
+            "uri": "http://purl.obolibrary.org/obo/PCO_0000018",
+            "source": "ENVO"
+        },
+        {
+            "label": "multi-species collection of organisms",
+            "uri": "http://purl.obolibrary.org/obo/PCO_0000029",
+            "source": "ENVO"
+        },
+        {
+            "label": "multi-species collection of microbes",
+            "uri": "http://purl.obolibrary.org/obo/PCO_0000051",
+            "source": "ENVO"
+        },
+        {
+            "label": "conservation-focused active ecosystem management process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001171",
+            "source": "ENVO"
+        },
+        {
+            "label": "biodiversity conservation process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001635",
+            "source": "ENVO"
+        },
+        {
+            "label": "insect conservation process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001636",
+            "source": "ENVO"
+        },
+        {
+            "label": "IUCN strict nature reserve",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001162",
+            "source": "ENVO"
+        },
+        {
+            "label": "area designated as a nature reserve",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000363",
+            "source": "ENVO"
+        },
+        {
+            "label": "area designated as a national nature reserve",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000366",
+            "source": "ENVO"
+        },
+        {
+            "label": "CONSERVATION OF NATURE",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=1347",
+            "source": "HASSET"
+        },
+        {
+            "label": "ecosystem fragmentation process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001168",
+            "source": "ENVO"
+        }
+    ],
+    "Soil Health": [
+        {
+            "label": "soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00001998",
+            "source": "ENVO"
+        },
+        {
+            "label": "contaminated soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002116",
+            "source": "ENVO"
+        },
+        {
+            "label": "agricultural soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002259",
+            "source": "ENVO"
+        },
+        {
+            "label": "dune soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002260",
+            "source": "ENVO"
+        },
+        {
+            "label": "forest soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002261",
+            "source": "ENVO"
+        },
+        {
+            "label": "clay soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002262",
+            "source": "ENVO"
+        },
+        {
+            "label": "garden soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002263",
+            "source": "ENVO"
+        },
+        {
+            "label": "alluvial soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002871",
+            "source": "ENVO"
+        },
+        {
+            "label": "enriched soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00003082",
+            "source": "ENVO"
+        },
+        {
+            "label": "chalk soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00003914",
+            "source": "ENVO"
+        },
+        {
+            "label": "soil organic matter",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_04000008",
+            "source": "ENVO"
+        },
+        {
+            "label": "concentration of soil organic matter in soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_09000030",
+            "source": "ENVO"
+        },
+        {
+            "label": "organic matter fall",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000137",
+            "source": "ENVO"
+        },
+        {
+            "label": "particulate organic matter",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_04000012",
+            "source": "ENVO"
+        },
+        {
+            "label": "concentration of organic nitrogen anion in soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_3200066",
+            "source": "ENVO"
+        },
+        {
+            "label": "concentration of organic molecular entity in soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_3200071",
+            "source": "ENVO"
+        },
+        {
+            "label": "biodiversity conservation process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001635",
+            "source": "ENVO"
+        },
+        {
+            "label": "insect conservation process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001636",
+            "source": "ENVO"
+        }
+    ],
+    "Animal Health": [
+        {
+            "label": "animal litter",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002191",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal manure",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00003031",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal house",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00003040",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal habitation",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00005803",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal cage",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000922",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal trap",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000975",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal husbandry",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001248",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal feed",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02000047",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal waste material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002276",
+            "source": "ENVO"
+        },
+        {
+            "label": "fresh animal manure",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00003032",
+            "source": "ENVO"
+        },
+        {
+            "label": "ANIMAL RIGHTS",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=285",
+            "source": "HASSET"
+        },
+        {
+            "label": "livestock house",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501287",
+            "source": "ENVO"
+        },
+        {
+            "label": "community health centre",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501341",
+            "source": "ENVO"
+        }
+    ],
+    "Input Reduction": [
+        {
+            "label": "concentration of pesticide in surface water",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_09000031",
+            "source": "ENVO"
+        },
+        {
+            "label": "pesticide",
+            "uri": "http://purl.obolibrary.org/obo/CHEBI_25944",
+            "source": "ENVO"
+        },
+        {
+            "label": "EC 1.14.* (oxidoreductase acting on paired donors, with incorporation or reduction of molecular oxygen) inhibitor",
+            "uri": "http://purl.obolibrary.org/obo/CHEBI_76741",
+            "source": "ENVO"
+        },
+        {
+            "label": "fertilizer",
+            "uri": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "source": "ENVO"
+        },
+        {
+            "label": "efficiency",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0001029",
+            "source": "ENVO"
+        },
+        {
+            "label": "decreased efficiency",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0001675",
+            "source": "ENVO"
+        },
+        {
+            "label": "increased efficiency",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0001676",
+            "source": "ENVO"
+        },
+        {
+            "label": "BIOLOGICAL CONTROL",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=555",
+            "source": "HASSET"
+        }
+    ]
+}

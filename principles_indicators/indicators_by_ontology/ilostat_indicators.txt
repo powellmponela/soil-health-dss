@@ -1,0 +1,7 @@
+=== ILOSTAT Managed Indicators (RESTORED) ===
+
+[7. ECONOMIC DIVERSIFICATION]
+  - non-farm employment
+
+[10. FAIRNESS]
+  - Social protection coverage

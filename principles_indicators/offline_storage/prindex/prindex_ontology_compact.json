@@ -1,0 +1,1471 @@
+{
+    "1. Recycling": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Carbon dioxide emissions from waste",
+                "source": "Multiple"
+            },
+            {
+                "label": "Combustible renewables and waste",
+                "source": "Multiple"
+            },
+            {
+                "label": "Emissions from burning crop residues",
+                "source": "Multiple"
+            },
+            {
+                "label": "Emissions from crop residues",
+                "source": "Multiple"
+            },
+            {
+                "label": "Emissions from manure applied to soils",
+                "source": "Multiple"
+            },
+            {
+                "label": "Emissions from manure left on pasture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Emissions from manure management",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food loss index and food waste index",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food loss percentage",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food losses",
+                "source": "Multiple"
+            },
+            {
+                "label": "Greenhouse gas emissions",
+                "source": "Multiple"
+            },
+            {
+                "label": "Methane emissions from agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Methane emissions from waste",
+                "source": "Multiple"
+            },
+            {
+                "label": "Nitrous oxide emissions from agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Organic water pollutant emissions",
+                "source": "Multiple"
+            },
+            {
+                "label": "Renewable biomass energy supply",
+                "source": "Multiple"
+            },
+            {
+                "label": "Renewable energy consumption",
+                "source": "Multiple"
+            },
+            {
+                "label": "Renewable energy electricity output",
+                "source": "Multiple"
+            },
+            {
+                "label": "Residue status",
+                "source": "Multiple"
+            },
+            {
+                "label": "Total greenhouse gas emissions per year",
+                "source": "Multiple"
+            }
+        ]
+    },
+    "2. Input Reduction": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Agricultural irrigated land (% of total agricultural land)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural use of nitrogen fertilizers",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural use of phosphate fertilizers",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural use of potash fertilizers",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural water withdrawal",
+                "source": "Multiple"
+            },
+            {
+                "label": "Annual freshwater withdrawals, agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Change in water-use efficiency over time",
+                "source": "Multiple"
+            },
+            {
+                "label": "Exposure to pesticides",
+                "source": "Multiple"
+            },
+            {
+                "label": "Fertilizer consumption (% of fertilizer production)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Fertilizer consumption (kilograms per hectare of arable land)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Fertilizer use",
+                "source": "Multiple"
+            },
+            {
+                "label": "Fertilizer use per capita",
+                "source": "Multiple"
+            },
+            {
+                "label": "Fertilizer use per cropland area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Fertilizer use per value of agricultural production",
+                "source": "Multiple"
+            },
+            {
+                "label": "Gdp per unit of energy use",
+                "source": "Multiple"
+            },
+            {
+                "label": "Greenhouse gas emissions",
+                "source": "Multiple"
+            },
+            {
+                "label": "Hazardous pesticides exports",
+                "source": "Multiple"
+            },
+            {
+                "label": "Hazardous pesticides imports",
+                "source": "Multiple"
+            },
+            {
+                "label": "Level of water stress",
+                "source": "Multiple"
+            },
+            {
+                "label": "Material footprint",
+                "source": "Multiple"
+            },
+            {
+                "label": "On-farm energy use emissions",
+                "source": "Multiple"
+            },
+            {
+                "label": "Pesticide use",
+                "source": "Multiple"
+            },
+            {
+                "label": "Pesticides exports",
+                "source": "Multiple"
+            },
+            {
+                "label": "Pesticides imports",
+                "source": "Multiple"
+            },
+            {
+                "label": "Pesticides use",
+                "source": "Multiple"
+            },
+            {
+                "label": "Pesticides use per cropland area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Pesticides use per value of agricultural production",
+                "source": "Multiple"
+            },
+            {
+                "label": "Total final energy consumption (tfec)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Water productivity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Water retention",
+                "source": "Multiple"
+            },
+            {
+                "label": "Water use",
+                "source": "Multiple"
+            },
+            {
+                "label": "Water-use efficiency",
+                "source": "Multiple"
+            }
+        ]
+    },
+    "3. Soil Health": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Agricultural area organic soils",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural irrigated land area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural land (% of land area)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural land (sq. km)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural land area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Arable land (% of land area)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Arable land (hectares)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Arable land area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Average precipitation in depth (mm per year)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Carbon sequestration",
+                "source": "Multiple"
+            },
+            {
+                "label": "Cereal yield (kg per hectare)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Climate resilience",
+                "source": "Multiple"
+            },
+            {
+                "label": "Cropland area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Emissions from agricultural soils",
+                "source": "Multiple"
+            },
+            {
+                "label": "Emissions from drained organic soils",
+                "source": "Multiple"
+            },
+            {
+                "label": "Fertilizer consumption (kilograms per hectare of arable land)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Land under cereal production (hectares)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Natural or diverse vegetation cover",
+                "source": "Multiple"
+            },
+            {
+                "label": "Nitrogen inputs to cropland",
+                "source": "Multiple"
+            },
+            {
+                "label": "Nitrogen surplus",
+                "source": "Multiple"
+            },
+            {
+                "label": "Nitrous oxide emissions from agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Permanent crop area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Permanent meadow and pasture area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Phosphorus inputs to cropland",
+                "source": "Multiple"
+            },
+            {
+                "label": "Phosphorus surplus",
+                "source": "Multiple"
+            },
+            {
+                "label": "Potassium inputs to cropland",
+                "source": "Multiple"
+            },
+            {
+                "label": "Potassium surplus",
+                "source": "Multiple"
+            },
+            {
+                "label": "Proportion of land that is degraded over total land area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Residue status",
+                "source": "Multiple"
+            },
+            {
+                "label": "Signs of soil erosion",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil color, odor and organic matter",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil compaction",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil cover",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil depth",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil health",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil health score",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil invertebrates",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil microbiological activity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil nutrient budget",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil structure",
+                "source": "Multiple"
+            },
+            {
+                "label": "Water pollution",
+                "source": "Multiple"
+            },
+            {
+                "label": "Water retention",
+                "source": "Multiple"
+            }
+        ]
+    },
+    "4. Animal Health": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Animal protein supply",
+                "source": "Multiple"
+            },
+            {
+                "label": "Animal stocks",
+                "source": "Multiple"
+            },
+            {
+                "label": "Average supply of protein of animal origin",
+                "source": "Multiple"
+            },
+            {
+                "label": "Beekeeping",
+                "source": "Multiple"
+            },
+            {
+                "label": "Cost share for animal-sourced foods in a least-cost healthy diet",
+                "source": "Multiple"
+            },
+            {
+                "label": "Egg production quantity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Emissions from enteric fermentation",
+                "source": "Multiple"
+            },
+            {
+                "label": "Emissions from manure management",
+                "source": "Multiple"
+            },
+            {
+                "label": "Feed supply quantity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Livestock breed diversity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Livestock production index",
+                "source": "Multiple"
+            },
+            {
+                "label": "Livestock production index (2014-2016 = 100)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Livestock species diversity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Livestock units",
+                "source": "Multiple"
+            },
+            {
+                "label": "Meat production quantity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Milk production quantity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Number of producing animals",
+                "source": "Multiple"
+            },
+            {
+                "label": "Number of slaughtered animals",
+                "source": "Multiple"
+            },
+            {
+                "label": "Secure mobility for pastoralists",
+                "source": "Multiple"
+            },
+            {
+                "label": "Share of animal products in food supply",
+                "source": "Multiple"
+            }
+        ]
+    },
+    "5. Biodiversity": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Agricultural biodiversity score",
+                "source": "Multiple"
+            },
+            {
+                "label": "Annual deforestation",
+                "source": "Multiple"
+            },
+            {
+                "label": "Beekeeping",
+                "source": "Multiple"
+            },
+            {
+                "label": "Biodiversity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Bird species, threatened",
+                "source": "Multiple"
+            },
+            {
+                "label": "Carbon sequestration",
+                "source": "Multiple"
+            },
+            {
+                "label": "Climate resilience",
+                "source": "Multiple"
+            },
+            {
+                "label": "Crop species diversity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Crop variety diversity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Fish species, threatened",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forest area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forest area (% of land area)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forest area (sq. km)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forest area as a proportion of total land area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forest products production",
+                "source": "Multiple"
+            },
+            {
+                "label": "Household dietary diversity score",
+                "source": "Multiple"
+            },
+            {
+                "label": "Land cover class area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Livestock breed diversity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Livestock species diversity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Mammal species, threatened",
+                "source": "Multiple"
+            },
+            {
+                "label": "Marine protected areas (% of territorial waters)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Natural or diverse vegetation cover",
+                "source": "Multiple"
+            },
+            {
+                "label": "Naturally regenerated forest area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Number of plant and animal genetic resources for food and agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Nutritional value of agricultural production",
+                "source": "Multiple"
+            },
+            {
+                "label": "Other wooded land area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Permanent meadow and pasture area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Plant species, threatened",
+                "source": "Multiple"
+            },
+            {
+                "label": "Planted forest area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Pollinators and beneficial animals",
+                "source": "Multiple"
+            },
+            {
+                "label": "Primary forest area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Progress towards sustainable forest management",
+                "source": "Multiple"
+            },
+            {
+                "label": "Proportion of freshwater key biodiversity areas covered by protected areas",
+                "source": "Multiple"
+            },
+            {
+                "label": "Proportion of terrestrial key biodiversity areas covered by protected areas",
+                "source": "Multiple"
+            },
+            {
+                "label": "Roundwood production",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil cover",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil invertebrates",
+                "source": "Multiple"
+            },
+            {
+                "label": "Soil microbiological activity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Terrestrial protected areas (% of total land area)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Wood fuel production",
+                "source": "Multiple"
+            }
+        ]
+    },
+    "6. Synergy": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Agricultural biodiversity score",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agriculture, forestry, and fishing, value added (% of gdp)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agriculture, forestry, and fishing, value added per worker",
+                "source": "Multiple"
+            },
+            {
+                "label": "Crop production and livestock production index",
+                "source": "Multiple"
+            },
+            {
+                "label": "Crop production index (2014-2016 = 100)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Crop residues used as feed",
+                "source": "Multiple"
+            },
+            {
+                "label": "Feed supply from crops",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food production index (2014-2016 = 100)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Livestock manure nitrogen",
+                "source": "Multiple"
+            },
+            {
+                "label": "Livestock manure phosphorus",
+                "source": "Multiple"
+            },
+            {
+                "label": "Livestock production index (2014-2016 = 100)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Manure applied to soils",
+                "source": "Multiple"
+            },
+            {
+                "label": "Manure left on pasture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Productivity per area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Share of animal products in food supply",
+                "source": "Multiple"
+            },
+            {
+                "label": "Share of vegetal products in food supply",
+                "source": "Multiple"
+            }
+        ]
+    },
+    "7. Economic Diversification": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Agricultural exports value",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural imports value",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agriculture, forestry, and fishing, value added (% of gdp)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agriculture, forestry, and fishing, value added per worker",
+                "source": "Multiple"
+            },
+            {
+                "label": "Average income of small-scale food producers",
+                "source": "Multiple"
+            },
+            {
+                "label": "Beekeeping",
+                "source": "Multiple"
+            },
+            {
+                "label": "Climate resilience",
+                "source": "Multiple"
+            },
+            {
+                "label": "Credit to agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Crop production index",
+                "source": "Multiple"
+            },
+            {
+                "label": "Crop production index (2014-2016 = 100)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Employment in agriculture (% of total employment)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Family net income",
+                "source": "Multiple"
+            },
+            {
+                "label": "Farm profitability",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food exports",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food exports value",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food imports",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food imports value",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food production index (2014-2016 = 100)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food self-sufficiency",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forest rents (% of gdp)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forestry exports value",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forestry imports value",
+                "source": "Multiple"
+            },
+            {
+                "label": "Government expenditure on agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Gross added value per family worker",
+                "source": "Multiple"
+            },
+            {
+                "label": "Gross production value",
+                "source": "Multiple"
+            },
+            {
+                "label": "Gross production value constant prices",
+                "source": "Multiple"
+            },
+            {
+                "label": "Income stability",
+                "source": "Multiple"
+            },
+            {
+                "label": "Livestock production index",
+                "source": "Multiple"
+            },
+            {
+                "label": "Livestock production index (2014-2016 = 100)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Net trade in food",
+                "source": "Multiple"
+            },
+            {
+                "label": "Poverty headcount ($1.90 a day)-rural",
+                "source": "Multiple"
+            },
+            {
+                "label": "Producer price index",
+                "source": "Multiple"
+            },
+            {
+                "label": "Productivity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Productivity per area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Productivity per person",
+                "source": "Multiple"
+            },
+            {
+                "label": "Rural poverty headcount ratio at national poverty lines (% of rural population)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Value added by agriculture forestry and fishing",
+                "source": "Multiple"
+            },
+            {
+                "label": "Volume of production per labour unit",
+                "source": "Multiple"
+            },
+            {
+                "label": "Youth agricultural employment",
+                "source": "Multiple"
+            },
+            {
+                "label": "Youth emigration for lack of opportunities",
+                "source": "Multiple"
+            },
+            {
+                "label": "Youth employment opportunities",
+                "source": "Multiple"
+            }
+        ]
+    },
+    "8. Co-creation of Knowledge": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Adult literacy rate, population 15+ years, both sexes (%)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural census coverage",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural statistics availability",
+                "source": "Multiple"
+            },
+            {
+                "label": "Data quality flags",
+                "source": "Multiple"
+            },
+            {
+                "label": "Female share of graduates in agriculture, forestry, fisheries and veterinary programmes, tertiary",
+                "source": "Multiple"
+            },
+            {
+                "label": "Literacy rate, youth total (% of people ages 15-24)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Metadata completeness",
+                "source": "Multiple"
+            },
+            {
+                "label": "Percentage of graduates from tertiary education graduating from agriculture, forestry, fisheries and veterinary programmes",
+                "source": "Multiple"
+            },
+            {
+                "label": "School enrollment, primary (% gross)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Youth education or training",
+                "source": "Multiple"
+            }
+        ]
+    },
+    "9. Social Values & Diets": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Access to basic drinking water",
+                "source": "Multiple"
+            },
+            {
+                "label": "Access to basic sanitation services",
+                "source": "Multiple"
+            },
+            {
+                "label": "Animal protein supply",
+                "source": "Multiple"
+            },
+            {
+                "label": "Average dietary energy supply adequacy",
+                "source": "Multiple"
+            },
+            {
+                "label": "Average supply of protein of animal origin",
+                "source": "Multiple"
+            },
+            {
+                "label": "Cereal import dependency ratio",
+                "source": "Multiple"
+            },
+            {
+                "label": "Cost of a healthy diet",
+                "source": "Multiple"
+            },
+            {
+                "label": "Dietary energy supply",
+                "source": "Multiple"
+            },
+            {
+                "label": "Dietary energy supply from cereals roots and tubers",
+                "source": "Multiple"
+            },
+            {
+                "label": "Exposure to pesticides",
+                "source": "Multiple"
+            },
+            {
+                "label": "Fat supply quantity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food security",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food self-sufficiency",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food self-sufficiency ratio",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food supply quantity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Household dietary diversity score",
+                "source": "Multiple"
+            },
+            {
+                "label": "Nutritional value of agricultural production",
+                "source": "Multiple"
+            },
+            {
+                "label": "Prevalence of moderate or severe food insecurity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Prevalence of moderate or severe food insecurity in the population (%)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Prevalence of severe food insecurity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Prevalence of undernourishment",
+                "source": "Multiple"
+            },
+            {
+                "label": "Prevalence of undernourishment (% of population)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Protein supply quantity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Share of animal products in food supply",
+                "source": "Multiple"
+            },
+            {
+                "label": "Share of vegetal products in food supply",
+                "source": "Multiple"
+            },
+            {
+                "label": "Vegetal protein supply",
+                "source": "Multiple"
+            },
+            {
+                "label": "Water pollution",
+                "source": "Multiple"
+            }
+        ]
+    },
+    "10. Fairness": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Average income of small-scale food producers",
+                "source": "Multiple"
+            },
+            {
+                "label": "Countries where the legal framework guarantees womens equal rights to land ownership",
+                "source": "Multiple"
+            },
+            {
+                "label": "Employment in agriculture, female (% of female employment)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Employment in agriculture, male (% of male employment)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Exposure to pesticides",
+                "source": "Multiple"
+            },
+            {
+                "label": "Family net income",
+                "source": "Multiple"
+            },
+            {
+                "label": "Female employment in agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Female share of graduates in agriculture, forestry, fisheries and veterinary programmes, tertiary",
+                "source": "Multiple"
+            },
+            {
+                "label": "Gender parity in agricultural employment",
+                "source": "Multiple"
+            },
+            {
+                "label": "Gender parity index for gross intake ratio in grade 1",
+                "source": "Multiple"
+            },
+            {
+                "label": "Gender parity index for primary completion rate",
+                "source": "Multiple"
+            },
+            {
+                "label": "Gini coefficient",
+                "source": "Multiple"
+            },
+            {
+                "label": "Income share of first quintile",
+                "source": "Multiple"
+            },
+            {
+                "label": "Income stability",
+                "source": "Multiple"
+            },
+            {
+                "label": "Male employment in agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Number of undernourished people",
+                "source": "Multiple"
+            },
+            {
+                "label": "Poverty gap ($1.90 a day)-rural",
+                "source": "Multiple"
+            },
+            {
+                "label": "Poverty severity ($1.90 a day)-rural",
+                "source": "Multiple"
+            },
+            {
+                "label": "Prevalence of moderate or severe food insecurity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Prevalence of severe food insecurity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Prevalence of undernourishment",
+                "source": "Multiple"
+            },
+            {
+                "label": "Proportion of population below international poverty line",
+                "source": "Multiple"
+            },
+            {
+                "label": "Proportion of population covered by social protection floors",
+                "source": "Multiple"
+            },
+            {
+                "label": "Proportion of total agricultural population with ownership or secure rights over agricultural land by sex",
+                "source": "Multiple"
+            },
+            {
+                "label": "Secure land tenure",
+                "source": "Multiple"
+            },
+            {
+                "label": "Secure mobility for pastoralists",
+                "source": "Multiple"
+            },
+            {
+                "label": "Vulnerable ($4-10 a day) headcount-rural",
+                "source": "Multiple"
+            },
+            {
+                "label": "Women land ownership indicator",
+                "source": "Multiple"
+            },
+            {
+                "label": "Womens empowerment in agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Youth education or training",
+                "source": "Multiple"
+            },
+            {
+                "label": "Youth emigration for lack of opportunities",
+                "source": "Multiple"
+            },
+            {
+                "label": "Youth employment opportunities",
+                "source": "Multiple"
+            }
+        ]
+    },
+    "11. Connectivity": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Access to electricity (% of rural population)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Access to electricity (% of total population)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Cereal import dependency ratio",
+                "source": "Multiple"
+            },
+            {
+                "label": "Commodity supply quantity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Communication",
+                "source": "Multiple"
+            },
+            {
+                "label": "Coverage: internet",
+                "source": "Multiple"
+            },
+            {
+                "label": "Coverage: mobile phone",
+                "source": "Multiple"
+            },
+            {
+                "label": "Domestic supply quantity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Export quantity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Export value",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food export value",
+                "source": "Multiple"
+            },
+            {
+                "label": "Food import value",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forestry exports",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forestry imports",
+                "source": "Multiple"
+            },
+            {
+                "label": "Hoi: internet",
+                "source": "Multiple"
+            },
+            {
+                "label": "Hoi: mobile phone",
+                "source": "Multiple"
+            },
+            {
+                "label": "Import quantity",
+                "source": "Multiple"
+            },
+            {
+                "label": "Import value",
+                "source": "Multiple"
+            },
+            {
+                "label": "Logistics performance index: overall score",
+                "source": "Multiple"
+            },
+            {
+                "label": "Producer price",
+                "source": "Multiple"
+            },
+            {
+                "label": "Producer price index",
+                "source": "Multiple"
+            },
+            {
+                "label": "Rural population density",
+                "source": "Multiple"
+            },
+            {
+                "label": "Transport services",
+                "source": "Multiple"
+            }
+        ]
+    },
+    "12. Land & Natural Resource Governance": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Agricultural land (% of land area)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural land (sq. km)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Agricultural land area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Arable land (% of land area)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Arable land area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Area equipped for irrigation",
+                "source": "Multiple"
+            },
+            {
+                "label": "Countries where the legal framework guarantees womens equal rights to land ownership",
+                "source": "Multiple"
+            },
+            {
+                "label": "Cropland area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forest area (% of land area)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forest conversion emissions",
+                "source": "Multiple"
+            },
+            {
+                "label": "Forest land area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Irrigated land area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Land area (sq. km)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Land cover area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Land-use change emissions",
+                "source": "Multiple"
+            },
+            {
+                "label": "Marine protected areas (% of territorial waters)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Permanent crop area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Permanent meadow and pasture area",
+                "source": "Multiple"
+            },
+            {
+                "label": "Proportion of agricultural area under productive and sustainable agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Proportion of total agricultural population with ownership or secure rights over agricultural land by sex",
+                "source": "Multiple"
+            },
+            {
+                "label": "Rural land area (sq. km)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Rural land area where elevation is below 5 meters (% of total land area)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Secure land tenure",
+                "source": "Multiple"
+            },
+            {
+                "label": "Secure mobility for pastoralists",
+                "source": "Multiple"
+            },
+            {
+                "label": "Secure tenure rights",
+                "source": "Multiple"
+            },
+            {
+                "label": "Terrestrial protected areas (% of total land area)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Water withdrawal for agriculture",
+                "source": "Multiple"
+            }
+        ]
+    },
+    "13. Participation": {
+        "key_terms": [],
+        "indicators": [
+            {
+                "label": "Agricultural labour force",
+                "source": "Multiple"
+            },
+            {
+                "label": "Community monitoring",
+                "source": "Multiple"
+            },
+            {
+                "label": "Community participation",
+                "source": "Multiple"
+            },
+            {
+                "label": "Economically active population in agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Employment in agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Female economically active population in agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Female employment in agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Labor force participation rate, female (% of female population ages 15+)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Labor force participation rate, male (% of male population ages 15+)",
+                "source": "Multiple"
+            },
+            {
+                "label": "Land-user involvement",
+                "source": "Multiple"
+            },
+            {
+                "label": "Local decision-making",
+                "source": "Multiple"
+            },
+            {
+                "label": "Male economically active population in agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Male employment in agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Participatory planning",
+                "source": "Multiple"
+            },
+            {
+                "label": "Rural population",
+                "source": "Multiple"
+            },
+            {
+                "label": "Self-mobilization",
+                "source": "Multiple"
+            },
+            {
+                "label": "Share of employment in agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Stakeholder involvement",
+                "source": "Multiple"
+            },
+            {
+                "label": "Womens empowerment in agriculture",
+                "source": "Multiple"
+            },
+            {
+                "label": "Youth agricultural employment",
+                "source": "Multiple"
+            },
+            {
+                "label": "Youth employment opportunities",
+                "source": "Multiple"
+            }
+        ]
+    }
+}

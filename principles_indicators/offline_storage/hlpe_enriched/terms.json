@@ -1,0 +1,18 @@
+[
+    {
+        "label": "biofertilizers",
+        "uri": "manual_injection/input_reduction/biofertilizers"
+    },
+    {
+        "label": "input substitution",
+        "uri": "manual_injection/input_reduction/input_substitution"
+    },
+    {
+        "label": "intercropping",
+        "uri": "manual_injection/input_reduction/intercropping"
+    },
+    {
+        "label": "pesticide adjuvants",
+        "uri": "manual_injection/inhibitors/pesticide_adjuvants"
+    }
+]

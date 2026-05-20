@@ -1,0 +1,10 @@
+[
+    {
+        "label": "Social protection coverage",
+        "uri": "https://ilostat.ilo.org/indicators/social_protection"
+    },
+    {
+        "label": "non-farm employment",
+        "uri": "http://ilostat.ilo.org/indicators/non_farm"
+    }
+]

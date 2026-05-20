@@ -1,0 +1,153 @@
+{
+    "1. Recycling": [],
+    "2. Input Reduction": [],
+    "3. Soil Health": [
+        {
+            "label": "CONSERVATION OF NATURE",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=1347",
+            "source": "HASSET"
+        },
+        {
+            "label": "ENVIRONMENTAL CONSERVATION",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=2344",
+            "source": "HASSET"
+        }
+    ],
+    "4. Animal Health": [
+        {
+            "label": "NUTRITIONAL AND METABOLIC DISEASES",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=4967",
+            "source": "HASSET"
+        }
+    ],
+    "5. Biodiversity": [
+        {
+            "label": "CONSERVATION OF NATURE",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=1347",
+            "source": "HASSET"
+        },
+        {
+            "label": "ENVIRONMENTAL CONSERVATION",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=2344",
+            "source": "HASSET"
+        }
+    ],
+    "6. Synergy": [],
+    "7. Economic Diversification": [],
+    "8. Co-creation of Knowledge": [
+        {
+            "label": "LEARNING",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=4021",
+            "source": "HASSET"
+        },
+        {
+            "label": "DISTANCE LEARNING",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=1850",
+            "source": "HASSET"
+        },
+        {
+            "label": "LEARNING DISABILITIES",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=4023",
+            "source": "HASSET"
+        },
+        {
+            "label": "LEARNING METHODS",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=4025",
+            "source": "HASSET"
+        },
+        {
+            "label": "KNOWLEDGE TRANSFER",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=3888",
+            "source": "HASSET"
+        }
+    ],
+    "9. Social Values and Diets": [
+        {
+            "label": "DIET AND NUTRITION",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=1788",
+            "source": "HASSET"
+        },
+        {
+            "label": "CULTURAL HERITAGE",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=1567",
+            "source": "HASSET"
+        }
+    ],
+    "10. Fairness": [
+        {
+            "label": "POVERTY",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=5628",
+            "source": "HASSET"
+        }
+    ],
+    "11. Connectivity": [],
+    "12. Land and Natural Resource Governance": [
+        {
+            "label": "WOMEN'S RIGHTS",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=8102",
+            "source": "HASSET"
+        },
+        {
+            "label": "HUMAN RIGHTS",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=3426",
+            "source": "HASSET"
+        },
+        {
+            "label": "EUROPEAN COURT OF HUMAN RIGHTS",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=2424",
+            "source": "HASSET"
+        },
+        {
+            "label": "HUMAN RIGHTS STUDIES",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=3427",
+            "source": "HASSET"
+        },
+        {
+            "label": "HUMAN RIGHTS VIOLATIONS",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=3428",
+            "source": "HASSET"
+        },
+        {
+            "label": "LAND TENURE",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=3949",
+            "source": "HASSET"
+        },
+        {
+            "label": "RIGHT TO PROPERTY",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=6259",
+            "source": "HASSET"
+        },
+        {
+            "label": "INTELLECTUAL PROPERTY",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=3660",
+            "source": "HASSET"
+        },
+        {
+            "label": "LAND REFORM",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=3946",
+            "source": "HASSET"
+        },
+        {
+            "label": "COMMON LAND",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=1206",
+            "source": "HASSET"
+        },
+        {
+            "label": "POLICY MAKING",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=5479",
+            "source": "HASSET"
+        }
+    ],
+    "13. Participation": [
+        {
+            "label": "PARTICIPATION",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=5214",
+            "source": "HASSET"
+        },
+        {
+            "label": "COMMUNITY PARTICIPATION",
+            "uri": "https://vocabularyserver.com/hasset/index.php?tema=1258",
+            "source": "HASSET"
+        }
+    ]
+}

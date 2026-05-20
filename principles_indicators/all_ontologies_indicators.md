@@ -1,0 +1,2260 @@
+# Indicators per Principle - By Ontology
+
+This report lists all indicators assigned to principles, grouped by their source ontology.
+
+## AGROVOC
+<details>
+<summary>Click to expand AGROVOC indicators</summary>
+
+[Biodiversity] (103 terms)
+  - amphibiotic species
+  - amphihaline species
+  - animal genetic resources
+  - aquatic genetic resources
+  - associated species
+  - biodiversity
+  - biodiversity conservation
+  - cavernicolous species
+  - centre of diversity
+  - collaborative partnership on sustainable wildlife management
+  - commercial species
+  - community-based wildlife management
+  - cosmopolitan species
+  - critically endangered species
+  - cryptic species
+  - cryptogenic species
+  - determination of species
+  - dietary diversity
+  - dominant species
+  - endangered species
+  - endemic species
+  - extinct species
+  - forage species
+  - forest biodiversity
+  - forest conservation
+  - forest genetic resources
+  - forest genetic resources management
+  - functional diversity
+  - genetic code
+  - genetic control
+  - genetic correlation
+  - genetic covariance
+  - genetic databases
+  - genetic disorders
+  - genetic dissection
+  - genetic distance
+  - genetic divergence
+  - genetic diversity
+  - genetic drift
+  - genetic engineering
+  - genetic equilibrium
+  - genetic erosion
+  - genetic gain
+  - genetic improvement
+  - genetic inheritance
+  - genetic isolation
+  - genetic linkage
+  - genetic load
+  - genetic maps
+  - genetic markers
+  - genetic parameters
+  - genetic phenomena
+  - genetic polymorphism
+  - genetic processes
+  - genetic resistance
+  - genetic resources
+  - genetic resources conservation
+  - genetic soil types
+  - genetic stability
+  - genetic structures
+  - genetic techniques
+  - genetic transduction
+  - genetic transformation
+  - genetic trends
+  - genetic variance
+  - genetic variation
+  - genetic vectors
+  - human-wildlife relations
+  - invasive alien species
+  - invasive species
+  - isscaap groups of species
+  - landscape diversity
+  - marine genetic resources
+  - microbial diversity
+  - migratory species
+  - minimum dietary diversity
+  - new species
+  - non-target species
+  - palatable species
+  - plant genetic resources
+  - plant genetic resources for food and agriculture
+  - protected animal species
+  - protected plant species
+  - protected species
+  - rare species
+  - reactive oxygen species
+  - relict species
+  - rheophilic species
+  - sedentary species
+  - sibling species
+  - species
+  - species checklists
+  - species delimitation
+  - species diversity
+  - species extinction
+  - species richness
+  - target species
+  - threatened species
+  - trade in species
+  - underutilized species
+  - vulnerable species
+  - wildlife
+  - wildlife management
+
+[Fairness] (4 terms)
+  - employment
+  - protection
+  - social protection
+  - social rights
+
+[Participation] (4 terms)
+  - empowerment
+  - farmer participation
+  - governance
+  - participation
+
+[Recycling] (17 terms)
+  - agricultural wastewater
+  - biomass
+  - compost mulches
+  - composted manure
+  - drainage water recycling
+  - dung water
+  - industrial wastewater
+  - municipal wastewater
+  - recycling
+  - waste
+  - wastewater
+  - wastewater aquaculture
+  - wastewater irrigation
+  - wastewater management
+  - wastewater treatment
+  - water
+  - water reuse
+
+[Synergy] (51 terms)
+  - agroecological transition
+  - agroecological zones
+  - agroecology
+  - agroforestry
+  - agroforestry systems
+  - bottom mixed layer
+  - ecological control
+  - ecological factors
+  - ecological footprint
+  - ecological guilds
+  - ecological indicators
+  - ecological niche modelling
+  - ecological protection
+  - ecological soil types
+  - ecological succession
+  - ecological zones
+  - ecotone mixed forests
+  - evergreen mixed forests
+  - integrated coastal zone management
+  - integrated control
+  - integrated crop-livestock systems
+  - integrated development
+  - integrated disease control
+  - integrated disease management
+  - integrated land management
+  - integrated management
+  - integrated markets
+  - integrated multitrophic aquaculture
+  - integrated pest management
+  - integrated plant nutrient management
+  - integrated protection
+  - integrated rural development
+  - integrated soil fertility management
+  - integrated water resources management
+  - integrated watershed management
+  - intercropping
+  - mixed cropping
+  - mixed economies
+  - mixed enterprises
+  - mixed farming
+  - mixed forest stands
+  - mixed forests
+  - mixed grazing
+  - mixed layer
+  - mixed layer depth
+  - mixed pastures
+  - mixed-ownership companies
+  - partially-mixed estuaries
+  - social-ecological resilience
+  - surface mixed layer
+  - total mixed rations
+
+
+</details>
+
+## BIOPHYSICAL
+<details>
+<summary>Click to expand BIOPHYSICAL indicators</summary>
+
+[Biodiversity] (1 terms)
+  - agrobiodiversity
+
+[Input Reduction] (12 terms)
+  - ammonium fertilizers
+  - biological control agents
+  - biological nitrogen fixation
+  - biopesticides
+  - botanical pesticides
+  - controlled release fertilizers
+  - nitrate fertilizers
+  - pesticide synergists
+  - phosphate fertilizers
+  - potash fertilizers
+  - slow release fertilizers
+  - synthetic fertilizers
+
+[Recycling] (2 terms)
+  - biochar
+  - vermicomposts
+
+[Soil Health] (5 terms)
+  - cover crops
+  - mulches
+  - soil analysis
+  - soil temperature
+  - stubble mulching
+
+[Synergy] (1 terms)
+  - integrated nutrient management
+
+
+</details>
+
+## FAOSTAT
+<details>
+<summary>Click to expand FAOSTAT indicators</summary>
+
+[Input Reduction] (1 terms)
+  - pesticides per hectare
+
+
+</details>
+
+## HASSET
+<details>
+<summary>Click to expand HASSET indicators</summary>
+
+[Animal Health] (1 terms)
+  - nutritional and metabolic diseases
+
+[Biodiversity] (2 terms)
+  - conservation of nature
+  - environmental conservation
+
+[Co-creation of Knowledge] (5 terms)
+  - distance learning
+  - knowledge transfer
+  - learning
+  - learning disabilities
+  - learning methods
+
+[Fairness] (1 terms)
+  - poverty
+
+[Land Governance] (11 terms)
+  - common land
+  - european court of human rights
+  - human rights
+  - human rights studies
+  - human rights violations
+  - intellectual property
+  - land reform
+  - land tenure
+  - policy making
+  - right to property
+  - women's rights
+
+[Participation] (1 terms)
+  - community participation
+
+[Social Values and Diets] (2 terms)
+  - cultural heritage
+  - diet and nutrition
+
+[Soil Health] (2 terms)
+  - conservation of nature
+  - environmental conservation
+
+
+</details>
+
+## HLPE
+<details>
+<summary>Click to expand HLPE indicators</summary>
+
+[Input Reduction] (3 terms)
+  - biofertilizers
+  - input substitution
+  - pesticide adjuvants
+
+
+</details>
+
+## ILOSTAT
+<details>
+<summary>Click to expand ILOSTAT indicators</summary>
+
+[Economic Diversification] (1 terms)
+  - non-farm employment
+
+[Fairness] (1 terms)
+  - social protection coverage
+
+
+</details>
+
+## MANUAL
+<details>
+<summary>Click to expand MANUAL indicators</summary>
+
+[Animal Health] (1 terms)
+  - soil health
+
+[Co-creation of Knowledge] (1 terms)
+  - co-creation of knowledge
+
+[Input Reduction] (1 terms)
+  - input reduction
+
+[Land Governance] (1 terms)
+  - land governance
+
+[Social Values and Diets] (1 terms)
+  - social values and diets
+
+[Soil Health] (1 terms)
+  - soil health
+
+[Synergy] (1 terms)
+  - synergy
+
+
+</details>
+
+## UNBIS
+<details>
+<summary>Click to expand UNBIS indicators</summary>
+
+[Animal Health] (37 terms)
+  - animal health
+  - child health
+  - dental health
+  - environmental health
+  - family health
+  - health
+  - health aid
+  - health centres
+  - health conditions
+  - health economics
+  - health hazards
+  - health indicators
+  - health information
+  - health insurance
+  - health legislation
+  - health personnel
+  - health planning
+  - health policy
+  - health programmes
+  - health resorts
+  - health standards
+  - health statistics
+  - healthcare delivery
+  - international health regulations
+  - maternal and child health
+  - mental health
+  - mobile health teams
+  - national health insurance
+  - occupational health
+  - primary healthcare
+  - public health
+  - public health administration
+  - right to health
+  - rural health
+  - universal health coverage
+  - women's health
+  - youth health
+
+[Biodiversity] (2 terms)
+  - soil conservation
+  - wildlife research
+
+[Co-creation of Knowledge] (70 terms)
+  - aeronautical research
+  - agricultural research
+  - biological research
+  - building research
+  - cultural research
+  - demographic research
+  - development research
+  - disarmament research
+  - earth science research
+  - ecological research
+  - economic research
+  - engineering research
+  - evaluation research
+  - financial research
+  - fishery research
+  - food research
+  - forestry research
+  - fuel research
+  - gas research
+  - gender research
+  - geophysical research
+  - historical research
+  - housing research
+  - human settlements research
+  - hydrological research
+  - industrial research
+  - industrial research institutes
+  - interdisciplinary research
+  - irrigation research
+  - legal research
+  - linguistic research
+  - management research
+  - marine scientific research
+  - market research
+  - materials research
+  - meteorological research
+  - military research
+  - mining research
+  - nuclear research
+  - nutrition research
+  - oceanographic research
+  - operations research
+  - organizational research
+  - peace research
+  - personnel research
+  - petroleum research
+  - pharmaceutical research
+  - political science research
+  - protein research
+  - psychological research
+  - research
+  - research and development
+  - research and development contracts
+  - research centres
+  - research grants
+  - research libraries
+  - scientific research
+  - seismological research
+  - sex research
+  - social research
+  - soil research
+  - space research
+  - sugar research
+  - tax research
+  - training and research institutions
+  - transport research
+  - urban research
+  - violence research
+  - virus research
+  - wildlife research
+
+[Connectivity] (1 terms)
+  - trade
+
+[Economic Diversification] (3 terms)
+  - employment
+  - income
+  - rural employment
+
+[Fairness] (4 terms)
+  - economic, social and cultural rights
+  - equity
+  - gender
+  - labour
+
+[Input Reduction] (16 terms)
+  - biological research
+  - canaux d'irrigation
+  - fertilizer industry
+  - fertilizer plants
+  - fertilizer use
+  - fertilizers
+  - irrigation
+  - irrigation canals
+  - irrigation farming
+  - irrigation goutte a goutte
+  - irrigation research
+  - organic farming
+  - recherche sur l'irrigation
+  - sustainable agriculture
+  - trade efficiency
+  - trickle irrigation
+
+[Land Governance] (241 terms)
+  - abortion policy
+  - acquired rights
+  - agricultural economics and policy; rural sociology
+  - agricultural policy
+  - air transport policy
+  - animal rights
+  - antillas neerlandesas
+  - antilles neerlandaises
+  - antinatalist policy
+  - barrier islands
+  - british virgin islands
+  - british virgin islands question
+  - budgetary policy
+  - cayman islands
+  - cayman islands question
+  - christmas island
+  - civil and political rights
+  - clandestine employment
+  - cocos  islands
+  - cocos  islands question
+  - common law
+  - common markets
+  - comorian island of mayotte
+  - competition policy
+  - cook islands
+  - corporate governance
+  - credit policy
+  - cultural policy
+  - derecho romano-holandes
+  - derelict land
+  - development policy
+  - droit romain-neerlandais
+  - drug policy
+  - economic policy
+  - economic reform
+  - economic rights and duties of states
+  - economic, social and cultural rights
+  - emigrants clandestins
+  - employment policy
+  - energy policy
+  - enfermedad holandesa
+  - environmental policy
+  - export policy
+  - falkland islands
+  - falkland islands  question
+  - family planning policy
+  - family rights
+  - financial policy
+  - finland
+  - finlandais
+  - finlande
+  - finlandeses
+  - finlandia
+  - fiscal policy
+  - fishery policy
+  - food policy
+  - foreign policy
+  - foreign trade policy
+  - forest policy
+  - general international trade and trade policy
+  - gitanos irlandeses
+  - governance
+  - government policy
+  - government spending policy
+  - grasslands
+  - grazing rights
+  - health policy
+  - housing policy
+  - human rights activists
+  - human rights advancement
+  - human rights in armed conflicts
+  - human rights indicators
+  - human rights institutions
+  - human rights monitoring
+  - human rights policy
+  - iles falkland
+  - immigration policy
+  - import policy
+  - income policy
+  - industrial policy
+  - information policy
+  - inland boatmen
+  - inland navigation regulations
+  - inland transport
+  - inland water transport
+  - inland waters
+  - inland waterway traffic
+  - international economic and social policy
+  - investment policy
+  - ireland
+  - irlanda
+  - irlandais
+  - irlande
+  - irlandeses
+  - islandais
+  - islande
+  - islandeses
+  - islandia
+  - islands
+  - labour policy
+  - land
+  - land acquisition
+  - land administration
+  - land allotment
+  - land degradation
+  - land economics
+  - land forms and ecosystems
+  - land legislation
+  - land market
+  - land policy
+  - land reclamation
+  - land registration
+  - land rent
+  - land rights
+  - land settlement
+  - land speculation
+  - land subdivision
+  - land subsidence
+  - land tax
+  - land titles
+  - land transport
+  - land use
+  - land use statistics
+  - land, plant and soil resources
+  - land-based resources
+  - land-use change
+  - landforms
+  - landlocked developing countries
+  - landlocked states
+  - landmines
+  - landscape architecture
+  - landscape protection
+  - landslides
+  - langue irlandaise
+  - langue islandaise
+  - langue neerlandaise
+  - law reform
+  - lengua finlandesa
+  - lengua holandesa
+  - lengua irlandesa
+  - lengua islandesa
+  - libel and slander
+  - library policy
+  - malagasy islands question
+  - marine resources policy
+  - marshall islands
+  - midway islands
+  - migration policy
+  - military policy
+  - mineral resources policy
+  - monetary policy
+  - moon landing
+  - mouvements clandestins
+  - movimientos clandestinos
+  - natural resources policy
+  - neerlandais
+  - neerlandeses
+  - neighbouring rights
+  - neo-zelandais
+  - neozelandeses
+  - netherlanders
+  - netherlands
+  - netherlands antilles
+  - new zealand
+  - new zealanders
+  - nomades irlandais
+  - non-first-use policy
+  - norfolk island
+  - northern ireland situation
+  - northern mariana islands
+  - nouvelle-zélande
+  - nueva zelandia
+  - nutrition policy
+  - pacific islands
+  - pacific islands  question
+  - pasajeros clandestinos
+  - passagers clandestins
+  - pension rights
+  - petroleum policy
+  - poland
+  - poland situation
+  - policy sciences
+  - population policy
+  - ports policy
+  - pronatalist policy
+  - property rights
+  - public lands
+  - question des iles falkland
+  - reforma economica
+  - resettlement policy
+  - rights of the accused
+  - rights of the child
+  - riparian rights
+  - sanitary landfills
+  - science and technology policy
+  - settlement policy
+  - shipping policy
+  - situacion en irlanda del norte
+  - situation en irlande du nord
+  - small island developing states
+  - social policy
+  - social science policy
+  - socialist property
+  - soil resources
+  - solomon islands
+  - somaliland under italian administration
+  - space science policy
+  - special drawing rights
+  - submerged lands
+  - switzerland
+  - syndrome hollandais
+  - tailandeses
+  - tailandia
+  - thailand
+  - thailandais
+  - thailande
+  - togoland bajo administracion francesa
+  - togoland sous administration francaise
+  - togoland under british administration
+  - togoland under french administration
+  - tourism policy
+  - trabajo clandestino
+  - trade policy
+  - trade union rights
+  - transport policy
+  - transport policy and planning
+  - travail clandestin
+  - turks and caicos islands
+  - turks and caicos islands question
+  - united states virgin islands
+  - united states virgin islands question
+  - urban land
+  - urban land policy
+  - wage policy
+  - wake island
+  - wallis and futuna islands
+  - water policy
+  - water rights
+  - wetlands
+  - workers' rights
+  - youth policy
+
+[Soil Health] (60 terms)
+  - alkaline soil
+  - animal health
+  - child health
+  - dental health
+  - economic structure
+  - environmental health
+  - family health
+  - health
+  - health aid
+  - health centres
+  - health conditions
+  - health economics
+  - health hazards
+  - health indicators
+  - health information
+  - health insurance
+  - health legislation
+  - health personnel
+  - health planning
+  - health policy
+  - health programmes
+  - health resorts
+  - health standards
+  - health statistics
+  - healthcare delivery
+  - international health regulations
+  - land, plant and soil resources
+  - maternal and child health
+  - mental health
+  - mobile health teams
+  - national health insurance
+  - occupational health
+  - organic farming
+  - primary healthcare
+  - public health
+  - public health administration
+  - right to health
+  - rural health
+  - saline soil
+  - sandy soil
+  - social structure
+  - soil chemistry
+  - soil conservation
+  - soil erosion
+  - soil fertility
+  - soil improvement
+  - soil management
+  - soil mechanics
+  - soil moisture
+  - soil physics
+  - soil research
+  - soil resources
+  - soil sciences
+  - soil surveys
+  - soils
+  - structure sociale
+  - trade structure
+  - universal health coverage
+  - women's health
+  - youth health
+
+[Synergy] (4 terms)
+  - ecological research
+  - economic integration
+  - integration sociale
+  - social integration
+
+
+</details>
+
+## UNESCO
+<details>
+<summary>Click to expand UNESCO indicators</summary>
+
+[Biodiversity] (12 terms)
+  - conservation de l'environnement
+  - conservation de la vie sauvage
+  - conservation des documents
+  - conservation des dossiers d'archives
+  - conservation des monuments
+  - conservation des oeuvres d'art
+  - energy conservation
+  - human species
+  - nature conservation
+  - resources conservation
+  - technique de conservation
+  - water conservation
+
+[Co-creation of Knowledge] (36 terms)
+  - applied research
+  - audience research
+  - brain research
+  - chemical research
+  - conflict research
+  - curriculum research
+  - dissemination of knowledge
+  - empirical research
+  - fundamental research
+  - information/library research
+  - knowledge
+  - knowledge management
+  - mission oriented research
+  - organization of research
+  - participatory research
+  - population research
+  - reading research
+  - research councils
+  - research foundations
+  - research laboratories
+  - research priorities
+  - research programmes
+  - research projects
+  - research registers
+  - research results
+  - research ships
+  - research strategies
+  - research training
+  - research trends
+  - research work
+  - science and research management
+  - scientific researchers
+  - sociology of knowledge
+  - structure of knowledge
+  - traditional knowledge
+  - traditional technology
+
+[Fairness] (2 terms)
+  - gender division of labour
+  - social and economic rights
+
+[Land Governance] (1 terms)
+  - human settlements and land use
+
+[Social Values and Diets] (2 terms)
+  - intangible cultural heritage
+  - nutrition
+
+[Soil Health] (9 terms)
+  - desert soils
+  - nature conservation
+  - saline soils
+  - soil degradation
+  - soil maps
+  - soil pollution
+  - soil water
+  - unsaturated soils
+  - volcanic soils
+
+
+</details>
+
+## WOCAT
+<details>
+<summary>Click to expand WOCAT indicators</summary>
+
+[Animal Health] (1 terms)
+  - city compost a solution for waste management and soil health
+
+[Biodiversity] (9 terms)
+  - conservation approach for kour giraffes - niger
+  - consists of one or more conservation measures belonging to the following
+  - dissemination of soil conservation technologies in dryland areas, chile desire wocat
+  - gestion locale collective des ressources naturelles https://qcat.wocat.net/en/wocat/approaches/view/approaches 1980/
+  - land reclamation by forestry with native species, mexico desire wocat
+  - multilayer farming systems for ensuring food diversity
+  - multilayer farming systems for ensuring food diversity and
+  - rangeland restoration by cutting invasive species and grass reseeding and managing grazing https://qcat.wocat.net/en/wocat/
+  - small-scale conservation tillage - kenya
+
+[Co-creation of Knowledge] (8 terms)
+  - dissemination of soil test results to farmers through a
+  - farmer field schools - kenya
+  - farmer managed natural regeneration - niger
+  - indigenous management of tapia woodlands - madagascar
+  - participatory mapping, database building and monitoring of vegetation types and other community resources in the
+  - participatory negotiated territorial development - burkina faso and ghana
+  - promoting farmer innovation - kenya, tanzania, uganda
+  - promoting farmers and pastoralists consultations in managing rangelands. https://qcat.wocat.net/en/wocat/approaches/view/
+
+[Input Reduction] (15 terms)
+  - drip irrigation, russian federation desire wocat
+  - drip irrigation, turkey desire wocat
+  - improved well distribution for sustainable pastoralism - niger
+  - low-pressure irrigation system californian - senegal
+  - minimum tillage and direct planting - ghana
+  - no tillage with subsoiling, chile desire wocat
+  - olive groves under no-tillage operations, greece desire wocat
+  - organic cotton - burkina faso
+  - preparation of bio-inputs such as vermicompost,
+  - preparation of bio-inputs such as vermicompost, biofertilizers,
+  - reduced contour tillage of cereals in semi-arid environments, spain desire wocat
+  - reduced tillage of almonds and olives, spain desire wocat
+  - small-scale conservation tillage - kenya
+  - spate irrigation - eritrea
+  - water harvesting from concentrated runoff for irrigation purposes, spain desire wocat
+
+[Land Governance] (21 terms)
+  - assisted natural regeneration of degraded land, burkina-faso
+  - combating erosion, recovery and enhancement of degraded land and climate change adaptation  https://qcat.wocat.
+  - community-based soil rehabilitation for grassland on
+  - community-based soil rehabilitation for grassland on common
+  - concerted thinking on common problems of water scarcity, russian federation desire wocat
+  - controlled grazing in deciduous woods as an alternative to grazing on rangeland, italy desire wocat
+  - dedha grazing system as a natural resource management technology https://qcat.wocat.net/en/wocat/technologies/view/
+  - dissemination of soil conservation technologies in dryland areas, chile desire wocat
+  - dryland watershed management approach, tunisia desire wocat
+  - ecosystem-wide seasonal grazing management in community land https://qcat.wocat.net/en/wocat/technologies/view/tech
+  - empowering dedha institutions of governing natural resources in isiolo rangelands https://qcat.wocat.net/en/wocat/approaches/
+  - grass land improvement
+  - grazing land improvement - ethiopia
+  - holistic rangeland management combined with high end tourism https://qcat.wocat.net/en/wocat/approaches/view/approaches 3399/
+  - indigenous management of tapia woodlands - madagascar
+  - land reclamation by forestry with native species, mexico desire wocat
+  - parkland agroforestry system - burkina faso
+  - participatory mapping, database building and monitoring of vegetation types and other community resources in the
+  - promoting farmers and pastoralists consultations in managing rangelands. https://qcat.wocat.net/en/wocat/approaches/view/
+  - rangeland resting, tunisia desire wocat
+  - rangeland restoration by cutting invasive species and grass reseeding and managing grazing https://qcat.wocat.net/en/wocat/
+
+[Recycling] (5 terms)
+  - city compost a solution for waste management and
+  - city compost a solution for waste management and soil health
+  - crop residue and stone mulch
+  - preparation of bio-inputs such as vermicompost,
+  - preparation of bio-inputs such as vermicompost, biofertilizers,
+
+[Soil Health] (37 terms)
+  - chat ridge bund
+  - city compost a solution for waste management and soil health
+  - combating erosion, recovery and enhancement of degraded land and climate change adaptation  https://qcat.wocat.
+  - community-based soil rehabilitation for grassland on
+  - community-based soil rehabilitation for grassland on common
+  - conservation approach for kour giraffes - niger
+  - consists of one or more conservation measures belonging to the following
+  - crop residue and stone mulch
+  - desho -bund
+  - dissemination of soil conservation technologies in dryland areas, chile desire wocat
+  - dissemination of soil test results to farmers through a
+  - earth structures for gully reclamation
+  - graded soil bund
+  - grassed fanya juu terraces - kenya
+  - hillside terraces
+  - konso bench terrace - ethiopia
+  - minimum tillage and direct planting - ghana
+  - no tillage with subsoiling, chile desire wocat
+  - olive groves under no-tillage operations, greece desire wocat
+  - organic cotton - burkina faso
+  - progressive bench terrace, china desire wocat
+  - push-pull integrated pest and soil fertility management kenya
+  - reduced contour tillage of cereals in semi-arid environments, spain desire wocat
+  - reduced tillage of almonds and olives, spain desire wocat
+  - ridge bund
+  - small-scale conservation tillage - kenya
+  - soil bund
+  - sorghum terrace
+  - stone bund
+  - stone bunds
+  - stone bunds of tigray
+  - stone terrace
+  - stone terraces
+  - stone-faced soil bund of tigray
+  - stone-faced trench bund
+  - terrace
+  - vegetated earth-banked terraces, spain desire wocat
+
+[Synergy] (4 terms)
+  - grevillea agroforestry system - kenya
+  - olive tree plantations with intercropping, morocco desire wocat
+  - parkland agroforestry system - burkina faso
+  - push-pull integrated pest and soil fertility management kenya
+
+
+</details>
+
+## WORLD_BANK
+<details>
+<summary>Click to expand WORLD_BANK indicators</summary>
+
+[Animal Health] (24 terms)
+  - cost of animal-sourced foods relative to the starchy staples in a least-cost healthy diet
+  - cost share for animal-sourced foods in a least-cost healthy diet
+  - number of people pushed below the $2.15  poverty line by out-of-pocket health care expenditure
+  - number of people pushed below the $3.65  poverty line by out-of-pocket health care expenditure
+  - number of people pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure
+  - number of people pushed further below the $2.15  poverty line by out-of-pocket health care expenditure
+  - number of people pushed further below the $3.65  poverty line by out-of-pocket health care expenditure
+  - number of people pushed further below the 60% median consumption poverty line by out-of-pocket health care expenditure
+  - number of people pushed or further pushed below the $2.15  poverty line by out-of-pocket health care expenditure
+  - number of people pushed or further pushed below the $3.65  poverty line by out-of-pocket health care expenditure
+  - number of people pushed or further pushed below the 60% median consumption poverty line by out-of-pocket health care expenditure
+  - number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure
+  - number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure
+  - proportion of population facing financial hardship due to out-of-pocket health expenditure
+  - proportion of population facing impoverishing out-of-pocket health expenditure, based on the societal poverty line
+  - proportion of population facing large  out-of-pocket health expenditure
+  - proportion of population further impoverished due to out-of-pocket health expenditure, based on the societal poverty line
+  - proportion of population pushed into poverty  due to out-of-pocket health expenditure
+  - women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease
+  - women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease : q1
+  - women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease : q2
+  - women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease : q3
+  - women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease : q4
+  - women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease : q5
+
+[Biodiversity] (7 terms)
+  - animal species, threatened
+  - bird species, threatened
+  - fish species, threatened
+  - mammal species, threatened
+  - plant species , threatened
+  - proportion of freshwater key biodiversity areas  covered by protected areas
+  - proportion of terrestrial key biodiversity areas  covered by protected areas
+
+[Co-creation of Knowledge] (148 terms)
+  - 326_is market research by studying consumer behavior one of the main activities of the financial consumer protection  unit?_#vgva_06
+  - administration of a nationally representative learning assessment in grade 2 or 3 in mathematics
+  - administration of a nationally representative learning assessment in grade 2 or 3 in reading
+  - administration of a nationally-representative learning assessment at the end of primary in mathematics
+  - administration of a nationally-representative learning assessment at the end of primary in reading
+  - average score for knowledge and skills
+  - comprehensive correct knowledge of hiv/aids, ages 15-24, female
+  - comprehensive correct knowledge of hiv/aids, ages 15-24, male
+  - comprehensive correct knowledge of hiv/aids, ages 15-49, female
+  - comprehensive correct knowledge of hiv/aids, ages 15-49, male
+  - financial knowledge score
+  - knowledge of any method of contraception
+  - knowledge of any modern method of contraception
+  - knowledge of contraception  : q1
+  - knowledge of contraception  : q2
+  - knowledge of contraception  : q3
+  - knowledge of contraception  : q4
+  - knowledge of contraception  : q5
+  - knowledge of diarrhea care : q1
+  - knowledge of diarrhea care : q2
+  - knowledge of diarrhea care : q3
+  - knowledge of diarrhea care : q4
+  - knowledge of diarrhea care : q5
+  - learning poverty: share of children at the end-of-primary age below minimum reading proficiency adjusted by out-of-school children
+  - learning poverty: share of female children at the end-of-primary age below minimum reading proficiency adjusted by out-of-school children
+  - learning poverty: share of male children at the end-of-primary age below minimum reading proficiency adjusted by out-of-school children
+  - learning-adjusted years of school
+  - learning-adjusted years of school, female
+  - learning-adjusted years of school, male
+  - national assessment for learning outcomes  in senegal, ce2, french, minimal competency
+  - national assessment for learning outcomes  in senegal, ce2, french, optimal competency
+  - national assessment for learning outcomes  in senegal, ce2, mathematics, minimal competency
+  - national assessment for learning outcomes  in senegal, ce2, mathematics, optimal competency
+  - national assessment for learning outcomes in albania, grade 9, language
+  - national assessment for learning outcomes in cambodia, grade 3, language
+  - national assessment for learning outcomes in cambodia, grade 3, mathematics
+  - national assessment for learning outcomes in cambodia, grade 6, language
+  - national assessment for learning outcomes in cambodia, grade 6, mathematics
+  - national assessment for learning outcomes in cambodia, grade 9, language
+  - national assessment for learning outcomes in cambodia, grade 9, mathematics
+  - national assessment for learning outcomes in côte d'ivoire, lower secondary , mean score of all subjects
+  - national assessment for learning outcomes in côte d'ivoire, lower secondary , minimal competency
+  - national assessment for learning outcomes in côte d'ivoire, lower secondary , optimal competency
+  - national assessment for learning outcomes in côte d'ivoire, primary , mean score of all subjects
+  - national assessment for learning outcomes in côte d'ivoire, primary , minimal competency
+  - national assessment for learning outcomes in côte d'ivoire, primary , optimal competency
+  - national assessment for learning outcomes in ethiopia, grade 10, average of all subjects, optimal competency
+  - national assessment for learning outcomes in ethiopia, grade 10, biology, optimal competency
+  - national assessment for learning outcomes in ethiopia, grade 10, chemistry, optimal competency
+  - national assessment for learning outcomes in ethiopia, grade 10, english, optimal competency
+  - national assessment for learning outcomes in ethiopia, grade 10, mathematics, optimal competency
+  - national assessment for learning outcomes in ethiopia, grade 10, physics, optimal competency
+  - national assessment for learning outcomes in ethiopia, grade 12, average of all subjects, optimal competency
+  - national assessment for learning outcomes in ethiopia, grade 12, biology, optimal competency
+  - national assessment for learning outcomes in ethiopia, grade 12, chemistry, optimal competency
+  - national assessment for learning outcomes in ethiopia, grade 12, english, optimal competency
+  - national assessment for learning outcomes in ethiopia, grade 12, mathematics, optimal competency
+  - national assessment for learning outcomes in ethiopia, grade 12, physics, optimal competency
+  - national assessment for learning outcomes in georgia, grade 1, english, students in higher level
+  - national assessment for learning outcomes in georgia, grade 1, english, students in lowest level
+  - national assessment for learning outcomes in georgia, grade 1, english, students in medium level
+  - national assessment for learning outcomes in georgia, grade 9, language, students in higher level
+  - national assessment for learning outcomes in georgia, grade 9, language, students in highest level
+  - national assessment for learning outcomes in georgia, grade 9, language, students in lowest level
+  - national assessment for learning outcomes in georgia, grade 9, language, students in medium level
+  - national assessment for learning outcomes in georgia, grade 9, mathematics, students in higher level
+  - national assessment for learning outcomes in georgia, grade 9, mathematics, students in highest level
+  - national assessment for learning outcomes in georgia, grade 9, mathematics, students in lowest level
+  - national assessment for learning outcomes in georgia, grade 9, mathematics, students in medium level
+  - national assessment for learning outcomes in ghana, p3, english, students above mean
+  - national assessment for learning outcomes in ghana, p3, english, students above minimal competency
+  - national assessment for learning outcomes in ghana, p3, english, students above proficient levels
+  - national assessment for learning outcomes in ghana, p3, mathematics, students above mean
+  - national assessment for learning outcomes in ghana, p3, mathematics, students above minimal competency
+  - national assessment for learning outcomes in ghana, p3, mathematics, students above proficient levels
+  - national assessment for learning outcomes in ghana, p6, english, students above mean
+  - national assessment for learning outcomes in ghana, p6, english, students above minimum competency
+  - national assessment for learning outcomes in ghana, p6, english, students above proficient levels
+  - national assessment for learning outcomes in ghana, p6, mathematics, students above mean
+  - national assessment for learning outcomes in ghana, p6, mathematics, students above minimal competency
+  - national assessment for learning outcomes in ghana, p6, mathematics, students above proficient levels
+  - national assessment for learning outcomes in laos, grade 5, language
+  - national assessment for learning outcomes in laos, grade 5, mathematics
+  - national assessment for learning outcomes in laos, grade 5, world around us
+  - national assessment for learning outcomes in moldova, grade 4, mean competency
+  - national assessment for learning outcomes in moldova, grade 4, minimal competency
+  - national assessment for learning outcomes in moldova, grade 4, proficient competency
+  - national assessment for learning outcomes in moldova, grade 9, mean competency
+  - national assessment for learning outcomes in moldova, grade 9, minimal competency
+  - national assessment for learning outcomes in moldova, grade 9, proficient competency
+  - national assessment for learning outcomes in niger, ce2, french
+  - national assessment for learning outcomes in niger, ce2, french, minimal competency
+  - national assessment for learning outcomes in niger, ce2, french, optimal competency
+  - national assessment for learning outcomes in niger, ce2, french, under minimal competency
+  - national assessment for learning outcomes in niger, ce2, mathematics
+  - national assessment for learning outcomes in niger, ce2, mathematics, minimal competency
+  - national assessment for learning outcomes in niger, ce2, mathematics, optimal competency
+  - national assessment for learning outcomes in niger, ce2, mathematics, under minimal competency
+  - national assessment for learning outcomes in niger, cm2, french
+  - national assessment for learning outcomes in niger, cm2, french, minimal competency
+  - national assessment for learning outcomes in niger, cm2, french, optimal competency
+  - national assessment for learning outcomes in niger, cm2, french, under minimal competency
+  - national assessment for learning outcomes in niger, cm2, mathematics
+  - national assessment for learning outcomes in niger, cm2, mathematics, minimal competency
+  - national assessment for learning outcomes in niger, cm2, mathematics, optimal competency
+  - national assessment for learning outcomes in niger, cm2, mathematics, under minimal competency
+  - national assessment for learning outcomes in niger, cp, french
+  - national assessment for learning outcomes in niger, cp, french, minimal competency
+  - national assessment for learning outcomes in niger, cp, french, optimal competency
+  - national assessment for learning outcomes in niger, cp, french, under minimal competency
+  - national assessment for learning outcomes in niger, cp, mathematics
+  - national assessment for learning outcomes in niger, cp, mathematics, minimal competency
+  - national assessment for learning outcomes in niger, cp, mathematics, optimal competency
+  - national assessment for learning outcomes in niger, cp, mathematics, under minimal competency
+  - national assessment for learning outcomes in niger, end of 1st degree certificate, success rate
+  - national assessment for learning outcomes in vietnam, grade 5, mathematics - level 1, scores in indicated level
+  - national assessment for learning outcomes in vietnam, grade 5, reading - level 1, scores in indicated level
+  - national assessment for learning outcomes in vietnam, grade 5, reading - level 2, scores in indicated level
+  - national assessment for learning outcomes in vietnam, grade 5, reading - level 3, scores in indicated level
+  - national assessment for learning outcomes in vietnam, grade 5, reading - level 4, scores in indicated level
+  - national assessment for learning outcomes in vietnam, grade 5, reading - level 5, scores in indicated level
+  - national assessment for learning outcomes in vietnam, grade 5, reading - level 6, scores in indicated level
+  - national assessment for learning outcomes in zambia, grade 5, mathematics
+  - national assessment for learning outcomes in zambia, grade 5, reading
+  - pasec: 5th grade students above the knowledge base rate on the french language scale  , female
+  - pasec: 5th grade students above the knowledge base rate on the french language scale  , male
+  - pasec: 5th grade students above the knowledge base rate on the french language scale  , total
+  - pasec: 5th grade students above the knowledge base rate on the mathematics scale  , female
+  - pasec: 5th grade students above the knowledge base rate on the mathematics scale  , male
+  - pasec: 5th grade students above the knowledge base rate on the mathematics scale  , total
+  - percent of principals familiar with teachers' content knowledge
+  - percent of principals familiar with teachers' content knowledge - female
+  - percent of principals familiar with teachers' content knowledge - male
+  - percent of principals familiar with teachers' content knowledge - rural
+  - percent of principals familiar with teachers' content knowledge - urban
+  - percent of principals that report that the factors considered when selecting a principal include knowledge of the local community
+  - percent of principals that report that the most important factor considered when selecting a principal is knowledge of the local community
+  - principal school knowledge
+  - proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, both sexes
+  - proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, female
+  - proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, male
+  - research and development expenditure
+  - researchers in r&d
+  - saber:  policy goal 2: monitoring learning conditions and outcomes
+  - saber:  policy goal 3 lever 5: participation of the school councils in learning inputs
+  - saber:  policy goal 5 lever 5: degree of learning accountability
+  - teacher content knowledge
+  - world bank: teaching/learning materials
+
+[Economic Diversification] (33 terms)
+  - about one month can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, rural
+  - about two months can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, rural
+  - employment in the agricultural sector, aged 15-64, rural
+  - employment in the armed forces occupation group, aged 15-64, rural
+  - employment in the clerks occupation group, aged 15-64, rural
+  - employment in the commerce sector, aged 15-64, rural
+  - employment in the construction sector, aged 15-64, rural
+  - employment in the craft workers occupation group, aged 15-64, rural
+  - employment in the elementary occupation group, aged 15-64, rural
+  - employment in the eletricity and public utilities sector, aged 15-64, rural
+  - employment in the industrial sector, aged 15-64, rural
+  - employment in the machine operators occupation group, aged 15-64, rural
+  - employment in the manufacturing sector, aged 15-64, rural
+  - employment in the mining sector, aged 15-64, rural
+  - employment in the professionals occupation group, aged 15-64, rural
+  - employment in the public administration sector, aged 15-64, rural
+  - employment in the public sector, aged 15-64, rural
+  - employment in the senior officials occupation group, aged 15-64, rural
+  - employment in the skilled agriculture occupation group, aged 15-64, rural
+  - employment in the technicians occupation group, aged 15-64, rural
+  - employment rate, aged 15-64, rural
+  - employment to population ratio, aged 15-64, rural
+  - female in non-agricultural employment, aged 15-64, rural
+  - less than two weeks can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, rural
+  - more than two months can be covered using savings, borrowing, selling something, seeking help from friends and family, or other ways, in case household loses its main source of income, rural
+  - natural disaster in the past three years: income lost or unable to work, by self or household member, rural
+  - non-agricultural unpaid employment, aged 15-64, rural
+  - non-agricultural wage employment, aged 15-64, rural
+  - wage employment in agriculture, aged 15-64, rural
+  - wage employment in industry, aged 15-64, rural
+  - youth employment rate, aged 15-24, rural
+  - youth in non-agricultural employment, aged 15-24, rural
+  - youth in non-agricultural wage employment, aged 15-24, rural
+
+[Fairness] (256 terms)
+  - adequacy of benefits  -all social protection and labor -rural
+  - adequacy of benefits  -all social protection and labor -urban
+  - adequacy of benefits in 1st quintile   -all social protection and labor
+  - adequacy of benefits in 1st quintile   -all social protection and labor -rural
+  - adequacy of benefits in 1st quintile   -all social protection and labor -urban
+  - adequacy of benefits in 2nd quintile  -all social protection and labor
+  - adequacy of benefits in 2nd quintile  -all social protection and labor -rural
+  - adequacy of benefits in 2nd quintile  -all social protection and labor -urban
+  - adequacy of benefits in 3rd quintile  -all social protection and labor
+  - adequacy of benefits in 3rd quintile  -all social protection and labor -rural
+  - adequacy of benefits in 3rd quintile  -all social protection and labor -urban
+  - adequacy of benefits in 4th quintile  -all social protection and labor
+  - adequacy of benefits in 4th quintile  -all social protection and labor -rural
+  - adequacy of benefits in 4th quintile  -all social protection and labor -urban
+  - adequacy of benefits in 5th quintile   -all social protection and labor
+  - adequacy of benefits in 5th quintile   -all social protection and labor -rural
+  - adequacy of benefits in 5th quintile   -all social protection and labor -urban
+  - adequacy of benefits in extreme poor   -all social protection and labor
+  - adequacy of social protection and labor programs
+  - average per capita transfer -all social protection and labor
+  - average per capita transfer -all social protection and labor -rural
+  - average per capita transfer -all social protection and labor -urban
+  - average per capita transfer -all social protection and labor programs -female-beneficiary
+  - average per capita transfer -all social protection and labor programs -female-recipient of programs
+  - average per capita transfer -all social protection and labor programs -male-beneficiary
+  - average per capita transfer -all social protection and labor programs -male-recipient of programs
+  - average per capita transfer held by 1st quintile  -all social protection and labor
+  - average per capita transfer held by 1st quintile  -all social protection and labor -rural
+  - average per capita transfer held by 1st quintile  -all social protection and labor -urban
+  - average per capita transfer held by 2nd quintile -all social protection and labor
+  - average per capita transfer held by 2nd quintile -all social protection and labor -rural
+  - average per capita transfer held by 2nd quintile -all social protection and labor -urban
+  - average per capita transfer held by 2nd quintile-all social protection and labor -female-recipient
+  - average per capita transfer held by 2nd quintile-all social protection and labor -male-recipient
+  - average per capita transfer held by 3rd quintile -all social protection and labor
+  - average per capita transfer held by 3rd quintile -all social protection and labor -rural
+  - average per capita transfer held by 3rd quintile -all social protection and labor -urban
+  - average per capita transfer held by 3rd quintile-all social protection and labor -female-recipient
+  - average per capita transfer held by 3rd quintile-all social protection and labor -male-recipient
+  - average per capita transfer held by 4th quintile -all social protection and labor
+  - average per capita transfer held by 4th quintile -all social protection and labor -rural
+  - average per capita transfer held by 4th quintile -all social protection and labor -urban
+  - average per capita transfer held by 4th quintile-all social protection and labor -female-recipient
+  - average per capita transfer held by 4th quintile-all social protection and labor -male-recipient
+  - average per capita transfer held by 5th quintile  -all social protection and labor
+  - average per capita transfer held by 5th quintile  -all social protection and labor -rural
+  - average per capita transfer held by 5th quintile  -all social protection and labor -urban
+  - average per capita transfer held by extreme poor  -all social protection and labor
+  - beneficiary incidence in 1st quintile   -all social protection and labor
+  - beneficiary incidence in 1st quintile   -all social protection and labor -rural
+  - beneficiary incidence in 1st quintile   -all social protection and labor -urban
+  - beneficiary incidence in 1st quintile-all social protection and labor -female-recipient
+  - beneficiary incidence in 1st quintile-all social protection and labor -male-recipient
+  - beneficiary incidence in 2nd quintile  -all social protection and labor
+  - beneficiary incidence in 2nd quintile  -all social protection and labor -rural
+  - beneficiary incidence in 2nd quintile  -all social protection and labor -urban
+  - beneficiary incidence in 2nd quintile  -all social protection and labor programs -male-recipient
+  - beneficiary incidence in 2nd quintile-all social protection and labor -female-recipient
+  - beneficiary incidence in 2nd quintile-all social protection and labor -male-recipient
+  - beneficiary incidence in 2nd quintile-all social protection and labor programs-female-recipient
+  - beneficiary incidence in 3rd quintile  -all social protection and labor
+  - beneficiary incidence in 3rd quintile  -all social protection and labor -rural
+  - beneficiary incidence in 3rd quintile  -all social protection and labor -urban
+  - beneficiary incidence in 3rd quintile  -all social protection and labor programs -male-recipient
+  - beneficiary incidence in 3rd quintile-all social protection and labor -female-recipient
+  - beneficiary incidence in 3rd quintile-all social protection and labor -male-recipient
+  - beneficiary incidence in 3rd quintile-all social protection and labor programs-female-recipient
+  - beneficiary incidence in 4th quintile  -all social protection and labor
+  - beneficiary incidence in 4th quintile  -all social protection and labor -rural
+  - beneficiary incidence in 4th quintile  -all social protection and labor -urban
+  - beneficiary incidence in 4th quintile  -all social protection and labor programs -male-recipient
+  - beneficiary incidence in 4th quintile-all social protection and labor -female-recipient
+  - beneficiary incidence in 4th quintile-all social protection and labor -male-recipient
+  - beneficiary incidence in 4th quintile-all social protection and labor programs-female-recipient
+  - beneficiary incidence in 5th quintile   -all social protection and labor
+  - beneficiary incidence in 5th quintile   -all social protection and labor -rural
+  - beneficiary incidence in 5th quintile   -all social protection and labor -urban
+  - beneficiary incidence in 5th quintile-all social protection and labor -female-recipient
+  - beneficiary incidence in 5th quintile-all social protection and labor -male-recipient
+  - beneficiary incidence in all income groups-all social protection and labor -female-beneficiary
+  - beneficiary incidence in all income groups-all social protection and labor -female-recipient
+  - beneficiary incidence in all income groups-all social protection and labor -male-beneficiary
+  - beneficiary incidence in all income groups-all social protection and labor -male-recipient
+  - beneficiary incidence in extreme poor   -all social protection and labor
+  - benefit incidence of social protection and labor programs to poorest quintile
+  - benefit-cost ratio - all social protection and labor - 1st quintile  -urban
+  - benefit-cost ratio - all social protection and labor -1st quintile
+  - benefit-cost ratio - all social protection and labor -1st quintile  -rural
+  - benefit-cost ratio - all social protection and labor -extreme poor
+  - benefits incidence in 1st quintile   -all social protection and labor
+  - benefits incidence in 1st quintile   -all social protection and labor -rural
+  - benefits incidence in 1st quintile   -all social protection and labor -urban
+  - benefits incidence in 2nd quintile  -all social protection and labor
+  - benefits incidence in 2nd quintile  -all social protection and labor -rural
+  - benefits incidence in 2nd quintile  -all social protection and labor -urban
+  - benefits incidence in 3rd quintile  -all social protection and labor
+  - benefits incidence in 3rd quintile  -all social protection and labor -rural
+  - benefits incidence in 3rd quintile  -all social protection and labor -urban
+  - benefits incidence in 4th quintile  -all social protection and labor
+  - benefits incidence in 4th quintile  -all social protection and labor -rural
+  - benefits incidence in 4th quintile  -all social protection and labor -urban
+  - benefits incidence in 5th quintile   -all social protection and labor
+  - benefits incidence in 5th quintile   -all social protection and labor -rural
+  - benefits incidence in 5th quintile   -all social protection and labor -urban
+  - benefits incidence in all income groups-all social protection and labor -female-beneficiary
+  - benefits incidence in all income groups-all social protection and labor programs-male-beneficiary
+  - benefits incidence in extreme poor   -all social protection and labor
+  - children in employment, wage workers
+  - children in employment, wage workers, female
+  - children in employment, wage workers, male
+  - coverage  -all social protection and labor -rural
+  - coverage  -all social protection and labor -urban
+  - coverage  -all social protection and labor programs -female-beneficiary
+  - coverage  -all social protection and labor programs -male-beneficiary
+  - coverage in 1st quintile   -all social protection and labor
+  - coverage in 1st quintile   -all social protection and labor -rural
+  - coverage in 1st quintile   -all social protection and labor -urban
+  - coverage in 2nd quintile  -all social protection and labor
+  - coverage in 2nd quintile  -all social protection and labor -rural
+  - coverage in 2nd quintile  -all social protection and labor -urban
+  - coverage in 3rd quintile  -all social protection and labor
+  - coverage in 3rd quintile  -all social protection and labor -rural
+  - coverage in 3rd quintile  -all social protection and labor -urban
+  - coverage in 4th quintile  -all social protection and labor
+  - coverage in 4th quintile  -all social protection and labor -rural
+  - coverage in 4th quintile  -all social protection and labor -urban
+  - coverage in 5th quintile   -all social protection and labor
+  - coverage in 5th quintile   -all social protection and labor -rural
+  - coverage in 5th quintile   -all social protection and labor -urban
+  - coverage in extreme poor   -all social protection and labor
+  - coverage of social protection and labor programs
+  - coverage of social protection programs
+  - cpia policies for social inclusion/equity cluster average
+  - cpia social protection rating
+  - employment by sector and gender  - agriculture - female
+  - employment by sector and gender  - agriculture - male
+  - employment by sector and gender  - commerce - female
+  - employment by sector and gender  - commerce - male
+  - employment by sector and gender  - construction - female
+  - employment by sector and gender  - construction - male
+  - employment by sector and gender  - electricity and utilities - female
+  - employment by sector and gender  - electricity and utilities - male
+  - employment by sector and gender  - industry - female
+  - employment by sector and gender  - industry - male
+  - employment by sector and gender  - manufacturing - female
+  - employment by sector and gender  - manufacturing - male
+  - employment by sector and gender  - mining - female
+  - employment by sector and gender  - mining - male
+  - employment by sector and gender  - public administration - female
+  - employment by sector and gender  - public administration - male
+  - employment by sector and gender  - public sector employment - female
+  - employment by sector and gender  - public sector employment - male
+  - female persons in households receiving social protection
+  - female to male gender wage gap, aged 15-24
+  - female to male gender wage gap, aged 15-64, rural
+  - female to male gender wage gap, aged 15-64, total
+  - female to male gender wage gap, aged 15-64, urban
+  - female to male gender wage gap, aged 25-64
+  - gender wage premium in the private sector, by industry: health
+  - gender wage premium in the private sector, by occupation: teachers
+  - gender wage premium in the public sector, by industry: core public administration
+  - gender wage premium in the public sector, by industry: health
+  - gender wage premium in the public sector, by industry: public administration
+  - gender wage premium in the public sector, by industry: public safety
+  - gender wage premium in the public sector, by industry: social security
+  - gini inequality index reduction  - all social protection and labor
+  - gini inequality index reduction  - all social protection and labor -rural
+  - gini inequality index reduction  - all social protection and labor -urban
+  - informal employment by sector and gender  - agriculture, forestry and fishing - female
+  - informal employment by sector and gender  - agriculture, forestry and fishing - male
+  - informal employment by sector and gender  - no breakdown - female
+  - informal employment by sector and gender  - no breakdown - male
+  - informal employment by sector and gender  - non-agriculture - female
+  - informal employment by sector and gender  - non-agriculture - male
+  - male persons in households receiving social protection
+  - p-value: gender wage premium in the private sector, by industry: health
+  - p-value: gender wage premium in the private sector, by occupation: teachers
+  - p-value: gender wage premium in the public sector, by industry: core public administration
+  - p-value: gender wage premium in the public sector, by industry: health
+  - p-value: gender wage premium in the public sector, by industry: public administration
+  - p-value: gender wage premium in the public sector, by industry: public safety
+  - p-value: gender wage premium in the public sector, by industry: social security
+  - p-value: public sector wage premium, by gender
+  - persons aged 15 to 29 years in households receiving social protection
+  - persons aged 30 to 44 years in households receiving social protection
+  - persons aged 45 to 64 years in households receiving social protection
+  - persons aged 65 or older in households receiving social protection
+  - persons in households receiving social protection
+  - persons living in rural areas in households receiving social protection
+  - persons living in urban areas in households receiving social protection
+  - population in extreme poor  not receiving social protection
+  - population in the 1st quintile  not receiving social protection
+  - population in the 1st quintile  not receiving social protection  -rural
+  - population in the 1st quintile  not receiving social protection  -urban
+  - population not receiving social protection
+  - population not receiving social protection  -rural
+  - population not receiving social protection  -urban
+  - poverty gap reduction  -  all social assistance - 1st quintile  -urban
+  - poverty gap reduction  -  all social assistance -1st quintile
+  - poverty gap reduction  -  all social assistance -1st quintile  -rural
+  - poverty gap reduction  -  all social assistance -extreme poor
+  - poverty gap reduction  -  all social insurance - 1st quintile  -urban
+  - poverty gap reduction  -  all social insurance -1st quintile
+  - poverty gap reduction  -  all social insurance -1st quintile  -rural
+  - poverty gap reduction  -  all social insurance -extreme poor
+  - poverty gap reduction  -  other social insurance - 1st quintile  -urban
+  - poverty gap reduction  -  other social insurance -1st quintile
+  - poverty gap reduction  -  other social insurance -1st quintile  -rural
+  - poverty gap reduction  -  other social insurance -extreme poor
+  - poverty gap reduction  -  social pension - 1st quintile  -urban
+  - poverty gap reduction  -  social pension -1st quintile
+  - poverty gap reduction  -  social pension -1st quintile  -rural
+  - poverty gap reduction  -  social pension -extreme poor
+  - poverty gap reduction  - all social protection and labor - 1st quintile  -urban
+  - poverty gap reduction  - all social protection and labor -1st quintile
+  - poverty gap reduction  - all social protection and labor -1st quintile  -rural
+  - poverty gap reduction  - all social protection and labor -extreme poor
+  - poverty headcount reduction  -  all social assistance - 1st quintile  -urban
+  - poverty headcount reduction  -  all social assistance -1st quintile
+  - poverty headcount reduction  -  all social assistance -1st quintile  -rural
+  - poverty headcount reduction  -  all social assistance -extreme poor
+  - poverty headcount reduction  -  all social insurance - 1st quintile  -urban
+  - poverty headcount reduction  -  all social insurance -1st quintile
+  - poverty headcount reduction  -  all social insurance -1st quintile  -rural
+  - poverty headcount reduction  -  all social insurance -extreme poor
+  - poverty headcount reduction  -  other social insurance - 1st quintile  -urban
+  - poverty headcount reduction  -  other social insurance -1st quintile
+  - poverty headcount reduction  -  other social insurance -1st quintile  -rural
+  - poverty headcount reduction  -  other social insurance -extreme poor
+  - poverty headcount reduction  -  social pension - 1st quintile  -urban
+  - poverty headcount reduction  -  social pension -1st quintile
+  - poverty headcount reduction  -  social pension -1st quintile  -rural
+  - poverty headcount reduction  -  social pension -extreme poor
+  - poverty headcount reduction  - all social protection and labor - 1st quintile  -urban
+  - poverty headcount reduction  - all social protection and labor -1st quintile
+  - poverty headcount reduction  - all social protection and labor -1st quintile  -rural
+  - poverty headcount reduction  - all social protection and labor -extreme poor
+  - proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, adjusted gender parity index
+  - public sector employment, as a share of paid employment by gender: female
+  - public sector employment, as a share of paid employment by gender: male
+  - public sector employment, as a share of total employment by gender: female
+  - public sector employment, as a share of total employment by gender: male
+  - public sector wage premium, by gender: female
+  - public sector wage premium, by gender: male
+  - public social protection expenditure
+  - share of population covered by at least one social protection benefit
+  - social protection function expenditure
+  - wbl: enforcement perceptions, work, public authorities enforce existing legislation prohibiting discrimination in employment based on gender
+  - wbl: legal framework, work, the law prohibits discrimination in employment based on gender
+  - wbl: supportive framework, work, a specialized body receives complaints about gender discrimination in employment
+  - wbl: supportive framework, work, the government provides awareness-raising measures on fair recruitment policies free from discrimination based on gender
+  - youth in non-agricultural wage employment, aged 15-24, male
+  - youth in non-agricultural wage employment, aged 15-24, rural
+  - youth in non-agricultural wage employment, aged 15-24, total
+  - youth in non-agricultural wage employment, aged 15-24, urban
+  - youth in non-agricultural wage employment, ages 15-24, female
+
+[Input Reduction] (229 terms)
+  - 6th pillar: goods market efficiency
+  - 7th pillar: labor market efficiency
+  - b-ready: business entry pillar 3: operational efficiency of business entry
+  - b-ready: business insolvency pillar 3: operational efficiency of resolving judicial insolvency proceedings
+  - b-ready: international trade pillar 3: efficiency of importing goods, exporting goods, and engaging in digital trade
+  - b-ready: pillar 3: operational efficiency
+  - cpia efficiency of revenue mobilization rating
+  - debt forgiveness or reduction
+  - debt stock reduction
+  - disaster risk reduction progress score
+  - efficiency - expressed by the relationship between financing and outcomes; where 0 is the lowest possible efficiency and 1 is the highest
+  - efficiency - expressed by the score from the public expenditure and financial accountability  assessment; where 0 is the lowest possible efficiency and 1 is the highest
+  - efficiency enhancers
+  - efficiency of the clearance process, rank
+  - fertilizer consumption
+  - financing score; where a score of 1 indicates low effectiveness and 5 indicates high effectiveness in terms of adequacy, efficiency, and equity.
+  - gini inequality index reduction  -  active labor market
+  - gini inequality index reduction  -  active labor market -rural
+  - gini inequality index reduction  -  active labor market -urban
+  - gini inequality index reduction  -  all labor market
+  - gini inequality index reduction  -  all labor market -rural
+  - gini inequality index reduction  -  all labor market -urban
+  - gini inequality index reduction  -  all private transfers
+  - gini inequality index reduction  -  all private transfers -rural
+  - gini inequality index reduction  -  all private transfers -urban
+  - gini inequality index reduction  -  all social assistance
+  - gini inequality index reduction  -  all social assistance -rural
+  - gini inequality index reduction  -  all social assistance -urban
+  - gini inequality index reduction  -  all social insurance
+  - gini inequality index reduction  -  all social insurance -rural
+  - gini inequality index reduction  -  all social insurance -urban
+  - gini inequality index reduction  -  conditional cash transfer
+  - gini inequality index reduction  -  conditional cash transfer -rural
+  - gini inequality index reduction  -  conditional cash transfer -urban
+  - gini inequality index reduction  -  contributory pensions
+  - gini inequality index reduction  -  contributory pensions -rural
+  - gini inequality index reduction  -  contributory pensions -urban
+  - gini inequality index reduction  -  domestic private transfers
+  - gini inequality index reduction  -  domestic private transfers -rural
+  - gini inequality index reduction  -  domestic private transfers -urban
+  - gini inequality index reduction  -  in-kind
+  - gini inequality index reduction  -  in-kind -rural
+  - gini inequality index reduction  -  in-kind -urban
+  - gini inequality index reduction  -  international private transfers
+  - gini inequality index reduction  -  international private transfers -rural
+  - gini inequality index reduction  -  international private transfers -urban
+  - gini inequality index reduction  -  other social assistance
+  - gini inequality index reduction  -  other social assistance -rural
+  - gini inequality index reduction  -  other social assistance -urban
+  - gini inequality index reduction  -  other social insurance
+  - gini inequality index reduction  -  other social insurance -rural
+  - gini inequality index reduction  -  other social insurance -urban
+  - gini inequality index reduction  -  passive labor market
+  - gini inequality index reduction  -  passive labor market -rural
+  - gini inequality index reduction  -  passive labor market -urban
+  - gini inequality index reduction  -  public works
+  - gini inequality index reduction  -  public works -rural
+  - gini inequality index reduction  -  public works -urban
+  - gini inequality index reduction  -  school-feeding
+  - gini inequality index reduction  -  school-feeding -rural
+  - gini inequality index reduction  -  school-feeding -urban
+  - gini inequality index reduction  -  social pension
+  - gini inequality index reduction  -  social pension -urban
+  - gini inequality index reduction  -  social pension-rural
+  - gini inequality index reduction  -  subsidies
+  - gini inequality index reduction  -  subsidies -rural
+  - gini inequality index reduction  -  subsidies -urban
+  - gini inequality index reduction  -  unconditional cash transfers
+  - gini inequality index reduction  -  unconditional cash transfers -rural
+  - gini inequality index reduction  -  unconditional cash transfers -urban
+  - gini inequality index reduction  - all social protection and labor
+  - gini inequality index reduction  - all social protection and labor -rural
+  - gini inequality index reduction  - all social protection and labor -urban
+  - hazardous pesticides exports
+  - hazardous pesticides imports
+  - logistics performance index: efficiency of customs clearance process
+  - poverty gap reduction  -  active labor market  - 1st quintile  -urban
+  - poverty gap reduction  -  active labor market  -1st quintile
+  - poverty gap reduction  -  active labor market  -1st quintile  -rural
+  - poverty gap reduction  -  active labor market  -extreme poor
+  - poverty gap reduction  -  all labor market  - 1st quintile  -urban
+  - poverty gap reduction  -  all labor market  -1st quintile
+  - poverty gap reduction  -  all labor market  -1st quintile  -rural
+  - poverty gap reduction  -  all labor market  -extreme poor
+  - poverty gap reduction  -  all private transfers - 1st quintile  -urban
+  - poverty gap reduction  -  all private transfers -1st quintile
+  - poverty gap reduction  -  all private transfers -1st quintile  -rural
+  - poverty gap reduction  -  all private transfers -extreme poor
+  - poverty gap reduction  -  all social assistance - 1st quintile  -urban
+  - poverty gap reduction  -  all social assistance -1st quintile
+  - poverty gap reduction  -  all social assistance -1st quintile  -rural
+  - poverty gap reduction  -  all social assistance -extreme poor
+  - poverty gap reduction  -  all social insurance - 1st quintile  -urban
+  - poverty gap reduction  -  all social insurance -1st quintile
+  - poverty gap reduction  -  all social insurance -1st quintile  -rural
+  - poverty gap reduction  -  all social insurance -extreme poor
+  - poverty gap reduction  -  conditional cash transfer - 1st quintile  -urban
+  - poverty gap reduction  -  conditional cash transfer -1st quintile
+  - poverty gap reduction  -  conditional cash transfer -1st quintile  -rural
+  - poverty gap reduction  -  conditional cash transfer -extreme poor
+  - poverty gap reduction  -  contributory pensions - 1st quintile  -urban
+  - poverty gap reduction  -  contributory pensions -1st quintile
+  - poverty gap reduction  -  contributory pensions -1st quintile  -rural
+  - poverty gap reduction  -  contributory pensions -extreme poor
+  - poverty gap reduction  -  domestic private transfers - 1st quintile  -urban
+  - poverty gap reduction  -  domestic private transfers -1st quintile
+  - poverty gap reduction  -  domestic private transfers -1st quintile  -rural
+  - poverty gap reduction  -  domestic private transfers -extreme poor
+  - poverty gap reduction  -  in-kind - 1st quintile  -urban
+  - poverty gap reduction  -  in-kind -1st quintile
+  - poverty gap reduction  -  in-kind -1st quintile  -rural
+  - poverty gap reduction  -  in-kind -extreme poor
+  - poverty gap reduction  -  international private transfers - 1st quintile  -urban
+  - poverty gap reduction  -  international private transfers -1st quintile
+  - poverty gap reduction  -  international private transfers -1st quintile  -rural
+  - poverty gap reduction  -  international private transfers -extreme poor
+  - poverty gap reduction  -  other social assistance - 1st quintile  -urban
+  - poverty gap reduction  -  other social assistance -1st quintile
+  - poverty gap reduction  -  other social assistance -1st quintile  -rural
+  - poverty gap reduction  -  other social assistance -extreme poor
+  - poverty gap reduction  -  other social insurance - 1st quintile  -urban
+  - poverty gap reduction  -  other social insurance -1st quintile
+  - poverty gap reduction  -  other social insurance -1st quintile  -rural
+  - poverty gap reduction  -  other social insurance -extreme poor
+  - poverty gap reduction  -  passive labor market  - 1st quintile  -urban
+  - poverty gap reduction  -  passive labor market  -1st quintile
+  - poverty gap reduction  -  passive labor market  -1st quintile  -rural
+  - poverty gap reduction  -  passive labor market  -extreme poor
+  - poverty gap reduction  -  public works - 1st quintile  -urban
+  - poverty gap reduction  -  public works -1st quintile
+  - poverty gap reduction  -  public works -1st quintile  -rural
+  - poverty gap reduction  -  public works -extreme poor
+  - poverty gap reduction  -  school-feeding - 1st quintile  -urban
+  - poverty gap reduction  -  school-feeding -1st quintile
+  - poverty gap reduction  -  school-feeding -1st quintile  -rural
+  - poverty gap reduction  -  school-feeding -extreme poor
+  - poverty gap reduction  -  social pension - 1st quintile  -urban
+  - poverty gap reduction  -  social pension -1st quintile
+  - poverty gap reduction  -  social pension -1st quintile  -rural
+  - poverty gap reduction  -  social pension -extreme poor
+  - poverty gap reduction  -  subsidies - 1st quintile  -urban
+  - poverty gap reduction  -  subsidies -1st quintile
+  - poverty gap reduction  -  subsidies -1st quintile  -rural
+  - poverty gap reduction  -  subsidies -extreme poor
+  - poverty gap reduction  -  unconditional cash transfers - 1st quintile  -urban
+  - poverty gap reduction  -  unconditional cash transfers -1st quintile
+  - poverty gap reduction  -  unconditional cash transfers -1st quintile  -rural
+  - poverty gap reduction  -  unconditional cash transfers -extreme poor
+  - poverty gap reduction  - all social protection and labor - 1st quintile  -urban
+  - poverty gap reduction  - all social protection and labor -1st quintile
+  - poverty gap reduction  - all social protection and labor -1st quintile  -rural
+  - poverty gap reduction  - all social protection and labor -extreme poor
+  - poverty headcount reduction  -  active labor market  - 1st quintile  -urban
+  - poverty headcount reduction  -  active labor market  -1st quintile
+  - poverty headcount reduction  -  active labor market  -1st quintile  -rural
+  - poverty headcount reduction  -  active labor market  -extreme poor
+  - poverty headcount reduction  -  all labor market  - 1st quintile  -urban
+  - poverty headcount reduction  -  all labor market  -1st quintile
+  - poverty headcount reduction  -  all labor market  -1st quintile  -rural
+  - poverty headcount reduction  -  all labor market  -extreme poor
+  - poverty headcount reduction  -  all private transfers - 1st quintile  -urban
+  - poverty headcount reduction  -  all private transfers -1st quintile
+  - poverty headcount reduction  -  all private transfers -1st quintile  -rural
+  - poverty headcount reduction  -  all private transfers -extreme poor
+  - poverty headcount reduction  -  all social assistance - 1st quintile  -urban
+  - poverty headcount reduction  -  all social assistance -1st quintile
+  - poverty headcount reduction  -  all social assistance -1st quintile  -rural
+  - poverty headcount reduction  -  all social assistance -extreme poor
+  - poverty headcount reduction  -  all social insurance - 1st quintile  -urban
+  - poverty headcount reduction  -  all social insurance -1st quintile
+  - poverty headcount reduction  -  all social insurance -1st quintile  -rural
+  - poverty headcount reduction  -  all social insurance -extreme poor
+  - poverty headcount reduction  -  conditional cash transfer - 1st quintile  -urban
+  - poverty headcount reduction  -  conditional cash transfer -1st quintile
+  - poverty headcount reduction  -  conditional cash transfer -1st quintile  -rural
+  - poverty headcount reduction  -  conditional cash transfer -extreme poor
+  - poverty headcount reduction  -  contributory pensions - 1st quintile  -urban
+  - poverty headcount reduction  -  contributory pensions -1st quintile
+  - poverty headcount reduction  -  contributory pensions -1st quintile  -rural
+  - poverty headcount reduction  -  contributory pensions -extreme poor
+  - poverty headcount reduction  -  domestic private transfers - 1st quintile  -urban
+  - poverty headcount reduction  -  domestic private transfers -1st quintile
+  - poverty headcount reduction  -  domestic private transfers -1st quintile  -rural
+  - poverty headcount reduction  -  domestic private transfers -extreme poor
+  - poverty headcount reduction  -  in-kind - 1st quintile  -urban
+  - poverty headcount reduction  -  in-kind -1st quintile
+  - poverty headcount reduction  -  in-kind -1st quintile  -rural
+  - poverty headcount reduction  -  in-kind -extreme poor
+  - poverty headcount reduction  -  international private transfers - 1st quintile  -urban
+  - poverty headcount reduction  -  international private transfers -1st quintile
+  - poverty headcount reduction  -  international private transfers -1st quintile  -rural
+  - poverty headcount reduction  -  international private transfers -extreme poor
+  - poverty headcount reduction  -  other social assistance - 1st quintile  -urban
+  - poverty headcount reduction  -  other social assistance -1st quintile
+  - poverty headcount reduction  -  other social assistance -1st quintile  -rural
+  - poverty headcount reduction  -  other social assistance -extreme poor
+  - poverty headcount reduction  -  other social insurance - 1st quintile  -urban
+  - poverty headcount reduction  -  other social insurance -1st quintile
+  - poverty headcount reduction  -  other social insurance -1st quintile  -rural
+  - poverty headcount reduction  -  other social insurance -extreme poor
+  - poverty headcount reduction  -  passive labor market  - 1st quintile  -urban
+  - poverty headcount reduction  -  passive labor market  -1st quintile
+  - poverty headcount reduction  -  passive labor market  -1st quintile  -rural
+  - poverty headcount reduction  -  passive labor market  -extreme poor
+  - poverty headcount reduction  -  public works - 1st quintile  -urban
+  - poverty headcount reduction  -  public works -1st quintile
+  - poverty headcount reduction  -  public works -1st quintile  -rural
+  - poverty headcount reduction  -  public works -extreme poor
+  - poverty headcount reduction  -  school-feeding - 1st quintile  -urban
+  - poverty headcount reduction  -  school-feeding -1st quintile
+  - poverty headcount reduction  -  school-feeding -1st quintile  -rural
+  - poverty headcount reduction  -  school-feeding -extreme poor
+  - poverty headcount reduction  -  social pension - 1st quintile  -urban
+  - poverty headcount reduction  -  social pension -1st quintile
+  - poverty headcount reduction  -  social pension -1st quintile  -rural
+  - poverty headcount reduction  -  social pension -extreme poor
+  - poverty headcount reduction  -  subsidies - 1st quintile  -urban
+  - poverty headcount reduction  -  subsidies -1st quintile
+  - poverty headcount reduction  -  subsidies -1st quintile  -rural
+  - poverty headcount reduction  -  subsidies -extreme poor
+  - poverty headcount reduction  -  unconditional cash transfers - 1st quintile  -urban
+  - poverty headcount reduction  -  unconditional cash transfers -1st quintile
+  - poverty headcount reduction  -  unconditional cash transfers -1st quintile  -rural
+  - poverty headcount reduction  -  unconditional cash transfers -extreme poor
+  - poverty headcount reduction  - all social protection and labor - 1st quintile  -urban
+  - poverty headcount reduction  - all social protection and labor -1st quintile
+  - poverty headcount reduction  - all social protection and labor -1st quintile  -rural
+  - poverty headcount reduction  - all social protection and labor -extreme poor
+  - saber:  policy goal 2 lever 1: ensuring efficiency and equity in funding
+
+[Land Governance] (496 terms)
+  - 408_do disclosure requirements for commercial banks include information on recourse rights and processes?_#vgya_03
+  - access to land
+  - agricultural irrigated land
+  - agricultural land
+  - arable and permanent cropland
+  - arable land
+  - average score for politicized policy implementation
+  - average score for politicized policy-making
+  - built-up land
+  - carbon dioxide  net fluxes from lulucf - forest land
+  - carbon dioxide  net fluxes from lulucf - other land
+  - cereal cropland
+  - charges for the use of intellectual property, payments
+  - charges for the use of intellectual property, receipts
+  - co2 emissions by sector  - land-use change and forestry
+  - control of corruption - governance estimate
+  - control of corruption - governance score
+  - control of corruption - lower bound of the 90% confidence interval for the governance score
+  - control of corruption - standard error of the governance estimate
+  - control of corruption - upper bound of the 90% confidence interval for the governance score
+  - cost of registering property
+  - cpia building human resources rating
+  - cpia debt policy rating
+  - cpia fiscal policy rating
+  - cpia policy and institutions for environmental sustainability rating
+  - cpia property rights and rule-based governance rating
+  - dimension 5.1: legislation and governance
+  - do you know if there is a policy in place to require that schools have access to drinking water?
+  - do you know if there is a policy in place to require that schools have access to electricity?
+  - do you know if there is a policy in place to require that schools have functioning toilets?
+  - do you know if there is a policy in place to require that students have access to the prescribed textbooks?
+  - do you know if there is there a policy in place to require that schools are accessible to children with special needs?
+  - does a national policy exist to encourage breastfeeding?
+  - does a national policy to encourage salt iodization exist?
+  - economic and social rights performance score
+  - emission totals - direct emissions  - emissions on agricultural land
+  - emission totals - emissions   - emissions on agricultural land
+  - emission totals - emissions   - forestland
+  - emission totals - emissions   - land use change
+  - emission totals - emissions  - emissions on agricultural land
+  - emission totals - emissions  - forestland
+  - emission totals - emissions  - land use change
+  - emission totals - emissions  from ch4  - emissions on agricultural land
+  - emission totals - emissions  from ch4  - land use change
+  - emission totals - emissions  from n2o  - emissions on agricultural land
+  - emission totals - emissions  from n2o  - land use change
+  - emission totals - indirect emissions  - emissions on agricultural land
+  - ext. assets in debt instruments, central bank, long-term, special drawing rights , usd
+  - ext. assets in debt instruments, general government, long-term, special drawing rights , usd
+  - fiscal impact of policy proposals
+  - gender impact analysis of budget policy proposals
+  - gender impact analysis of expenditure policy proposals
+  - gender impact analysis of revenue policy proposals
+  - getting credit, legal rights index
+  - getting credit: strength of legal rights index
+  - getting credit: strength of legal rights index   - score
+  - goal 15: life on land
+  - government effectiveness - governance estimate
+  - government effectiveness - governance score
+  - government effectiveness - lower bound of the 90% confidence interval for the governance score
+  - government effectiveness - standard error of the governance estimate
+  - government effectiveness - upper bound of the 90% confidence interval for the governance score
+  - gross ext. debt pmt, central bank, immediate, special drawing rights , interest, usd
+  - gross ext. debt pmt, central bank, immediate, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, central bank, immediate, special drawing rights , principal, usd
+  - gross ext. debt pmt, central bank, more than 0 to 3, special drawing rights , interest, usd
+  - gross ext. debt pmt, central bank, more than 0 to 3, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, central bank, more than 0 to 3, special drawing rights , principal, usd
+  - gross ext. debt pmt, central bank, more than 12 to 18, special drawing rights , interest, usd
+  - gross ext. debt pmt, central bank, more than 12 to 18, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, central bank, more than 12 to 18, special drawing rights , principal, usd
+  - gross ext. debt pmt, central bank, more than 18 to 24, special drawing rights , interest, usd
+  - gross ext. debt pmt, central bank, more than 18 to 24, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, central bank, more than 18 to 24, special drawing rights , principal, usd
+  - gross ext. debt pmt, central bank, more than 2yrs, special drawing rights , interest, usd
+  - gross ext. debt pmt, central bank, more than 2yrs, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, central bank, more than 2yrs, special drawing rights , principal, usd
+  - gross ext. debt pmt, central bank, more than 3 to 6, special drawing rights , interest, usd
+  - gross ext. debt pmt, central bank, more than 3 to 6, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, central bank, more than 3 to 6, special drawing rights , principal, usd
+  - gross ext. debt pmt, central bank, more than 6 to 9, special drawing rights , interest, usd
+  - gross ext. debt pmt, central bank, more than 6 to 9, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, central bank, more than 6 to 9, special drawing rights , principal, usd
+  - gross ext. debt pmt, central bank, more than 9 to 12, special drawing rights , interest, usd
+  - gross ext. debt pmt, central bank, more than 9 to 12, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, central bank, more than 9 to 12, special drawing rights , principal, usd
+  - gross ext. debt pmt, general government, immediate, special drawing rights , interest, usd
+  - gross ext. debt pmt, general government, immediate, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, general government, immediate, special drawing rights , principal, usd
+  - gross ext. debt pmt, general government, more than 0 to 3, special drawing rights , interest, usd
+  - gross ext. debt pmt, general government, more than 0 to 3, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, general government, more than 0 to 3, special drawing rights , principal, usd
+  - gross ext. debt pmt, general government, more than 12 to 18, special drawing rights , interest, usd
+  - gross ext. debt pmt, general government, more than 12 to 18, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, general government, more than 12 to 18, special drawing rights , principal, usd
+  - gross ext. debt pmt, general government, more than 18 to 24, special drawing rights , interest, usd
+  - gross ext. debt pmt, general government, more than 18 to 24, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, general government, more than 18 to 24, special drawing rights , principal, usd
+  - gross ext. debt pmt, general government, more than 2yrs, special drawing rights , interest, usd
+  - gross ext. debt pmt, general government, more than 2yrs, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, general government, more than 2yrs, special drawing rights , principal, usd
+  - gross ext. debt pmt, general government, more than 3 to 6, special drawing rights , interest, usd
+  - gross ext. debt pmt, general government, more than 3 to 6, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, general government, more than 3 to 6, special drawing rights , principal, usd
+  - gross ext. debt pmt, general government, more than 6 to 9, special drawing rights , interest, usd
+  - gross ext. debt pmt, general government, more than 6 to 9, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, general government, more than 6 to 9, special drawing rights , principal, usd
+  - gross ext. debt pmt, general government, more than 9 to 12, special drawing rights , interest, usd
+  - gross ext. debt pmt, general government, more than 9 to 12, special drawing rights , prin. and int., usd
+  - gross ext. debt pmt, general government, more than 9 to 12, special drawing rights , principal, usd
+  - gross ext. debt pos., central bank, long-term, special drawing rights , beginning of period, usd
+  - gross ext. debt pos., central bank, long-term, special drawing rights , beginning pos., usd
+  - gross ext. debt pos., central bank, long-term, special drawing rights , end of period, usd
+  - gross ext. debt pos., central bank, long-term, special drawing rights , exchange rate chg, usd
+  - gross ext. debt pos., central bank, long-term, special drawing rights , other chg in vol., usd
+  - gross ext. debt pos., central bank, long-term, special drawing rights , transactions, usd
+  - gross ext. debt pos., central bank, long-term, special drawing rights , usd
+  - gross ext. debt pos., general government, long-term, special drawing rights , beginning of period, usd
+  - gross ext. debt pos., general government, long-term, special drawing rights , beginning pos., usd
+  - gross ext. debt pos., general government, long-term, special drawing rights , end of period, usd
+  - gross ext. debt pos., general government, long-term, special drawing rights , exchange rate chg, usd
+  - gross ext. debt pos., general government, long-term, special drawing rights , other chg in vol., usd
+  - gross ext. debt pos., general government, long-term, special drawing rights , transactions, usd
+  - gross ext. debt pos., general government, long-term, special drawing rights , usd
+  - gross ext. debt pos., public sector ext. debt, long-term, special drawing rights , usd
+  - gross psd, budgetary central gov., all maturities, special drawing rights, nominal value, % of gdp
+  - gross psd, budgetary central gov., all maturities, special drawing rights, nominal value, us$
+  - gross psd, budgetary central gov., long-term, with payment due in more than one year, special drawing rights, nominal value, % of gdp
+  - gross psd, budgetary central gov., long-term, with payment due in more than one year, special drawing rights, nominal value, us$
+  - gross psd, central gov., all maturities, special drawing rights, nominal value, % of gdp
+  - gross psd, central gov., all maturities, special drawing rights, nominal value, us$
+  - gross psd, central gov., long-term, with payment due in more than one year, special drawing rights, nominal value, % of gdp
+  - gross psd, central gov., long-term, with payment due in more than one year, special drawing rights, nominal value, us$
+  - gross psd, financial public corp., all maturities, special drawing rights, nominal value, % of gdp
+  - gross psd, financial public corp., all maturities, special drawing rights, nominal value, us$
+  - gross psd, financial public corp., long-term, with payment due in more than one year, special drawing rights, nominal value, % of gdp
+  - gross psd, financial public corp., long-term, with payment due in more than one year, special drawing rights, nominal value, us$
+  - gross psd, general gov., all maturities, special drawing rights, nominal value, % of gdp
+  - gross psd, general gov., all maturities, special drawing rights, nominal value, us$
+  - gross psd, general gov., long-term, with payment due in more than one year, special drawing rights, nominal value, % of gdp
+  - gross psd, general gov., long-term, with payment due in more than one year, special drawing rights, nominal value, us$
+  - gross psd, nonfinancial public corp., all maturities, special drawing rights, nominal value, % of gdp
+  - gross psd, nonfinancial public corp., all maturities, special drawing rights, nominal value, us$
+  - gross psd, nonfinancial public corp., long-term, with payment due in more than one year, special drawing rights, nominal value, % of gdp
+  - gross psd, nonfinancial public corp., long-term, with payment due in more than one year, special drawing rights, nominal value, us$
+  - gross psd, total, all maturities, special drawing rights, nominal value, us$
+  - gross psd, total, long-term, with payment due in more than one year, special drawing rights, nominal value, us$
+  - insurance policy holders per 1,000 adults
+  - is there a policy in place to require that schools are accessible to children with special needs?
+  - is there a policy in place to require that schools have access to drinking water?
+  - is there a policy in place to require that schools have access to electricity?
+  - is there a policy in place to require that schools have functioning toilets?
+  - is there a policy in place to require that students have access to the prescribed textbooks?
+  - is there a policy that guarantees pregnant women free antenatal visits and skilled delivery?
+  - is there a policy that specifies the need to monitor principal or head teacher performance?
+  - land area
+  - land area equipped for irrigation
+  - land area where elevation is below 5 meters
+  - land surface temperature
+  - men who do not own land
+  - men who do not own land : q1
+  - men who do not own land : q2
+  - men who do not own land : q3
+  - men who do not own land : q4
+  - men who do not own land : q5
+  - men who own land alone
+  - men who own land alone : q1
+  - men who own land alone : q2
+  - men who own land alone : q3
+  - men who own land alone : q4
+  - men who own land alone : q5
+  - men who own land both alone and jointly
+  - men who own land both alone and jointly : q1
+  - men who own land both alone and jointly : q2
+  - men who own land both alone and jointly : q3
+  - men who own land both alone and jointly : q4
+  - men who own land both alone and jointly : q5
+  - men who own land jointly
+  - men who own land jointly : q1
+  - men who own land jointly : q2
+  - men who own land jointly : q3
+  - men who own land jointly : q4
+  - men who own land jointly : q5
+  - net ext. debt position, central bank, long-term, special drawing rights , usd
+  - net ext. debt position, general government, long-term, special drawing rights , usd
+  - non-co2 ghg emissions by sector  - land-use change and forestry
+  - palm oil land area by type of condition: damaged
+  - palm oil land area by type of condition: immature
+  - palm oil land area by type of condition: mature
+  - palm oil land area by type of ownership: private
+  - palm oil land area by type of ownership: smallholder
+  - palm oil land area by type of ownership: state owned enterprise
+  - palm oil land area: total
+  - participation and human rights
+  - percent of firms choosing access to land as their biggest obstacle
+  - percentage of people who believe it is somewhat very likely that they could use the right to use their property of part of it against their will in the next 5 years
+  - percentage of people who believe it is very unlikely or unlikely that they could use the right to use their property of part of it against their will in the next 5 years
+  - permanent cropland
+  - policy lever  - attraction
+  - policy lever  - caregiver capacity – financial capacity
+  - policy lever  - caregiver capacity – skills capacity
+  - policy lever  - center-based care
+  - policy lever  - clarity of functions
+  - policy lever  - evaluation
+  - policy lever  - health
+  - policy lever  - intrinsic motivation
+  - policy lever  - monitoring
+  - policy lever  - monitoring & accountability
+  - policy lever  - nutrition programs
+  - policy lever  - selection & deployment
+  - policy lever  - standards
+  - policy lever  - support
+  - policy uncertainty
+  - political stability - governance estimate
+  - political stability - governance score
+  - political stability - lower bound of the 90% confidence interval for the governance score
+  - political stability - standard error of the governance estimate
+  - political stability - upper bound of the 90% confidence interval for the governance score
+  - protecting minority investors: extent of shareholder rights index
+  - protecting minority investors: extent of shareholder rights index   - score
+  - public sector ext. debt pos., long-term, special drawing rights , usd
+  - rank: registering property
+  - ratio: agricultural land to total coastal area of state
+  - ratio: built-up land to total coastal area of state
+  - ratio: shore land to total coastal area of state
+  - registering property
+  - registering property  - score
+  - registering property: cost
+  - registering property: cost  - score
+  - registering property: equal access to property rights index
+  - registering property: geographic coverage index
+  - registering property: land dispute resolution index
+  - registering property: procedures
+  - registering property: procedures  - score
+  - registering property: quality of land administration index
+  - registering property: quality of land administration index   - score
+  - registering property: reliability of infrastructure index
+  - registering property: time
+  - registering property: time  - score
+  - registering property: transparency of information index
+  - regulatory quality - governance estimate
+  - regulatory quality - governance score
+  - regulatory quality - lower bound of the 90% confidence interval for the governance score
+  - regulatory quality - standard error of the governance estimate
+  - regulatory quality - upper bound of the 90% confidence interval for the governance score
+  - renewable natural capital per capita, agricultural land
+  - renewable natural capital per capita, agricultural land: cropland
+  - renewable natural capital per capita, agricultural land: pastureland
+  - renewable natural capital, agricultural land
+  - renewable natural capital, agricultural land: cropland
+  - renewable natural capital, agricultural land: pastureland
+  - rights and obligations for revenue measures
+  - rule of law - governance estimate
+  - rule of law - governance score
+  - rule of law - lower bound of the 90% confidence interval for the governance score
+  - rule of law - standard error of the governance estimate
+  - rule of law - upper bound of the 90% confidence interval for the governance score
+  - rural land area
+  - rural land area where elevation is below 5 meters
+  - saber:  feeding policy goal 1: policy frameworks
+  - saber:  feeding policy goal 2: financial capacity
+  - saber:  feeding policy goal 3: institutional capacity and coordination
+  - saber:  feeding policy goal 4: design and implementation
+  - saber:  feeding policy goal 5: community roles–reaching beyond schools
+  - saber:  health policy goal 1: health-related school policies
+  - saber:  health policy goal 2: safe, supportive school environments
+  - saber:  policy goal 1 lever 1: are there clear expectations for teachers?
+  - saber:  policy goal 1 lever 1: clear vision
+  - saber:  policy goal 1 lever 1: enabling context and system alignment
+  - saber:  policy goal 1 lever 1: legal authority over the management of the operational budget
+  - saber:  policy goal 1 lever 1: legal framework
+  - saber:  policy goal 1 lever 1: setting a strategic direction
+  - saber:  policy goal 1 lever 1: teacher standards
+  - saber:  policy goal 1 lever 2: assessment quality
+  - saber:  policy goal 1 lever 2: fostering a demand-driven approach
+  - saber:  policy goal 1 lever 2: inter-sectoral coordination
+  - saber:  policy goal 1 lever 2: is there useful guidance on the use of teachers' working time?
+  - saber:  policy goal 1 lever 2: legal authority over the management of the non-teaching staff salaries
+  - saber:  policy goal 1 lever 2: organizational structure
+  - saber:  policy goal 1 lever 2: teacher appointment and deployment
+  - saber:  policy goal 1 lever 3: finance
+  - saber:  policy goal 1 lever 3: human resources
+  - saber:  policy goal 1 lever 3: legal authority over the management of teacher salaries
+  - saber:  policy goal 1 lever 3: strengthening critical coordination
+  - saber:  policy goal 1 lever 3: teacher salaries
+  - saber:  policy goal 1 lever 4: infrastructural capacity
+  - saber:  policy goal 1 lever 4: legal authority to raise additional funds for the school
+  - saber:  policy goal 1 lever 4: teacher dismissal
+  - saber:  policy goal 1 lever 5: budget
+  - saber:  policy goal 1 lever 5: collaborative budget planning
+  - saber:  policy goal 1 lever 5: curriculum delivery
+  - saber:  policy goal 1 lever 6: classroom resourcing
+  - saber:  policy goal 1 lever 6: data-driven culture
+  - saber:  policy goal 1: classroom assessment
+  - saber:  policy goal 1: enabling environment
+  - saber:  policy goal 1: encouraging innovation by providers
+  - saber:  policy goal 1: ensuring adequacy
+  - saber:  policy goal 1: establishing an enabling environment
+  - saber:  policy goal 1: level of autonomy in the planning and management of school budget
+  - saber:  policy goal 1: setting clear expectations for teachers
+  - saber:  policy goal 1: strategic framework
+  - saber:  policy goal 2 lever 1: are entry requirements set up to attract talented candidates?
+  - saber:  policy goal 2 lever 1: autonomy in teacher appointment and deployment decisions
+  - saber:  policy goal 2 lever 1: data architecture
+  - saber:  policy goal 2 lever 1: does the government provide more resources to students from disadvantaged backgrounds?
+  - saber:  policy goal 2 lever 1: enabling context
+  - saber:  policy goal 2 lever 1: ensuring efficiency and equity in funding
+  - saber:  policy goal 2 lever 1: scope of programs
+  - saber:  policy goal 2 lever 1: steering the system
+  - saber:  policy goal 2 lever 1: student standards
+  - saber:  policy goal 2 lever 2: assuring relevant and reliable standards
+  - saber:  policy goal 2 lever 2: autonomy in non-teaching staff appointment and deployment decisions
+  - saber:  policy goal 2 lever 2: coverage
+  - saber:  policy goal 2 lever 2: data coverage
+  - saber:  policy goal 2 lever 2: do payments for schooling represent a high share of income for low income households?
+  - saber:  policy goal 2 lever 2: is teacher pay appealing for talented candidates?
+  - saber:  policy goal 2 lever 2: student assessment
+  - saber:  policy goal 2 lever 2: system alignment
+  - saber:  policy goal 2 lever 3: are working conditions appealing for talented applicants?
+  - saber:  policy goal 2 lever 3: assessment quality
+  - saber:  policy goal 2 lever 3: autonomy in school principal appointment and deployment decisions
+  - saber:  policy goal 2 lever 3: data analytics
+  - saber:  policy goal 2 lever 3: diversifying pathways for skills acquisition
+  - saber:  policy goal 2 lever 3: equity
+  - saber:  policy goal 2 lever 3: inspection
+  - saber:  policy goal 2 lever 4: are there attractive career opportunities?
+  - saber:  policy goal 2 lever 4: dynamic system
+  - saber:  policy goal 2 lever 4: improvement planning
+  - saber:  policy goal 2 lever 5: sanctions
+  - saber:  policy goal 2: attracting the best into teaching
+  - saber:  policy goal 2: examinations
+  - saber:  policy goal 2: holding schools accountable
+  - saber:  policy goal 2: implementing widely
+  - saber:  policy goal 2: level of autonomy in personnel management
+  - saber:  policy goal 2: monitoring learning conditions and outcomes
+  - saber:  policy goal 2: system oversight
+  - saber:  policy goal 2: system soundness
+  - saber:  policy goal 3 lever 1: are resources allocated and disbursed in a manner that is transparent and effective?
+  - saber:  policy goal 3 lever 1: articulation
+  - saber:  policy goal 3 lever 1: data availability
+  - saber:  policy goal 3 lever 1: enabling context
+  - saber:  policy goal 3 lever 1: enabling diversity and excellence in training provision
+  - saber:  policy goal 3 lever 1: information
+  - saber:  policy goal 3 lever 1: methodological soundness
+  - saber:  policy goal 3 lever 1: participation of the school councils in budget preparation
+  - saber:  policy goal 3 lever 2: accuracy and reliability
+  - saber:  policy goal 3 lever 2: do monitoring and auditing processes encourage accountability in the use of funding?
+  - saber:  policy goal 3 lever 2: fostering relevance in public training programs
+  - saber:  policy goal 3 lever 2: institutional autonomy
+  - saber:  policy goal 3 lever 2: participation of the school councils in financial oversight
+  - saber:  policy goal 3 lever 2: quality standards
+  - saber:  policy goal 3 lever 2: system alignment
+  - saber:  policy goal 3 lever 3: assessment quality
+  - saber:  policy goal 3 lever 3: compliance with standards
+  - saber:  policy goal 3 lever 3: enhancing evidence-based accountability for results
+  - saber:  policy goal 3 lever 3: financial support
+  - saber:  policy goal 3 lever 3: integrity
+  - saber:  policy goal 3 lever 3: participation of the school councils in personnel management
+  - saber:  policy goal 3 lever 4: participation of the school councils in school activities
+  - saber:  policy goal 3 lever 4: periodicity and timeliness
+  - saber:  policy goal 3 lever 5: participation of the school councils in learning inputs
+  - saber:  policy goal 3 lever 6: transparency in community participation
+  - saber:  policy goal 3: empowering all parents, students, and communities
+  - saber:  policy goal 3: governance
+  - saber:  policy goal 3: monitoring and assuring quality
+  - saber:  policy goal 3: national large-scale assessment
+  - saber:  policy goal 3: preparing teachers with useful training and experience
+  - saber:  policy goal 3: quality data
+  - saber:  policy goal 3: role of the school council on school governance
+  - saber:  policy goal 4 lever 1: are there incentives for teachers to work at hard-to-staff schools?
+  - saber:  policy goal 4 lever 1: enabling context
+  - saber:  policy goal 4 lever 1: existence and frequency of school assessments
+  - saber:  policy goal 4 lever 1: is there an informed budget process?
+  - saber:  policy goal 4 lever 1: openness
+  - saber:  policy goal 4 lever 1: tuition fees
+  - saber:  policy goal 4 lever 2: are there incentives for teachers to teach critical shortage subjects?
+  - saber:  policy goal 4 lever 2: is the budget comprehensive and transparent?
+  - saber:  policy goal 4 lever 2: operational use
+  - saber:  policy goal 4 lever 2: ownership
+  - saber:  policy goal 4 lever 2: system alignment
+  - saber:  policy goal 4 lever 2: use of school assessments for making school adjustments
+  - saber:  policy goal 4 lever 3: accessibility
+  - saber:  policy goal 4 lever 3: assessment quality
+  - saber:  policy goal 4 lever 3: existence and frequency of standardized student assessments
+  - saber:  policy goal 4 lever 3: resource utilization
+  - saber:  policy goal 4 lever 4: effectiveness in disseminating findings
+  - saber:  policy goal 4 lever 4: market entry
+  - saber:  policy goal 4 lever 4: use of standardized student assessments for pedagogical, operational, and personnel adjustments
+  - saber:  policy goal 4 lever 5: regulatory fees
+  - saber:  policy goal 4: budgeting with adequate and transparent information
+  - saber:  policy goal 4: finance
+  - saber:  policy goal 4: international large-scale assessment
+  - saber:  policy goal 4: matching teachers' skills with students' needs
+  - saber:  policy goal 4: promoting diversity of supply
+  - saber:  policy goal 4: school and student assessment
+  - saber:  policy goal 4: utilization in decision making
+  - saber:  policy goal 5 lever 1:  guidelines for the use of results of student assessments
+  - saber:  policy goal 5 lever 1: accreditation and institutional quality standards
+  - saber:  policy goal 5 lever 1: are more public resources available to students from disadvantaged backgrounds?
+  - saber:  policy goal 5 lever 1: teacher standards
+  - saber:  policy goal 5 lever 2:  analysis of school and student performan
+  - saber:  policy goal 5 lever 2: appointment and deployment of teachers
+  - saber:  policy goal 5 lever 2: do payments for schooling represent a small share of income for low income families?
+  - saber:  policy goal 5 lever 3:  degree of financial accountability at the central level, regional, municipal, local and school level
+  - saber:  policy goal 5 lever 3: teacher salaries
+  - saber:  policy goal 5 lever 4: degree of accountability in school operations
+  - saber:  policy goal 5 lever 4: teacher dismissal
+  - saber:  policy goal 5 lever 5: curriculum delivery
+  - saber:  policy goal 5 lever 5: degree of learning accountability
+  - saber:  policy goal 5 lever 6: classroom resourcing
+  - saber:  policy goal 5 lever 7: budget autonomy
+  - saber:  policy goal 5: encouraging innovation by providers
+  - saber:  policy goal 5: leading teachers with strong principals
+  - saber:  policy goal 5: providing more resources to students who need them
+  - saber:  policy goal 5: quality assurance
+  - saber:  policy goal 5: school accountability
+  - saber:  policy goal 6 lever 1: are there systems in place to assess student learning in order to inform teaching and policy?
+  - saber:  policy goal 6 lever 1: economic development
+  - saber:  policy goal 6 lever 1: student standards
+  - saber:  policy goal 6 lever 2: are there systems in place to monitor teacher performance?
+  - saber:  policy goal 6 lever 2: fostering rdi and innovation
+  - saber:  policy goal 6 lever 2: student assessment
+  - saber:  policy goal 6 lever 3: are there multiple mechanisms to evaluate teacher performance?
+  - saber:  policy goal 6 lever 3: financial reporting
+  - saber:  policy goal 6 lever 3: fostering social and cultural development and environmental protection and sustainability
+  - saber:  policy goal 6 lever 4: inspection
+  - saber:  policy goal 6 lever 5: improvement planning
+  - saber:  policy goal 6 lever 6: sanctions and rewards
+  - saber:  policy goal 6: holding schools accountable
+  - saber:  policy goal 6: managing resources efficiently
+  - saber:  policy goal 6: monitoring teaching and learning
+  - saber:  policy goal 7 lever 1: are there opportunities for professional development?
+  - saber:  policy goal 7 lever 1: information
+  - saber:  policy goal 7 lever 2: is teacher professional development collaborative and focused on instructional improvement?
+  - saber:  policy goal 7 lever 3: is teacher professional development assigned based on perceived needs?
+  - saber:  policy goal 7 lever 3: selection
+  - saber:  policy goal 7 lever 4: contributions
+  - saber:  policy goal 7: empowering all parents, students, and communities
+  - saber:  policy goal 7: supporting teachers to improve instruction
+  - saber:  policy goal 8 lever 1: are career opportunities linked to performance?
+  - saber:  policy goal 8 lever 1: ownership
+  - saber:  policy goal 8 lever 2: are there mechanisms to hold teachers accountable?
+  - saber:  policy goal 8 lever 3: is teacher compensation linked to performance?
+  - saber:  policy goal 8 lever 3: market entry information
+  - saber:  policy goal 8 lever 4: regulatory fees
+  - saber:  policy goal 8 lever 5: funding
+  - saber:  policy goal 8 lever 6: incentives
+  - saber:  policy goal 8 lever 7: planning
+  - saber:  policy goal 8: motivating teachers to perform
+  - saber:  policy goal 8: promoting diversity of supply
+  - sectoral drivers of ghg emissions growth in the period 2012-2018 - land-use change and forestry
+  - shore land
+  - total ghg emissions by sector  - land-use change and forestry
+  - total tax revenue sharing from duty on the acquisition of land and building rights
+  - total tax revenue sharing from land and building tax
+  - urban land area
+  - urban land area where elevation is below 5 meters
+  - wbl: enforcement perceptions, assets, public authorities enforce equal rights over immovable property
+  - wbl: enforcement perceptions, assets, public authorities enforce existing legislation granting equal inheritance rights to male and female surviving spouses
+  - wbl: enforcement perceptions, assets, public authorities enforce existing legislation granting equal inheritance rights to sons and daughters
+  - wbl: enforcement perceptions, marriage, public authorities enforce equal rights between women and men to remarry
+  - wbl: enforcement perceptions, mobility, public authorities enforce equal rights between women and men to confer citizenship on their spouse and children
+  - wbl: legal framework, assets, the law grants equal inheritance rights to male and female surviving spouses
+  - wbl: legal framework, assets, the law grants equal inheritance rights to sons and daughters
+  - wbl: legal framework, assets, the law grants women equal rights over immovable property
+  - wbl: legal framework, marriage, the law grants a woman the same rights to remarry as a man
+  - wbl: legal framework, mobility, a woman and a man have equal rights to confer citizenship on their spouse and children
+  - wbl: supportive framework, assets, awareness measures are in place to improve women's access to information about property and inheritance rights
+  - wbl: supportive framework, assets, the government publishes anonymized sex-disaggregated data on property ownership
+  - wbl: supportive framework, assets, the law enables the joint titling of matrimonial property  for both spouses
+  - wbl: supportive framework, assets, there are mechanisms or incentives to encourage women to register immovable property
+  - wbl: supportive framework, mobility, a policy or plan considers women’s mobility needs in public transportation systems
+  - women who do not own land
+  - women who do not own land : q1
+  - women who do not own land : q2
+  - women who do not own land : q3
+  - women who do not own land : q4
+  - women who do not own land : q5
+  - women who own land alone
+  - women who own land alone : q1
+  - women who own land alone : q2
+  - women who own land alone : q3
+  - women who own land alone : q4
+  - women who own land alone : q5
+  - women who own land both alone and jointly
+  - women who own land both alone and jointly : q1
+  - women who own land both alone and jointly : q2
+  - women who own land both alone and jointly : q3
+  - women who own land both alone and jointly : q4
+  - women who own land both alone and jointly : q5
+  - women who own land jointly
+  - women who own land jointly : q1
+  - women who own land jointly : q2
+  - women who own land jointly : q3
+  - women who own land jointly : q4
+  - women who own land jointly : q5
+
+[Participation] (1 terms)
+  - saber:  policy goal 3 lever 6: transparency in community participation
+
+[Social Values and Diets] (17 terms)
+  - affordability of a healthy diet: ratio of cost to food expenditures
+  - affordability of a healthy diet: ratio of cost to the food poverty line
+  - cost of a healthy diet in ppp dollars
+  - cost of a healthy diet relative to the cost of sufficient energy from starchy staples
+  - cost of animal-sourced foods relative to the starchy staples in a least-cost healthy diet
+  - cost of fruits relative to the starchy staples in a least-cost healthy diet
+  - cost of legumes, nuts and seeds relative to the starchy staples in a least-cost healthy diet
+  - cost of oils and fats relative to the starchy staples in a least-cost healthy diet
+  - cost of vegetables relative to the starchy staples in a least-cost healthy diet
+  - cost share for animal-sourced foods in a least-cost healthy diet
+  - cost share for fruits in a least-cost healthy diet
+  - cost share for legumes, nuts and seeds in a least-cost healthy diet
+  - cost share for oils and fats in a least-cost healthy diet
+  - cost share for starchy staples in a least-cost healthy diet
+  - cost share for vegetables in a least-cost healthy diet
+  - millions of people who cannot afford a healthy diet
+  - percent of the population who cannot afford a healthy diet
+
+[Soil Health] (1 terms)
+  - carbon dioxide  net fluxes from lulucf - organic soil
+
+[Synergy] (1 terms)
+  - integration of payroll and personnel records
+
+
+</details>
+

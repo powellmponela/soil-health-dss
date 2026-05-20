@@ -1,0 +1,33 @@
+=== MANUAL Managed Indicators (RESTORED) ===
+
+[1. RECYCLING]
+  - Recycling
+
+[2. INPUT REDUCTION]
+  - Input Reduction
+
+[3. SOIL HEALTH]
+  - Animal Health
+  - Soil Health
+
+[4. ANIMAL HEALTH]
+  - Animal Health
+  - Soil Health
+
+[5. BIODIVERSITY]
+  - Biodiversity
+
+[6. SYNERGY]
+  - Synergy
+
+[8. CO-CREATION OF KNOWLEDGE]
+  - Co-creation of Knowledge
+
+[9. SOCIAL VALUES AND DIETS]
+  - Social Values and Diets
+
+[12. LAND AND NATURAL RESOURCE GOVERNANCE]
+  - Land Governance
+
+[13. PARTICIPATION]
+  - Participation

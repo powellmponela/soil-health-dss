@@ -1,0 +1,902 @@
+[
+    {
+        "label": "Acuerdo cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1179"
+    },
+    {
+        "label": "Agricultural biology",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1717"
+    },
+    {
+        "label": "Agricultural chemistry",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1721"
+    },
+    {
+        "label": "Agricultural cooperatives",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1730"
+    },
+    {
+        "label": "Agricultural credit",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1733"
+    },
+    {
+        "label": "Agricultural development",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1737"
+    },
+    {
+        "label": "Agricultural economics",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept596"
+    },
+    {
+        "label": "Agricultural engineering",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1753"
+    },
+    {
+        "label": "Agricultural enterprises",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1748"
+    },
+    {
+        "label": "Agricultural genetics",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1718"
+    },
+    {
+        "label": "Agricultural information systems",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1769"
+    },
+    {
+        "label": "Agricultural land",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept597"
+    },
+    {
+        "label": "Agricultural libraries",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1771"
+    },
+    {
+        "label": "Agricultural machinery",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1759"
+    },
+    {
+        "label": "Agricultural markets",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1743"
+    },
+    {
+        "label": "Agricultural museums",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1791"
+    },
+    {
+        "label": "Agricultural planning",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1739"
+    },
+    {
+        "label": "Agricultural policy",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1740"
+    },
+    {
+        "label": "Agricultural research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1818"
+    },
+    {
+        "label": "Agricultural schools",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1754"
+    },
+    {
+        "label": "Agricultural statistics",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1745"
+    },
+    {
+        "label": "Agricultural training",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1755"
+    },
+    {
+        "label": "Agricultural wastes",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1807"
+    },
+    {
+        "label": "Agricultural workers",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1835"
+    },
+    {
+        "label": "Animal nutrition",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2432"
+    },
+    {
+        "label": "Animal rights",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2449"
+    },
+    {
+        "label": "Applied research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2563"
+    },
+    {
+        "label": "Audience research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1538"
+    },
+    {
+        "label": "Biculturalism",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept3892"
+    },
+    {
+        "label": "Bien cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept3091"
+    },
+    {
+        "label": "Biological research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4024"
+    },
+    {
+        "label": "Brain research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4294"
+    },
+    {
+        "label": "Cambio cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept256"
+    },
+    {
+        "label": "Chemical research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept142"
+    },
+    {
+        "label": "Civil and political rights",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept554"
+    },
+    {
+        "label": "Collective human rights",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept555"
+    },
+    {
+        "label": "Comportamiento cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept5941"
+    },
+    {
+        "label": "Conflict research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6236"
+    },
+    {
+        "label": "Conflicto cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6248"
+    },
+    {
+        "label": "Conservation de l'environnement",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6317"
+    },
+    {
+        "label": "Conservation de la vie sauvage",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2412"
+    },
+    {
+        "label": "Conservation des documents",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2782"
+    },
+    {
+        "label": "Conservation des dossiers d'archives",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2780"
+    },
+    {
+        "label": "Conservation des monuments",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2695"
+    },
+    {
+        "label": "Conservation des oeuvres d'art",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6327"
+    },
+    {
+        "label": "Crisis cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept5349"
+    },
+    {
+        "label": "Cross cultural analysis",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2255"
+    },
+    {
+        "label": "Cultural activities",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1279"
+    },
+    {
+        "label": "Cultural administration",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept268"
+    },
+    {
+        "label": "Cultural animation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2374"
+    },
+    {
+        "label": "Cultural anthropology",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept255"
+    },
+    {
+        "label": "Cultural budgets",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4382"
+    },
+    {
+        "label": "Cultural conditions",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept257"
+    },
+    {
+        "label": "Cultural cooperation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6572"
+    },
+    {
+        "label": "Cultural costs",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6721"
+    },
+    {
+        "label": "Cultural creation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept258"
+    },
+    {
+        "label": "Cultural differentiation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept259"
+    },
+    {
+        "label": "Cultural diversity",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7021"
+    },
+    {
+        "label": "Cultural elite",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7018"
+    },
+    {
+        "label": "Cultural equipment",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7043"
+    },
+    {
+        "label": "Cultural events",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2475"
+    },
+    {
+        "label": "Cultural facilities",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6979"
+    },
+    {
+        "label": "Cultural finance",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7060"
+    },
+    {
+        "label": "Cultural history",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2960"
+    },
+    {
+        "label": "Cultural information",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7094"
+    },
+    {
+        "label": "Cultural interaction",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept261"
+    },
+    {
+        "label": "Cultural isolation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1970"
+    },
+    {
+        "label": "Cultural legislation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6976"
+    },
+    {
+        "label": "Cultural life",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6971"
+    },
+    {
+        "label": "Cultural management",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6977"
+    },
+    {
+        "label": "Cultural minorities",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7006"
+    },
+    {
+        "label": "Cultural nationalism",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7040"
+    },
+    {
+        "label": "Cultural organizations",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6978"
+    },
+    {
+        "label": "Cultural participation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept5231"
+    },
+    {
+        "label": "Cultural personnel training",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4605"
+    },
+    {
+        "label": "Cultural planning",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept271"
+    },
+    {
+        "label": "Cultural policy",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept272"
+    },
+    {
+        "label": "Cultural property presentation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept273"
+    },
+    {
+        "label": "Cultural property restitution",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept275"
+    },
+    {
+        "label": "Cultural relations",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7007"
+    },
+    {
+        "label": "Cultural revolution",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7000"
+    },
+    {
+        "label": "Cultural rights",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept556"
+    },
+    {
+        "label": "Cultural sociology",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7005"
+    },
+    {
+        "label": "Cultural tourism",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6972"
+    },
+    {
+        "label": "Culture of poverty",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6939"
+    },
+    {
+        "label": "Curriculum research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7280"
+    },
+    {
+        "label": "Desarrollo cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6966"
+    },
+    {
+        "label": "Desert soils",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2846"
+    },
+    {
+        "label": "Desigualdad cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7019"
+    },
+    {
+        "label": "Development research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7852"
+    },
+    {
+        "label": "Dietetics",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7994"
+    },
+    {
+        "label": "Dissemination of knowledge",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4191"
+    },
+    {
+        "label": "Ecological research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept8708"
+    },
+    {
+        "label": "Economic research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept8827"
+    },
+    {
+        "label": "Empirical research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept9612"
+    },
+    {
+        "label": "Endangered species",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2452"
+    },
+    {
+        "label": "Energy conservation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6319"
+    },
+    {
+        "label": "Environmental health",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept8424"
+    },
+    {
+        "label": "Estudios culturales",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1629"
+    },
+    {
+        "label": "Fishing rights",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7707"
+    },
+    {
+        "label": "Food consumption",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6382"
+    },
+    {
+        "label": "Forest conservation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6352"
+    },
+    {
+        "label": "Fundamental research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept11269"
+    },
+    {
+        "label": "Gender discrimination",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1660"
+    },
+    {
+        "label": "Gender division of labour",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept8270"
+    },
+    {
+        "label": "Gender equality",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept17150"
+    },
+    {
+        "label": "Gender minorities",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept8117"
+    },
+    {
+        "label": "Gender roles",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept11346"
+    },
+    {
+        "label": "Gender stereotypes",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept10281"
+    },
+    {
+        "label": "Gender-based violence",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept17151"
+    },
+    {
+        "label": "Historical research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept11909"
+    },
+    {
+        "label": "Human rights",
+        "uri": "http://vocabularies.unesco.org/thesaurus/mt6.10"
+    },
+    {
+        "label": "Human rights violations",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept558"
+    },
+    {
+        "label": "Human settlements and land use",
+        "uri": "http://vocabularies.unesco.org/thesaurus/mt4.45"
+    },
+    {
+        "label": "Human species",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4084"
+    },
+    {
+        "label": "Hydrological research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept12110"
+    },
+    {
+        "label": "Identidad cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept260"
+    },
+    {
+        "label": "Income",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept10894"
+    },
+    {
+        "label": "Income and wealth",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept586"
+    },
+    {
+        "label": "Income distribution",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept8251"
+    },
+    {
+        "label": "Income tax",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept12197"
+    },
+    {
+        "label": "Incomes policy",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept8810"
+    },
+    {
+        "label": "Industria cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4347"
+    },
+    {
+        "label": "Information/library research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept456"
+    },
+    {
+        "label": "Intangible cultural heritage",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept278"
+    },
+    {
+        "label": "Intercambio cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6984"
+    },
+    {
+        "label": "Interdisciplinary research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept12756"
+    },
+    {
+        "label": "International trade",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept3534"
+    },
+    {
+        "label": "Invasive species",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept17155"
+    },
+    {
+        "label": "Knowledge",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6288"
+    },
+    {
+        "label": "Knowledge management",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept10614"
+    },
+    {
+        "label": "Land reform",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1701"
+    },
+    {
+        "label": "Land tenure",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept13162"
+    },
+    {
+        "label": "Land use",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept442"
+    },
+    {
+        "label": "Linguistic research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept12899"
+    },
+    {
+        "label": "Linguistic rights",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept560"
+    },
+    {
+        "label": "Malnutrition",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept13670"
+    },
+    {
+        "label": "Market research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept3325"
+    },
+    {
+        "label": "Medio cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept3896"
+    },
+    {
+        "label": "Mission oriented research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2564"
+    },
+    {
+        "label": "Modelo cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7119"
+    },
+    {
+        "label": "Multiculturalism",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept3899"
+    },
+    {
+        "label": "National income",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept10891"
+    },
+    {
+        "label": "Nature conservation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4016"
+    },
+    {
+        "label": "Neighbouring rights",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept3093"
+    },
+    {
+        "label": "Nutrition",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7996"
+    },
+    {
+        "label": "Nutritional diseases",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept8194"
+    },
+    {
+        "label": "Objetivo cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7128"
+    },
+    {
+        "label": "Oceanographic research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept12902"
+    },
+    {
+        "label": "Operations research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2567"
+    },
+    {
+        "label": "Organization of research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept110"
+    },
+    {
+        "label": "Participatory research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept12906"
+    },
+    {
+        "label": "Patrimonio cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept269"
+    },
+    {
+        "label": "Peace research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6238"
+    },
+    {
+        "label": "Personal cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept270"
+    },
+    {
+        "label": "Plant nutrition",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4261"
+    },
+    {
+        "label": "Playwrights",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept8408"
+    },
+    {
+        "label": "Population research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7616"
+    },
+    {
+        "label": "Poverty",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7235"
+    },
+    {
+        "label": "Poverty alleviation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2041"
+    },
+    {
+        "label": "Psychological research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6239"
+    },
+    {
+        "label": "Reading research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept9386"
+    },
+    {
+        "label": "Recursos culturales",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept276"
+    },
+    {
+        "label": "Research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept111"
+    },
+    {
+        "label": "Research and development",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2565"
+    },
+    {
+        "label": "Research centres",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4893"
+    },
+    {
+        "label": "Research councils",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6306"
+    },
+    {
+        "label": "Research foundations",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept10993"
+    },
+    {
+        "label": "Research grants",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2071"
+    },
+    {
+        "label": "Research laboratories",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept13097"
+    },
+    {
+        "label": "Research libraries",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1784"
+    },
+    {
+        "label": "Research priorities",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept15495"
+    },
+    {
+        "label": "Research programmes",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept14843"
+    },
+    {
+        "label": "Research projects",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept15607"
+    },
+    {
+        "label": "Research registers",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept15913"
+    },
+    {
+        "label": "Research results",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept8018"
+    },
+    {
+        "label": "Research ships",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4447"
+    },
+    {
+        "label": "Research strategies",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept10299"
+    },
+    {
+        "label": "Research training",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4614"
+    },
+    {
+        "label": "Research trends",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept8871"
+    },
+    {
+        "label": "Research work",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept103"
+    },
+    {
+        "label": "Resources conservation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6329"
+    },
+    {
+        "label": "Rights and privileges",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1418"
+    },
+    {
+        "label": "Rights of prisoners",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7732"
+    },
+    {
+        "label": "Rights of soldiers",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2879"
+    },
+    {
+        "label": "Rights of special groups",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept561"
+    },
+    {
+        "label": "Rights of states",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept5589"
+    },
+    {
+        "label": "Rights of the child",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept5052"
+    },
+    {
+        "label": "Rights of the disabled",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7730"
+    },
+    {
+        "label": "Rural development",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept446"
+    },
+    {
+        "label": "Rural economy",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1703"
+    },
+    {
+        "label": "Saline soils",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept16183"
+    },
+    {
+        "label": "Science and research management",
+        "uri": "http://vocabularies.unesco.org/thesaurus/mt2.10"
+    },
+    {
+        "label": "Scientific researchers",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept5046"
+    },
+    {
+        "label": "Sistema cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept263"
+    },
+    {
+        "label": "Social and economic rights",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept562"
+    },
+    {
+        "label": "Social research",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept378"
+    },
+    {
+        "label": "Sociology of knowledge",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept13084"
+    },
+    {
+        "label": "Soil conservation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6333"
+    },
+    {
+        "label": "Soil degradation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7560"
+    },
+    {
+        "label": "Soil erosion",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7557"
+    },
+    {
+        "label": "Soil fertility",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept10791"
+    },
+    {
+        "label": "Soil maps",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4706"
+    },
+    {
+        "label": "Soil mechanics",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept5320"
+    },
+    {
+        "label": "Soil moisture",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept12055"
+    },
+    {
+        "label": "Soil pollution",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6448"
+    },
+    {
+        "label": "Soil resources",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1781"
+    },
+    {
+        "label": "Soil sciences",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept164"
+    },
+    {
+        "label": "Soil surveys",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept9808"
+    },
+    {
+        "label": "Soil water",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1876"
+    },
+    {
+        "label": "Soils",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept14174"
+    },
+    {
+        "label": "Species",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept234"
+    },
+    {
+        "label": "Structure of knowledge",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept10306"
+    },
+    {
+        "label": "Technique de conservation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6361"
+    },
+    {
+        "label": "Territorial rights",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7724"
+    },
+    {
+        "label": "Trade policy",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept5706"
+    },
+    {
+        "label": "Traditional knowledge",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6291"
+    },
+    {
+        "label": "Traditional technology",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2601"
+    },
+    {
+        "label": "Unsaturated soils",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept16558"
+    },
+    {
+        "label": "Valor cultural",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7142"
+    },
+    {
+        "label": "Volcanic soils",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept16559"
+    },
+    {
+        "label": "Water conservation",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6331"
+    },
+    {
+        "label": "Womens employment",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept9632"
+    },
+    {
+        "label": "Womens rights",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7728"
+    },
+    {
+        "label": "Womens unemployment",
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept5140"
+    }
+]

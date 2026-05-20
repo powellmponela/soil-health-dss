@@ -1,0 +1,144 @@
+=== Participation (5 terms) ===
+  - community participation
+  - empowerment
+  - farmer participation
+  - governance
+  - participation
+
+=== Fairness (1 terms) ===
+  - employment
+
+=== Co-creation of Knowledge (0 terms) ===
+
+=== Social Values and Diets (0 terms) ===
+
+=== Connectivity (14 terms) ===
+  - carbon markets
+  - commodity markets
+  - domestic markets
+  - informal markets
+  - market
+  - markets
+  - networks
+  - neural networks
+  - research networks
+  - social networks
+  - water markets
+  - wet markets
+  - wholesale markets
+  - world markets
+
+=== Land Governance (8 terms) ===
+  - arable land
+  - common land
+  - contaminated land
+  - intellectual property
+  - land
+  - land degradation
+  - land reform
+  - land tenure
+
+=== Economic Diversification (0 terms) ===
+
+=== Recycling (11 terms) ===
+  - biomass
+  - circular
+  - composted manure
+  - municipal wastewater
+  - nutrient
+  - recycling
+  - waste water
+  - wastewater
+  - wastewater management
+  - wastewater treatment
+  - water
+
+=== Synergy (26 terms) ===
+  - agroecological transition
+  - agroecological zones
+  - agroecology
+  - agroforestry
+  - agroforestry systems
+  - ecological factors
+  - ecological footprint
+  - ecological indicators
+  - ecological succession
+  - ecological zones
+  - integrated coastal zone management
+  - integrated crop-livestock systems
+  - integrated development
+  - integrated land management
+  - integrated management
+  - integrated pest management
+  - integrated plant nutrient management
+  - integrated rural development
+  - integrated soil fertility management
+  - integrated watershed management
+  - intercropping
+  - mixed cropping
+  - mixed farming
+  - mixed forests
+  - mixed grazing
+  - social-ecological resilience
+
+=== Biodiversity (37 terms) ===
+  - animal genetic resources
+  - biodiversity
+  - biodiversity conservation
+  - collaborative partnership on sustainable wildlife management
+  - commercial species
+  - conservation of nature
+  - dietary diversity
+  - dominant species
+  - endangered species
+  - endemic species
+  - extinct species
+  - forage species
+  - forest conservation
+  - functional diversity
+  - genetic engineering
+  - genetic erosion
+  - genetic improvement
+  - genetic inheritance
+  - genetic resources
+  - invasive alien species
+  - invasive species
+  - landscape diversity
+  - microbial diversity
+  - migratory species
+  - minimum dietary diversity
+  - new species
+  - plant genetic resources
+  - rare species
+  - species
+  - species diversity
+  - species extinction
+  - species richness
+  - target species
+  - threatened species
+  - underutilized species
+  - wildlife
+  - wildlife management
+
+=== Soil Health (9 terms) ===
+  - agricultural soil
+  - clay soil
+  - contaminated soil
+  - enriched soil
+  - forest soil
+  - garden soil
+  - particulate organic matter
+  - soil
+  - soil organic matter
+
+=== Animal Health (4 terms) ===
+  - animal feed
+  - animal husbandry
+  - animal manure
+  - animal rights
+
+=== Input Reduction (4 terms) ===
+  - biological control
+  - efficiency
+  - fertilizer
+  - pesticide

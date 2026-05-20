@@ -1,0 +1,10 @@
+[
+    {
+        "label": "fertilizer consumption",
+        "uri": "http://fao.org/faostat/indicators/fertilizers"
+    },
+    {
+        "label": "pesticides per hectare",
+        "uri": "http://fao.org/faostat/indicators/pesticides"
+    }
+]

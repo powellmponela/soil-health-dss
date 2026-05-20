@@ -1,0 +1,77 @@
+{
+  "profile": {
+    "name": "Powell Mponela",
+    "title": "Agricultural Research Scientist",
+    "affiliations": [
+      "Department of Geography, University of Bonn",
+      "Alliance of Bioversity International and CIAT",
+      "Center for Development Research (ZEF)"
+    ],
+    "bio": "Specializing in integrated soil fertility management (ISFM), digital soil mapping, and land management in Southern Africa. Bridging scientific soil analysis with the socioeconomic realities of smallholder farmers to develop actionable agri-food system policies.",
+    "research_interests": [
+      "Integrated Soil Fertility Management",
+      "Digital Soil Mapping",
+      "Agroecology",
+      "Sustainable Land Management",
+      "Smallholder Farming Systems"
+    ],
+    "contact": {
+      "email": "p.mponela@cgiar.org",
+      "linkedin": "https://www.linkedin.com/in/powellmponela/",
+      "google_scholar": "https://scholar.google.com/citations?user=xyz"
+    }
+  },
+  "metrics": {
+    "total_publications": 42,
+    "citations": 856,
+    "h_index": 15,
+    "i10_index": 22
+  },
+  "publications": [
+    {
+      "title": "Soil-health frameworks in agri-food systems. A review",
+      "authors": "Mponela, P., Chimonyo, V. G. P., Chiduwa, M., Kachali, R., Grevulo-Minofu, J., Kawanga, C., Lopez-Ridaura, S., Snapp, S.",
+      "year": 2026,
+      "journal": "Agronomy for Sustainable Development",
+      "doi": "10.1007/s13593-026-01111-z",
+      "type": "Review",
+      "impact": "High"
+    },
+    {
+      "title": "Digital soil mapping of nitrogen, phosphorus, potassium, organic carbon and their crop response thresholds in smallholder managed escarpments of Malawi",
+      "authors": "Mponela, P., Snapp, S., Villamor, G. B., Tamene, L. D., Le, Q. B., Borgemeister, C.",
+      "year": 2020,
+      "journal": "Applied Geography",
+      "doi": "10.1016/j.apgeog.2020.102293",
+      "type": "Original Research",
+      "impact": "Moderate"
+    },
+    {
+      "title": "Determinants of integrated soil fertility management technologies adoption by smallholder farmers in the Chinyanja Triangle of Southern Africa",
+      "authors": "Mponela, P., Tamene, L., Ndengu, G., Magreta, R., Kihara, J., Mango, N.",
+      "year": 2016,
+      "journal": "Land Use Policy",
+      "doi": "10.1016/j.landusepol.2016.08.029",
+      "type": "Original Research",
+      "impact": "High"
+    },
+    {
+      "title": "Soil structural degradation and nutrient limitations across land use categories and climatic zones in Southern Africa",
+      "authors": "Mponela, P., et al.",
+      "year": 2020,
+      "journal": "Soil Use and Management",
+      "doi": "10.1111/sum.12628",
+      "type": "Original Research",
+      "impact": "Moderate"
+    },
+    {
+      "title": "Assessment of maize yield gap and major determinant factors between smallholder farmers in the Dedza district of Malawi",
+      "authors": "Tamene, L., Mponela, P., Ndengu, G., Kihara, J.",
+      "year": 2016,
+      "journal": "Nutrient Cycling in Agroecosystems",
+      "doi": "10.1007/s10705-016-9794-5",
+      "type": "Original Research",
+      "impact": "Moderate"
+    }
+  ]
+}

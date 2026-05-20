@@ -1,0 +1,85 @@
+{
+    "1. Recycling": [
+        {
+            "label": "Recycling",
+            "uri": null,
+            "source": "MANUAL"
+        }
+    ],
+    "2. Input Reduction": [
+        {
+            "label": "Input Reduction",
+            "uri": null,
+            "source": "MANUAL"
+        }
+    ],
+    "3. Soil Health": [
+        {
+            "label": "Soil Health",
+            "uri": null,
+            "source": "MANUAL"
+        },
+        {
+            "label": "Animal Health",
+            "uri": null,
+            "source": "MANUAL"
+        }
+    ],
+    "4. Animal Health": [
+        {
+            "label": "Soil Health",
+            "uri": null,
+            "source": "MANUAL"
+        },
+        {
+            "label": "Animal Health",
+            "uri": null,
+            "source": "MANUAL"
+        }
+    ],
+    "5. Biodiversity": [
+        {
+            "label": "Biodiversity",
+            "uri": null,
+            "source": "MANUAL"
+        }
+    ],
+    "6. Synergy": [
+        {
+            "label": "Synergy",
+            "uri": null,
+            "source": "MANUAL"
+        }
+    ],
+    "7. Economic Diversification": [],
+    "8. Co-creation of Knowledge": [
+        {
+            "label": "Co-creation of Knowledge",
+            "uri": null,
+            "source": "MANUAL"
+        }
+    ],
+    "9. Social Values and Diets": [
+        {
+            "label": "Social Values and Diets",
+            "uri": null,
+            "source": "MANUAL"
+        }
+    ],
+    "10. Fairness": [],
+    "11. Connectivity": [],
+    "12. Land and Natural Resource Governance": [
+        {
+            "label": "Land Governance",
+            "uri": null,
+            "source": "MANUAL"
+        }
+    ],
+    "13. Participation": [
+        {
+            "label": "Participation",
+            "uri": null,
+            "source": "MANUAL"
+        }
+    ]
+}

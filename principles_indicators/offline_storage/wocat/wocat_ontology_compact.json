@@ -1,0 +1,677 @@
+{
+    "1. Recycling": [
+        {
+            "label": "Bush Control and Biomass Utilisation https://qcat.wocat.net/en/wocat/approaches/view/approaches 2809/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p235",
+            "source": "WOCAT"
+        },
+        {
+            "label": "City compost a solution for waste management and",
+            "uri": "wocat:SLM_Compendium_India_2024_p2",
+            "source": "WOCAT"
+        },
+        {
+            "label": "City compost a solution for waste management and soil health",
+            "uri": "wocat:SLM_Compendium_India_2024_p34",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Combating erosion, recovery and enhancement of degraded land and climate change adaptation  https://qcat.wocat.",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p221",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Concerted thinking on common problems of water scarcity, Russian Federation DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p231",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Crop residue and stone mulch",
+            "uri": "wocat:Ethiocat_book_final_p95",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Dryland watershed management approach, Tunisia DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p239",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Inclusive strategic planning for water, energy and climate",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p155",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Paved and grassed waterways",
+            "uri": "wocat:Ethiocat_book_final_p216",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Preparation of bio-inputs such as vermicompost,",
+            "uri": "wocat:SLM_Compendium_India_2024_p2",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Preparation of bio-inputs such as vermicompost, biofertilizers,",
+            "uri": "wocat:SLM_Compendium_India_2024_p27",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Roof rainwater harvesting system, Botwana DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p151",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Runoff and Floodwater Farming - Ethiopia",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p98",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Runoff/floodwater farming",
+            "uri": "wocat:Ethiocat_book_final_p279",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Transport of freshwater from local streams, Greece DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p135",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Water harvesting from concentrated runoff for irrigation purposes, Spain DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p131",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Working for Water https://qcat.wocat.net/en/wocat/approaches/view/approaches 2338/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p242",
+            "source": "WOCAT"
+        }
+    ],
+    "2. Input Reduction": [
+        {
+            "label": "Drip irrigation, Russian Federation DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p147",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Drip irrigation, Turkey DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p143",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Improved Well Distribution for Sustainable Pastoralism - Niger",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p166",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Low-Pressure Irrigation System Californian - Senegal",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p108",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Minimum Tillage and Direct Planting - Ghana",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p84",
+            "source": "WOCAT"
+        },
+        {
+            "label": "No tillage with subsoiling, Chile DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p91",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Olive groves under no-tillage operations, Greece DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p95",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Organic Cotton - Burkina Faso",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p206",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Preparation of bio-inputs such as vermicompost,",
+            "uri": "wocat:SLM_Compendium_India_2024_p2",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Preparation of bio-inputs such as vermicompost, biofertilizers,",
+            "uri": "wocat:SLM_Compendium_India_2024_p27",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Reduced contour tillage of cereals in semi-arid environments, Spain DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p99",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Reduced tillage of almonds and olives, Spain DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p103",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Small-Scale Conservation Tillage - Kenya",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p82",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Spate Irrigation - Eritrea",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p112",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Water harvesting from concentrated runoff for irrigation purposes, Spain DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p131",
+            "source": "WOCAT"
+        }
+    ],
+    "3. Soil Health": [
+        {
+            "label": "Chat Ridge bund",
+            "uri": "wocat:Ethiocat_book_final_p104",
+            "source": "WOCAT"
+        },
+        {
+            "label": "City compost a solution for waste management and soil health",
+            "uri": "wocat:SLM_Compendium_India_2024_p34",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Combating erosion, recovery and enhancement of degraded land and climate change adaptation  https://qcat.wocat.",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p221",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Community-based soil rehabilitation for grassland on",
+            "uri": "wocat:SLM_Compendium_India_2024_p2",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Community-based soil rehabilitation for grassland on common",
+            "uri": "wocat:SLM_Compendium_India_2024_p13",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Conservation Approach for Kour Giraffes - Niger",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p212",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Crop residue and stone mulch",
+            "uri": "wocat:Ethiocat_book_final_p95",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Desho -Bund",
+            "uri": "wocat:Ethiocat_book_final_p122",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Dissemination of soil conservation technologies in dryland areas, Chile DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p211",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Dissemination of soil test results to farmers through a",
+            "uri": "wocat:SLM_Compendium_India_2024_p2",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Earth structures for Gully reclamation",
+            "uri": "wocat:Ethiocat_book_final_p261",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Graded Soil bund",
+            "uri": "wocat:Ethiocat_book_final_p207",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Grassed Fanya Juu Terraces - Kenya",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p122",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Hillside terraces",
+            "uri": "wocat:Ethiocat_book_final_p253",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Konso Bench Terrace - Ethiopia",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p124",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Minimum Tillage and Direct Planting - Ghana",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p84",
+            "source": "WOCAT"
+        },
+        {
+            "label": "No tillage with subsoiling, Chile DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p91",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Olive groves under no-tillage operations, Greece DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p95",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Organic Cotton - Burkina Faso",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p206",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Progressive bench terrace, China DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p155",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Push-Pull integrated pest and soil fertility management Kenya",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p208",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Reduced contour tillage of cereals in semi-arid environments, Spain DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p99",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Reduced tillage of almonds and olives, Spain DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p103",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Ridge bund",
+            "uri": "wocat:Ethiocat_book_final_p74",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Small-Scale Conservation Tillage - Kenya",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p82",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Soil bund",
+            "uri": "wocat:Ethiocat_book_final_p150",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Sorghum Terrace",
+            "uri": "wocat:Ethiocat_book_final_p112",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Stone Bund",
+            "uri": "wocat:Ethiocat_book_final_p200",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Stone bunds",
+            "uri": "wocat:Ethiocat_book_final_p175",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Stone bunds of Tigray",
+            "uri": "wocat:Ethiocat_book_final_p32",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Stone terrace",
+            "uri": "wocat:Ethiocat_book_final_p223",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Stone terraces",
+            "uri": "wocat:Ethiocat_book_final_p13",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Stone-faced soil bund of Tigray",
+            "uri": "wocat:Ethiocat_book_final_p231",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Stone-faced trench bund",
+            "uri": "wocat:Ethiocat_book_final_p184",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Terrace",
+            "uri": "wocat:Ethiocat_book_final_p26",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Vegetated earth-banked terraces, Spain DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p163",
+            "source": "WOCAT"
+        },
+        {
+            "label": "consists of one or more conservation measures belonging to the following",
+            "uri": "wocat:Ethiocat_book_final_p9",
+            "source": "WOCAT"
+        }
+    ],
+    "4. Animal Health": [
+        {
+            "label": "City compost a solution for waste management and soil health",
+            "uri": "wocat:SLM_Compendium_India_2024_p34",
+            "source": "WOCAT"
+        }
+    ],
+    "5. Biodiversity": [
+        {
+            "label": "Conservation Approach for Kour Giraffes - Niger",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p212",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Dissemination of soil conservation technologies in dryland areas, Chile DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p211",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Gestion locale collective des ressources naturelles https://qcat.wocat.net/en/wocat/approaches/view/approaches 1980/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p133",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Land reclamation by forestry with native species, Mexico DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p175",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Multilayer farming systems for ensuring food diversity",
+            "uri": "wocat:SLM_Compendium_India_2024_p3",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Multilayer farming systems for ensuring food diversity and",
+            "uri": "wocat:SLM_Compendium_India_2024_p80",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Rangeland Restoration by cutting invasive species and grass reseeding and managing grazing https://qcat.wocat.net/en/wocat/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p332",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Small-Scale Conservation Tillage - Kenya",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p82",
+            "source": "WOCAT"
+        },
+        {
+            "label": "consists of one or more conservation measures belonging to the following",
+            "uri": "wocat:Ethiocat_book_final_p9",
+            "source": "WOCAT"
+        }
+    ],
+    "6. Synergy": [
+        {
+            "label": "Grevillea Agroforestry System - Kenya",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p136",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Olive tree plantations with intercropping, Morocco DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p167",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Parkland Agroforestry System - Burkina Faso",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p140",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Push-Pull integrated pest and soil fertility management Kenya",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p208",
+            "source": "WOCAT"
+        }
+    ],
+    "7. Economic Diversification": [
+        {
+            "label": "On-farm pasture establishment demonstrations https://qcat.wocat.net/en/wocat/approaches/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p221",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Regional rural development programme, Spain DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p235",
+            "source": "WOCAT"
+        }
+    ],
+    "8. Co-creation of Knowledge": [
+        {
+            "label": "Dissemination of soil test results to farmers through a",
+            "uri": "wocat:SLM_Compendium_India_2024_p2",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Farmer Field Schools - Kenya",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p226",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Farmer Managed Natural Regeneration - Niger",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p138",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Indigenous Management of Tapia Woodlands - Madagascar",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p190",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Participatory Negotiated Territorial Development - Burkina Faso and Ghana",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p228",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Participatory mapping, database building and monitoring of vegetation types and other community resources in the",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p155",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Promoting Farmer Innovation - Kenya, Tanzania, Uganda",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p224",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Promoting farmers and pastoralists consultations in managing rangelands. https://qcat.wocat.net/en/wocat/approaches/view/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p351",
+            "source": "WOCAT"
+        }
+    ],
+    "9. Social Values and Diets": [
+        {
+            "label": "Development of rainfed agriculture, Morocco DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p223",
+            "source": "WOCAT"
+        }
+    ],
+    "10. Fairness": [],
+    "11. Connectivity": [
+        {
+            "label": "African Market Gardens - Senegal",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p106",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Primary strip network system for fuel management, Portugal",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p199",
+            "source": "WOCAT"
+        }
+    ],
+    "12. Land and Natural Resource Governance": [
+        {
+            "label": "Assisted Natural Regeneration of Degraded Land, Burkina-Faso",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p188",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Combating erosion, recovery and enhancement of degraded land and climate change adaptation  https://qcat.wocat.",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p221",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Community-based soil rehabilitation for grassland on",
+            "uri": "wocat:SLM_Compendium_India_2024_p2",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Community-based soil rehabilitation for grassland on common",
+            "uri": "wocat:SLM_Compendium_India_2024_p13",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Concerted thinking on common problems of water scarcity, Russian Federation DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p231",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Controlled grazing in deciduous woods as an alternative to grazing on rangeland, Italy DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p187",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Dedha grazing system as a natural resource management technology https://qcat.wocat.net/en/wocat/technologies/view/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p284",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Dissemination of soil conservation technologies in dryland areas, Chile DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p211",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Dryland watershed management approach, Tunisia DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p239",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Ecosystem-wide seasonal grazing management in community land https://qcat.wocat.net/en/wocat/technologies/view/tech",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p260",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Empowering Dedha Institutions of governing natural resources in Isiolo Rangelands https://qcat.wocat.net/en/wocat/approaches/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p155",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Grass Land Improvement",
+            "uri": "wocat:Ethiocat_book_final_p289",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Grazing Land Improvement - Ethiopia",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p152",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Holistic Rangeland Management combined with high end tourism https://qcat.wocat.net/en/wocat/approaches/view/approaches 3399/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p228",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Indigenous Management of Tapia Woodlands - Madagascar",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p190",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Land reclamation by forestry with native species, Mexico DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p175",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Parkland Agroforestry System - Burkina Faso",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p140",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Participatory mapping, database building and monitoring of vegetation types and other community resources in the",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p155",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Promoting farmers and pastoralists consultations in managing rangelands. https://qcat.wocat.net/en/wocat/approaches/view/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p351",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Rangeland Restoration by cutting invasive species and grass reseeding and managing grazing https://qcat.wocat.net/en/wocat/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p332",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Rangeland resting, Tunisia DESIRE WOCAT",
+            "uri": "wocat:DESIRE_BOOK_low_resolution_3DIcnlQ_p183",
+            "source": "WOCAT"
+        }
+    ],
+    "13. Participation": [
+        {
+            "label": "Community Forests - Cameroon",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p200",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Community grazing management https://qcat.wocat.net/en/wocat/approaches/view/approaches 3050/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p180",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Community-based soil rehabilitation for grassland on",
+            "uri": "wocat:SLM_Compendium_India_2024_p2",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Community-based soil rehabilitation for grassland on common",
+            "uri": "wocat:SLM_Compendium_India_2024_p13",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Dissemination of soil test results to farmers through a",
+            "uri": "wocat:SLM_Compendium_India_2024_p2",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Ecosystem-wide seasonal grazing management in community land https://qcat.wocat.net/en/wocat/technologies/view/tech",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p260",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Farmer Field Schools - Kenya",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p226",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Farmer Managed Natural Regeneration - Niger",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p138",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Gestion locale collective des ressources naturelles https://qcat.wocat.net/en/wocat/approaches/view/approaches 1980/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p133",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Inclusive strategic planning for water, energy and climate",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p155",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Participatory mapping, database building and monitoring of vegetation types and other community resources in the",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p155",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Promoting Farmer Innovation - Kenya, Tanzania, Uganda",
+            "uri": "wocat:SLM_in_Practice_E_Final_low_p224",
+            "source": "WOCAT"
+        },
+        {
+            "label": "Promoting farmers and pastoralists consultations in managing rangelands. https://qcat.wocat.net/en/wocat/approaches/view/",
+            "uri": "wocat:E_online_Wocat_Rangeland_April25_p351",
+            "source": "WOCAT"
+        }
+    ]
+}

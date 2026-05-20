@@ -1,0 +1,573 @@
+{
+  "status": "success",
+  "num_clusters": 10,
+  "dendrogram": "/results/nlp_dendrogram.png",
+  "framework_clusters": [
+    {
+      "group": 1,
+      "theme": "Organic, Carbon, Function, Score, Tillage",
+      "frameworks": [
+        "Andrews et al. 2004",
+        "Apfelbaum et al. 2019",
+        "Arshad and Martin 2002",
+        "Deel et al. 2024",
+        "Devine et al. 2021",
+        "Ghimire et al. 2023",
+        "Govindakrishnan et al. 2021",
+        "Jian et al. 2020",
+        "Lehmann et al. 2020",
+        "Moebius-Clune et al. 2016",
+        "Nunes et al. 2021",
+        "Ros et al. 2022",
+        "Stockdale et al. 2019"
+      ],
+      "wordcloud": "/results/nlp_cluster_4.png",
+      "agrovoc_tags": [
+        {
+          "label": "dead organic matter",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/15112",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "carbon",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_1301",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "function",
+          "uri": "http://purl.obolibrary.org/obo/BFO_0000034",
+          "source": "ENVO",
+          "principles": []
+        },
+        {
+          "label": "tillage",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_7771",
+          "source": "AGROVOC",
+          "principles": [
+            "Soil health"
+          ]
+        },
+        {
+          "label": "antiquated plant",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/5858",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "cost recovery basis",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/1822",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "texture",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_15578",
+          "source": "AGROVOC",
+          "principles": []
+        }
+      ]
+    },
+    {
+      "group": 2,
+      "theme": "Fertilizer, Nutrient, Regenerative, Gsp, Plant",
+      "frameworks": [
+        "FAO-ITPS 2017",
+        "FAO-ITPS 2020",
+        "FAO-OEWG 2022",
+        "IFA 2009",
+        "Johnston and Bruulsema 2014",
+        "Montgomery et al. 2024",
+        "Nestle 2024",
+        "SAI Platform 2023",
+        "Sanginga and Woomer 2009",
+        "USDA-NRCS 2021",
+        "Vanlauwe et al. 2023"
+      ],
+      "wordcloud": "/results/nlp_cluster_1.png",
+      "agrovoc_tags": [
+        {
+          "label": "fertilizer",
+          "uri": "http://purl.obolibrary.org/obo/CHEBI_33287",
+          "source": "ENVO",
+          "principles": []
+        },
+        {
+          "label": "nutrient",
+          "uri": "http://purl.obolibrary.org/obo/CHEBI_33284",
+          "source": "ENVO",
+          "principles": []
+        },
+        {
+          "label": "genomic signal processing",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_4262243d",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "antiquated plant",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/5858",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "dead organic matter",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/15112",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "FAO",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_2791",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "image",
+          "uri": "http://purl.obolibrary.org/obo/IAO_0000101",
+          "source": "ENVO",
+          "principles": []
+        }
+      ]
+    },
+    {
+      "group": 3,
+      "theme": "Livelihood, Labour, Social, Restoration, Cost",
+      "frameworks": [
+        "Alcamo et al. 2003",
+        "Holmgren 2017",
+        "L\u00f3pez-Ridaura et al. 2002",
+        "Millennium Ecosystem Assessment 2005",
+        "Musumba et al. 2017",
+        "Ne\u00dfh\u00f6ver et al. 2012",
+        "Scoones 1998",
+        "Tittonell 2023",
+        "van der Ploeg 2021"
+      ],
+      "wordcloud": "/results/nlp_cluster_3.png",
+      "agrovoc_tags": [
+        {
+          "label": "labour",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_4128",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "leave on social grounds",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/13342",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "restoration",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_98fb7e17",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "cost",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/1824",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "capital",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_1271",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "sustainability",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_33560",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "private domain",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/11524",
+          "source": "GEMET",
+          "principles": []
+        }
+      ]
+    },
+    {
+      "group": 4,
+      "theme": "Landscape, Stakeholder, Agroforestry, Partnership, Plan",
+      "frameworks": [
+        "1000 Landscapes for 1 Billion People 2022a",
+        "1000 Landscapes for 1 Billion People 2022b",
+        "Commonland et al 2021",
+        "FAO 2017a",
+        "Plieninger et al. 2020",
+        "SKI 2021",
+        "Sayer et al. 2013",
+        "Thaxton et al. 2017"
+      ],
+      "wordcloud": "/results/nlp_cluster_5.png",
+      "agrovoc_tags": [
+        {
+          "label": "landscape",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_4185",
+          "source": "AGROVOC",
+          "principles": [
+            "Synergy"
+          ]
+        },
+        {
+          "label": "agroforestry",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_207",
+          "source": "AGROVOC",
+          "principles": [
+            "Synergy"
+          ]
+        },
+        {
+          "label": "public-private partnership",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/6809",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "agricultural planning",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/213",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "vision",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_8266",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "underprivileged people",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/8761",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "resource conservation",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_6523",
+          "source": "AGROVOC",
+          "principles": [
+            "Input reduction",
+            "Animal health"
+          ]
+        }
+      ]
+    },
+    {
+      "group": 5,
+      "theme": "Threshold, Biodiversity, Monitoring, European, Target",
+      "frameworks": [
+        "EEA 2023",
+        "European Commission 2021",
+        "Faber et al. 2022",
+        "Haines-Young and Potschin 2018",
+        "Matson et al. 2024a",
+        "UNEP 2011",
+        "UNEP-WCMC 2021"
+      ],
+      "wordcloud": "/results/nlp_cluster_6.png",
+      "agrovoc_tags": [
+        {
+          "label": "threshold value",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/8470",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "biodiversity",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_33949",
+          "source": "AGROVOC",
+          "principles": [
+            "Biodiversity",
+            "Synergy"
+          ]
+        },
+        {
+          "label": "environmental monitoring",
+          "uri": "http://purl.obolibrary.org/obo/ENVO_02500041",
+          "source": "ENVO",
+          "principles": []
+        },
+        {
+          "label": "Court of Justice of the European Communities",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/11571",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "environmental target",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/2929",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "carbon",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_1301",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "bilateral convention",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/792",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "Europe",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_2724",
+          "source": "AGROVOC",
+          "principles": []
+        }
+      ]
+    },
+    {
+      "group": 6,
+      "theme": "Agroecology, Agroecological, Fao, Women, Household",
+      "frameworks": [
+        "FAO 2018",
+        "FAO 2019",
+        "Pinstrup\u2010Andersen and Hazell 1985",
+        "Wezel et al. 2020"
+      ],
+      "wordcloud": "/results/nlp_cluster_7.png",
+      "agrovoc_tags": [
+        {
+          "label": "agroecology",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_92381",
+          "source": "AGROVOC",
+          "principles": [
+            "Synergy"
+          ]
+        },
+        {
+          "label": "FAO",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_2791",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "women",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_8420",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "environmental impact of households",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/2836",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "income",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_3820",
+          "source": "AGROVOC",
+          "principles": [
+            "Economic diversification"
+          ]
+        },
+        {
+          "label": "rice",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_6599",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "composting by producer",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/1653",
+          "source": "GEMET",
+          "principles": []
+        }
+      ]
+    },
+    {
+      "group": 7,
+      "theme": "Caadp, Africa, African, Nepad, Political",
+      "frameworks": [
+        "AGRF 2020",
+        "Birner and Resnick 2010",
+        "NEPAD 2003",
+        "NEPAD 2015"
+      ],
+      "wordcloud": "/results/nlp_cluster_9.png",
+      "agrovoc_tags": [
+        {
+          "label": "CAADP",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_71ac138f",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "Africa",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_165",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "political counselling",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/6380",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "AMP",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_124",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "investment",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_3930",
+          "source": "AGROVOC",
+          "principles": []
+        }
+      ]
+    },
+    {
+      "group": 8,
+      "theme": "Stakeholder, Actor, Behaviour, Challenge, Tem",
+      "frameworks": [
+        "FS-TIP 2021",
+        "Posthumus et al. 2021",
+        "Triomphe et al. 2022"
+      ],
+      "wordcloud": "/results/nlp_cluster_2.png",
+      "agrovoc_tags": [
+        {
+          "label": "abiotic factor",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/11",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "behaviour",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_868",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "accounting system",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/13239",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "national geopolitical entity",
+          "uri": "http://purl.obolibrary.org/obo/ENVO_00000009",
+          "source": "ENVO",
+          "principles": []
+        }
+      ]
+    },
+    {
+      "group": 9,
+      "theme": "Market, Consumer, Social, Program, Actor",
+      "frameworks": [
+        "FAO and INRAE 2020",
+        "Rhees et al. 2024",
+        "iPES 2015"
+      ],
+      "wordcloud": "/results/nlp_cluster_10.png",
+      "agrovoc_tags": [
+        {
+          "label": "market",
+          "uri": "http://purl.obolibrary.org/obo/ENVO_01000987",
+          "source": "ENVO",
+          "principles": []
+        },
+        {
+          "label": "consumer acceptance",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/15363",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "leave on social grounds",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/13342",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "analysis programme",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/398",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "abiotic factor",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/11",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "composting by producer",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/1653",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "farm price",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/13254",
+          "source": "GEMET",
+          "principles": []
+        },
+        {
+          "label": "image",
+          "uri": "http://purl.obolibrary.org/obo/IAO_0000101",
+          "source": "ENVO",
+          "principles": []
+        }
+      ]
+    },
+    {
+      "group": 10,
+      "theme": "Neutrality, Degradation, Unccd, Capital, Monitoring",
+      "frameworks": [
+        "Cowie et al. 2018",
+        "Orr et al. 2017"
+      ],
+      "wordcloud": "/results/nlp_cluster_8.png",
+      "agrovoc_tags": [
+        {
+          "label": "degradation",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_2159",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "UNCCD",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_1371200255610",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "capital",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_1271",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "environmental monitoring",
+          "uri": "http://purl.obolibrary.org/obo/ENVO_02500041",
+          "source": "ENVO",
+          "principles": []
+        },
+        {
+          "label": "planning",
+          "uri": "http://aims.fao.org/aos/agrovoc/c_5951",
+          "source": "AGROVOC",
+          "principles": []
+        },
+        {
+          "label": "offence against the environment",
+          "uri": "http://www.eionet.europa.eu/gemet/concept/14967",
+          "source": "GEMET",
+          "principles": []
+        }
+      ]
+    }
+  ]
+}

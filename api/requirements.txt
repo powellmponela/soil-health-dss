@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+openpyxl
+pypdf
+scipy
+scikit-learn
+python-multipart
+dynamicTreeCut
+requests
+cryptography>=3.1

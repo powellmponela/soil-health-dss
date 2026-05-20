@@ -1,0 +1,514 @@
+[
+  {
+    "filename": "4RNS-INUE.pdf",
+    "name": "Johnston and Bruulsema 2014",
+    "author_date": "Johnston and Bruulsema 2014",
+    "title": "4R nutrient stewardship for improved nutrient use efficiency",
+    "publisher": "Procedia Engineering (Elsevier)",
+    "doi_url": "https://doi.org/10.1016/j.proeng.2014.09.070"
+  },
+  {
+    "filename": "Andrews-SMAF.pdf",
+    "name": "Andrews et al. 2004",
+    "author_date": "Andrews, S. S., Karlen, D. L., & Cambardella, C. A (2004)",
+    "title": "The Soil Management Assessment Framework: A Quantitative User Tool",
+    "publisher": "Soil Science Society of America Journal",
+    "doi_url": "https://doi.org/10.2136/sssaj2004.1945"
+  },
+  {
+    "filename": "Arshad-SQI.pdf",
+    "name": "Arshad and Martin 2002",
+    "author_date": "Arshad and Martin 2002",
+    "title": "Identifying critical limits for soil quality indicators in agro-ecosystems",
+    "publisher": "Agriculture, Ecosystems & Environment",
+    "doi_url": "https://doi.org/10.1016/S0167-8809(01)00252-3"
+  },
+  {
+    "filename": "Birner-PEPSA.pdf",
+    "name": "Birner and Resnick 2010",
+    "author_date": "Birner and Resnick 2010",
+    "title": "The Political Economy of Policies for Smallholder Agriculture",
+    "publisher": "World Development (Elsevier)",
+    "doi_url": "https://doi.org/10.1016/j.worlddev.2010.06.001"
+  },
+  {
+    "filename": "CAADP.pdf",
+    "name": "NEPAD 2003",
+    "author_date": "NEPAD (2003)",
+    "title": "Comprehensive Africa Agriculture Development Programme",
+    "publisher": "African Union",
+    "doi_url": "https://www.nepad.org/file-download/download/public/15904"
+  },
+  {
+    "filename": "CAADPresult.pdf",
+    "name": "NEPAD 2015",
+    "author_date": "NEPAD (2015)",
+    "title": "The CAADP Results Framework 2015-2025",
+    "publisher": "NEPAD",
+    "doi_url": "https://www.nepad.org/file-download/download/public/14299"
+  },
+  {
+    "filename": "CBD-NEA.pdf",
+    "name": "UNEP-WCMC 2021",
+    "author_date": "UNEP-WCMC (2021)",
+    "title": "National ecosystem assessments to support implementation of the convention on biological diversity",
+    "publisher": "UNEP",
+    "doi_url": "https://www.ecosystemassessments.net/content/uploads/2021/11/CBD-NEA-2021.pdf"
+  },
+  {
+    "filename": "CBD.pdf",
+    "name": "UNEP 2011",
+    "author_date": "UNEP (2011)",
+    "title": "Convention on Biological Diversity -text and annexes",
+    "publisher": "UNEP",
+    "doi_url": "https://www.cbd.int/doc/legal/cbd-en.pdf"
+  },
+  {
+    "filename": "cgiar-ll.pdf",
+    "name": "Triomphe et al. 2022",
+    "author_date": "Triomphe, B., Bergamini, N., & Fuchs, L. E (2022)",
+    "title": "Engaging with stakeholders for initiating agroecological transition in Living Landscapes Six guiding principles On behalf of the WP1 team CGIAR Initiative on Agroecology",
+    "publisher": "CGIAR",
+    "doi_url": "https://hdl.handle.net/10568/127414"
+  },
+  {
+    "filename": "CIAT-ISFM.pdf",
+    "name": "Sanginga and Woomer 2009",
+    "author_date": "Sanginga and Woomer 2009",
+    "title": "Integrated Soil Fertility Management in Africa: Principles, Practices, and Developmental Processes",
+    "publisher": "TSBF-CIAT",
+    "doi_url": "https://hdl.handle.net/10568/54461"
+  },
+  {
+    "filename": "CICES.pdf",
+    "name": "Haines-Young and Potschin 2018",
+    "author_date": "Haines-Young and Potschin 2018",
+    "title": "Common International Classification of Ecosystem Services (CICES) V5.1: A Guideline",
+    "publisher": "European Environment Agency (EEA)",
+    "doi_url": "https://doi.org/10.3897/oneeco.3.e27108"
+  },
+  {
+    "filename": "Common-4returns.pdf",
+    "name": "Commonland et al 2021",
+    "author_date": "Commonland et al (2021)",
+    "title": "The 4 returns framework in practice: a guidebook for holistic landscape restoration",
+    "publisher": "Commonland",
+    "doi_url": "https://www.wetlands.org/publication/the-4-returns-framework-in-practice-guidebook/#"
+  },
+  {
+    "filename": "Cornell-CASH.pdf",
+    "name": "Moebius-Clune et al. 2016",
+    "author_date": "Moebius-Clune, B. N., et al (2016)",
+    "title": "Comprehensive Assessment of Soil Health - The Cornell Framework (3rd ed.)",
+    "publisher": "Cornell University",
+    "doi_url": "https://www.css.cornell.edu/extension/soil-health/manual.pdf"
+  },
+  {
+    "filename": "Deel-SEMWISE.pdf",
+    "name": "Deel et al. 2024",
+    "author_date": "Deel, H. L., Moore, J. M., & Manter, D. K (2024)",
+    "title": "SEMWISE: A national soil health scoring framework for agricultural systems",
+    "publisher": "Applied Soil Ecology",
+    "doi_url": "https://doi.org/10.1016/j.apsoil.2024.105260"
+  },
+  {
+    "filename": "Devine-RSCFISH.pdf",
+    "name": "Devine et al. 2021",
+    "author_date": "Devine, S. M., Steenwerth, K. L., & O\u2019Geen, A. T (2021)",
+    "title": "A regional soil classification framework to improve soil health diagnosis and management",
+    "publisher": "Soil Science Society of America Journal",
+    "doi_url": "https://doi.org/10.1002/saj2.20200"
+  },
+  {
+    "filename": "EEA-SMEITSHA.pdf",
+    "name": "EEA 2023",
+    "author_date": "EEA 2023",
+    "title": "Soil monitoring in Europe: indicators and thresholds for soil quality assessments",
+    "publisher": "European Environment Agency (EEA)",
+    "doi_url": "https://www.eea.europa.eu/en/analysis/publications/soil-monitoring-in-europe"
+  },
+  {
+    "filename": "EJP-SHTTAS.pdf",
+    "name": "Matson et al. 2024a",
+    "author_date": "Matson et al. 2024a",
+    "title": "A framework for setting soil health targets and thresholds in agricultural soils",
+    "publisher": "EJP SOIL / Zenodo",
+    "doi_url": "https://doi.org/10.5281/zenodo.13970554"
+  },
+  {
+    "filename": "EJP-SIREN.pdf",
+    "name": "Faber et al. 2022",
+    "author_date": "Faber, J. H., Hanegraaf, M., Gillikin, A., Hendriks, C., Kuikman, P., Cousin, I., Bispo, A., Obiang-Ndong, G., Montagne, D., Taylor, A., Bengtsson, J., Ten Damme, L., Meurer, K. H. E., Viketoft, M., Faber, J. H., Meurer, K. H. E., Hendriks, C. M. J., Bispo, A., Viketoft, M., \u2026 Bengtsson, J (2022)",
+    "title": "Stocktaking for Agricultural Soil Quality and Ecosystem Services Indicators and their Reference Values (SIREN)",
+    "publisher": "EJP SOIL",
+    "doi_url": "https://library.wur.nl/WebQuery/wurpubs/fulltext/568853"
+  },
+  {
+    "filename": "EU-SS2030.pdf",
+    "name": "European Commission 2021",
+    "author_date": "European Commission (2021)",
+    "title": "EU Soil Strategy for 2030: Reaping the benefits of healthy soils for people, food, nature and climate",
+    "publisher": "European Commission",
+    "doi_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52021DC0699"
+  },
+  {
+    "filename": "FAO-agroecology.pdf",
+    "name": "FAO 2018",
+    "author_date": "FAO 2018",
+    "title": "The 10 Elements of Agroecology: Guiding the Transition to Sustainable Food and Agricultural Systems",
+    "publisher": "FAO",
+    "doi_url": "https://doi.org/10.4060/ca7173en"
+  },
+  {
+    "filename": "FAO-ALMSFA.pdf",
+    "name": "FAO 2017a",
+    "author_date": "FAO 2017a",
+    "title": "Landscapes for Life: Approaches to landscape management for sustainable food and agriculture",
+    "publisher": "FAO",
+    "doi_url": "http://www.fao.org/3/i8324en/i8324en.pdf"
+  },
+  {
+    "filename": "FAO-ESFSI.pdf",
+    "name": "FAO and INRAE 2020",
+    "author_date": "FAO and INRAE (2020)",
+    "title": "Enabling sustainable food systems: Innovators\u2019 handbook",
+    "publisher": "FAO and INRAE",
+    "doi_url": "https://doi.org/10.4060/ca9917en"
+  },
+  {
+    "filename": "FAO-GSPAF.pdf",
+    "name": "FAO-OEWG 2022",
+    "author_date": "FAO-OEWG (2022)",
+    "title": "Global Soil Partnership Action Framework 2022-2030 - Healthy soils for a healthy life and environment: from promotion to consolidation of sustainable soil management",
+    "publisher": "FAO",
+    "doi_url": "https://www.fao.org/documents/card/en/c/cc0484en"
+  },
+  {
+    "filename": "FAO-PASSM.pdf",
+    "name": "FAO-ITPS 2020",
+    "author_date": "FAO-ITPS (2020)",
+    "title": "Protocol for the assessment of Sustainable Soil Management",
+    "publisher": "FAO",
+    "doi_url": "https://www.fao.org/global-soil-partnership/resources/highlights/detail/en/c/1373539/"
+  },
+  {
+    "filename": "FAO-TAPE.pdf",
+    "name": "FAO 2019",
+    "author_date": "FAO 2019",
+    "title": "Tool for Agroecology Performance Evaluation (TAPE) \u2013 Guidelines for application",
+    "publisher": "FAO",
+    "doi_url": "https://www.fao.org/3/ca7407en/ca7407en.pdf"
+  },
+  {
+    "filename": "FAO-VGSSM.pdf",
+    "name": "FAO-ITPS 2017",
+    "author_date": "FAO (2017)",
+    "title": "Voluntary Guidelines for Sustainable Soil Management",
+    "publisher": "FAO",
+    "doi_url": "https://www.fao.org/3/I7463EN/i7463en.pdf"
+  },
+  {
+    "filename": "FSAT.pdf",
+    "name": "FS-TIP 2021",
+    "author_date": "FS-TIP (2021)",
+    "title": "Food Systems Analysis Toolkit",
+    "publisher": "FS-TIP Initiative / CGIAR",
+    "doi_url": "https://fs-tip.org/"
+  },
+  {
+    "filename": "FtF_GSIAF.pdf",
+    "name": "Musumba et al. 2017",
+    "author_date": "Musumba, M., Grabowski, P., Palm, C., & Snapp, S (2017)",
+    "title": "Guide for the Sustainable Intensification Assessment Framework Acknowledgments",
+    "publisher": "Kansas State university",
+    "doi_url": "https://hdl.handle.net/10568/90523"
+  },
+  {
+    "filename": "govind-DUS.pdf",
+    "name": "Govindakrishnan et al. 2021",
+    "author_date": "Govindakrishnan, P. M., Ganeshamurthy, A. N., Krishna Kumar, N. K., Beggi, F., Bhaskar, S., & Rana, J. C (2021)",
+    "title": "DUS(Soil)\u2014A Framework for Developing a Minimum Data Set of Soil Health Indicators and Management Guidelines for Farmers",
+    "publisher": "Journal of Agricultural Science",
+    "doi_url": "https://doi.org/10.5539/jas.v14n1p41"
+  },
+  {
+    "filename": "Gwimire-SHAM4WLE.pdf",
+    "name": "Ghimire et al. 2023",
+    "author_date": "Ghimire, R., Thapa, V. R., Acosta-Martinez, V., Schipanski, M., Slaughter, L. C., Fonte, S. J., Shukla, M. K., Bista, P., Angadi, S. V., Mikha, M. M., Adebayo, O., & Noble Strohm, T (2023)",
+    "title": "Soil Health Assessment and Management Framework for Water-Limited Environments: Examples from the Great Plains of the USA",
+    "publisher": "Soil Systems",
+    "doi_url": "https://doi.org/10.3390/soilsystems7010022"
+  },
+  {
+    "filename": "IDS-SRLF.pdf",
+    "name": "Scoones 1998",
+    "author_date": "Scoones, I (1998)",
+    "title": "Sustainable rural livelihoods: a framework for analysis",
+    "publisher": "Institute of Development Studies",
+    "doi_url": "https://www.ids.ac.uk/publications/sustainable-rural-livelihoods-a-framework-for-analysis/"
+  },
+  {
+    "filename": "IFA-G4RNutStewF.pdf",
+    "name": "IFA 2009",
+    "author_date": "IFA 2009",
+    "title": "The Global \"4R\" Nutrient Stewardship Framework",
+    "publisher": "International Fertilizer Industry Association (IFA)",
+    "doi_url": "https://www.fertilizer.org/"
+  },
+  {
+    "filename": "IFDC-FSHA.pdf",
+    "name": "Vanlauwe et al. 2023",
+    "author_date": "Vanlauwe, B., Amede, T., Bationo, A., Bindraban, P., Breman, H., Cardinael, R., Couedel, A., Chivenge, P., Corbeels, M., Dobermann, A., Falconnier, G., Fatunbi, W., Giller, K., Harawa, R., Kamau, M., Merckx, R., Palm, C., Powlson, D., Rusinamhodzi, L., \u2026 Groot, R (2023)",
+    "title": "Fertilizer and Soil Health in Africa: The Role of Fertilizer in Building Soil Health to Sustain Farming and Address Climate Change",
+    "publisher": "IFDC",
+    "doi_url": "https://ifdc.org/wp-content/uploads/2023/02/Fertilizer-and-Soil-Health-in-Africa-The-Role-of-Fertilizer-in-Building-Soil-Health-to-Sustain-Farming-and-Address-Climate-Change.pdf"
+  },
+  {
+    "filename": "IFPRI-GR.pdf",
+    "name": "Pinstrup\u2010Andersen and Hazell 1985",
+    "author_date": "Pinstrup\u2010Andersen and Hazell 1985",
+    "title": "The impact of the Green Revolution and prospects for the future",
+    "publisher": "Food Reviews International (Taylor & Francis)",
+    "doi_url": "https://doi.org/10.1080/87559128509540765"
+  },
+  {
+    "filename": "ILM-Practical.pdf",
+    "name": "1000 Landscapes for 1 Billion People 2022a",
+    "author_date": "1000 Landscapes for 1 Billion People 2022a",
+    "title": "A Practical Guide to Integrated Landscape Management",
+    "publisher": "1000 Landscapes for 1 Billion People",
+    "doi_url": "https://landscapes.global/"
+  },
+  {
+    "filename": "ILM_Tool_Guide.pdf",
+    "name": "1000 Landscapes for 1 Billion People 2022b",
+    "author_date": "1000 Landscapes for 1 Billion People 2022b",
+    "title": "Integrated Landscape Management Tool Guide",
+    "publisher": "1000 Landscapes for 1 Billion People",
+    "doi_url": "https://terraso.org/"
+  },
+  {
+    "filename": "IPES-FOOD.pdf",
+    "name": "iPES 2015",
+    "author_date": "iPES (2015)",
+    "title": "THE NEW SCIENCE OF SUSTAINABLE FOOD SYSTEMS: Overcoming Barriers to Food Systems Reform",
+    "publisher": "IPES-Food",
+    "doi_url": "http://www.ipes-food.org/_img/upload/files/NewScienceofSusFood.pdf"
+  },
+  {
+    "filename": "Jian-DGSHA.pdf",
+    "name": "Jian et al. 2020",
+    "author_date": "Jian, J., Du, X., & Stewart, R. D (2020)",
+    "title": "A database for global soil health assessment",
+    "publisher": "Scientific Data",
+    "doi_url": "https://doi.org/10.1038/s41597-020-0356-3"
+  },
+  {
+    "filename": "LA4AA.pdf",
+    "name": "Plieninger et al. 2020",
+    "author_date": "Plieninger, T., Mu\u00f1oz-Rojas, J., Buck, L. E., & Scherr, S. J (2020)",
+    "title": "Agroforestry for sustainable landscape management",
+    "publisher": "Sustainability Science",
+    "doi_url": "https://doi.org/10.1007/s11625-020-00836-4"
+  },
+  {
+    "filename": "LDN_CF_journal.pdf",
+    "name": "Cowie et al. 2018",
+    "author_date": "Cowie, A. L., Orr, B. J., Castillo Sanchez, V. M., Chasek, P., Crossman, N. D., Erlewein, A., Louwagie, G., Maron, M., Metternicht, G. I., Minelli, S., Tengberg, A. E., Walter, S., & Welton, S (2018)",
+    "title": "Land in balance: The scientific conceptual framework for Land Degradation Neutrality",
+    "publisher": "Environmental Science and Policy",
+    "doi_url": "https://doi.org/10.1016/j.envsci.2017.10.011"
+  },
+  {
+    "filename": "Lehmann-FPSH.pdf",
+    "name": "Lehmann et al. 2020",
+    "author_date": "Lehmann, J., Bossio, D. A., K\u00f6gel-Knabner, I., & Rillig, M. C (2020)",
+    "title": "The concept and future prospects of soil health",
+    "publisher": "Nature Reviews Earth and Environment",
+    "doi_url": "https://doi.org/10.1038/s43017-020-0080-8"
+  },
+  {
+    "filename": "MEA.pdf",
+    "name": "Millennium Ecosystem Assessment 2005",
+    "author_date": "Millennium Ecosystem Assessment (2005)",
+    "title": "Ecosystems and human well-being\u202f: synthesis\u202f: a report of the Millennium Ecosystem Assessment",
+    "publisher": "Island Press",
+    "doi_url": "https://hdl.handle.net/10568/19310"
+  },
+  {
+    "filename": "MESMIS.pdf",
+    "name": "L\u00f3pez-Ridaura et al. 2002",
+    "author_date": "L\u00f3pez-Ridaura, S., Masera, O., & Astier, M (2002)",
+    "title": "Evaluating the sustainability of complex socio-environmental systems",
+    "publisher": "Ecological Indicators",
+    "doi_url": "https://doi.org/10.1016/S1470-160X(02)00043-2"
+  },
+  {
+    "filename": "MN-SHAF.pdf",
+    "name": "Rhees et al. 2024",
+    "author_date": "Rhees, S., Lewandowski, A. M., Cates, A., Roth, S., & Gile, T (2024)",
+    "title": "Minnesota Soil Health Action Framework",
+    "publisher": "University of Minnesota",
+    "doi_url": "https://hdl.handle.net/11299/261252"
+  },
+  {
+    "filename": "Montg-SHOHPH.pdf",
+    "name": "Montgomery et al. 2024",
+    "author_date": "Montgomery, D. R., Rabinowitz, P., Sipos, Y., & Wheat, E. E (2024)",
+    "title": "Soil health: A common focus for one health and planetary health interventions",
+    "publisher": "One Health",
+    "doi_url": "https://doi.org/10.1016/j.onehlt.2023.100673"
+  },
+  {
+    "filename": "nestle-RAF.pdf",
+    "name": "Nestle 2024",
+    "author_date": "Nestle (2024)",
+    "title": "The Nestle Agriculture Framework",
+    "publisher": "Nestle",
+    "doi_url": "https://www.nestle.com/sites/default/files/2022-07/nestle-agriculture-framework.pdf"
+  },
+  {
+    "filename": "Nunes-SHAPE.pdf",
+    "name": "Nunes et al. 2021",
+    "author_date": "Nunes, M. R., Veum, K. S., Parker, P. A., Holan, S. H., Karlen, D. L., Amsili, J. P., van Es, H. M., Wills, S. A., Seybold, C. A., & Moorman, T. B (2021)",
+    "title": "The soil health assessment protocol and evaluation applied to soil organic carbon",
+    "publisher": "Soil Science Society of America Journal",
+    "doi_url": "https://doi.org/10.1002/saj2.20244"
+  },
+  {
+    "filename": "Permaculture.pdf",
+    "name": "Holmgren 2017",
+    "author_date": "Holmgren, D (2017)",
+    "title": "Permaculture: Principles & Pathways Beyond Sustainability (Revised)",
+    "publisher": "Melliodora Publishing",
+    "doi_url": "https://au.permacultureprinciples.com/"
+  },
+  {
+    "filename": "Ploeg-PEAE.pdf",
+    "name": "van der Ploeg 2021",
+    "author_date": "van der Ploeg, J. D (2021)",
+    "title": "The political economy of agroecology",
+    "publisher": "Journal of Peasant Studies",
+    "doi_url": "https://doi.org/10.1080/03066150.2020.1725489"
+  },
+  {
+    "filename": "Posthumus-FSDST.pdf",
+    "name": "Posthumus et al. 2021",
+    "author_date": "Posthumus, H., Bosselaar, J., & Brouwer, H (2021)",
+    "title": "The Food Systems Decision-Support Toolbox- a toolbox for food system analysis",
+    "publisher": "KIT Royal Tropical Institute and Wageningen Economic Research",
+    "doi_url": "https://edepot.wur.nl/541410"
+  },
+  {
+    "filename": "Ros-OSHAFSSM.pdf",
+    "name": "Ros et al. 2022",
+    "author_date": "Ros et al. 2022",
+    "title": "An Open Soil Health Assessment Framework Facilitating Sustainable Soil Management",
+    "publisher": "Environmental Science & Technology (ACS)",
+    "doi_url": "https://doi.org/10.1021/acs.est.2c04516"
+  },
+  {
+    "filename": "SAI-RAAG.pdf",
+    "name": "SAI Platform 2023",
+    "author_date": "SAI Platform (2023)",
+    "title": "Regenerating Together: A global framework for regenerative agriculture",
+    "publisher": "SAI Platform",
+    "doi_url": "https://saiplatform.org/wp-content/uploads/2023/09/sai-platform_-regenerating-together_september-2023.pdf"
+  },
+  {
+    "filename": "sayer-LA.pdf",
+    "name": "Sayer et al. 2013",
+    "author_date": "Sayer, J., Sunderland, T., Ghazoul, J., Pfund, J.-L., Sheil, D., Meijaard, E., Venter, M., Boedhihartono, A. K., Day, M., Garcia, C., van Oosten, C., & Buck, L. E (2013)",
+    "title": "Ten principles for a landscape approach to reconciling agriculture, conservation, and other competing land uses",
+    "publisher": "Proceedings of the National Academy of Sciences",
+    "doi_url": "https://doi.org/10.1073/pnas.1210595110"
+  },
+  {
+    "filename": "SI4AF.pdf",
+    "name": "AGRF 2020",
+    "author_date": "AGRF (2020)",
+    "title": "Soil Initiative for Africa: Framework Document",
+    "publisher": "Alliance for a Green Revolution in Africa Forum (AGRF) and African Union Commission (AUC)",
+    "doi_url": "https://au.int/en/documents/20240509/soil-initiative-africa-framework-document"
+  },
+  {
+    "filename": "SKI-LStoolkit.pdf",
+    "name": "SKI 2021",
+    "author_date": "SKI 2021",
+    "title": "Healthy Soil for Healthy Communities: An Introduction to Soil Health Practices for Africa",
+    "publisher": "Seed and Knowledge Initiative (SKI) / AFSA",
+    "doi_url": "https://afsafrica.org/healthy-soil-for-healthy-communities/"
+  },
+  {
+    "filename": "Steve-AESSHF.pdf",
+    "name": "Apfelbaum et al. 2019",
+    "author_date": "Apfelbaum, S. I., Mcelligott, K., Thompson, R., & Tiller, E (2019)",
+    "title": "AES White Paper: Defining Soil Health Within the Context of Ecosystem Health-A Framework",
+    "publisher": "Applied Ecological Services",
+    "doi_url": "https://uhcc.uh.edu/outreach/practitioners-forum/2022/Steve-Apfelbaum--AES-Soil-Health-Framework.pdf"
+  },
+  {
+    "filename": "Stockdale-CFMSH.pdf",
+    "name": "Stockdale et al. 2019",
+    "author_date": "Stockdale, E. A., Griffiths, B. S., Hargreaves, P. R., Bhogal, A., Crotty, F. V., & Watson, C. A (2019)",
+    "title": "Conceptual framework underpinning management of soil health\u2014supporting site-specific delivery of sustainable agro-ecosystems",
+    "publisher": "Food and Energy Security",
+    "doi_url": "https://doi.org/10.1002/fes3.158"
+  },
+  {
+    "filename": "TEEB.pdf",
+    "name": "Ne\u00dfh\u00f6ver et al. 2012",
+    "author_date": "TEEB (2010)",
+    "title": "The Economics of Ecosystems and Biodiversity: Mainstreaming the Economics of Nature (Synthesis Report)",
+    "publisher": "Earthscan",
+    "doi_url": "https://doi.org/10.4324/9781849775496"
+  },
+  {
+    "filename": "Tittonel-sysageco.pdf",
+    "name": "Tittonell 2023",
+    "author_date": "Tittonell, P (2023)",
+    "title": "A Systems Approach to Agroecology",
+    "publisher": "Springer Nature",
+    "doi_url": "https://doi.org/10.1007/978-3-031-42939-2"
+  },
+  {
+    "filename": "UNCCD-ILM.pdf",
+    "name": "Thaxton et al. 2017",
+    "author_date": "Thaxton, M., Shames, S., & Scherr, S. J (2017)",
+    "title": "Integrated landscape management: an approach to achieve equitable and participatory sustainable development",
+    "publisher": "UNCCD",
+    "doi_url": "https://knowledge.unccd.int/publication/integrated-landscape-management"
+  },
+  {
+    "filename": "UNCCD-LDN.pdf",
+    "name": "Orr et al. 2017",
+    "author_date": "Orr et al. 2017",
+    "title": "Scientific Conceptual Framework for Land Degradation Neutrality",
+    "publisher": "UNCCD",
+    "doi_url": "https://www.unccd.int/publications/scientific-conceptual-framework-land-degradation-neutrality-report-science-policy"
+  },
+  {
+    "filename": "USDA-CFSHAG.pdf",
+    "name": "USDA-NRCS 2021",
+    "author_date": "USDA-NRCS (2021)",
+    "title": "Soil Health Technical Note No. 450-06: Cropland In-Field Soil Health Assessment Guide",
+    "publisher": "USDA-NRCS",
+    "doi_url": "https://www.nrcs.usda.gov/sites/default/files/2023-03/In-Field%20Assessment%202021%20Complete%20ND.pdf"
+  },
+  {
+    "filename": "Wezel-TAPE.pdf",
+    "name": "Wezel et al. 2020",
+    "author_date": "Wezel, A., Herren, B. G., Kerr, R. B., Barrios, E., Gon\u00e7alves, A. L. R., & Sinclair, F (2020)",
+    "title": "Agroecological principles and elements and their implications for transitioning to sustainable food systems",
+    "publisher": "Agronomy for Sustainable Development",
+    "doi_url": "https://doi.org/10.1007/s13593-020-00646-z"
+  },
+  {
+    "filename": "WRI-EHWB.pdf",
+    "name": "Alcamo et al. 2003",
+    "author_date": "Alcamo, J., Bennett, E. M., & (Program), M. E. A (2003)",
+    "title": "Ecosystems and Human Well-being: A Framework for Assessment",
+    "publisher": "Island Press",
+    "doi_url": "https://hdl.handle.net/10568/19310"
+  }
+]

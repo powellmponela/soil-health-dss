@@ -1,0 +1,1333 @@
+{
+    "Participation": [
+        {
+            "label": "geodiversity",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001164",
+            "source": "ENVO"
+        },
+        {
+            "label": "movement quality",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0001906",
+            "source": "ENVO"
+        },
+        {
+            "label": "mock community culture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001059",
+            "source": "ENVO"
+        },
+        {
+            "label": "community service centre",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501340",
+            "source": "ENVO"
+        },
+        {
+            "label": "community health centre",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501341",
+            "source": "ENVO"
+        },
+        {
+            "label": "allotment garden",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00005745",
+            "source": "ENVO"
+        },
+        {
+            "label": "usage of an environment for community and social services",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001447",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecological community",
+            "uri": "http://purl.obolibrary.org/obo/PCO_0000002",
+            "source": "ENVO"
+        },
+        {
+            "label": "microbial community",
+            "uri": "http://purl.obolibrary.org/obo/PCO_1000004",
+            "source": "ENVO"
+        },
+        {
+            "label": "land conversion process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001429",
+            "source": "ENVO"
+        },
+        {
+            "label": "usage of an environment for infrastructure and utilities",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001445",
+            "source": "ENVO"
+        },
+        {
+            "label": "sporophyte development stage",
+            "uri": "http://purl.obolibrary.org/obo/PO_0028002",
+            "source": "ENVO"
+        }
+    ],
+    "Fairness": [
+        {
+            "label": "usage of an environment for community and social services",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001447",
+            "source": "ENVO"
+        },
+        {
+            "label": "living room",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000423",
+            "source": "ENVO"
+        },
+        {
+            "label": "commercial building",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001222",
+            "source": "ENVO"
+        },
+        {
+            "label": "feasting pit site",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000907",
+            "source": "ENVO"
+        },
+        {
+            "label": "food material",
+            "uri": "http://purl.obolibrary.org/obo/FOODON_00002403",
+            "source": "ENVO"
+        },
+        {
+            "label": "role",
+            "uri": "http://purl.obolibrary.org/obo/BFO_0000023",
+            "source": "ENVO"
+        },
+        {
+            "label": "human construction",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000070",
+            "source": "ENVO"
+        },
+        {
+            "label": "human house",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000418",
+            "source": "ENVO"
+        },
+        {
+            "label": "human dwelling",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000744",
+            "source": "ENVO"
+        },
+        {
+            "label": "human settlement",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001829",
+            "source": "ENVO"
+        },
+        {
+            "label": "human nursery",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501338",
+            "source": "ENVO"
+        },
+        {
+            "label": "human-directed construction process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000996",
+            "source": "ENVO"
+        },
+        {
+            "label": "area designated for human defecation",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001263",
+            "source": "ENVO"
+        },
+        {
+            "label": "safe environment for human presence",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03500008",
+            "source": "ENVO"
+        },
+        {
+            "label": "anthropogenic terrestrial biome",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000219",
+            "source": "ENVO"
+        },
+        {
+            "label": "knackery",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000926",
+            "source": "ENVO"
+        }
+    ],
+    "Co-creation of Knowledge": [
+        {
+            "label": "IUCN national park",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000367",
+            "source": "ENVO"
+        },
+        {
+            "label": "IUCN habitat/species management area",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001166",
+            "source": "ENVO"
+        },
+        {
+            "label": "shrimp pond",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000905",
+            "source": "ENVO"
+        },
+        {
+            "label": "omics observatory system",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001475",
+            "source": "ENVO"
+        },
+        {
+            "label": "observing system",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001469",
+            "source": "ENVO"
+        },
+        {
+            "label": "IUCN protected landscape/seascape",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001172",
+            "source": "ENVO"
+        },
+        {
+            "label": "first nations reserve",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501343",
+            "source": "ENVO"
+        },
+        {
+            "label": "minor planet",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000809",
+            "source": "ENVO"
+        },
+        {
+            "label": "processed cheese food product",
+            "uri": "http://purl.obolibrary.org/obo/FOODON_00001229",
+            "source": "ENVO"
+        },
+        {
+            "label": "mayonnaise food product",
+            "uri": "http://purl.obolibrary.org/obo/FOODON_00001234",
+            "source": "ENVO"
+        },
+        {
+            "label": "flaxseed oil",
+            "uri": "http://purl.obolibrary.org/obo/FOODON_00001088",
+            "source": "ENVO"
+        },
+        {
+            "label": "The Environment Ontology",
+            "uri": "http://purl.obolibrary.org/obo/envo.owl",
+            "source": "ENVO"
+        },
+        {
+            "label": "research facility",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000469",
+            "source": "ENVO"
+        },
+        {
+            "label": "research station",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00003919",
+            "source": "ENVO"
+        },
+        {
+            "label": "research nuclear reactor",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02000136",
+            "source": "ENVO"
+        },
+        {
+            "label": "agricultural experimental station",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501119",
+            "source": "ENVO"
+        },
+        {
+            "label": "laboratory facility",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001406",
+            "source": "ENVO"
+        },
+        {
+            "label": "experimental forest ecosystem",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03600038",
+            "source": "ENVO"
+        },
+        {
+            "label": "ocean time series station",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00011764",
+            "source": "ENVO"
+        },
+        {
+            "label": "cell culture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02000008",
+            "source": "ENVO"
+        },
+        {
+            "label": "area designated as a nature reserve",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000363",
+            "source": "ENVO"
+        },
+        {
+            "label": "vivarium",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00010622",
+            "source": "ENVO"
+        }
+    ],
+    "Social Values and Diets": [
+        {
+            "label": "food shop",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002222",
+            "source": "ENVO"
+        },
+        {
+            "label": "food truck",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000971",
+            "source": "ENVO"
+        },
+        {
+            "label": "food kiosk",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000974",
+            "source": "ENVO"
+        },
+        {
+            "label": "food desert",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03500006",
+            "source": "ENVO"
+        },
+        {
+            "label": "food waste",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03600006",
+            "source": "ENVO"
+        },
+        {
+            "label": "food processing building",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00003863",
+            "source": "ENVO"
+        },
+        {
+            "label": "ethnic food shop",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000988",
+            "source": "ENVO"
+        },
+        {
+            "label": "hygienic food production area",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501318",
+            "source": "ENVO"
+        },
+        {
+            "label": "food production environmental monitoring zone",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501313",
+            "source": "ENVO"
+        },
+        {
+            "label": "food prossessing non-production area",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501319",
+            "source": "ENVO"
+        },
+        {
+            "label": "nutrition and dietetics unit facility",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501163",
+            "source": "ENVO"
+        },
+        {
+            "label": "oceanic benthopelagic zone biome",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000040",
+            "source": "ENVO"
+        },
+        {
+            "label": "ingestion",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_06105020",
+            "source": "ENVO"
+        },
+        {
+            "label": "provides nutrients for",
+            "uri": "http://purl.obolibrary.org/obo/RO_0002469",
+            "source": "ENVO"
+        },
+        {
+            "label": "tissue culture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02000007",
+            "source": "ENVO"
+        },
+        {
+            "label": "cell culture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02000008",
+            "source": "ENVO"
+        },
+        {
+            "label": "organ culture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02000010",
+            "source": "ENVO"
+        },
+        {
+            "label": "mock community culture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001059",
+            "source": "ENVO"
+        },
+        {
+            "label": "plant tissue culture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02000009",
+            "source": "ENVO"
+        },
+        {
+            "label": "single strain cell culture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001060",
+            "source": "ENVO"
+        },
+        {
+            "label": "fishpond",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000056",
+            "source": "ENVO"
+        },
+        {
+            "label": "cell culturing",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001815",
+            "source": "ENVO"
+        },
+        {
+            "label": "shrimp pond",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000905",
+            "source": "ENVO"
+        },
+        {
+            "label": "shower fixture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000992",
+            "source": "ENVO"
+        }
+    ],
+    "Connectivity": [
+        {
+            "label": "administrative region",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000004",
+            "source": "ENVO"
+        },
+        {
+            "label": "grocery store",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000984",
+            "source": "ENVO"
+        },
+        {
+            "label": "corn exchange",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501275",
+            "source": "ENVO"
+        },
+        {
+            "label": "food shop",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002222",
+            "source": "ENVO"
+        },
+        {
+            "label": "shop",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002221",
+            "source": "ENVO"
+        },
+        {
+            "label": "Codex Alimentarius classification of food and feed commodities",
+            "uri": "http://purl.obolibrary.org/obo/FOODON_03400643",
+            "source": "ENVO"
+        },
+        {
+            "label": "agricultural specialisation process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001637",
+            "source": "ENVO"
+        },
+        {
+            "label": "pipeline network",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03600014",
+            "source": "ENVO"
+        },
+        {
+            "label": "thermoset polymer",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_06105005",
+            "source": "ENVO"
+        },
+        {
+            "label": "public infrastructure",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000779",
+            "source": "ENVO"
+        },
+        {
+            "label": "usage of an environment for infrastructure and utilities",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001445",
+            "source": "ENVO"
+        },
+        {
+            "label": "public bus",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501112",
+            "source": "ENVO"
+        },
+        {
+            "label": "public transport hub",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501118",
+            "source": "ENVO"
+        },
+        {
+            "label": "public road",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000780",
+            "source": "ENVO"
+        },
+        {
+            "label": "informal settlement",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000765",
+            "source": "ENVO"
+        },
+        {
+            "label": "IUCN wilderness area",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001163",
+            "source": "ENVO"
+        }
+    ],
+    "Land Governance": [
+        {
+            "label": "land",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001785",
+            "source": "ENVO"
+        },
+        {
+            "label": "land bridge",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000391",
+            "source": "ENVO"
+        },
+        {
+            "label": "arable land",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001177",
+            "source": "ENVO"
+        },
+        {
+            "label": "pasturable land",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001178",
+            "source": "ENVO"
+        },
+        {
+            "label": "land fire",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001292",
+            "source": "ENVO"
+        },
+        {
+            "label": "frozen land",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001524",
+            "source": "ENVO"
+        },
+        {
+            "label": "land degradation",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02500005",
+            "source": "ENVO"
+        },
+        {
+            "label": "contaminated land",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03600073",
+            "source": "ENVO"
+        },
+        {
+            "label": "land-tied island",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000269",
+            "source": "ENVO"
+        },
+        {
+            "label": "land consumption process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000743",
+            "source": "ENVO"
+        },
+        {
+            "label": "subset_property",
+            "uri": "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
+            "source": "ENVO"
+        },
+        {
+            "label": "synonym_type_property",
+            "uri": "http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty",
+            "source": "ENVO"
+        },
+        {
+            "label": "is a defining property chain axiom",
+            "uri": "http://purl.obolibrary.org/obo/RO_0002581",
+            "source": "ENVO"
+        },
+        {
+            "label": "interface layer",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001684",
+            "source": "ENVO"
+        },
+        {
+            "label": "conflagration",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000788",
+            "source": "ENVO"
+        },
+        {
+            "label": "residential building",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000933",
+            "source": "ENVO"
+        },
+        {
+            "label": "convective",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01003011",
+            "source": "ENVO"
+        },
+        {
+            "label": "is a defining property chain axiom where second argument is reflexive",
+            "uri": "http://purl.obolibrary.org/obo/RO_0002582",
+            "source": "ENVO"
+        },
+        {
+            "label": "fluid interface layer",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001677",
+            "source": "ENVO"
+        },
+        {
+            "label": "human dwelling",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000744",
+            "source": "ENVO"
+        },
+        {
+            "label": "piece of furniture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000587",
+            "source": "ENVO"
+        },
+        {
+            "label": "site of special scientific interest",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000361",
+            "source": "ENVO"
+        },
+        {
+            "label": "food production environmental monitoring zone 4",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501317",
+            "source": "ENVO"
+        },
+        {
+            "label": "food production environmental monitoring zone 2",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501315",
+            "source": "ENVO"
+        },
+        {
+            "label": "food production environmental monitoring zone 3",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501316",
+            "source": "ENVO"
+        }
+    ],
+    "Economic Diversification": [
+        {
+            "label": "IUCN protected area with sustainable use of natural resources",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001225",
+            "source": "ENVO"
+        },
+        {
+            "label": "fast ice",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001522",
+            "source": "ENVO"
+        },
+        {
+            "label": "forestry",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001432",
+            "source": "ENVO"
+        },
+        {
+            "label": "agricultural landscape diversification process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001634",
+            "source": "ENVO"
+        }
+    ],
+    "Recycling": [
+        {
+            "label": "waste water",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002001",
+            "source": "ENVO"
+        },
+        {
+            "label": "waste material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002264",
+            "source": "ENVO"
+        },
+        {
+            "label": "waste role",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000665",
+            "source": "ENVO"
+        },
+        {
+            "label": "toxic waste",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03510070",
+            "source": "ENVO"
+        },
+        {
+            "label": "food waste",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03600006",
+            "source": "ENVO"
+        },
+        {
+            "label": "industrial waste material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002267",
+            "source": "ENVO"
+        },
+        {
+            "label": "waste treatment plant",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002272",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal waste material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002276",
+            "source": "ENVO"
+        },
+        {
+            "label": "organic waste material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002873",
+            "source": "ENVO"
+        },
+        {
+            "label": "agricultural waste material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000371",
+            "source": "ENVO"
+        },
+        {
+            "label": "recycling process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000741",
+            "source": "ENVO"
+        },
+        {
+            "label": "wastewater treatment process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_06105300",
+            "source": "ENVO"
+        },
+        {
+            "label": "desalination process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_06105301",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecosystem fragment",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001167",
+            "source": "ENVO"
+        },
+        {
+            "label": "organic material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000155",
+            "source": "ENVO"
+        },
+        {
+            "label": "necromass",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001395",
+            "source": "ENVO"
+        },
+        {
+            "label": "algal production",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02500023",
+            "source": "ENVO"
+        },
+        {
+            "label": "bagasse",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002872",
+            "source": "ENVO"
+        },
+        {
+            "label": "grass fire",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03000131",
+            "source": "ENVO"
+        },
+        {
+            "label": "oceanic benthopelagic zone biome",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000040",
+            "source": "ENVO"
+        },
+        {
+            "label": "deep chlorophyll maximum layer",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000326",
+            "source": "ENVO"
+        },
+        {
+            "label": "circular",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0000411",
+            "source": "ENVO"
+        },
+        {
+            "label": "cove",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000138",
+            "source": "ENVO"
+        },
+        {
+            "label": "pancake ice",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03000067",
+            "source": "ENVO"
+        },
+        {
+            "label": "crater",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000514",
+            "source": "ENVO"
+        },
+        {
+            "label": "cinder cone",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000400",
+            "source": "ENVO"
+        },
+        {
+            "label": "polytunnel",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501102",
+            "source": "ENVO"
+        },
+        {
+            "label": "mesoscale marine eddy",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000069",
+            "source": "ENVO"
+        },
+        {
+            "label": "glory",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001016",
+            "source": "ENVO"
+        },
+        {
+            "label": "protuberance",
+            "uri": "http://purl.obolibrary.org/obo/UBERON_0010188",
+            "source": "ENVO"
+        },
+        {
+            "label": "neural rod",
+            "uri": "http://purl.obolibrary.org/obo/UBERON_0005068",
+            "source": "ENVO"
+        }
+    ],
+    "Synergy": [
+        {
+            "label": "IUCN protected area with sustainable use of natural resources",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001225",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecosystem",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001110",
+            "source": "ENVO"
+        },
+        {
+            "label": "agricultural ecosystem",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000077",
+            "source": "ENVO"
+        },
+        {
+            "label": "meadow ecosystem",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000108",
+            "source": "ENVO"
+        },
+        {
+            "label": "swamp ecosystem",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000233",
+            "source": "ENVO"
+        },
+        {
+            "label": "disturbed ecosystem",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000445",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecosystem fragment",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001167",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecosystem decay",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001174",
+            "source": "ENVO"
+        },
+        {
+            "label": "grassland ecosystem",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001206",
+            "source": "ENVO"
+        },
+        {
+            "label": "wetland ecosystem",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001209",
+            "source": "ENVO"
+        },
+        {
+            "label": "forest ecosystem",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001243",
+            "source": "ENVO"
+        }
+    ],
+    "Biodiversity": [
+        {
+            "label": "key biodiversity area",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000778",
+            "source": "ENVO"
+        },
+        {
+            "label": "biodiversity conservation process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001635",
+            "source": "ENVO"
+        },
+        {
+            "label": "area of protected biodiversity",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000358",
+            "source": "ENVO"
+        },
+        {
+            "label": "area designated as a national nature reserve",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000366",
+            "source": "ENVO"
+        },
+        {
+            "label": "insect conservation process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001636",
+            "source": "ENVO"
+        },
+        {
+            "label": "IUCN strict nature reserve",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001162",
+            "source": "ENVO"
+        },
+        {
+            "label": "double tree line ecotone",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000957",
+            "source": "ENVO"
+        },
+        {
+            "label": "meadow ecosystem",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000108",
+            "source": "ENVO"
+        },
+        {
+            "label": "marine salt marsh biome",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000022",
+            "source": "ENVO"
+        },
+        {
+            "label": "forestry",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001432",
+            "source": "ENVO"
+        },
+        {
+            "label": "IUCN habitat/species management area",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001166",
+            "source": "ENVO"
+        },
+        {
+            "label": "reactive oxygen species",
+            "uri": "http://purl.obolibrary.org/obo/CHEBI_26523",
+            "source": "ENVO"
+        },
+        {
+            "label": "reactive nitrogen species",
+            "uri": "http://purl.obolibrary.org/obo/CHEBI_62764",
+            "source": "ENVO"
+        },
+        {
+            "label": "fish product (unspecified species)",
+            "uri": "http://purl.obolibrary.org/obo/FOODON_03315173",
+            "source": "ENVO"
+        },
+        {
+            "label": "single-species collection of organisms",
+            "uri": "http://purl.obolibrary.org/obo/PCO_0000018",
+            "source": "ENVO"
+        },
+        {
+            "label": "multi-species collection of organisms",
+            "uri": "http://purl.obolibrary.org/obo/PCO_0000029",
+            "source": "ENVO"
+        },
+        {
+            "label": "multi-species collection of microbes",
+            "uri": "http://purl.obolibrary.org/obo/PCO_0000051",
+            "source": "ENVO"
+        },
+        {
+            "label": "sphagnum bog",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002268",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecological succession",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001824",
+            "source": "ENVO"
+        },
+        {
+            "label": "conservation-focused active ecosystem management process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001171",
+            "source": "ENVO"
+        },
+        {
+            "label": "site of special scientific interest",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000361",
+            "source": "ENVO"
+        },
+        {
+            "label": "biosphere reserve",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000376",
+            "source": "ENVO"
+        },
+        {
+            "label": "park",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000562",
+            "source": "ENVO"
+        },
+        {
+            "label": "area protected according to IUCN guidelines",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001169",
+            "source": "ENVO"
+        },
+        {
+            "label": "nest of termite",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_2000006",
+            "source": "ENVO"
+        },
+        {
+            "label": "area designated as a nature reserve",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000363",
+            "source": "ENVO"
+        },
+        {
+            "label": "ecotone",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000947",
+            "source": "ENVO"
+        },
+        {
+            "label": "freshwater littoral zone",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000409",
+            "source": "ENVO"
+        }
+    ],
+    "Soil Health": [
+        {
+            "label": "soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00001998",
+            "source": "ENVO"
+        },
+        {
+            "label": "contaminated soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002116",
+            "source": "ENVO"
+        },
+        {
+            "label": "agricultural soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002259",
+            "source": "ENVO"
+        },
+        {
+            "label": "dune soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002260",
+            "source": "ENVO"
+        },
+        {
+            "label": "forest soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002261",
+            "source": "ENVO"
+        },
+        {
+            "label": "clay soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002262",
+            "source": "ENVO"
+        },
+        {
+            "label": "garden soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002263",
+            "source": "ENVO"
+        },
+        {
+            "label": "alluvial soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002871",
+            "source": "ENVO"
+        },
+        {
+            "label": "enriched soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00003082",
+            "source": "ENVO"
+        },
+        {
+            "label": "chalk soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00003914",
+            "source": "ENVO"
+        },
+        {
+            "label": "soil biocrust",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000910",
+            "source": "ENVO"
+        },
+        {
+            "label": "erosion",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001346",
+            "source": "ENVO"
+        },
+        {
+            "label": "soil erosion",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000706",
+            "source": "ENVO"
+        },
+        {
+            "label": "planetary erosion",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02500028",
+            "source": "ENVO"
+        },
+        {
+            "label": "glacial erosion process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03000006",
+            "source": "ENVO"
+        },
+        {
+            "label": "erosion through nivation",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03000121",
+            "source": "ENVO"
+        },
+        {
+            "label": "erosional cave",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000363",
+            "source": "ENVO"
+        },
+        {
+            "label": "penplain",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000460",
+            "source": "ENVO"
+        },
+        {
+            "label": "check dam",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000555",
+            "source": "ENVO"
+        },
+        {
+            "label": "dry stream valley",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_0010162",
+            "source": "ENVO"
+        },
+        {
+            "label": "dry river valley",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_0010163",
+            "source": "ENVO"
+        },
+        {
+            "label": "organic matter fall",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000137",
+            "source": "ENVO"
+        },
+        {
+            "label": "soil organic matter",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_04000008",
+            "source": "ENVO"
+        },
+        {
+            "label": "particulate organic matter",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_04000012",
+            "source": "ENVO"
+        },
+        {
+            "label": "concentration of soil organic matter in soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_09000030",
+            "source": "ENVO"
+        },
+        {
+            "label": "root matter",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000349",
+            "source": "ENVO"
+        },
+        {
+            "label": "plant matter",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001121",
+            "source": "ENVO"
+        },
+        {
+            "label": "organic material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000155",
+            "source": "ENVO"
+        },
+        {
+            "label": "organic object",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001814",
+            "source": "ENVO"
+        },
+        {
+            "label": "organic horizon",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03600018",
+            "source": "ENVO"
+        },
+        {
+            "label": "organic farm",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03600044",
+            "source": "ENVO"
+        }
+    ],
+    "Animal Health": [
+        {
+            "label": "animal litter",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002191",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal manure",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00003031",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal house",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00003040",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal habitation",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00005803",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal cage",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000922",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal trap",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000975",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal husbandry",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001248",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal feed",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02000047",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal waste material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002276",
+            "source": "ENVO"
+        },
+        {
+            "label": "fresh animal manure",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00003032",
+            "source": "ENVO"
+        },
+        {
+            "label": "livestock house",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501287",
+            "source": "ENVO"
+        },
+        {
+            "label": "feedlot",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000627",
+            "source": "ENVO"
+        },
+        {
+            "label": "agricultural fairground",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000986",
+            "source": "ENVO"
+        },
+        {
+            "label": "tended pasturable land",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001182",
+            "source": "ENVO"
+        },
+        {
+            "label": "drylot",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000626",
+            "source": "ENVO"
+        },
+        {
+            "label": "ranch",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001207",
+            "source": "ENVO"
+        },
+        {
+            "label": "agricultural land conversion process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001430",
+            "source": "ENVO"
+        },
+        {
+            "label": "pasture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000266",
+            "source": "ENVO"
+        },
+        {
+            "label": "rangeland biome",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000247",
+            "source": "ENVO"
+        },
+        {
+            "label": "veterinary facility",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501348",
+            "source": "ENVO"
+        }
+    ],
+    "Input Reduction": [
+        {
+            "label": "agricultural waste material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000371",
+            "source": "ENVO"
+        },
+        {
+            "label": "organic farm",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03600044",
+            "source": "ENVO"
+        },
+        {
+            "label": "015  pulses (vd) (ccpr)",
+            "uri": "http://purl.obolibrary.org/obo/FOODON_03400680",
+            "source": "ENVO"
+        },
+        {
+            "label": "02  vegetables (ccpr)",
+            "uri": "http://purl.obolibrary.org/obo/FOODON_03400650",
+            "source": "ENVO"
+        },
+        {
+            "label": "fertilized soil",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00005754",
+            "source": "ENVO"
+        },
+        {
+            "label": "efficiency",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0001029",
+            "source": "ENVO"
+        },
+        {
+            "label": "decreased efficiency",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0001675",
+            "source": "ENVO"
+        },
+        {
+            "label": "increased efficiency",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0001676",
+            "source": "ENVO"
+        },
+        {
+            "label": "saddle dam",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00000554",
+            "source": "ENVO"
+        },
+        {
+            "label": "shower fixture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000992",
+            "source": "ENVO"
+        },
+        {
+            "label": "efficient",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0001678",
+            "source": "ENVO"
+        },
+        {
+            "label": "agriculture",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001442",
+            "source": "ENVO"
+        },
+        {
+            "label": "IUCN protected area with sustainable use of natural resources",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001225",
+            "source": "ENVO"
+        },
+        {
+            "label": "agricultural process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001246",
+            "source": "ENVO"
+        },
+        {
+            "label": "animal husbandry",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001248",
+            "source": "ENVO"
+        },
+        {
+            "label": "biosolids",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002059",
+            "source": "ENVO"
+        },
+        {
+            "label": "rural area",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000772",
+            "source": "ENVO"
+        },
+        {
+            "label": "land conversion process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001429",
+            "source": "ENVO"
+        },
+        {
+            "label": "rubbish landslide",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000916",
+            "source": "ENVO"
+        },
+        {
+            "label": "IUCN protected landscape/seascape",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01001172",
+            "source": "ENVO"
+        },
+        {
+            "label": "manure",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_03501300",
+            "source": "ENVO"
+        }
+    ]
+}

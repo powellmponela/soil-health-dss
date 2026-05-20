@@ -1,0 +1,9 @@
+=== HLPE Managed Indicators (RESTORED) ===
+
+[2. INPUT REDUCTION]
+  - biofertilizers
+  - input substitution
+  - pesticide adjuvants
+
+[6. SYNERGY]
+  - intercropping

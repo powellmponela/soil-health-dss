@@ -2,6 +2,7 @@ import os
 import re
 import json
 import math
+import sys
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Query
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
@@ -67,6 +68,7 @@ def link_pdfs_logic():
     return added_count, processed_count
 class EvaluationRequest(BaseModel):
     framework_id: str
+    source: Optional[str] = "r"
 
 class SuggestionSubmission(BaseModel):
     type: str  # 'indicator_principle' or 'framework'
@@ -137,6 +139,14 @@ except Exception as e:
     print(f"Failed to load principle_matrix: {e}")
     principle_matrix = None
 
+# Also load the generated Python matrix
+python_matrix_path = os.path.join(BASE_PATH, "api", "results", "principle_matrix_generated.csv")
+try:
+    principle_matrix_python = pd.read_csv(python_matrix_path)
+except Exception as e:
+    print(f"Failed to load principle_matrix_python: {e}")
+    principle_matrix_python = None
+
 try:
     indicator_matrix = pd.read_excel(INDICATOR_MATRIX_PATH)
     # Rename first column to pdf_name if it is unnamed
@@ -163,6 +173,47 @@ design_mapping = {
     "Integrated Landscape & Livelihood (Embedding)": ["Economic diversification", "Connectivity", "Land and natural resource governance"],
     "Policy & Outcome (Iterative Learning)": ["Co-creation of knowledge", "Social values and diets", "Fairness", "Participation"]
 }
+
+PRINCIPLE_ORDER = [
+    "Recycling", "Input Reduction", "Soil Health", "Animal Health",
+    "Biodiversity", "Synergy", "Economic Diversification",
+    "Co-creation of Knowledge", "Social Values and Diets",
+    "Fairness", "Connectivity", "Land and Natural Resource Governance",
+    "Participation"
+]
+
+def normalize_principle_label(value):
+    label = str(value).replace('\xa0', ' ').replace('P_', '').strip()
+    mapping = {
+        "animal health": "Animal Health",
+        "biodiversity": "Biodiversity",
+        "co-creation of knowledge": "Co-creation of Knowledge",
+        "connectivity": "Connectivity",
+        "economic diversification": "Economic Diversification",
+        "fairness": "Fairness",
+        "input reduction": "Input Reduction",
+        "land governance": "Land and Natural Resource Governance",
+        "land and natural resource governance": "Land and Natural Resource Governance",
+        "land and nr governance": "Land and Natural Resource Governance",
+        "participation": "Participation",
+        "recycling": "Recycling",
+        "social values and diets": "Social Values and Diets",
+        "soil health": "Soil Health",
+        "synergy": "Synergy"
+    }
+    return mapping.get(label.lower(), label)
+
+def normalize_source(value):
+    return "python" if str(value).lower().strip() in {"python", "update", "mponela_update"} else "r"
+
+def mponela_score(value, series, is_percentage):
+    if pd.isnull(value):
+        return 0.0
+    numeric_value = float(value)
+    if is_percentage:
+        return min(1.0, numeric_value / 100.0)
+    max_value = pd.to_numeric(series, errors="coerce").max()
+    return min(1.0, numeric_value / max_value) if pd.notnull(max_value) and max_value > 0 else 0.0
 
 def list_fws_internal():
     fws = execute_query("SELECT id, name, title, author_date, publisher, doi_url, filename, objective FROM frameworks ORDER BY name")
@@ -238,9 +289,13 @@ def evaluate(req: EvaluationRequest):
     elif framework_id.endswith(".pdf"):
         target_sn = re.sub(r'\.pdf$', '', framework_id)
         
+    source = normalize_source(req.source)
+
     def get_summary_scores(matrix, is_percentage=True, is_agrontology=False):
         if matrix is None: return []
-        row = matrix[matrix['pdf_name'].str.lower().str.strip() == target_sn.lower().strip()]
+        matrix_names = matrix['pdf_name'].astype(str).str.lower().str.strip().str.replace(".pdf", "", regex=False)
+        target_key = target_sn.lower().strip().replace(".pdf", "")
+        row = matrix[matrix_names == target_key]
         if row.empty: return []
         row = row.iloc[0]
         
@@ -276,12 +331,7 @@ def evaluate(req: EvaluationRequest):
         scores = []
         for i, p_orig in enumerate(orig_cols):
             val = row[p_orig]
-            if is_percentage:
-                score = min(1, float(val) / 100.0) if pd.notnull(val) else 0.0
-            else:
-                # Normalize counts relative to max for this principle across all frameworks
-                max_val = matrix[p_orig].max()
-                score = min(1, float(val) / max_val) if pd.notnull(val) and max_val > 0 else 0.0
+            score = mponela_score(val, matrix[p_orig], is_percentage)
             scores.append({"principle": normalize_principle_name(p_orig), "score": score})
         
         # Sort scores by the standard order defined in App.js if possible
@@ -313,13 +363,16 @@ def evaluate(req: EvaluationRequest):
             rec_text += f". Alignment gap identified in {bottom_1['principle'].title()}."
         return rec_text
 
-    mponela_summary = get_summary_scores(principle_matrix, is_percentage=True, is_agrontology=False)
+    active_mponela_matrix = principle_matrix_python if source == "python" else principle_matrix
+
+    mponela_summary = get_summary_scores(active_mponela_matrix, is_percentage=(source == "r"), is_agrontology=False)
     agrontology_summary = get_summary_scores(agrontology_matrix, is_percentage=False, is_agrontology=True)
     
     mponela_design = get_design_scores(mponela_summary)
     agrontology_design = get_design_scores(agrontology_summary)
     
-    mponela_rec = get_recommendation(mponela_summary, "Mponela et al. 2026")
+    source_label = "Mponela 2026-update" if source == "python" else "Mponela et al. 2026"
+    mponela_rec = get_recommendation(mponela_summary, source_label)
     agrontology_rec = get_recommendation(agrontology_summary, "Current Ontology")
     
     detailed_scores = []
@@ -707,32 +760,23 @@ def nlp_cluster_analysis():
     }
 
 @app.get("/analyse/summary")
-def get_summary():
-    if principle_matrix is None:
+def get_summary(source: str = "r"):
+    source = normalize_source(source)
+    target_matrix = principle_matrix_python if source == "python" else principle_matrix
+    if target_matrix is None:
         return {"status": "error", "message": "Matrix not loaded"}
-    
-    # Use a fixed order for consistency in Radar charts
-    PRINCIPLE_ORDER = [
-        "Recycling", "Input Reduction", "Soil Health", "Animal Health", 
-        "Biodiversity", "Synergy", "Economic Diversification", 
-        "Co-creation of Knowledge", "Social Values and Diets", 
-        "Fairness", "Connectivity", "Land and Natural Resource Governance", 
-        "Participation"
-    ]
-    
-    data_mat = principle_matrix.iloc[:, 1:14].copy()
-    # Clean the column names (remove \xa0 and strip)
-    data_mat.columns = [str(c).replace('\xa0', ' ').strip() for c in data_mat.columns]
-    
+
+    is_percentage = source == "r"
+    data_mat = target_matrix.iloc[:, 1:14].copy()
+    data_mat.columns = [normalize_principle_label(c) for c in data_mat.columns]
     avg_scores = data_mat.mean()
     
     summary = []
     for p in PRINCIPLE_ORDER:
-        # Match case-insensitively
         matching_col = next((c for c in avg_scores.index if c.lower() == p.lower()), None)
         if matching_col:
             s = avg_scores[matching_col]
-            score = min(1.0, float(s) / 100.0) if pd.notnull(s) else 0.0
+            score = mponela_score(s, data_mat[matching_col], is_percentage)
             summary.append({"principle": p, "score": score})
         else:
             summary.append({"principle": p, "score": 0.0})
@@ -810,19 +854,24 @@ def get_agrontology_design_summary():
     return design_summary
 
 @app.get("/analyse/design-summary")
-def get_design_summary():
-    if principle_matrix is None:
+def get_design_summary(source: str = "r"):
+    source = normalize_source(source)
+    target_matrix = principle_matrix_python if source == "python" else principle_matrix
+    if target_matrix is None:
         return {"status": "error", "message": "Matrix not loaded"}
-    
-    data_mat = principle_matrix.iloc[:, 1:14].copy()
-    data_mat.columns = [str(c).replace('\xa0', ' ').strip() for c in data_mat.columns]
+
+    is_percentage = source == "r"
+    data_mat = target_matrix.iloc[:, 1:14].copy()
+    data_mat.columns = [normalize_principle_label(c) for c in data_mat.columns]
     avg_scores = data_mat.mean()
     
     # Calculate design scores based on the global averages of the 13 principles
     summary_scores = []
     for p, s in avg_scores.items():
-        score = min(1.0, float(s) / 100.0) if pd.notnull(s) else 0.0
-        summary_scores.append({"principle": p, "score": score})
+        summary_scores.append({
+            "principle": normalize_principle_label(p),
+            "score": mponela_score(s, data_mat[p], is_percentage)
+        })
         
     design_summary = []
     for dp, relevant_agro in design_mapping.items():
@@ -1045,3 +1094,115 @@ def get_master_ontology():
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Error loading master ontology: {e}")
     raise HTTPException(status_code=404, detail="Master ontology file not found")
+
+@app.get("/ontology/mponela-hierarchy")
+def get_mponela_hierarchy():
+    """Return the indicator hierarchy from indicator_matrix_hierarchical.xlsx"""
+    if not os.path.exists(INDICATOR_MATRIX_PATH):
+        raise HTTPException(status_code=404, detail="Indicator matrix file not found")
+    try:
+        raw = pd.read_excel(INDICATOR_MATRIX_PATH, header=None)
+        # Row 0: domains, Row 1: principles, Row 2: indicators, Row 3: combined headers
+        domains_row = raw.iloc[0, 1:]   # skip col 0 (pdf_name label)
+        principles_row = raw.iloc[1, 1:]
+        indicators_row = raw.iloc[2, 1:]
+        
+        # Forward-fill domains and principles (merged cells)
+        domains_filled = domains_row.ffill()
+        principles_filled = principles_row.ffill()
+        
+        # Build hierarchy: domain -> principle -> [indicators]
+        hierarchy = {}
+        for i in range(len(indicators_row)):
+            domain = str(domains_filled.iloc[i]).strip().title() if pd.notnull(domains_filled.iloc[i]) else "Unknown"
+            principle = str(principles_filled.iloc[i]).strip().rstrip('\xa0') if pd.notnull(principles_filled.iloc[i]) else "Unknown"
+            indicator = str(indicators_row.iloc[i]).strip() if pd.notnull(indicators_row.iloc[i]) else ""
+            
+            if not indicator:
+                continue
+            
+            if domain not in hierarchy:
+                hierarchy[domain] = {}
+            if principle not in hierarchy[domain]:
+                hierarchy[domain][principle] = []
+            if indicator not in hierarchy[domain][principle]:
+                hierarchy[domain][principle].append(indicator)
+        
+        return hierarchy
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error reading indicator matrix: {e}")
+
+@app.get("/analytics/mponela/terms-summary")
+def get_mponela_terms_summary():
+    """Summarize Mponela 2026 Update extracted terms by principle across all studies."""
+    proximity_path = os.path.join(RESULTS_DIR, "all_themes_proximity_results.csv")
+    if not os.path.exists(proximity_path):
+        raise HTTPException(status_code=404, detail="Run the Mponela extraction model before requesting term summaries.")
+
+    try:
+        df = pd.read_csv(proximity_path)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error reading extracted terms: {e}")
+
+    framework_col = "Framework" if "Framework" in df.columns else "pdf_name"
+    principle_col = "theme_name" if "theme_name" in df.columns else "principle"
+    term_col = "indicator" if "indicator" in df.columns else ("synonym" if "synonym" in df.columns else "theme_term")
+
+    missing = [c for c in [framework_col, principle_col, term_col] if c not in df.columns]
+    if missing:
+        raise HTTPException(status_code=500, detail=f"Missing expected extracted-term columns: {', '.join(missing)}")
+
+    df = df[[framework_col, principle_col, term_col]].dropna()
+    df[framework_col] = df[framework_col].astype(str).str.strip()
+    df[principle_col] = df[principle_col].apply(normalize_principle_label)
+    df[term_col] = df[term_col].astype(str).str.strip()
+    df = df[df[term_col] != ""]
+
+    total_studies = int(df[framework_col].nunique())
+    summary = []
+
+    for principle in PRINCIPLE_ORDER:
+        principle_df = df[df[principle_col] == principle]
+        term_counts = principle_df.groupby(term_col).size().sort_values(ascending=False).head(8)
+        study_counts = principle_df.groupby(framework_col).size().sort_values(ascending=False).head(5)
+        study_count = int(principle_df[framework_col].nunique())
+
+        summary.append({
+            "principle": principle,
+            "total_matches": int(len(principle_df)),
+            "unique_terms": int(principle_df[term_col].nunique()),
+            "studies": study_count,
+            "coverage": round(study_count / total_studies, 3) if total_studies else 0,
+            "top_terms": [{"term": str(term), "count": int(count)} for term, count in term_counts.items()],
+            "top_studies": [{"study": str(study), "count": int(count)} for study, count in study_counts.items()]
+        })
+
+    return {
+        "status": "success",
+        "source": "Mponela 2026 Update",
+        "source_file": "api/results/all_themes_proximity_results.csv",
+        "total_studies": total_studies,
+        "summary": summary
+    }
+
+@app.post("/analytics/mponela/extract")
+def run_mponela_extraction():
+    try:
+        script_path = os.path.join(BASE_PATH, "scripts", "mponela_extraction.py")
+        result = subprocess.run([sys.executable, script_path], capture_output=True, text=True)
+        if result.returncode != 0:
+            raise Exception(f"Extraction failed: {result.stderr}")
+        return {"status": "success", "message": "Extraction complete", "log": result.stdout}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error running extraction: {e}")
+
+@app.post("/analytics/mponela/cluster")
+def run_mponela_clustering():
+    try:
+        script_path = os.path.join(BASE_PATH, "scripts", "mponela_clustering.py")
+        result = subprocess.run([sys.executable, script_path], capture_output=True, text=True)
+        if result.returncode != 0:
+            raise Exception(f"Clustering failed: {result.stderr}")
+        return {"status": "success", "message": "Clustering complete", "log": result.stdout}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error running clustering: {e}")

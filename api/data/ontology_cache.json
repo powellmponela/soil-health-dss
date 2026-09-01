@@ -450,5 +450,41 @@
     "uri": "http://aims.fao.org/aos/agrovoc/c_124",
     "source": "AGROVOC",
     "principles": []
+  },
+  "regenerative": {
+    "label": "nimbostratus cloud",
+    "uri": "http://purl.obolibrary.org/obo/ENVO_01001411",
+    "source": "ENVO",
+    "principles": []
+  },
+  "diagnostic": {
+    "label": "diagnostic imaging unit facility",
+    "uri": "http://purl.obolibrary.org/obo/ENVO_03501142",
+    "source": "ENVO",
+    "principles": []
+  },
+  "livelihood": {
+    "label": "IUCN protected area with sustainable use of natural resources",
+    "uri": "http://purl.obolibrary.org/obo/ENVO_01001225",
+    "source": "ENVO",
+    "principles": []
+  },
+  "neutrality": {
+    "label": "neutral hot spring",
+    "uri": "http://purl.obolibrary.org/obo/ENVO_00002181",
+    "source": "ENVO",
+    "principles": []
+  },
+  "conceptual": {
+    "label": "macromolecule",
+    "uri": "http://purl.obolibrary.org/obo/CHEBI_33839",
+    "source": "ENVO",
+    "principles": []
+  },
+  "african": {
+    "label": "large freshwater lake biome",
+    "uri": "http://purl.obolibrary.org/obo/ENVO_00000891",
+    "source": "ENVO",
+    "principles": []
   }
 }

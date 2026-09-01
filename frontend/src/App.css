@@ -1758,3 +1758,98 @@ textarea.input-field { resize: vertical; min-height: 120px; }
   margin-bottom: 6px;
   font-weight: 700;
 }
+
+/* ====== EXTRACTED TERMS SUMMARY ====== */
+.terms-summary-title {
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.terms-summary-title > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.terms-summary-title span {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.terms-summary-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.terms-summary-table {
+  width: 100%;
+  min-width: 920px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: white;
+}
+
+.terms-summary-table th,
+.terms-summary-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+  font-size: 0.82rem;
+}
+
+.terms-summary-table th {
+  background: #f8fafc;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.terms-summary-table th:nth-child(1),
+.terms-summary-table td:nth-child(1) { width: 210px; }
+.terms-summary-table th:nth-child(2),
+.terms-summary-table td:nth-child(2),
+.terms-summary-table th:nth-child(3),
+.terms-summary-table td:nth-child(3),
+.terms-summary-table th:nth-child(4),
+.terms-summary-table td:nth-child(4),
+.terms-summary-table th:nth-child(5),
+.terms-summary-table td:nth-child(5) { width: 100px; }
+
+.terms-summary-table tr:last-child td {
+  border-bottom: none;
+}
+
+.terms-principle-cell {
+  color: var(--primary);
+  font-weight: 800;
+}
+
+.top-term-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.top-term-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  max-width: 100%;
+  padding: 4px 8px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 6px;
+  color: #166534;
+  font-size: 0.74rem;
+  font-weight: 600;
+}
+
+.top-term-chip strong {
+  color: var(--primary);
+  font-size: 0.7rem;
+}

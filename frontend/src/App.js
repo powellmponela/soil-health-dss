@@ -78,7 +78,17 @@ function App() {
   const [nlpSubTab, setNlpSubTab] = useState('extraction');
   const [nlpClusters, setNlpClusters] = useState([]);
   const [semanticMapping, setSemanticMapping] = useState(null);
+  const [appMode, setAppMode] = useState('mponela');
+  const [mponelaDataSource, setMponelaDataSource] = useState('python');
+  const [ontologySource, setOntologySource] = useState('multi');
+  const [matrixOntologySource, setMatrixOntologySource] = useState('mponela');
   const [analyticsSubTab, setAnalyticsSubTab] = useState('extraction');
+  const [mponelaExtractionLoading, setMponelaExtractionLoading] = useState(false);
+  const [mponelaClusteringLoading, setMponelaClusteringLoading] = useState(false);
+  const [mponelaImages, setMponelaImages] = useState(false);
+  const [mponelaTermsSummary, setMponelaTermsSummary] = useState(null);
+  const [termsSummaryLoading, setTermsSummaryLoading] = useState(false);
+
   const [nlpDendrogram, setNlpDendrogram] = useState(null);
   const [documentStats, setDocumentStats] = useState([]);
   const [suggestions, setSuggestions] = useState([]);
@@ -91,7 +101,9 @@ function App() {
     contact_details: ''
   });
   const [indicatorHierarchy, setIndicatorHierarchy] = useState([]);
+  const [documentSearch, setDocumentSearch] = useState('');
   const [indicatorSearch, setIndicatorSearch] = useState('');
+  const [selectedMatrixPrinciple, setSelectedMatrixPrinciple] = useState('1. Recycling');
   const [devResponses, setDevResponses] = useState({}); // recommendation response text by suggestion ID
 
   const SHARED_PRINCIPLE_ORDER = [
@@ -101,6 +113,12 @@ function App() {
     "Fairness", "Connectivity", "Land and Natural Resource Governance",
     "Participation"
   ];
+
+  useEffect(() => {
+    setActiveWorkflow(appMode === 'mponela' ? 'mponela' : 'agrontology');
+    setResultAgro(null);
+    setResultDesign(null);
+  }, [appMode]);
 
   const SpiderChart = ({ data, color, size = 400 }) => {
     if (!data || data.length === 0) return null;
@@ -222,7 +240,7 @@ function App() {
             </div>
           </div>
           <p className="recommendation-desc">
-            {activeWorkflow === 'mponela' ? 
+            {activeWorkflow === 'mponela' ?
               "This analysis measures the synchronization between the framework's indicators and the HLPE 13 Principles based on the 2026 Review Paper methodology." :
               "This analysis uses the Master Agroecological Ontology pipeline to extract and map indicators directly from the framework's manuscript."
             }
@@ -264,29 +282,29 @@ function App() {
             <ClipboardList size={20} style={{ color: activeWorkflow === 'mponela' ? 'var(--primary)' : '#8e44ad' }} />
             <h4 style={{ margin: 0, fontSize: '1rem', fontWeight: 700 }}>Principle Indicators Breakdown</h4>
           </div>
-          
+
           <div className="indicators-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 12 }}>
             {currentData.scores.map((s, i) => {
               const isExpanded = expandedPrinciple === s.principle;
-              const indicators = activeWorkflow === 'mponela' 
+              const indicators = activeWorkflow === 'mponela'
                 ? (resultAgro.detailed?.find(d => {
-                    const dp = d.principle.toLowerCase();
-                    const sp = s.principle.toLowerCase();
-                    return dp === sp || dp.includes(sp) || sp.includes(dp);
-                  })?.indicators || [])
+                  const dp = d.principle.toLowerCase();
+                  const sp = s.principle.toLowerCase();
+                  return dp === sp || dp.includes(sp) || sp.includes(dp);
+                })?.indicators || [])
                 : (currentData.terms?.filter(t => {
-                    const tp = t.principle.toLowerCase();
-                    const sp = s.principle.toLowerCase();
-                    // Handle "Land Governance" vs "Land and Natural Resource Governance"
-                    return tp === sp || tp.includes("land governance") && sp.includes("land") || sp.includes(tp);
-                  }) || []);
-              
+                  const tp = t.principle.toLowerCase();
+                  const sp = s.principle.toLowerCase();
+                  // Handle "Land Governance" vs "Land and Natural Resource Governance"
+                  return tp === sp || tp.includes("land governance") && sp.includes("land") || sp.includes(tp);
+                }) || []);
+
               if (indicators.length === 0) return null;
 
               return (
-                <div key={i} className={`indicator-card ${isExpanded ? 'expanded' : ''}`} style={{ 
-                  background: 'var(--card-bg)', 
-                  borderRadius: 10, 
+                <div key={i} className={`indicator-card ${isExpanded ? 'expanded' : ''}`} style={{
+                  background: 'var(--card-bg)',
+                  borderRadius: 10,
                   border: `1px solid ${isExpanded ? (activeWorkflow === 'mponela' ? 'var(--primary)' : '#8e44ad') : 'var(--border)'}`,
                   padding: 12,
                   transition: 'all 0.3s ease',
@@ -299,14 +317,14 @@ function App() {
                     </div>
                     <span style={{ fontSize: '0.75rem', background: 'var(--border)', padding: '2px 6px', borderRadius: 10 }}>{indicators.length}</span>
                   </div>
-                  
+
                   {isExpanded && (
                     <div className="indicators-list" style={{ marginTop: 12, borderTop: '1px solid var(--border)', paddingTop: 8 }}>
                       {indicators.slice(0, 15).map((ind, idx) => (
-                        <div key={idx} style={{ 
-                          display: 'flex', 
-                          justifyContent: 'space-between', 
-                          fontSize: '0.75rem', 
+                        <div key={idx} style={{
+                          display: 'flex',
+                          justifyContent: 'space-between',
+                          fontSize: '0.75rem',
                           marginBottom: 4,
                           padding: '2px 0'
                         }}>
@@ -435,6 +453,7 @@ function App() {
     fetchDbStatus();
     fetchIndicatorHierarchy();
     fetchSuggestions();
+    fetchMponelaTermsSummary();
   }, []);
 
   useEffect(() => {
@@ -474,16 +493,16 @@ function App() {
 
   const formatFirstAuthor = (authorDate) => {
     if (!authorDate) return "";
-    
+
     // Check if it already has parentheses
     const lastParen = authorDate.lastIndexOf(' (');
     if (lastParen !== -1) {
       const authorPart = authorDate.substring(0, lastParen);
       const yearPart = authorDate.substring(lastParen + 2).replace(')', '');
-      
+
       let firstAuthor = authorPart.split(/[;,&]| and /)[0].trim();
       if (authorPart.includes(',') || authorPart.includes('&') || authorPart.includes(';')) {
-         firstAuthor += " et al.";
+        firstAuthor += " et al.";
       }
       return `${firstAuthor} (${yearPart})`;
     }
@@ -493,12 +512,12 @@ function App() {
     if (words.length >= 2) {
       const lastWord = words[words.length - 1];
       if (/^\d{4}/.test(lastWord)) { // Looks like a year (e.g., 2022, 2017a)
-         const authorPart = words.slice(0, words.length - 1).join(' ');
-         let firstAuthor = authorPart.split(/[;,&]| and /)[0].trim();
-         if (authorPart.includes(',') || authorPart.includes('&') || authorPart.includes(';')) {
-            firstAuthor += " et al.";
-         }
-         return `${firstAuthor} (${lastWord})`;
+        const authorPart = words.slice(0, words.length - 1).join(' ');
+        let firstAuthor = authorPart.split(/[;,&]| and /)[0].trim();
+        if (authorPart.includes(',') || authorPart.includes('&') || authorPart.includes(';')) {
+          firstAuthor += " et al.";
+        }
+        return `${firstAuthor} (${lastWord})`;
       }
     }
 
@@ -523,6 +542,63 @@ function App() {
     return p;
   };
 
+  const renderMponelaTermsSummaryTable = () => {
+    const rows = mponelaTermsSummary?.summary || [];
+    const totalStudies = mponelaTermsSummary?.total_studies || 0;
+
+    return (
+      <div className="content-card terms-summary-card" style={{ marginTop: 16 }}>
+        <div className="card-title terms-summary-title">
+          <div><ClipboardList size={20} /> Extracted Terms Summary by Principle</div>
+          <span>{totalStudies} studies</span>
+        </div>
+
+        {termsSummaryLoading ? (
+          <div className="no-results">Loading extracted terms summary...</div>
+        ) : rows.length > 0 ? (
+          <div className="terms-summary-table-wrap">
+            <table className="terms-summary-table">
+              <thead>
+                <tr>
+                  <th>Principle</th>
+                  <th>Matches</th>
+                  <th>Unique Terms</th>
+                  <th>Studies</th>
+                  <th>Coverage</th>
+                  <th>Top Extracted Terms</th>
+                </tr>
+              </thead>
+              <tbody>
+                {rows.map(row => (
+                  <tr key={row.principle}>
+                    <td className="terms-principle-cell">{getPrincipleDisplay(row.principle)}</td>
+                    <td>{row.total_matches.toLocaleString()}</td>
+                    <td>{row.unique_terms.toLocaleString()}</td>
+                    <td>{row.studies.toLocaleString()}</td>
+                    <td>{Math.round((row.coverage || 0) * 100)}%</td>
+                    <td>
+                      <div className="top-term-list">
+                        {(row.top_terms || []).map(term => (
+                          <span key={`${row.principle}-${term.term}`} className="top-term-chip">
+                            {term.term} <strong>{term.count}</strong>
+                          </span>
+                        ))}
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : (
+          <div className="no-results">
+            {mponelaTermsSummary?.message || 'No extracted term summary is available yet.'}
+          </div>
+        )}
+      </div>
+    );
+  };
+
   const uniquePrinciples = [...new Set(indicatorHierarchy.map(h => h.principle))].sort((a, b) => {
     const normA = Object.keys(PRINCIPLE_NUMBERING).find(key => a.toLowerCase().includes(key.toLowerCase()) || key.toLowerCase().includes(a.toLowerCase()));
     const normB = Object.keys(PRINCIPLE_NUMBERING).find(key => b.toLowerCase().includes(key.toLowerCase()) || key.toLowerCase().includes(b.toLowerCase()));
@@ -533,42 +609,93 @@ function App() {
 
   const fetchIndicatorHierarchy = async () => {
     try {
-      const res = await axios.get(`${API_BASE_URL}/ontology/master`);
-      const ontology = res.data;
-      
-      const OPERATIONAL_CATEGORIES = {
-          "Improving Resource Efficiency": ["1. Recycling", "2. Input Reduction"],
-          "Strengthening Resilience": ["3. Soil Health", "4. Animal Health", "5. Biodiversity", "6. Synergy", "7. Economic Diversification"],
-          "Securing Social Equity/Responsibility": ["8. Co-creation of Knowledge", "9. Social Values & Diets", "10. Fairness", "11. Connectivity", "12. Land & Natural Resource Governance", "13. Participation"]
-      };
+      const res = await axios.get(`${API_BASE_URL}/ontology/mponela-hierarchy`);
+      const data = res.data; // { domain: { principle: [indicators] } }
 
       const hierarchy = [];
-      Object.entries(OPERATIONAL_CATEGORIES).forEach(([domain, principles]) => {
-        principles.forEach(principle => {
-          // Find matching principle in ontology (it might have slightly different naming/spacing)
-          const ontKey = Object.keys(ontology).find(k => 
-            k.toLowerCase().includes(principle.toLowerCase()) || 
-            principle.toLowerCase().includes(k.toLowerCase())
-          );
-          
-          if (ontKey) {
-            const indicators = ontology[ontKey] || [];
-            indicators.forEach(indicator => {
-              hierarchy.push({
-                domain,
-                principle: ontKey,
-                indicator
-              });
-            });
-          }
+      Object.entries(data).forEach(([domain, principles]) => {
+        Object.entries(principles).forEach(([principle, indicators]) => {
+          indicators.forEach(indicator => {
+            hierarchy.push({ domain, principle, indicator });
+          });
         });
       });
 
       setIndicatorHierarchy(hierarchy);
     } catch (err) {
-      console.error('Error fetching master ontology:', err);
-      // Fallback or handle error
+      console.error('Error fetching mponela hierarchy:', err);
+      // Fallback to master ontology
+      try {
+        const res = await axios.get(`${API_BASE_URL}/ontology/master`);
+        const ontology = res.data;
+
+        const OPERATIONAL_CATEGORIES = {
+          "Improving Resource Efficiency": ["1. Recycling", "2. Input Reduction"],
+          "Strengthening Resilience": ["3. Soil Health", "4. Animal Health", "5. Biodiversity", "6. Synergy", "7. Economic Diversification"],
+          "Securing Social Equity/Responsibility": ["8. Co-creation of Knowledge", "9. Social Values & Diets", "10. Fairness", "11. Connectivity", "12. Land & Natural Resource Governance", "13. Participation"]
+        };
+
+        const hierarchy = [];
+        Object.entries(OPERATIONAL_CATEGORIES).forEach(([domain, principles]) => {
+          principles.forEach(principle => {
+            const ontKey = Object.keys(ontology).find(k =>
+              k.toLowerCase().includes(principle.toLowerCase()) ||
+              principle.toLowerCase().includes(k.toLowerCase())
+            );
+            if (ontKey) {
+              (ontology[ontKey] || []).forEach(indicator => {
+                hierarchy.push({ domain, principle: ontKey, indicator });
+              });
+            }
+          });
+        });
+        setIndicatorHierarchy(hierarchy);
+      } catch (fallbackErr) {
+        console.error('Fallback also failed:', fallbackErr);
+      }
     }
+  };
+
+  const fetchMponelaTermsSummary = async () => {
+    setTermsSummaryLoading(true);
+    try {
+      const res = await axios.get(`${API_BASE_URL}/analytics/mponela/terms-summary`);
+      setMponelaTermsSummary(res.data);
+    } catch (err) {
+      console.error('Mponela terms summary error:', err);
+      setMponelaTermsSummary({
+        status: 'error',
+        message: err.response?.data?.detail || 'Extracted terms summary is not available yet.',
+        summary: []
+      });
+    } finally {
+      setTermsSummaryLoading(false);
+    }
+  };
+
+  const runMponelaExtraction = async () => {
+    setMponelaExtractionLoading(true);
+    try {
+      await axios.post(`${API_BASE_URL}/analytics/mponela/extract`);
+      await fetchMponelaTermsSummary();
+      alert("Mponela Extraction Complete! Results saved to CSV.");
+    } catch (err) {
+      console.error(err);
+      alert("Extraction failed.");
+    }
+    setMponelaExtractionLoading(false);
+  };
+
+  const runMponelaClustering = async () => {
+    setMponelaClusteringLoading(true);
+    try {
+      await axios.post(`${API_BASE_URL}/analytics/mponela/cluster`);
+      setMponelaImages(true);
+    } catch (err) {
+      console.error(err);
+      alert("Clustering failed.");
+    }
+    setMponelaClusteringLoading(false);
   };
 
   const fetchSemanticMapping = async () => {
@@ -768,13 +895,13 @@ function App() {
   const fetchStudySummary = async () => {
     setLoading(true);
     try {
-      const res = await axios.get(`${API_BASE_URL}/analyse/summary`);
+      const res = await axios.get(`${API_BASE_URL}/analyse/summary?source=${mponelaDataSource}`);
       setStudySummary(res.data);
-      
+
       const resAgro = await axios.get(`${API_BASE_URL}/analyse/agrontology-summary`);
       setAgrontologyStudySummary(resAgro.data);
 
-      const resDesign = await axios.get(`${API_BASE_URL}/analyse/design-summary`);
+      const resDesign = await axios.get(`${API_BASE_URL}/analyse/design-summary?source=${mponelaDataSource}`);
       setGlobalDesignSummary(resDesign.data);
 
       const resAgroDesign = await axios.get(`${API_BASE_URL}/analyse/agrontology-design-summary`);
@@ -785,6 +912,12 @@ function App() {
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    if (view === 'results') {
+      fetchStudySummary();
+    }
+  }, [mponelaDataSource]);
 
   const generateResearchFigures = async () => {
     setGeneratingFigures(true);
@@ -839,7 +972,10 @@ function App() {
     }
 
     try {
-      const res = await axios.post(`${API_BASE_URL}/evaluate`, { framework_id: selectedAgro });
+      const res = await axios.post(`${API_BASE_URL}/evaluate`, {
+        framework_id: selectedAgro,
+        source: mponelaDataSource
+      });
 
       if (res.data.status === 'success') {
         setResultAgro({
@@ -870,7 +1006,10 @@ function App() {
     setResultDesign(null);
 
     try {
-      const res = await axios.post(`${API_BASE_URL}/evaluate`, { framework_id: selectedDesign });
+      const res = await axios.post(`${API_BASE_URL}/evaluate`, {
+        framework_id: selectedDesign,
+        source: mponelaDataSource
+      });
 
       if (res.data.status === 'success') {
         setResultDesign({
@@ -912,6 +1051,14 @@ function App() {
           </div>
         </header>
 
+        <div style={{ display: 'flex', background: 'var(--bg-light)', padding: '10px 24px', borderBottom: '1px solid var(--border)', gap: '10px' }}>
+          <button
+            style={{ padding: '10px 24px', fontSize: '1.05rem', fontWeight: 700, border: 'none', background: 'var(--primary)', color: 'white', borderRadius: '8px', cursor: 'default', display: 'flex', alignItems: 'center', gap: '8px' }}
+          >
+            <Book size={18} /> Soil health - Mponela et al 2026
+          </button>
+        </div>
+
         <div className="tabs-container">
           <button className={`tab-btn ${view === 'process' ? 'active' : ''}`} onClick={() => setView('process')}>
             <BookOpen size={18} /> Process
@@ -938,10 +1085,10 @@ function App() {
             {view === 'strategic' && (
               <motion.div key="strategic" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }}>
                 <div className="strategic-summary-container">
-                  <div className="summary-hero-card" style={{ 
-                    background: 'linear-gradient(135deg, #064e3b 0%, #10b981 100%)', 
-                    color: 'white', 
-                    padding: '40px', 
+                  <div className="summary-hero-card" style={{
+                    background: 'linear-gradient(135deg, #064e3b 0%, #10b981 100%)',
+                    color: 'white',
+                    padding: '40px',
                     borderRadius: '24px',
                     marginBottom: '32px',
                     position: 'relative',
@@ -951,7 +1098,7 @@ function App() {
                       <span className="badge" style={{ background: 'rgba(255,255,255,0.2)', border: 'none', color: 'white' }}>Executive Assessment</span>
                       <h2 style={{ fontSize: '2.4rem', margin: '16px 0', fontWeight: 700 }}>Global Research Alignment</h2>
                       <p style={{ opacity: 0.9, maxWidth: '700px', fontSize: '1.1rem' }}>
-                        Strategic assessment of 64 foundational frameworks against the 13 HLPE Agroecological Principles. 
+                        Strategic assessment of 64 foundational frameworks against the 13 HLPE Agroecological Principles.
                         Comparing expert reviewer baselines (Mponela et al. 2026) with automated NLP synthesis.
                       </p>
                     </div>
@@ -984,7 +1131,7 @@ function App() {
                       <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '24px' }}>
                         Principles with the lowest alignment across all global frameworks. These represent critical areas for future methodological strengthening.
                       </p>
-                      
+
                       <div className="gap-bars">
                         {[
                           { label: 'Animal Health', val: 0.15, color: '#e74c3c' },
@@ -998,11 +1145,11 @@ function App() {
                               <span style={{ color: g.color }}>{(g.val * 100).toFixed(0)}% Alignment</span>
                             </div>
                             <div style={{ height: '8px', background: 'var(--border)', borderRadius: '4px', overflow: 'hidden' }}>
-                              <motion.div 
-                                initial={{ width: 0 }} 
-                                animate={{ width: `${g.val * 100}%` }} 
+                              <motion.div
+                                initial={{ width: 0 }}
+                                animate={{ width: `${g.val * 100}%` }}
                                 transition={{ duration: 1, delay: i * 0.1 }}
-                                style={{ height: '100%', background: g.color }} 
+                                style={{ height: '100%', background: g.color }}
                               />
                             </div>
                           </div>
@@ -1011,38 +1158,62 @@ function App() {
                     </div>
 
                     <div className="content-card">
-                      <div className="card-title" style={{ color: 'var(--secondary)', borderBottom: '1px solid var(--border)', paddingBottom: '16px', marginBottom: '20px' }}>
-                        <BookOpen size={20} /> Methodology Sync
+                      <div className="card-title" style={{ color: 'var(--secondary)', borderBottom: '1px solid var(--border)', paddingBottom: '16px', marginBottom: '20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <div><BookOpen size={20} /> Methodology Sync</div>
+                        {appMode === 'mponela' && (
+                          <div style={{ display: 'flex', gap: '8px', alignItems: 'center', fontSize: '0.85rem' }}>
+                            <button
+                              onClick={() => setMponelaDataSource('r')}
+                              style={{ padding: '4px 12px', borderRadius: '20px', border: '1px solid var(--primary)', background: mponelaDataSource === 'r' ? 'var(--primary)' : 'transparent', color: mponelaDataSource === 'r' ? 'white' : 'var(--primary)', cursor: 'pointer' }}
+                            >
+                              Mponela et al 2026
+                            </button>
+                            <button
+                              onClick={() => setMponelaDataSource('python')}
+                              style={{ padding: '4px 12px', borderRadius: '20px', border: '1px solid var(--primary)', background: mponelaDataSource === 'python' ? 'var(--primary)' : 'transparent', color: mponelaDataSource === 'python' ? 'white' : 'var(--primary)', cursor: 'pointer' }}
+                            >
+                              Mponela 2026-update
+                            </button>
+                          </div>
+                        )}
                       </div>
-                      <div className="workflow-sync-item" style={{ marginBottom: '24px' }}>
-                        <div style={{ fontWeight: 700, fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--primary)' }}>
-                          <CheckCircle2 size={18} /> Mponela (Expert)
+                      {appMode === 'mponela' && (
+                        <div className="workflow-sync-item">
+                          <div style={{ fontWeight: 700, fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--primary)' }}>
+                            <CheckCircle2 size={18} /> Mponela ({mponelaDataSource === 'r' ? 'Mponela et al 2026' : 'Mponela 2026-update'})
+                          </div>
+                          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '4px' }}>
+                            {mponelaDataSource === 'r'
+                              ? 'Manual reviewer scores established as the methodological "Ground Truth".'
+                              : 'Automated extraction scores generating the matrix dynamically.'}
+                          </p>
                         </div>
-                        <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '4px' }}>
-                          Manual reviewer scores established as the methodological "Ground Truth".
-                        </p>
-                      </div>
-                      <div className="workflow-sync-item">
-                        <div style={{ fontWeight: 700, fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--secondary)' }}>
-                          <Sparkles size={18} /> Agrontology (NLP)
-                        </div>
-                        <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '4px' }}>
-                          Automated semantic mapping achieving high correlation with expert baselines.
-                        </p>
-                      </div>
-                      <div style={{ 
-                        marginTop: '32px', 
-                        padding: '16px', 
-                        background: 'rgba(59, 130, 246, 0.05)', 
-                        borderRadius: '12px',
-                        border: '1px dashed var(--secondary)',
-                        fontSize: '0.85rem',
-                        color: 'var(--secondary)',
-                        fontWeight: 600,
-                        textAlign: 'center'
-                      }}>
-                        Correlation Index: 0.88 σ
-                      </div>
+                      )}
+                      {appMode === 'multi' && (
+                        <>
+                          <div className="workflow-sync-item">
+                            <div style={{ fontWeight: 700, fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--secondary)' }}>
+                              <Sparkles size={18} /> Agrontology (NLP)
+                            </div>
+                            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '4px' }}>
+                              Automated semantic mapping achieving high correlation with expert baselines.
+                            </p>
+                          </div>
+                          <div style={{
+                            marginTop: '32px',
+                            padding: '16px',
+                            background: 'rgba(59, 130, 246, 0.05)',
+                            borderRadius: '12px',
+                            border: '1px dashed var(--secondary)',
+                            fontSize: '0.85rem',
+                            color: 'var(--secondary)',
+                            fontWeight: 600,
+                            textAlign: 'center'
+                          }}>
+                            Correlation Index: 0.88 σ
+                          </div>
+                        </>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -1175,35 +1346,76 @@ function App() {
                 ) : (
                   <div className="content-card">
                     <div className="card-title"><Layers size={20} /> Principle-Indicator Matrix</div>
-                    <div className="search-bar-wrapper">
-                      <Search size={16} className="search-icon" />
-                      <input className="input-field search-input" type="text" placeholder="Search matrix..." value={indicatorSearch} onChange={e => setIndicatorSearch(e.target.value)} />
-                    </div>
-                    <div className="matrix-view">
-                      {uniquePrinciples.map((p, pIdx) => {
-                        const indicators = indicatorHierarchy.filter(h => h.principle === p && h.indicator.toLowerCase().includes(indicatorSearch.toLowerCase()));
-                        if (indicators.length === 0 && indicatorSearch) return null;
 
-                        return (
-                          <div key={pIdx} className="matrix-principle-section">
-                            <div className="matrix-principle-header">
-                              <span>{getPrincipleDisplay(p)}</span>
-                              <span className="matrix-count-badge">{indicators.length} {indicators.length === 1 ? 'Indicator' : 'Indicators'}</span>
-                            </div>
-                            <div className="matrix-indicator-grid">
-                              {indicators.map((h, iIdx) => (
-                                <div key={iIdx} className="matrix-indicator-tag">
-                                  <Layers size={14} style={{ opacity: 0.5 }} /> {h.indicator}
-                                </div>
-                              ))}
-                            </div>
+                    {appMode === 'mponela' ? (
+                      <>
+                        <div className="search-bar-wrapper" style={{ display: 'flex', gap: '16px', background: 'transparent', padding: 0 }}>
+                          <div style={{ position: 'relative', flex: 1, display: 'flex', alignItems: 'center' }}>
+                            <Search size={16} className="search-icon" style={{ position: 'absolute', left: '16px' }} />
+                            <input className="input-field search-input" style={{ width: '100%', paddingLeft: '40px' }} type="text" placeholder="Search matrix..." value={indicatorSearch} onChange={e => setIndicatorSearch(e.target.value)} />
                           </div>
-                        );
-                      })}
-                      {indicatorSearch && uniquePrinciples.every(p => indicatorHierarchy.filter(h => h.principle === p && h.indicator.toLowerCase().includes(indicatorSearch.toLowerCase())).length === 0) && (
-                        <div className="no-results">No indicators match your search.</div>
-                      )}
-                    </div>
+                          <select
+                            className="input-field select-field"
+                            style={{ width: '300px' }}
+                            value={selectedMatrixPrinciple}
+                            onChange={e => setSelectedMatrixPrinciple(e.target.value)}
+                          >
+                            {uniquePrinciples.map(p => (
+                              <option key={p} value={p}>{getPrincipleDisplay(p)}</option>
+                            ))}
+                          </select>
+                        </div>
+                        <div className="matrix-view">
+                          {(selectedMatrixPrinciple === 'All' ? uniquePrinciples : [selectedMatrixPrinciple]).map((p, pIdx) => {
+                            const indicators = indicatorHierarchy.filter(h => h.principle === p && h.indicator.toLowerCase().includes(indicatorSearch.toLowerCase()));
+                            if (indicators.length === 0 && indicatorSearch) return null;
+
+                            return (
+                              <div key={pIdx} className="matrix-principle-section">
+                                <div className="matrix-principle-header">
+                                  <span>{getPrincipleDisplay(p)}</span>
+                                  <span className="matrix-count-badge">{indicators.length} {indicators.length === 1 ? 'Indicator' : 'Indicators'}</span>
+                                </div>
+                                <div className="matrix-indicator-grid">
+                                  {indicators.map((h, iIdx) => (
+                                    <div key={iIdx} className="matrix-indicator-tag">
+                                      <Layers size={14} style={{ opacity: 0.5 }} /> {h.indicator}
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            );
+                          })}
+                          {indicatorSearch && uniquePrinciples.every(p => indicatorHierarchy.filter(h => h.principle === p && h.indicator.toLowerCase().includes(indicatorSearch.toLowerCase())).length === 0) && (
+                            <div className="no-results">No indicators match your search.</div>
+                          )}
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        {semanticMapping ? (
+                          <div className="matrix-view">
+                            {Object.entries(semanticMapping).map(([principle, terms], pIdx) => (
+                              <div key={pIdx} className="matrix-principle-section">
+                                <div className="matrix-principle-header">
+                                  <span>{principle}</span>
+                                  <span className="matrix-count-badge">{terms.length} {terms.length === 1 ? 'Term' : 'Terms'}</span>
+                                </div>
+                                <div className="matrix-indicator-grid">
+                                  {terms.map((term, tIdx) => (
+                                    <a key={tIdx} href={term.uri} target="_blank" rel="noopener noreferrer" className="matrix-indicator-tag" style={{ textDecoration: 'none', color: 'inherit' }} title={term.uri}>
+                                      <Layers size={14} style={{ opacity: 0.5 }} /> {term.label}
+                                    </a>
+                                  ))}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        ) : (
+                          <div className="no-results">Loading multi-ontology mappings...</div>
+                        )}
+                      </>
+                    )}
                   </div>
                 )}
               </motion.div>
@@ -1276,280 +1488,64 @@ function App() {
 
             {view === 'analytics' && (
               <motion.div key="analytics" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }}>
-                <div className="subtabs-container" style={{ marginBottom: 24 }}>
-                  <button className={`subtab-btn ${analyticsSubTab === 'system' ? 'active' : ''}`} onClick={() => setAnalyticsSubTab('system')}>
-                    <Settings size={16} /> System Operations
-                  </button>
-                  <button className={`subtab-btn ${analyticsSubTab === 'nlp' ? 'active' : ''}`} onClick={() => setAnalyticsSubTab('nlp')}>
-                    <Sparkles size={16} /> NLP Extraction & Clustering
-                  </button>
-                </div>
-
-                {analyticsSubTab === 'system' ? (
-                  <>
-                    <div className="db-source-banner">
-                      <div className="db-source-left">
-                    <div className="db-source-icon">🗄️</div>
-                    <div>
-                      <div className="db-source-title">System Status & Management</div>
-                      <div className="db-source-sub">{dbStatus ? `${dbStatus.frameworks} Frameworks · ${dbStatus.documents.processed} PDFs processed` : 'Connecting…'}</div>
-                    </div>
-                  </div>
-                  <div className="db-source-right"><span className={`db-dot ${dbStatus?.connected ? 'green' : 'red'}`}></span><span>{dbStatus?.connected ? 'Live' : 'Offline'}</span></div>
-                </div>
-
-                <div className="stats-grid three-col" style={{ marginBottom: 24 }}>
-                  <div className="action-card clickable" onClick={refreshDb}><h3>Document Extraction</h3><p>Sync folder & extract text</p></div>
-                  <div className="action-card clickable" onClick={runClustering}><h3>Clustering Engine</h3><p>Regenerate taxonomies</p></div>
-                  <div className="action-card clickable"><h3>Export Data</h3><p>Download as CSV/JSON</p></div>
-                </div>
-
                 <div className="content-card">
-                  <div className="card-title"><MessageSquare size={20} /> Pending Review Queue</div>
-                  <div className="suggestion-list">
-                    {suggestions.filter(s => s.status === 'pending').length === 0 && <div className="no-results">No pending suggestions.</div>}
-                    {suggestions.filter(s => s.status === 'pending').map(s => (
-                      <div key={s.id} className="suggestion-card">
-                        <div className="suggestion-header"><span className="suggestion-type-tag">{s.type}</span><span className="status-badge status-pending">Pending</span></div>
-                        <div className="suggestion-title"><strong>{s.action === 'addition' ? 'Add: ' : 'Remove: '}</strong> {s.target_name}</div>
-                        <div className="feedback-controls">
-                          <textarea className="input-field" placeholder="Provide Support and Reasons..." value={devResponses[s.id] || ''} onChange={e => setDevResponses({ ...devResponses, [s.id]: e.target.value })} />
-                          <div className="feedback-actions">
-                            <button className="btn-primary btn-small btn-include" onClick={() => handleSuggestionAction(s.id, 'included')}>Accept</button>
-                            <button className="btn-primary btn-small btn-exclude" onClick={() => handleSuggestionAction(s.id, 'excluded')}>Reject</button>
-                            <button className="btn-primary btn-small btn-disregard" onClick={() => handleSuggestionAction(s.id, 'disregarded')}>Disregard</button>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-                  </>
-                ) : (
-                  <>
-                    <div className="subtabs-container" style={{ marginBottom: 24 }}>
-                      <button className={`subtab-btn ${nlpSubTab === 'extraction' ? 'active' : ''}`} onClick={() => { setNlpSubTab('extraction'); fetchDocumentStats(); }}>
-                        <FileText size={16} /> Text Extraction
-                      </button>
-                      <button className={`subtab-btn ${nlpSubTab === 'clustering' ? 'active' : ''}`} onClick={() => setNlpSubTab('clustering')}>
-                        <Sparkles size={16} /> NLP Clustering
-                      </button>
-                      <button className={`subtab-btn ${nlpSubTab === 'mapping' ? 'active' : ''}`} onClick={() => { setNlpSubTab('mapping'); fetchSemanticMapping(); }}>
-                        <Book size={16} /> Semantic Mappings
+                  <div className="card-title"><Book size={20} /> Soil health - Mponela 2026 Update Analytics Pipeline</div>
+                  <p className="recommendation-desc" style={{ marginBottom: 20 }}>
+                    Run text extraction and hierarchical clustering models based on the agroecological principles and domains established by Mponela et al. (2026).
+                  </p>
+
+                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '24px' }}>
+                    <div className="action-card" style={{ padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
+                      <h3 style={{ margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}><FileText size={18} /> Phase 1: Text Extraction</h3>
+                      <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '16px' }}>Extract proximity-based theme terms from framework manuscripts.</p>
+                      <button className="btn-primary" onClick={runMponelaExtraction} disabled={mponelaExtractionLoading} style={{ width: '100%' }}>
+                        {mponelaExtractionLoading ? 'Extracting Text...' : 'Run Extraction Model'}
                       </button>
                     </div>
 
-                    {nlpSubTab === 'extraction' ? (
-                      <div className="content-card">
-                        <div className="card-title"><FileText size={20} /> Document Processing Status</div>
-                        <p className="recommendation-desc" style={{ marginBottom: 20 }}>
-                          Monitor the progress of automated text extraction from the framework manuscripts.
-                        </p>
-                        <div className="framework-list-header">
-                          <div className="col-id">#</div>
-                          <div className="col-name">Framework / File</div>
-                          <div className="col-author-year">Status</div>
-                          <div className="col-pub-source">Text Length</div>
-                          <div className="col-local">Processed At</div>
-                        </div>
-                        <div className="framework-list">
-                          {documentStats.map((doc, idx) => (
-                            <div key={doc.id} className="framework-item">
-                              <div className="col-id">{idx + 1}</div>
-                              <div className="col-name">{doc.framework_name || doc.filename}</div>
-                              <div className="col-author-year">
-                                <span className={`status-badge status-${doc.status}`}>{doc.status}</span>
-                              </div>
-                              <div className="col-pub-source">
-                                {doc.text_length ? `${(doc.text_length / 1024).toFixed(1)} KB` : '—'}
-                              </div>
-                              <div className="col-local">
-                                {doc.processed_at ? new Date(doc.processed_at).toLocaleDateString() : '—'}
-                              </div>
-                            </div>
-                          ))}
-                          {documentStats.length === 0 && <div className="no-results">No document statistics available.</div>}
-                        </div>
-                      </div>
-                    ) : nlpSubTab === 'clustering' ? (
-                      <div className="content-card">
-                        <div className="card-title"><Sparkles size={20} /> Text Mining & NLP Synthesis</div>
-                        <p className="recommendation-desc" style={{ marginBottom: 20 }}>
-                          This module uses TF-IDF vectorization and K-Means clustering to automatically extract thematic groups directly from the raw manuscript text, independently of the predefined agroecological principles.
-                        </p>
-                        <button className="btn-primary" onClick={runNlpClustering} disabled={loading}>
-                          {loading ? 'Processing Text...' : 'Run NLP Clustering Engine'}
-                        </button>
+                    <div className="action-card" style={{ padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
+                      <h3 style={{ margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}><Sparkles size={18} /> Phase 2: Clustering Model</h3>
+                      <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '16px' }}>Run hierarchical clustering and generate principle heatmaps.</p>
+                      <button className="btn-primary" onClick={runMponelaClustering} disabled={mponelaClusteringLoading} style={{ width: '100%' }}>
+                        {mponelaClusteringLoading ? 'Running Model...' : 'Run Clustering Model'}
+                      </button>
+                    </div>
+                  </div>
 
-                        {nlpClusters.length > 0 && (
-                          <div className="cluster-results" style={{ marginTop: 24 }}>
-                            {nlpDendrogram && (
-                              <div className="dendrogram-section" style={{ marginBottom: 32 }}>
-                                <h3 style={{ marginBottom: 16 }}>Document Clustering Dendrogram</h3>
-                                <div style={{ background: 'white', padding: '10px', borderRadius: '12px', border: '1px solid var(--border)' }}>
-                                  <img src={`${API_BASE_URL}${nlpDendrogram}?t=${new Date().getTime()}`} alt="NLP Dendrogram" style={{ width: '100%', height: 'auto', borderRadius: '8px' }} />
-                                </div>
-                              </div>
-                            )}
+                  {renderMponelaTermsSummaryTable()}
 
-                            <h3 style={{ marginBottom: 16 }}>Thematic Clusters & Word Clouds</h3>
-                            <div className="cluster-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '20px' }}>
-                              {nlpClusters.map((cluster, idx) => (
-                                <div key={idx} className="cluster-card" style={{ padding: '20px', background: 'var(--bg-light)', border: '1px solid var(--border)', borderRadius: '12px', display: 'flex', flexDirection: 'column' }}>
-                                  <div style={{ display: 'flex', alignItems: 'center', marginBottom: 12 }}>
-                                    <div style={{ background: 'var(--primary)', color: 'white', width: 28, height: 28, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', marginRight: 12 }}>
-                                      {cluster.group}
-                                    </div>
-                                    <h4 style={{ margin: 0, color: 'var(--text-dark)' }}>Theme: {cluster.theme}</h4>
-                                  </div>
-                                  
-                                  <div className="agrovoc-label">AGROVOC Validated Tags (Grouped by Principle)</div>
-                                  <div className="agrovoc-groups">
-                                    {cluster.agrovoc_tags && cluster.agrovoc_tags.length > 0 ? (
-                                      <>
-                                        {/* Grouping logic in-situ for simplicity */}
-                                        {Array.from(new Set(cluster.agrovoc_tags.flatMap(t => t.principles || ['Uncategorized']))).sort().map((principle, pIdx) => (
-                                          <div key={pIdx} className="agrovoc-principle-group" style={{ marginBottom: '8px' }}>
-                                            <div style={{ fontSize: '0.6rem', fontWeight: 'bold', color: 'var(--primary)', textTransform: 'uppercase', marginBottom: '4px', borderBottom: '1px solid var(--border-light)' }}>
-                                              {principle}
-                                            </div>
-                                            <div className="agrovoc-tags-container" style={{ gap: '4px' }}>
-                                              {cluster.agrovoc_tags
-                                                .filter(t => (t.principles && t.principles.includes(principle)) || (!t.principles?.length && principle === 'Uncategorized'))
-                                                .map((tag, tIdx) => (
-                                                  <a 
-                                                    key={tIdx} 
-                                                    href={tag.uri} 
-                                                    target="_blank" 
-                                                    rel="noopener noreferrer" 
-                                                    className="agrovoc-tag"
-                                                    title={`View '${tag.prefLabel}' on FAO AGROVOC`}
-                                                    style={{ fontSize: '0.65rem', padding: '2px 8px' }}
-                                                  >
-                                                    <Link2 size={8} /> {tag.prefLabel}
-                                                  </a>
-                                                ))}
-                                            </div>
-                                          </div>
-                                        ))}
-                                      </>
-                                    ) : (
-                                      <div style={{ fontSize: '0.7rem', fontStyle: 'italic', color: 'var(--text-muted)' }}>No matches found</div>
-                                    )}
-                                  </div>
-                                  
-                                  {cluster.wordcloud && (
-                                    <div style={{ marginBottom: 16, background: 'white', borderRadius: '8px', overflow: 'hidden', border: '1px solid var(--border-light)' }}>
-                                      <img src={`${API_BASE_URL}${cluster.wordcloud}?t=${new Date().getTime()}`} alt={`Cluster ${cluster.group} Word Cloud`} style={{ width: '100%', height: 'auto' }} />
-                                    </div>
-                                  )}
+                  {mponelaImages && (
+                    <div className="mponela-results-section" style={{ marginTop: '32px', borderTop: '1px solid var(--border)', paddingTop: '24px' }}>
+                      <h3 style={{ marginBottom: '16px' }}>Clustering Results & Heatmaps</h3>
 
-                                  <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', flex: 1 }}>
-                                    <strong>{cluster.frameworks.length} Frameworks:</strong>
-                                    <ul style={{ paddingLeft: 20, marginTop: 8 }}>
-                                      {cluster.frameworks.slice(0, 10).map((fw, fIdx) => (
-                                        <li key={fIdx} style={{ marginBottom: 4 }}>{fw}</li>
-                                      ))}
-                                      {cluster.frameworks.length > 10 && <li style={{ fontStyle: 'italic' }}>...and {cluster.frameworks.length - 10} more</li>}
-                                    </ul>
-                                  </div>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        )}
-                      </div>
-                    ) : (
-                      <div className="content-card">
-                        <div className="card-title"><Book size={20} /> Multi-Ontology Semantic Mappings</div>
-                        <p className="recommendation-desc" style={{ marginBottom: 20 }}>
-                          Cross-ontology term alignment using authoritative sources: 
-                          <strong> AGROVOC</strong>, 
-                          <strong> GEMET</strong>, 
-                          <strong> EcoPortal</strong>, 
-                          <strong> ENVO</strong>, 
-                          <strong> SWEET</strong>, 
-                          <strong> HASSET</strong>, 
-                          <strong> UNBIS</strong>, 
-                          <strong> UNESCO</strong>, 
-                          <strong> TAPE (FAO)</strong>, and 
-                          <strong> DLC</strong>.
-                        </p>
-                        
-                        <div style={{ marginBottom: 20, display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-                          {['AGROVOC', 'GEMET', 'EcoPortal', 'ENVO', 'SWEET', 'HASSET', 'UNBIS', 'UNESCO', 'TAPE', 'DLC'].map(ont => (
-                            <span key={ont} style={{ fontSize: '0.7rem', padding: '2px 8px', borderRadius: '4px', border: '1px solid var(--primary-light)', color: 'var(--primary)', fontWeight: 600 }}>
-                              {ont} Connected
-                            </span>
-                          ))}
+                      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '24px' }}>
+                        <div style={{ background: 'white', padding: '16px', borderRadius: '12px', border: '1px solid var(--border)', textAlign: 'center' }}>
+                          <h4 style={{ marginBottom: '12px', color: 'var(--text-dark)' }}>Agroecology Index</h4>
+                          <img src={`${API_BASE_URL}/results/agroecology_index_heatmap.jpeg?t=${new Date().getTime()}`} alt="Agroecology Index Heatmap" style={{ width: '100%', maxWidth: '200px', height: 'auto', borderRadius: '8px', border: '1px solid var(--border-light)' }} />
                         </div>
 
-                        <div className="card-title" style={{ fontSize: '1rem', marginTop: 32 }}><Target size={18} /> Global Principles Alignment (Snapshot)</div>
-                        
-                        {semanticMapping ? (
-                          <div className="semantic-mapping-snapshot" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '16px' }}>
-                            {Object.entries(semanticMapping).map(([principle, terms], pIdx) => (
-                              <div key={pIdx} className="principle-map-group" style={{ background: 'var(--bg-light)', padding: '16px', borderRadius: '12px', border: '1px solid var(--border)' }}>
-                                <h4 style={{ color: 'var(--primary)', marginBottom: '12px', fontSize: '0.9rem', borderBottom: '2px solid var(--primary-light)', pb: '4px' }}>{principle}</h4>
-                                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
-                                  {terms.map((term, tIdx) => (
-                                    <a 
-                                      key={tIdx} 
-                                      href={term.uri} 
-                                      target="_blank" 
-                                      rel="noopener noreferrer" 
-                                      className="agrovoc-tag" 
-                                      style={{ fontSize: '0.75rem', padding: '4px 8px' }}
-                                      title={term.uri}
-                                    >
-                                      {term.label}
-                                    </a>
-                                  ))}
-                                </div>
-                              </div>
-                            ))}
-                          </div>
-                        ) : (
-                          <div className="no-results">Loading semantic mappings snapshot...</div>
-                        )}
+                        <div style={{ background: 'white', padding: '16px', borderRadius: '12px', border: '1px solid var(--border)', textAlign: 'center' }}>
+                          <h4 style={{ marginBottom: '12px', color: 'var(--text-dark)' }}>Principle Z-Score Distribution</h4>
+                          <img src={`${API_BASE_URL}/results/principle_heatmap_zscore.jpeg?t=${new Date().getTime()}`} alt="Principle Z-Score Heatmap" style={{ width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid var(--border-light)' }} />
+                        </div>
                       </div>
-                    )}
-                  </>
-                )}
+                    </div>
+                  )}
+                </div>
               </motion.div>
             )}
 
             {view === 'results' && (
               <motion.div key="results" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }}>
-                <div className="subtabs-container" style={{ marginBottom: 24, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <div style={{ display: 'flex', gap: '8px' }}>
-                    <button className={`subtab-btn ${resultsSubTab === 'evaluation' ? 'active' : ''}`} onClick={() => setResultsSubTab('evaluation')}>
-                      <Target size={16} /> Iterative Evaluation
-                    </button>
-                    <button className={`subtab-btn ${resultsSubTab === 'study' ? 'active' : ''}`} onClick={() => setResultsSubTab('study')}>
-                      <FileText size={16} /> Global Study Results
-                    </button>
-                  </div>
-                  
-                  <div className="workflow-toggle-group" style={{ display: 'flex', background: 'var(--bg-light)', padding: '4px', borderRadius: '8px', border: '1px solid var(--border)' }}>
-                    <button 
-                      className={`toggle-btn ${activeWorkflow === 'mponela' ? 'active' : ''}`} 
-                      onClick={() => setActiveWorkflow('mponela')}
-                      style={{ padding: '6px 12px', fontSize: '0.75rem', borderRadius: '6px', border: 'none', cursor: 'pointer', background: activeWorkflow === 'mponela' ? 'var(--primary)' : 'transparent', color: activeWorkflow === 'mponela' ? 'white' : 'var(--text-muted)', fontWeight: 600, transition: 'all 0.2s' }}
-                    >
-                      Mponela 2026
-                    </button>
-                    <button 
-                      className={`toggle-btn ${activeWorkflow === 'agrontology' ? 'active' : ''}`} 
-                      onClick={() => setActiveWorkflow('agrontology')}
-                      style={{ padding: '6px 12px', fontSize: '0.75rem', borderRadius: '6px', border: 'none', cursor: 'pointer', background: activeWorkflow === 'agrontology' ? '#8e44ad' : 'transparent', color: activeWorkflow === 'agrontology' ? 'white' : 'var(--text-muted)', fontWeight: 600, transition: 'all 0.2s' }}
-                    >
-                      Current Ontology
-                    </button>
-                  </div>
+                <div className="subtabs-container" style={{ marginBottom: 24 }}>
+                  <button className={`subtab-btn ${mponelaDataSource === 'r' ? 'active' : ''}`} onClick={() => setMponelaDataSource('r')}>
+                    <Book size={16} /> Mponela 2026
+                  </button>
+                  <button className={`subtab-btn ${mponelaDataSource === 'python' ? 'active' : ''}`} onClick={() => setMponelaDataSource('python')}>
+                    <BookOpen size={16} /> Mponela 2026 Update
+                  </button>
                 </div>
-
-                {resultsSubTab === 'evaluation' ? (
+                {resultsSubTab === 'evaluation' || resultsSubTab === 'study' ? (
                   <>
                     <div className="content-card">
                       <div className="card-title"><Target size={20} /> Framework Evaluation (Agroecology)</div>
@@ -1585,60 +1581,67 @@ function App() {
                         </div>
                       )}
                     </div>
+                    {mponelaDataSource === 'python' && renderMponelaTermsSummaryTable()}
                   </>
                 ) : (
                   <>
                     <div className="content-card">
-                      <div className="card-title"><Layers size={20} /> Global Strategic Alignment (Comparison)</div>
-                      <div className="global-comparison-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '32px' }}>
-                        <div className="comparison-pane">
-                          <h4 style={{ textAlign: 'center', color: 'var(--primary)', marginBottom: 16 }}>Mponela et al. 2026 (Manual)</h4>
-                          <SpiderChart data={studySummary} color="var(--primary)" size={350} />
-                          <div className="stats-list" style={{ maxHeight: '250px', overflowY: 'auto', marginTop: 16 }}>
-                            {studySummary.map((s, i) => (
-                              <div key={i} className="stat-item" style={{ marginBottom: 8 }}>
-                                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem' }}>
-                                  <span>{s.principle}</span>
-                                  <span>{(s.score * 100).toFixed(0)}%</span>
+                      <div className="card-title"><Layers size={20} /> {appMode === 'mponela' ? (mponelaDataSource === 'r' ? 'Soil health - Mponela et al. 2026 Strategic Alignment' : 'Soil health - Mponela 2026-update Strategic Alignment') : 'Global Strategic Alignment (Automated)'}</div>
+                      <div className="global-comparison-grid" style={{ display: 'flex', justifyContent: 'center', padding: '20px' }}>
+                        {appMode === 'mponela' ? (
+                          <div className="comparison-pane" style={{ width: '100%', maxWidth: '500px' }}>
+                            <h4 style={{ textAlign: 'center', color: 'var(--primary)', marginBottom: 16 }}>{mponelaDataSource === 'r' ? 'Soil health - Mponela et al. 2026' : 'Soil health - Mponela 2026-update'}</h4>
+                            <div style={{ display: 'flex', justifyContent: 'center' }}><SpiderChart data={studySummary} color="var(--primary)" size={350} /></div>
+                            <div className="stats-list" style={{ maxHeight: '250px', overflowY: 'auto', marginTop: 16 }}>
+                              {studySummary.map((s, i) => (
+                                <div key={i} className="stat-item" style={{ marginBottom: 8 }}>
+                                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem' }}>
+                                    <span>{s.principle}</span>
+                                    <span>{(s.score * 100).toFixed(0)}%</span>
+                                  </div>
+                                  <div style={{ height: 3, background: 'var(--border)', borderRadius: 2 }}>
+                                    <div style={{ height: '100%', width: `${s.score * 100}%`, background: 'var(--primary)' }} />
+                                  </div>
                                 </div>
-                                <div style={{ height: 3, background: 'var(--border)', borderRadius: 2 }}>
-                                  <div style={{ height: '100%', width: `${s.score * 100}%`, background: 'var(--primary)' }} />
-                                </div>
-                              </div>
-                            ))}
+                              ))}
+                            </div>
                           </div>
-                        </div>
-                        <div className="comparison-pane">
-                          <h4 style={{ textAlign: 'center', color: '#8e44ad', marginBottom: 16 }}>Current Ontology (Automated)</h4>
-                          <SpiderChart data={agrontologyStudySummary} color="#8e44ad" size={350} />
-                          <div className="stats-list" style={{ maxHeight: '250px', overflowY: 'auto', marginTop: 16 }}>
-                            {agrontologyStudySummary.map((s, i) => (
-                              <div key={i} className="stat-item" style={{ marginBottom: 8 }}>
-                                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem' }}>
-                                  <span>{s.principle}</span>
-                                  <span>{(s.score * 100).toFixed(0)}%</span>
+                        ) : (
+                          <div className="comparison-pane" style={{ width: '100%', maxWidth: '500px' }}>
+                            <h4 style={{ textAlign: 'center', color: '#8e44ad', marginBottom: 16 }}>Current Ontology (Automated)</h4>
+                            <div style={{ display: 'flex', justifyContent: 'center' }}><SpiderChart data={agrontologyStudySummary} color="#8e44ad" size={350} /></div>
+                            <div className="stats-list" style={{ maxHeight: '250px', overflowY: 'auto', marginTop: 16 }}>
+                              {agrontologyStudySummary.map((s, i) => (
+                                <div key={i} className="stat-item" style={{ marginBottom: 8 }}>
+                                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem' }}>
+                                    <span>{s.principle}</span>
+                                    <span>{(s.score * 100).toFixed(0)}%</span>
+                                  </div>
+                                  <div style={{ height: 3, background: 'var(--border)', borderRadius: 2 }}>
+                                    <div style={{ height: '100%', width: `${s.score * 100}%`, background: '#8e44ad' }} />
+                                  </div>
                                 </div>
-                                <div style={{ height: 3, background: 'var(--border)', borderRadius: 2 }}>
-                                  <div style={{ height: '100%', width: `${s.score * 100}%`, background: '#8e44ad' }} />
-                                </div>
-                              </div>
-                            ))}
+                              ))}
+                            </div>
                           </div>
-                        </div>
+                        )}
                       </div>
                     </div>
 
                     <div className="content-card" style={{ marginTop: 16 }}>
-                      <div className="card-title"><PenTool size={20} /> Design Domain Alignment (Comparison)</div>
-                      <div className="global-comparison-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '32px' }}>
-                        <div className="comparison-pane">
-                          <h4 style={{ textAlign: 'center', color: '#ff7f00', marginBottom: 16 }}>Mponela 2026 Design Fit</h4>
-                          <SpiderChart data={globalDesignSummary} color="#ff7f00" size={350} />
-                        </div>
-                        <div className="comparison-pane">
-                          <h4 style={{ textAlign: 'center', color: '#e67e22', marginBottom: 16 }}>Current Ontology Design Fit</h4>
-                          <SpiderChart data={agrontologyDesignSummary} color="#e67e22" size={350} />
-                        </div>
+                      <div className="card-title"><PenTool size={20} /> {appMode === 'mponela' ? 'Mponela 2026 Design Domain Fit' : 'Current Ontology Design Domain Fit'}</div>
+                      <div className="global-comparison-grid" style={{ display: 'flex', justifyContent: 'center', padding: '20px' }}>
+                        {appMode === 'mponela' ? (
+                          <div className="comparison-pane" style={{ width: '100%', maxWidth: '500px' }}>
+                            <h4 style={{ textAlign: 'center', color: '#ff7f00', marginBottom: 16 }}>Mponela 2026 Design Fit</h4>
+                            <div style={{ display: 'flex', justifyContent: 'center' }}><SpiderChart data={globalDesignSummary} color="#ff7f00" size={350} /></div>
+                          </div>
+                        ) : (
+                          <div className="comparison-pane" style={{ width: '100%', maxWidth: '500px' }}>
+                            <h4 style={{ textAlign: 'center', color: '#e67e22', marginBottom: 16 }}>Current Ontology Design Fit</h4>
+                            <div style={{ display: 'flex', justifyContent: 'center' }}><SpiderChart data={agrontologyDesignSummary} color="#e67e22" size={350} /></div>
+                          </div>
+                        )}
                       </div>
                     </div>
 

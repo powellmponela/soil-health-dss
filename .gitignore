@@ -23,3 +23,5 @@ Thumbs.db
 .gemini/
 brain/
 restore_temp/
+
+.vercel

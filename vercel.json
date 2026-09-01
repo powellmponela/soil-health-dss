@@ -1,9 +1,5 @@
 {
   "version": 2,
   "buildCommand": "cd frontend && npm install && npm run build",
-  "outputDirectory": "frontend/build",
-  "env": {
-    "REACT_APP_API_BASE_URL": "@api_base_url"
-  },
-  "envPrefix": "REACT_APP_"
+  "outputDirectory": "frontend/build"
 }

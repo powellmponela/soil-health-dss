@@ -1,5 +1,6 @@
 fastapi
 uvicorn
+wordcloud
 pandas
 openpyxl
 pypdf

@@ -26,6 +26,7 @@ import matplotlib.pyplot as plt
 from db_utils import execute_query, execute_statement
 from migrate import extract_pdf_text
 from ontology_utils import batch_enrich_terms, load_principles_map
+from tailored_thematic import router as tailored_thematic_router
 
 def link_pdfs_logic():
     # Folder scan logic
@@ -83,6 +84,7 @@ class SuggestionAction(BaseModel):
     dev_response: str
 
 app = FastAPI()
+app.include_router(tailored_thematic_router)
 
 app.add_middleware(
     CORSMiddleware,

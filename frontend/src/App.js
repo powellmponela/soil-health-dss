@@ -90,6 +90,27 @@ function App() {
   const [landHealthSummary, setLandHealthSummary] = useState(null);
   const [mponelaTermsSummary, setMponelaTermsSummary] = useState(null);
   const [termsSummaryLoading, setTermsSummaryLoading] = useState(false);
+  const [analyticsPipeline, setAnalyticsPipeline] = useState('mponela');
+  const [tailoredFrameworkOptions, setTailoredFrameworkOptions] = useState([]);
+  const [tailoredFrameworkSearch, setTailoredFrameworkSearch] = useState('');
+  const [tailoredSelectedFrameworkIds, setTailoredSelectedFrameworkIds] = useState([]);
+  const [tailoredStudies, setTailoredStudies] = useState([]);
+  const [activeTailoredStudy, setActiveTailoredStudy] = useState(null);
+  const [tailoredFiles, setTailoredFiles] = useState({});
+  const [tailoredLoading, setTailoredLoading] = useState(false);
+  const [tailoredExtractionLoading, setTailoredExtractionLoading] = useState(false);
+  const [tailoredClusteringLoading, setTailoredClusteringLoading] = useState(false);
+  const [tailoredStudyForm, setTailoredStudyForm] = useState({
+    title: 'Tailored thematic analysis',
+    stakeholder: '',
+    description: ''
+  });
+  const [tailoredPrinciples, setTailoredPrinciples] = useState([
+    { name: 'Soil health transition', objective: 'Assess soil health priorities in the selected publication set.', indicators: 'soil organic matter\nsoil structure\nbiological activity' }
+  ]);
+  const [tailoredCustomDocs, setTailoredCustomDocs] = useState([
+    { name: '', citation: '', source_url: '', extracted_text: '' }
+  ]);
 
   const [nlpDendrogram, setNlpDendrogram] = useState(null);
   const [documentStats, setDocumentStats] = useState([]);
@@ -456,6 +477,8 @@ function App() {
     fetchIndicatorHierarchy();
     fetchSuggestions();
     fetchMponelaTermsSummary();
+    fetchTailoredFrameworkOptions();
+    fetchTailoredStudies();
   }, []);
 
   useEffect(() => {
@@ -700,6 +723,7 @@ function App() {
     setMponelaClusteringLoading(false);
   };
 
+<<<<<<< HEAD
   const runLandHealthExpansion = async () => {
     setLandHealthLoading(true);
     try {
@@ -711,6 +735,192 @@ function App() {
       alert("Land Health expansion failed.");
     } finally {
       setLandHealthLoading(false);
+=======
+  const splitIndicatorTerms = (value) => {
+    return String(value || '')
+      .split(/[\n,;]+/)
+      .map(term => term.trim())
+      .filter(Boolean);
+  };
+
+  const fetchTailoredFrameworkOptions = async () => {
+    try {
+      const res = await axios.get(`${API_BASE_URL}/analytics/thematic/framework-options`);
+      setTailoredFrameworkOptions(res.data.frameworks || []);
+    } catch (err) {
+      console.error('Tailored framework options error:', err);
+    }
+  };
+
+  const fetchTailoredStudies = async () => {
+    try {
+      const res = await axios.get(`${API_BASE_URL}/analytics/thematic/studies`);
+      setTailoredStudies(res.data.studies || []);
+    } catch (err) {
+      console.error('Tailored studies error:', err);
+    }
+  };
+
+  const fetchTailoredStudy = async (studyId) => {
+    if (!studyId) {
+      setActiveTailoredStudy(null);
+      setTailoredFiles({});
+      return;
+    }
+    try {
+      const res = await axios.get(`${API_BASE_URL}/analytics/thematic/studies/${studyId}`);
+      setActiveTailoredStudy(res.data);
+      setTailoredFiles({
+        matrix: `/results/tailored/tailored_study_${studyId}_matrix.csv`,
+        heatmap: `/results/tailored/tailored_study_${studyId}_heatmap.png`
+      });
+    } catch (err) {
+      console.error('Tailored study detail error:', err);
+      alert('Could not load tailored study.');
+    }
+  };
+
+  const toggleTailoredFramework = (frameworkId) => {
+    setTailoredSelectedFrameworkIds(prev =>
+      prev.includes(frameworkId)
+        ? prev.filter(id => id !== frameworkId)
+        : [...prev, frameworkId]
+    );
+  };
+
+  const loadMponelaDefaults = () => {
+    const grouped = {};
+    indicatorHierarchy.forEach(item => {
+      if (!grouped[item.principle]) {
+        grouped[item.principle] = { domain: item.domain, indicators: [] };
+      }
+      if (item.indicator && !grouped[item.principle].indicators.includes(item.indicator)) {
+        grouped[item.principle].indicators.push(item.indicator);
+      }
+    });
+
+    const seeded = Object.entries(grouped).map(([principle, details]) => ({
+      name: principle,
+      objective: details.domain || 'Stakeholder-defined objective',
+      indicators: details.indicators.join('\n')
+    }));
+
+    if (seeded.length > 0) {
+      setTailoredPrinciples(seeded);
+    } else {
+      setTailoredPrinciples(SHARED_PRINCIPLE_ORDER.map(principle => ({
+        name: principle,
+        objective: 'Stakeholder-defined objective',
+        indicators: ''
+      })));
+    }
+  };
+
+  const updateTailoredPrinciple = (index, field, value) => {
+    setTailoredPrinciples(prev => prev.map((principle, idx) =>
+      idx === index ? { ...principle, [field]: value } : principle
+    ));
+  };
+
+  const addTailoredPrinciple = () => {
+    setTailoredPrinciples(prev => [
+      ...prev,
+      { name: '', objective: '', indicators: '' }
+    ]);
+  };
+
+  const removeTailoredPrinciple = (index) => {
+    setTailoredPrinciples(prev => prev.filter((_, idx) => idx !== index));
+  };
+
+  const updateTailoredCustomDoc = (index, field, value) => {
+    setTailoredCustomDocs(prev => prev.map((doc, idx) =>
+      idx === index ? { ...doc, [field]: value } : doc
+    ));
+  };
+
+  const addTailoredCustomDoc = () => {
+    setTailoredCustomDocs(prev => [
+      ...prev,
+      { name: '', citation: '', source_url: '', extracted_text: '' }
+    ]);
+  };
+
+  const removeTailoredCustomDoc = (index) => {
+    setTailoredCustomDocs(prev => prev.filter((_, idx) => idx !== index));
+  };
+
+  const createTailoredStudy = async (e) => {
+    e.preventDefault();
+    const payload = {
+      ...tailoredStudyForm,
+      framework_ids: tailoredSelectedFrameworkIds,
+      principles: tailoredPrinciples
+        .filter(principle => principle.name.trim())
+        .map(principle => ({
+          name: principle.name.trim(),
+          objective: principle.objective,
+          indicators: splitIndicatorTerms(principle.indicators)
+        })),
+      custom_frameworks: tailoredCustomDocs
+        .filter(doc => doc.name.trim() && doc.extracted_text.trim())
+        .map(doc => ({
+          name: doc.name.trim(),
+          citation: doc.citation,
+          source_url: doc.source_url,
+          extracted_text: doc.extracted_text
+        }))
+    };
+
+    setTailoredLoading(true);
+    try {
+      const res = await axios.post(`${API_BASE_URL}/analytics/thematic/studies`, payload);
+      setActiveTailoredStudy(res.data);
+      setTailoredFiles({});
+      await fetchTailoredStudies();
+      alert('Tailored thematic study created.');
+    } catch (err) {
+      console.error('Create tailored study error:', err);
+      alert(err.response?.data?.detail || 'Could not create tailored thematic study.');
+    } finally {
+      setTailoredLoading(false);
+    }
+  };
+
+  const runTailoredExtraction = async () => {
+    const studyId = activeTailoredStudy?.study?.id;
+    if (!studyId) return;
+    setTailoredExtractionLoading(true);
+    try {
+      const res = await axios.post(`${API_BASE_URL}/analytics/thematic/studies/${studyId}/extract`);
+      await fetchTailoredStudy(studyId);
+      setTailoredFiles(res.data.files || {});
+      await fetchTailoredStudies();
+      alert('Tailored word extraction complete.');
+    } catch (err) {
+      console.error('Tailored extraction error:', err);
+      alert(err.response?.data?.detail || 'Tailored extraction failed.');
+    } finally {
+      setTailoredExtractionLoading(false);
+    }
+  };
+
+  const runTailoredClustering = async () => {
+    const studyId = activeTailoredStudy?.study?.id;
+    if (!studyId) return;
+    setTailoredClusteringLoading(true);
+    try {
+      const res = await axios.post(`${API_BASE_URL}/analytics/thematic/studies/${studyId}/cluster`);
+      await fetchTailoredStudy(studyId);
+      setTailoredFiles(res.data.files || {});
+      await fetchTailoredStudies();
+      alert('Tailored clustering complete.');
+    } catch (err) {
+      console.error('Tailored clustering error:', err);
+      alert(err.response?.data?.detail || 'Tailored clustering failed.');
+    } finally {
+      setTailoredClusteringLoading(false);
+>>>>>>> b363246 (Add tailored thematic analysis workflow)
     }
   };
 
@@ -1046,6 +1256,343 @@ function App() {
     } finally {
       setLoading(false);
     }
+  };
+
+  const renderTailoredThematicPipeline = () => {
+    const search = tailoredFrameworkSearch.trim().toLowerCase();
+    const filteredFrameworks = tailoredFrameworkOptions.filter(f => {
+      const haystack = `${f.name || ''} ${f.title || ''} ${f.author_date || ''} ${f.publisher || ''}`.toLowerCase();
+      return !search || haystack.includes(search);
+    });
+    const summary = activeTailoredStudy?.summary || {};
+    const summaryPrinciples = summary.principles || [];
+    const clusters = activeTailoredStudy?.clusters || [];
+    const activeStudyId = activeTailoredStudy?.study?.id;
+
+    return (
+      <div className="tailored-pipeline">
+        <div className="content-card tailored-builder-card">
+          <div className="card-title"><Wrench size={20} /> Tailored Thematic Study</div>
+
+          <form onSubmit={createTailoredStudy}>
+            <div className="form-grid">
+              <div className="form-group">
+                <label>Study Title</label>
+                <input
+                  className="input-field"
+                  value={tailoredStudyForm.title}
+                  onChange={e => setTailoredStudyForm({ ...tailoredStudyForm, title: e.target.value })}
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <label>Stakeholder</label>
+                <input
+                  className="input-field"
+                  value={tailoredStudyForm.stakeholder}
+                  onChange={e => setTailoredStudyForm({ ...tailoredStudyForm, stakeholder: e.target.value })}
+                  placeholder="Program, team, region, or partner"
+                />
+              </div>
+              <div className="form-group full-width">
+                <label>Description</label>
+                <textarea
+                  className="input-field"
+                  value={tailoredStudyForm.description}
+                  onChange={e => setTailoredStudyForm({ ...tailoredStudyForm, description: e.target.value })}
+                  rows={3}
+                />
+              </div>
+            </div>
+
+            <div className="tailored-section">
+              <div className="tailored-section-head">
+                <div>
+                  <div className="tailored-section-title"><Target size={18} /> Principle Objectives and Indicators</div>
+                  <div className="tailored-count">{tailoredPrinciples.length} principles</div>
+                </div>
+                <div className="tailored-actions">
+                  <button type="button" className="btn-secondary" onClick={loadMponelaDefaults}>
+                    <BookOpen size={16} /> Load Mponela Defaults
+                  </button>
+                  <button type="button" className="btn-secondary" onClick={addTailoredPrinciple}>
+                    <PlusCircle size={16} /> Add Principle
+                  </button>
+                </div>
+              </div>
+
+              <div className="tailored-principles-list">
+                {tailoredPrinciples.map((principle, idx) => (
+                  <div className="tailored-principle-row" key={`tailored-principle-${idx}`}>
+                    <div className="tailored-principle-index">{idx + 1}</div>
+                    <div className="tailored-principle-fields">
+                      <input
+                        className="input-field"
+                        value={principle.name}
+                        onChange={e => updateTailoredPrinciple(idx, 'name', e.target.value)}
+                        placeholder="Principle name"
+                        required={idx === 0}
+                      />
+                      <textarea
+                        className="input-field"
+                        value={principle.objective}
+                        onChange={e => updateTailoredPrinciple(idx, 'objective', e.target.value)}
+                        placeholder="Principle objective"
+                        rows={2}
+                      />
+                      <textarea
+                        className="input-field"
+                        value={principle.indicators}
+                        onChange={e => updateTailoredPrinciple(idx, 'indicators', e.target.value)}
+                        placeholder="Indicator terms, one per line"
+                        rows={4}
+                      />
+                    </div>
+                    <button
+                      type="button"
+                      className="icon-btn tailored-remove-btn"
+                      onClick={() => removeTailoredPrinciple(idx)}
+                      disabled={tailoredPrinciples.length === 1}
+                      title="Remove principle"
+                    >
+                      <XCircle size={18} />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="tailored-section">
+              <div className="tailored-section-head">
+                <div>
+                  <div className="tailored-section-title"><Book size={18} /> Mponela Published Frameworks</div>
+                  <div className="tailored-count">{tailoredSelectedFrameworkIds.length} selected</div>
+                </div>
+                <div className="tailored-actions">
+                  <button
+                    type="button"
+                    className="btn-secondary"
+                    onClick={() => setTailoredSelectedFrameworkIds(filteredFrameworks.map(f => f.id))}
+                  >
+                    Select Visible
+                  </button>
+                  <button type="button" className="btn-secondary" onClick={() => setTailoredSelectedFrameworkIds([])}>
+                    Clear
+                  </button>
+                </div>
+              </div>
+
+              <div className="search-bar-wrapper tailored-search">
+                <Search size={18} className="search-icon" />
+                <input
+                  className="input-field search-input"
+                  value={tailoredFrameworkSearch}
+                  onChange={e => setTailoredFrameworkSearch(e.target.value)}
+                  placeholder="Search published frameworks"
+                />
+              </div>
+
+              <div className="tailored-framework-list">
+                {filteredFrameworks.slice(0, 80).map(fw => {
+                  const selected = tailoredSelectedFrameworkIds.includes(fw.id);
+                  const hasText = (fw.text_length || 0) > 0;
+                  return (
+                    <label key={fw.id} className={`tailored-framework-option ${selected ? 'selected' : ''}`}>
+                      <input
+                        type="checkbox"
+                        checked={selected}
+                        onChange={() => toggleTailoredFramework(fw.id)}
+                      />
+                      <span>
+                        <strong>{formatFirstAuthor(fw.author_date || fw.name)}</strong>
+                        <small>{truncateWords(fw.title || fw.name, 12)}</small>
+                      </span>
+                      <em className={hasText ? 'ready' : 'pending'}>{hasText ? 'text' : fw.document_status}</em>
+                    </label>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div className="tailored-section">
+              <div className="tailored-section-head">
+                <div>
+                  <div className="tailored-section-title"><FileText size={18} /> Stakeholder Documents</div>
+                  <div className="tailored-count">{tailoredCustomDocs.filter(doc => doc.name && doc.extracted_text).length} added</div>
+                </div>
+                <button type="button" className="btn-secondary" onClick={addTailoredCustomDoc}>
+                  <PlusCircle size={16} /> Add Source
+                </button>
+              </div>
+
+              {tailoredCustomDocs.map((doc, idx) => (
+                <div className="tailored-doc-row" key={`tailored-doc-${idx}`}>
+                  <div className="form-grid">
+                    <div className="form-group">
+                      <label>Source Name</label>
+                      <input
+                        className="input-field"
+                        value={doc.name}
+                        onChange={e => updateTailoredCustomDoc(idx, 'name', e.target.value)}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <label>Citation</label>
+                      <input
+                        className="input-field"
+                        value={doc.citation}
+                        onChange={e => updateTailoredCustomDoc(idx, 'citation', e.target.value)}
+                      />
+                    </div>
+                    <div className="form-group full-width">
+                      <label>Source URL</label>
+                      <input
+                        className="input-field"
+                        value={doc.source_url}
+                        onChange={e => updateTailoredCustomDoc(idx, 'source_url', e.target.value)}
+                      />
+                    </div>
+                    <div className="form-group full-width">
+                      <label>Extracted Text</label>
+                      <textarea
+                        className="input-field"
+                        value={doc.extracted_text}
+                        onChange={e => updateTailoredCustomDoc(idx, 'extracted_text', e.target.value)}
+                        rows={5}
+                      />
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    className="icon-btn tailored-doc-remove"
+                    onClick={() => removeTailoredCustomDoc(idx)}
+                    disabled={tailoredCustomDocs.length === 1}
+                    title="Remove source"
+                  >
+                    <XCircle size={18} />
+                  </button>
+                </div>
+              ))}
+            </div>
+
+            <div className="form-actions tailored-submit-row">
+              <button className="btn-primary" type="submit" disabled={tailoredLoading}>
+                {tailoredLoading ? 'Creating...' : 'Create Parallel Study'} <ArrowRight size={16} />
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div className="content-card tailored-run-card">
+          <div className="tailored-section-head">
+            <div className="card-title" style={{ marginBottom: 0 }}><Layers size={20} /> Parallel Study Runs</div>
+            <select
+              className="input-field tailored-study-select"
+              value={activeStudyId || ''}
+              onChange={e => fetchTailoredStudy(e.target.value)}
+            >
+              <option value="">Select saved study</option>
+              {tailoredStudies.map(study => (
+                <option key={study.id} value={study.id}>
+                  {study.title}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {activeTailoredStudy ? (
+            <>
+              <div className="tailored-active-study">
+                <div>
+                  <strong>{activeTailoredStudy.study.title}</strong>
+                  <span>{activeTailoredStudy.study.status}</span>
+                </div>
+                <p>{activeTailoredStudy.study.description}</p>
+              </div>
+
+              <div className="tailored-run-grid">
+                <div className="action-card">
+                  <h3><FileText size={18} /> Word Extraction</h3>
+                  <p>{summary.total_matches || 0} matched words across {summary.matched_sources || 0} sources.</p>
+                  <button className="btn-primary" onClick={runTailoredExtraction} disabled={tailoredExtractionLoading}>
+                    {tailoredExtractionLoading ? 'Extracting...' : 'Extract Words'}
+                  </button>
+                </div>
+                <div className="action-card">
+                  <h3><Sparkles size={18} /> Clustering</h3>
+                  <p>{clusters.length} clusters generated from the tailored matrix.</p>
+                  <button className="btn-primary" onClick={runTailoredClustering} disabled={tailoredClusteringLoading}>
+                    {tailoredClusteringLoading ? 'Clustering...' : 'Run Clustering'}
+                  </button>
+                </div>
+              </div>
+
+              {summaryPrinciples.length > 0 && (
+                <div className="terms-summary-table-wrap tailored-summary-wrap">
+                  <table className="terms-summary-table">
+                    <thead>
+                      <tr>
+                        <th>Principle</th>
+                        <th>Matches</th>
+                        <th>Sources</th>
+                        <th>Coverage</th>
+                        <th>Top Words</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {summaryPrinciples.map(row => (
+                        <tr key={row.principle}>
+                          <td className="terms-principle-cell">{row.principle}</td>
+                          <td>{row.total_matches.toLocaleString()}</td>
+                          <td>{row.sources.toLocaleString()}</td>
+                          <td>{Math.round((row.coverage || 0) * 100)}%</td>
+                          <td>
+                            <div className="top-term-list">
+                              {(row.top_terms || []).map(term => (
+                                <span key={`${row.principle}-${term.term}`} className="top-term-chip">
+                                  {term.term} <strong>{term.count}</strong>
+                                </span>
+                              ))}
+                            </div>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+
+              {clusters.length > 0 && (
+                <div className="tailored-cluster-grid">
+                  {clusters.map(cluster => (
+                    <div className="cluster-card tailored-cluster-card" key={cluster.group}>
+                      <div className="cluster-badge">Cluster {cluster.group}</div>
+                      <div className="cluster-theme">{cluster.theme}</div>
+                      <div className="cluster-fws">{(cluster.source_names || []).join(', ')}</div>
+                      <div className="top-term-list" style={{ marginTop: 12 }}>
+                        {(cluster.top_terms || []).map(term => (
+                          <span key={`${cluster.group}-${term.term}`} className="top-term-chip">
+                            {term.term} <strong>{term.count}</strong>
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {clusters.length > 0 && tailoredFiles.heatmap && (
+                <div className="tailored-heatmap">
+                  <img src={`${API_BASE_URL}${tailoredFiles.heatmap}?t=${new Date().getTime()}`} alt="Tailored thematic heatmap" />
+                </div>
+              )}
+            </>
+          ) : (
+            <div className="no-results">No tailored thematic study selected.</div>
+          )}
+        </div>
+      </div>
+    );
   };
 
   return (
@@ -1504,30 +2051,40 @@ function App() {
 
             {view === 'analytics' && (
               <motion.div key="analytics" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }}>
+<<<<<<< HEAD
                 <div className="content-card">
                   <div className="card-title"><Book size={20} /> Mponela et al. (2026) Publication Baseline</div>
                   <p className="recommendation-desc" style={{ marginBottom: 20 }}>
                     Reproduce the publication-based soil-health extraction and clustering workflow. This baseline is retained unchanged; broader Land Health analysis runs separately below.
                   </p>
+=======
+                <div className="subtabs-container" style={{ marginBottom: 24 }}>
+                  <button className={`subtab-btn ${analyticsPipeline === 'mponela' ? 'active' : ''}`} onClick={() => setAnalyticsPipeline('mponela')}>
+                    <Book size={16} /> Mponela Pipeline
+                  </button>
+                  <button className={`subtab-btn ${analyticsPipeline === 'tailored' ? 'active' : ''}`} onClick={() => setAnalyticsPipeline('tailored')}>
+                    <Wrench size={16} /> Tailored Thematic
+                  </button>
+                </div>
+>>>>>>> b363246 (Add tailored thematic analysis workflow)
 
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '24px' }}>
-                    <div className="action-card" style={{ padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
-                      <h3 style={{ margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}><FileText size={18} /> Phase 1: Text Extraction</h3>
-                      <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '16px' }}>Extract proximity-based theme terms from framework manuscripts.</p>
-                      <button className="btn-primary" onClick={runMponelaExtraction} disabled={mponelaExtractionLoading} style={{ width: '100%' }}>
-                        {mponelaExtractionLoading ? 'Extracting Text...' : 'Run Extraction Model'}
-                      </button>
-                    </div>
+                {analyticsPipeline === 'mponela' ? (
+                  <div className="content-card">
+                    <div className="card-title"><Book size={20} /> Soil health - Mponela 2026 Update Analytics Pipeline</div>
+                    <p className="recommendation-desc" style={{ marginBottom: 20 }}>
+                      Run text extraction and hierarchical clustering models based on the agroecological principles and domains established by Mponela et al. (2026).
+                    </p>
 
-                    <div className="action-card" style={{ padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
-                      <h3 style={{ margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}><Sparkles size={18} /> Phase 2: Clustering Model</h3>
-                      <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '16px' }}>Run hierarchical clustering and generate principle heatmaps.</p>
-                      <button className="btn-primary" onClick={runMponelaClustering} disabled={mponelaClusteringLoading} style={{ width: '100%' }}>
-                        {mponelaClusteringLoading ? 'Running Model...' : 'Run Clustering Model'}
-                      </button>
-                    </div>
-                  </div>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '24px' }}>
+                      <div className="action-card" style={{ padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
+                        <h3 style={{ margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}><FileText size={18} /> Phase 1: Text Extraction</h3>
+                        <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '16px' }}>Extract proximity-based theme terms from framework manuscripts.</p>
+                        <button className="btn-primary" onClick={runMponelaExtraction} disabled={mponelaExtractionLoading} style={{ width: '100%' }}>
+                          {mponelaExtractionLoading ? 'Extracting Text...' : 'Run Extraction Model'}
+                        </button>
+                      </div>
 
+<<<<<<< HEAD
                   {renderMponelaTermsSummaryTable()}
 
                   <div className="action-card" style={{ marginTop: '28px', padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
@@ -1564,10 +2121,40 @@ function App() {
                           <h4 style={{ marginBottom: '12px', color: 'var(--text-dark)' }}>Principle Z-Score Distribution</h4>
                           <img src={`${API_BASE_URL}/results/principle_heatmap_zscore.jpeg?t=${new Date().getTime()}`} alt="Principle Z-Score Heatmap" style={{ width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid var(--border-light)' }} />
                         </div>
+=======
+                      <div className="action-card" style={{ padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
+                        <h3 style={{ margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}><Sparkles size={18} /> Phase 2: Clustering Model</h3>
+                        <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '16px' }}>Run hierarchical clustering and generate principle heatmaps.</p>
+                        <button className="btn-primary" onClick={runMponelaClustering} disabled={mponelaClusteringLoading} style={{ width: '100%' }}>
+                          {mponelaClusteringLoading ? 'Running Model...' : 'Run Clustering Model'}
+                        </button>
+>>>>>>> b363246 (Add tailored thematic analysis workflow)
                       </div>
                     </div>
-                  )}
-                </div>
+
+                    {renderMponelaTermsSummaryTable()}
+
+                    {mponelaImages && (
+                      <div className="mponela-results-section" style={{ marginTop: '32px', borderTop: '1px solid var(--border)', paddingTop: '24px' }}>
+                        <h3 style={{ marginBottom: '16px' }}>Clustering Results & Heatmaps</h3>
+
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '24px' }}>
+                          <div style={{ background: 'white', padding: '16px', borderRadius: '12px', border: '1px solid var(--border)', textAlign: 'center' }}>
+                            <h4 style={{ marginBottom: '12px', color: 'var(--text-dark)' }}>Agroecology Index</h4>
+                            <img src={`${API_BASE_URL}/results/agroecology_index_heatmap.jpeg?t=${new Date().getTime()}`} alt="Agroecology Index Heatmap" style={{ width: '100%', maxWidth: '200px', height: 'auto', borderRadius: '8px', border: '1px solid var(--border-light)' }} />
+                          </div>
+
+                          <div style={{ background: 'white', padding: '16px', borderRadius: '12px', border: '1px solid var(--border)', textAlign: 'center' }}>
+                            <h4 style={{ marginBottom: '12px', color: 'var(--text-dark)' }}>Principle Z-Score Distribution</h4>
+                            <img src={`${API_BASE_URL}/results/principle_heatmap_zscore.jpeg?t=${new Date().getTime()}`} alt="Principle Z-Score Heatmap" style={{ width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid var(--border-light)' }} />
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  renderTailoredThematicPipeline()
+                )}
               </motion.div>
             )}
 

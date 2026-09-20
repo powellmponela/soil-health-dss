@@ -80,3 +80,79 @@ CREATE TABLE IF NOT EXISTS suggestions (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+-- Parallel stakeholder-led thematic studies.
+-- These tables are intentionally separate from Mponela et al. 2026 matrices,
+-- manuscripts, and generated result files.
+CREATE TABLE IF NOT EXISTS thematic_studies (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    description TEXT,
+    stakeholder TEXT,
+    source_note TEXT DEFAULT 'Tailored stakeholder thematic analysis',
+    status TEXT DEFAULT 'draft',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS thematic_study_frameworks (
+    study_id INTEGER NOT NULL REFERENCES thematic_studies(id) ON DELETE CASCADE,
+    framework_id INTEGER NOT NULL REFERENCES frameworks(id) ON DELETE CASCADE,
+    origin TEXT DEFAULT 'mponela',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (study_id, framework_id)
+);
+
+CREATE TABLE IF NOT EXISTS thematic_documents (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    study_id INTEGER NOT NULL REFERENCES thematic_studies(id) ON DELETE CASCADE,
+    name TEXT NOT NULL,
+    citation TEXT,
+    source_url TEXT,
+    extracted_text TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS thematic_principles (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    study_id INTEGER NOT NULL REFERENCES thematic_studies(id) ON DELETE CASCADE,
+    name TEXT NOT NULL,
+    objective TEXT,
+    sort_order INTEGER DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS thematic_indicators (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    principle_id INTEGER NOT NULL REFERENCES thematic_principles(id) ON DELETE CASCADE,
+    term TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS thematic_word_extractions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    study_id INTEGER NOT NULL REFERENCES thematic_studies(id) ON DELETE CASCADE,
+    source_key TEXT NOT NULL,
+    source_name TEXT NOT NULL,
+    principle_id INTEGER NOT NULL REFERENCES thematic_principles(id) ON DELETE CASCADE,
+    indicator_id INTEGER REFERENCES thematic_indicators(id) ON DELETE SET NULL,
+    term TEXT NOT NULL,
+    match_count INTEGER DEFAULT 0,
+    contexts TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS thematic_clusters (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    study_id INTEGER NOT NULL REFERENCES thematic_studies(id) ON DELETE CASCADE,
+    cluster_group INTEGER NOT NULL,
+    theme TEXT,
+    source_keys TEXT,
+    source_names TEXT,
+    top_terms TEXT,
+    size INTEGER DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_thematic_study_frameworks ON thematic_study_frameworks(study_id, framework_id);
+CREATE INDEX IF NOT EXISTS idx_thematic_principles_study ON thematic_principles(study_id);
+CREATE INDEX IF NOT EXISTS idx_thematic_extractions_study ON thematic_word_extractions(study_id);
+CREATE INDEX IF NOT EXISTS idx_thematic_clusters_study ON thematic_clusters(study_id);

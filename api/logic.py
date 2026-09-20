@@ -1206,3 +1206,114 @@ def run_mponela_clustering():
         return {"status": "success", "message": "Clustering complete", "log": result.stdout}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error running clustering: {e}")
+
+
+# ── Land Health expansion (separate from publication baseline) ─────────
+LAND_HEALTH_CONFIG_PATH = os.path.join(BASE_PATH, "data", "land_health_domains.json")
+LAND_HEALTH_RESULTS_DIR = os.path.join(RESULTS_DIR, "land_health")
+LAND_HEALTH_SUMMARY_PATH = os.path.join(LAND_HEALTH_RESULTS_DIR, "land_health_summary.json")
+LAND_HEALTH_PROFILE_PATH = os.path.join(LAND_HEALTH_RESULTS_DIR, "land_health_domain_profile.csv")
+LAND_HEALTH_EVIDENCE_PATH = os.path.join(LAND_HEALTH_RESULTS_DIR, "land_health_term_evidence.csv")
+
+@app.get("/analytics/land-health/config")
+def get_land_health_config():
+    """Return the configurable Land Health domains without altering Mponela et al. (2026)."""
+    if not os.path.exists(LAND_HEALTH_CONFIG_PATH):
+        raise HTTPException(status_code=404, detail="Land Health domain configuration not found.")
+    try:
+        with open(LAND_HEALTH_CONFIG_PATH, "r", encoding="utf-8") as f:
+            config = json.load(f)
+        return {
+            "status": "success",
+            "publication_baseline": "Mponela et al. (2026) retained unchanged",
+            "config": config
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error reading Land Health configuration: {e}")
+
+@app.post("/analytics/land-health/run")
+def run_land_health_expansion(framework: Optional[str] = Query(None)):
+    """Run the broader Land Health evidence routine as an independent extension."""
+    try:
+        script_path = os.path.join(BASE_PATH, "scripts", "land_health_expansion.py")
+        command = [sys.executable, script_path]
+        if framework:
+            command.extend(["--framework", framework])
+        result = subprocess.run(command, capture_output=True, text=True)
+        if result.returncode != 0:
+            raise Exception(result.stderr or result.stdout or "Land Health routine failed")
+        if os.path.exists(LAND_HEALTH_SUMMARY_PATH):
+            with open(LAND_HEALTH_SUMMARY_PATH, "r", encoding="utf-8") as f:
+                summary = json.load(f)
+        else:
+            summary = {
+                "status": "success",
+                "message": "Land Health routine completed; summary file not found."
+            }
+        summary["log"] = result.stdout
+        return summary
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error running Land Health expansion: {e}")
+
+@app.get("/analytics/land-health/summary")
+def get_land_health_summary():
+    """Return the latest Land Health summary; publication outputs remain separate."""
+    if not os.path.exists(LAND_HEALTH_SUMMARY_PATH):
+        raise HTTPException(status_code=404, detail="Run the Land Health expansion before requesting its summary.")
+    try:
+        with open(LAND_HEALTH_SUMMARY_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error reading Land Health summary: {e}")
+
+@app.get("/analytics/land-health/profile")
+def get_land_health_profile(framework: Optional[str] = Query(None)):
+    """Return domain-level Land Health profiles, optionally filtered to one framework."""
+    if not os.path.exists(LAND_HEALTH_PROFILE_PATH):
+        raise HTTPException(status_code=404, detail="Run the Land Health expansion before requesting profiles.")
+    try:
+        df = pd.read_csv(LAND_HEALTH_PROFILE_PATH)
+        if framework:
+            key = framework.lower().strip().replace(".pdf", "")
+            df = df[
+                df["framework"].astype(str).str.lower().str.strip().str.replace(".pdf", "", regex=False).str.contains(key, regex=False)
+            ]
+        return {
+            "status": "success",
+            "publication_baseline": "Mponela et al. (2026) retained unchanged",
+            "count": int(len(df)),
+            "profile": df.where(pd.notnull(df), None).to_dict(orient="records")
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error reading Land Health profile: {e}")
+
+@app.get("/analytics/land-health/evidence")
+def get_land_health_evidence(
+    framework: Optional[str] = Query(None),
+    domain: Optional[str] = Query(None),
+    limit: int = Query(250, ge=1, le=2000)
+):
+    """Return traceable page/context evidence for the broader Land Health routine."""
+    if not os.path.exists(LAND_HEALTH_EVIDENCE_PATH):
+        raise HTTPException(status_code=404, detail="Run the Land Health expansion before requesting evidence.")
+    try:
+        df = pd.read_csv(LAND_HEALTH_EVIDENCE_PATH)
+        if framework:
+            key = framework.lower().strip().replace(".pdf", "")
+            df = df[
+                df["framework"].astype(str).str.lower().str.strip().str.replace(".pdf", "", regex=False).str.contains(key, regex=False)
+            ]
+        if domain:
+            key = domain.lower().strip()
+            df = df[
+                df["domain_id"].astype(str).str.lower().eq(key)
+                | df["domain"].astype(str).str.lower().str.contains(key, regex=False)
+            ]
+        df = df.head(limit)
+        return {
+            "status": "success",
+            "count": int(len(df)),
+            "evidence": df.where(pd.notnull(df), None).to_dict(orient="records")
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error reading Land Health evidence: {e}")

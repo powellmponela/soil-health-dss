@@ -86,6 +86,8 @@ function App() {
   const [mponelaExtractionLoading, setMponelaExtractionLoading] = useState(false);
   const [mponelaClusteringLoading, setMponelaClusteringLoading] = useState(false);
   const [mponelaImages, setMponelaImages] = useState(false);
+  const [landHealthLoading, setLandHealthLoading] = useState(false);
+  const [landHealthSummary, setLandHealthSummary] = useState(null);
   const [mponelaTermsSummary, setMponelaTermsSummary] = useState(null);
   const [termsSummaryLoading, setTermsSummaryLoading] = useState(false);
 
@@ -696,6 +698,20 @@ function App() {
       alert("Clustering failed.");
     }
     setMponelaClusteringLoading(false);
+  };
+
+  const runLandHealthExpansion = async () => {
+    setLandHealthLoading(true);
+    try {
+      const res = await axios.post(`${API_BASE_URL}/analytics/land-health/run`);
+      setLandHealthSummary(res.data);
+      alert("Land Health expansion complete. Publication-baseline outputs were not modified.");
+    } catch (err) {
+      console.error(err);
+      alert("Land Health expansion failed.");
+    } finally {
+      setLandHealthLoading(false);
+    }
   };
 
   const fetchSemanticMapping = async () => {
@@ -1489,9 +1505,9 @@ function App() {
             {view === 'analytics' && (
               <motion.div key="analytics" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }}>
                 <div className="content-card">
-                  <div className="card-title"><Book size={20} /> Soil health - Mponela 2026 Update Analytics Pipeline</div>
+                  <div className="card-title"><Book size={20} /> Mponela et al. (2026) Publication Baseline</div>
                   <p className="recommendation-desc" style={{ marginBottom: 20 }}>
-                    Run text extraction and hierarchical clustering models based on the agroecological principles and domains established by Mponela et al. (2026).
+                    Reproduce the publication-based soil-health extraction and clustering workflow. This baseline is retained unchanged; broader Land Health analysis runs separately below.
                   </p>
 
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '24px' }}>
@@ -1513,6 +1529,26 @@ function App() {
                   </div>
 
                   {renderMponelaTermsSummaryTable()}
+
+                  <div className="action-card" style={{ marginTop: '28px', padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
+                    <h3 style={{ margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                      <Layers size={18} /> Land Health Expansion
+                    </h3>
+                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '8px' }}>
+                      Broaden assessment beyond the publication baseline to soil function, water, vegetation/productivity, biodiversity, degradation/restoration, climate/carbon, landscape connectivity, and livelihoods/governance.
+                    </p>
+                    <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '16px' }}>
+                      This routine writes separate Land Health outputs and does not alter Mponela et al. (2026) matrices, clustering or figures.
+                    </p>
+                    <button className="btn-primary" onClick={runLandHealthExpansion} disabled={landHealthLoading}>
+                      {landHealthLoading ? 'Running Land Health...' : 'Run Land Health Expansion'}
+                    </button>
+                    {landHealthSummary && (
+                      <div style={{ marginTop: '16px', fontSize: '0.85rem' }}>
+                        <strong>{landHealthSummary.frameworks_scanned || 0}</strong> frameworks scanned across <strong>{landHealthSummary.domains?.length || 0}</strong> Land Health domains.
+                      </div>
+                    )}
+                  </div>
 
                   {mponelaImages && (
                     <div className="mponela-results-section" style={{ marginTop: '32px', borderTop: '1px solid var(--border)', paddingTop: '24px' }}>

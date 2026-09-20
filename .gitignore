@@ -25,3 +25,4 @@ brain/
 restore_temp/
 
 .vercel
+.env*

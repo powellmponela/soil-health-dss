@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "name": "Land Health Expansion Domains",
+  "purpose": "Extensible evidence domains for broadening the Soil Health DSS beyond the publication-faithful Mponela et al. (2026) baseline. These domains are an analytical extension and do not modify the publication matrices or methods.",
+  "domains": [
+    {
+      "id": "soil_function",
+      "label": "Soil condition and function",
+      "description": "Soil physical, chemical and biological condition and the functions supported by those properties.",
+      "mponela_principles": ["Soil Health", "Recycling", "Input Reduction"],
+      "terms": ["soil health", "soil quality", "soil organic matter", "organic carbon", "soil carbon", "soil fertility", "nutrient cycling", "soil structure", "aggregate stability", "bulk density", "infiltration", "soil moisture", "water holding capacity", "microbial biomass", "soil biodiversity", "soil biology", "soil ph", "salinity", "sodicity", "cation exchange capacity", "available phosphorus", "soil nitrogen"]
+    },
+    {
+      "id": "water_function",
+      "label": "Water regulation and quality",
+      "description": "Hydrological regulation, water availability, runoff control and water quality at field-to-landscape scale.",
+      "mponela_principles": ["Synergy", "Input Reduction", "Land and Natural Resource Governance"],
+      "terms": ["water quality", "water availability", "water security", "water use efficiency", "hydrology", "hydrological", "runoff", "infiltration", "groundwater", "surface water", "watershed", "catchment", "streamflow", "water retention", "water storage", "water harvesting", "irrigation efficiency", "sediment load", "nutrient loss", "leaching"]
+    },
+    {
+      "id": "vegetation_productivity",
+      "label": "Vegetation cover and productivity",
+      "description": "Vegetation condition, biomass and productive capacity of managed and semi-natural land.",
+      "mponela_principles": ["Biodiversity", "Synergy", "Economic Diversification"],
+      "terms": ["vegetation cover", "ground cover", "plant cover", "crop cover", "biomass", "primary productivity", "net primary productivity", "productivity", "yield stability", "crop productivity", "forage production", "pasture productivity", "rangeland condition", "greenness", "leaf area", "tree cover", "forest cover"]
+    },
+    {
+      "id": "biodiversity_habitat",
+      "label": "Biodiversity and habitat",
+      "description": "Species, habitat and ecological integrity supporting land-system function and resilience.",
+      "mponela_principles": ["Biodiversity", "Synergy", "Animal Health"],
+      "terms": ["biodiversity", "species richness", "species diversity", "habitat", "habitat quality", "ecosystem integrity", "ecological integrity", "pollinator", "natural enemy", "beneficial insect", "wildlife", "agrobiodiversity", "genetic diversity", "functional diversity", "habitat connectivity", "ecosystem services"]
+    },
+    {
+      "id": "degradation_restoration",
+      "label": "Land degradation and restoration",
+      "description": "Processes and responses associated with erosion, degradation, rehabilitation and restoration.",
+      "mponela_principles": ["Soil Health", "Biodiversity", "Synergy"],
+      "terms": ["land degradation", "soil degradation", "erosion", "soil erosion", "gully erosion", "wind erosion", "desertification", "salinization", "sodification", "compaction", "nutrient depletion", "land restoration", "restoration", "rehabilitation", "revegetation", "regeneration", "land reclamation", "degraded land", "erosion control", "soil and water conservation"]
+    },
+    {
+      "id": "climate_carbon_resilience",
+      "label": "Climate, carbon and resilience",
+      "description": "Carbon storage, greenhouse-gas regulation and resilience to climatic stress and shocks.",
+      "mponela_principles": ["Synergy", "Biodiversity", "Economic Diversification"],
+      "terms": ["carbon sequestration", "carbon storage", "soil carbon", "greenhouse gas", "greenhouse gases", "ghg", "emission reduction", "climate resilience", "climate adaptation", "climate mitigation", "drought resilience", "heat stress", "climate risk", "climate variability", "extreme weather", "resilience", "adaptive capacity"]
+    },
+    {
+      "id": "landscape_connectivity",
+      "label": "Landscape structure and connectivity",
+      "description": "Land-use configuration, connectivity and spatial relationships among managed and natural components.",
+      "mponela_principles": ["Connectivity", "Synergy", "Land and Natural Resource Governance"],
+      "terms": ["landscape", "landscape connectivity", "ecological connectivity", "fragmentation", "land fragmentation", "land use", "land cover", "land use change", "land cover change", "corridor", "buffer zone", "riparian", "mosaic", "patch", "spatial planning", "landscape planning", "watershed management", "integrated landscape management"]
+    },
+    {
+      "id": "livelihoods_governance",
+      "label": "Livelihoods, access and governance",
+      "description": "Human well-being, institutions, access and decision processes that shape sustainable land management.",
+      "mponela_principles": ["Economic Diversification", "Fairness", "Connectivity", "Land and Natural Resource Governance", "Participation", "Co-creation of Knowledge"],
+      "terms": ["livelihood", "livelihoods", "income", "food security", "land tenure", "tenure security", "resource access", "land access", "property rights", "land rights", "governance", "participation", "participatory", "collective action", "community management", "local institution", "institutions", "equity", "fairness", "gender", "indigenous knowledge", "local knowledge", "decision making", "decision-making"]
+    }
+  ]
+}

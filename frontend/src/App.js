@@ -2053,80 +2053,88 @@ function App() {
               <motion.div key="analytics" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }}>
                 <div className="subtabs-container" style={{ marginBottom: 24 }}>
                   <button className={`subtab-btn ${analyticsPipeline === 'mponela' ? 'active' : ''}`} onClick={() => setAnalyticsPipeline('mponela')}>
-                    <Book size={16} /> Mponela Pipeline
+                    <Book size={16} /> Mponela 2026 (Soil Health)
                   </button>
                   <button className={`subtab-btn ${analyticsPipeline === 'tailored' ? 'active' : ''}`} onClick={() => setAnalyticsPipeline('tailored')}>
                     <Wrench size={16} /> Tailored Thematic
                   </button>
+                  <button className={`subtab-btn ${analyticsPipeline === 'landhealth' ? 'active' : ''}`} onClick={() => setAnalyticsPipeline('landhealth')}>
+                    <Layers size={16} /> Land Health
+                  </button>
                 </div>
 
                 {analyticsPipeline === 'mponela' ? (
-                  <div className="content-card">
-                    <div className="card-title"><Book size={20} /> Mponela et al. (2026) Publication Baseline</div>
-                    <p className="recommendation-desc" style={{ marginBottom: 20 }}>
-                      Reproduce the publication-based extraction and clustering workflow established by Mponela et al. (2026). The publication baseline remains unchanged; broader Land Health analysis runs separately.
-                    </p>
+                <div className="content-card">
+                  <div className="card-title"><Book size={20} /> Soil health - Mponela 2026 Update Analytics Pipeline</div>
+                  <p className="recommendation-desc" style={{ marginBottom: 20 }}>
+                    Run text extraction and hierarchical clustering models based on the agroecological principles and domains established by Mponela et al. (2026).
+                  </p>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '24px' }}>
-                      <div className="action-card" style={{ padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
-                        <h3 style={{ margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}><FileText size={18} /> Phase 1: Text Extraction</h3>
-                        <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '16px' }}>Extract proximity-based theme terms from framework manuscripts.</p>
-                        <button className="btn-primary" onClick={runMponelaExtraction} disabled={mponelaExtractionLoading} style={{ width: '100%' }}>
-                          {mponelaExtractionLoading ? 'Extracting Text...' : 'Run Extraction Model'}
-                        </button>
-                      </div>
-
-                      <div className="action-card" style={{ padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
-                        <h3 style={{ margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}><Sparkles size={18} /> Phase 2: Clustering Model</h3>
-                        <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '16px' }}>Run hierarchical clustering and generate principle heatmaps.</p>
-                        <button className="btn-primary" onClick={runMponelaClustering} disabled={mponelaClusteringLoading} style={{ width: '100%' }}>
-                          {mponelaClusteringLoading ? 'Running Model...' : 'Run Clustering Model'}
-                        </button>
-                      </div>
+                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '24px' }}>
+                    <div className="action-card" style={{ padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
+                      <h3 style={{ margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}><FileText size={18} /> Phase 1: Text Extraction</h3>
+                      <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '16px' }}>Extract proximity-based theme terms from framework manuscripts.</p>
+                      <button className="btn-primary" onClick={runMponelaExtraction} disabled={mponelaExtractionLoading} style={{ width: '100%' }}>
+                        {mponelaExtractionLoading ? 'Extracting Text...' : 'Run Extraction Model'}
+                      </button>
                     </div>
 
-                    {renderMponelaTermsSummaryTable()}
+                    <div className="action-card" style={{ padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
+                      <h3 style={{ margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}><Sparkles size={18} /> Phase 2: Clustering Model</h3>
+                      <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '16px' }}>Run hierarchical clustering and generate principle heatmaps.</p>
+                      <button className="btn-primary" onClick={runMponelaClustering} disabled={mponelaClusteringLoading} style={{ width: '100%' }}>
+                        {mponelaClusteringLoading ? 'Running Model...' : 'Run Clustering Model'}
+                      </button>
+                    </div>
+                  </div>
 
-                    <div className="action-card" style={{ marginTop: '28px', padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
+                  {renderMponelaTermsSummaryTable()}
+
+                  {mponelaImages && (
+                    <div className="mponela-results-section" style={{ marginTop: '32px', borderTop: '1px solid var(--border)', paddingTop: '24px' }}>
+                      <h3 style={{ marginBottom: '16px' }}>Clustering Results & Heatmaps</h3>
+
+                      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '24px' }}>
+                        <div style={{ background: 'white', padding: '16px', borderRadius: '12px', border: '1px solid var(--border)', textAlign: 'center' }}>
+                          <h4 style={{ marginBottom: '12px', color: 'var(--text-dark)' }}>Agroecology Index</h4>
+                          <img src={`${API_BASE_URL}/results/agroecology_index_heatmap.jpeg?t=${new Date().getTime()}`} alt="Agroecology Index Heatmap" style={{ width: '100%', maxWidth: '200px', height: 'auto', borderRadius: '8px', border: '1px solid var(--border-light)' }} />
+                        </div>
+
+                        <div style={{ background: 'white', padding: '16px', borderRadius: '12px', border: '1px solid var(--border)', textAlign: 'center' }}>
+                          <h4 style={{ marginBottom: '12px', color: 'var(--text-dark)' }}>Principle Z-Score Distribution</h4>
+                          <img src={`${API_BASE_URL}/results/principle_heatmap_zscore.jpeg?t=${new Date().getTime()}`} alt="Principle Z-Score Heatmap" style={{ width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid var(--border-light)' }} />
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>
+                ) : analyticsPipeline === 'tailored' ? (
+                  renderTailoredThematicPipeline()
+                ) : (
+                  <div className="content-card">
+                    <div className="card-title"><Layers size={20} /> Land Health Expansion</div>
+                    <p className="recommendation-desc" style={{ marginBottom: 20 }}>
+                      Run the broader Land Health evidence scan as a separate analytical extension. This does not alter the Mponela et al. (2026) Soil Health matrices, extraction, clustering, or publication outputs.
+                    </p>
+
+                    <div className="action-card" style={{ padding: '20px', background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)' }}>
                       <h3 style={{ margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                        <Layers size={18} /> Land Health Expansion
+                        <Layers size={18} /> Broader Land Health Domains
                       </h3>
                       <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '8px' }}>
-                        Broaden assessment beyond the publication baseline to soil function, water, vegetation/productivity, biodiversity, degradation/restoration, climate/carbon, landscape connectivity, and livelihoods/governance.
-                      </p>
-                      <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '16px' }}>
-                        This routine writes separate Land Health outputs and does not alter Mponela et al. (2026) matrices, clustering or figures.
+                        Soil condition and function; water regulation and quality; vegetation and productivity; biodiversity and habitat; degradation and restoration; climate, carbon and resilience; landscape structure and connectivity; and livelihoods, access and governance.
                       </p>
                       <button className="btn-primary" onClick={runLandHealthExpansion} disabled={landHealthLoading}>
                         {landHealthLoading ? 'Running Land Health...' : 'Run Land Health Expansion'}
                       </button>
+
                       {landHealthSummary && (
                         <div style={{ marginTop: '16px', fontSize: '0.85rem' }}>
                           <strong>{landHealthSummary.frameworks_scanned || 0}</strong> frameworks scanned across <strong>{landHealthSummary.domains?.length || 0}</strong> Land Health domains.
                         </div>
                       )}
                     </div>
-
-                    {mponelaImages && (
-                      <div className="mponela-results-section" style={{ marginTop: '32px', borderTop: '1px solid var(--border)', paddingTop: '24px' }}>
-                        <h3 style={{ marginBottom: '16px' }}>Clustering Results & Heatmaps</h3>
-
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '24px' }}>
-                          <div style={{ background: 'white', padding: '16px', borderRadius: '12px', border: '1px solid var(--border)', textAlign: 'center' }}>
-                            <h4 style={{ marginBottom: '12px', color: 'var(--text-dark)' }}>Agroecology Index</h4>
-                            <img src={`${API_BASE_URL}/results/agroecology_index_heatmap.jpeg?t=${new Date().getTime()}`} alt="Agroecology Index Heatmap" style={{ width: '100%', maxWidth: '200px', height: 'auto', borderRadius: '8px', border: '1px solid var(--border-light)' }} />
-                          </div>
-
-                          <div style={{ background: 'white', padding: '16px', borderRadius: '12px', border: '1px solid var(--border)', textAlign: 'center' }}>
-                            <h4 style={{ marginBottom: '12px', color: 'var(--text-dark)' }}>Principle Z-Score Distribution</h4>
-                            <img src={`${API_BASE_URL}/results/principle_heatmap_zscore.jpeg?t=${new Date().getTime()}`} alt="Principle Z-Score Heatmap" style={{ width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid var(--border-light)' }} />
-                          </div>
-                        </div>
-                      </div>
-                    )}
                   </div>
-                ) : (
-                  renderTailoredThematicPipeline()
                 )}
               </motion.div>
             )}
